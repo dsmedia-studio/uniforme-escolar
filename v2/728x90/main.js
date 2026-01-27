@@ -8,7 +8,7 @@
   // Configuracao de fonte dinamica - 728x90 (leaderboard)
   var FONT_CONFIG = {
     headline: { min: 14, max: 22, shortThreshold: 25, longThreshold: 70 },
-    subtext: { min: 16, max: 32, shortThreshold: 30, longThreshold: 65 }
+    subtext: { min: 16, max: 20, shortThreshold: 30, longThreshold: 65 }
   };
 
   var StudioEvent = (window.studio && window.studio.events && window.studio.events.StudioEvent) || null;
