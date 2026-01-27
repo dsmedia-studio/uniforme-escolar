@@ -2,31 +2,31 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('../../300x250/OpenSans-Regular.woff2') format('woff2');
+  src: url('OpenSans-Regular.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
-  src: url('../../300x250/OpenSans-SemiBold.woff2') format('woff2');
+  src: url('OpenSans-SemiBold.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: url('../../300x250/OpenSans-Bold.woff2') format('woff2');
+  src: url('OpenSans-Bold.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 600;
-  src: url('../../300x250/OpenSans-SemiBoldItalic.woff2') format('woff2');
+  src: url('OpenSans-SemiBoldItalic.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 700;
-  src: url('../../300x250/OpenSans-BoldItalic.woff2') format('woff2');
+  src: url('OpenSans-BoldItalic.woff2') format('woff2');
 }
 
 * {

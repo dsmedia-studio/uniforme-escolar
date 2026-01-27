@@ -47,7 +47,7 @@
     {
       _id: 0,
       Formato: [{ Width: CREATIVE_SIZE.width, Height: CREATIVE_SIZE.height }],
-      Personagem_Asset: { Type: "file", Url: "../../300x250/menina01_300x250.png" },
+      Personagem_Asset: { Type: "file", Url: "menina01_300x250.png" },
       Headline: "Cartao Uniforme Escolar.",
       CTA: "Desbloqueie o seu cartao no aplicativo BRB Social.",
       ExitURL: {
@@ -195,7 +195,7 @@
       var personagemUrl;
       var urlPersonagem = getPersonagemFromUrl();
       if (getUrlParam('personagem')) {
-        personagemUrl = '../../' + CREATIVE_SIZE.width + 'x' + CREATIVE_SIZE.height + '/' + urlPersonagem + '_' + CREATIVE_SIZE.width + 'x' + CREATIVE_SIZE.height + '.png';
+        personagemUrl = urlPersonagem + '_' + CREATIVE_SIZE.width + 'x' + CREATIVE_SIZE.height + '.png';
       } else {
         personagemUrl = resolveAssetUrl(content.Personagem_Asset);
       }
