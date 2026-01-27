@@ -8,7 +8,7 @@
   // Configuracao de fonte dinamica - 970x250 (billboard)
   var FONT_CONFIG = {
     headline: { min: 20, max: 32, shortThreshold: 25, longThreshold: 70 },
-    subtext: { min: 16, max: 24, shortThreshold: 30, longThreshold: 65 }
+    subtext: { min: 18, max: 36, shortThreshold: 30, longThreshold: 65 }
   };
 
   var StudioEvent = (window.studio && window.studio.events && window.studio.events.StudioEvent) || null;

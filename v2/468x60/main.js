@@ -8,7 +8,7 @@
   // Configuracao de fonte dinamica - 468x60 (menor formato)
   var FONT_CONFIG = {
     headline: { min: 10, max: 14, shortThreshold: 25, longThreshold: 70 },
-    subtext: { min: 9, max: 13, shortThreshold: 30, longThreshold: 65 }
+    subtext: { min: 10, max: 18, shortThreshold: 30, longThreshold: 65 }
   };
 
   var StudioEvent = (window.studio && window.studio.events && window.studio.events.StudioEvent) || null;
