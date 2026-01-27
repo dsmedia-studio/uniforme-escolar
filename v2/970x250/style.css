@@ -85,6 +85,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   padding: 24px 40px;
   background: #0c326f;
 }
@@ -146,26 +148,27 @@ body {
 }
 
 .cta-final {
-  font-size: 26px;
+  font-size: 32px;
   font-weight: 700;
   color: #FFCB08;
-  margin-bottom: 12px;
+  margin-bottom: 16px;
 }
 
 .logo-final {
-  height: 80px;
+  height: 90px;
   width: auto;
 }
 
 .slogan-final {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  gap: 8px;
-  margin-top: 8px;
-  font-size: 14px;
+  gap: 4px;
+  margin-top: 12px;
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.5px;
+  line-height: 1.3;
 }
 
 .slogan-yellow {
