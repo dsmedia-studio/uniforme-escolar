@@ -132,10 +132,10 @@ body {
   position: absolute;
   inset: 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 16px;
+  justify-content: space-between;
+  padding: 20px 60px;
   background: #0c326f;
   opacity: 0;
   pointer-events: none;
@@ -148,10 +148,9 @@ body {
 }
 
 .cta-final {
-  font-size: 32px;
+  font-size: 38px;
   font-weight: 700;
   color: #FFCB08;
-  margin-bottom: 16px;
 }
 
 .logo-final {
@@ -164,8 +163,7 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 4px;
-  margin-top: 12px;
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 700;
   letter-spacing: 0.5px;
   line-height: 1.3;
