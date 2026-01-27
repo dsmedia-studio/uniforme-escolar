@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('OpenSans-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('OpenSans-SemiBold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('OpenSans-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 600;
+  src: url('OpenSans-SemiBoldItalic.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: italic;
+  font-weight: 700;
+  src: url('OpenSans-BoldItalic.woff2') format('woff2');
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background: #0c326f;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frame {
+  position: relative;
+  width: 970px;
+  height: 250px;
+  overflow: hidden;
+  background: #0c326f;
+}
+
+/* Container principal (frames 1-2) */
+.main-content {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: row;
+}
+
+/* Area da imagem - lado esquerdo */
+.image-area {
+  position: relative;
+  width: 468px;
+  height: 250px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.personagem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Area de texto - lado direito */
+.text-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px 40px;
+  background: #0c326f;
+}
+
+.headline {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFCB08;
+  line-height: 1.15;
+  margin-bottom: 10px;
+  opacity: 0;
+  transform: translateX(30px);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.headline.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.subtext {
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  line-height: 1.3;
+  min-height: 48px;
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.4s ease-out, transform 0.4s ease-out;
+}
+
+.subtext.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.subtext.fade-only {
+  transform: translateX(0);
+  transition: opacity 0.4s ease-out;
+}
+
+/* Frame final */
+.frame-final {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  background: #0c326f;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.4s ease-out;
+  z-index: 10;
+}
+
+.frame-final.visible {
+  opacity: 1;
+}
+
+.cta-final {
+  font-size: 26px;
+  font-weight: 700;
+  color: #FFCB08;
+  margin-bottom: 12px;
+}
+
+.logo-final {
+  height: 80px;
+  width: auto;
+}
+
+.slogan-final {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.slogan-yellow {
+  color: #FFCB08;
+}
+
+.slogan-white {
+  color: #ffffff;
+}
+
+/* Botao clicavel */
+.click-area {
+  position: absolute;
+  inset: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  z-index: 20;
+}
