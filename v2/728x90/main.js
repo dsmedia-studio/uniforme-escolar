@@ -247,7 +247,9 @@
 
     timeouts.push(setTimeout(function () {
       if (cache.subtext) cache.subtext.classList.add("fade-only");
+      if (cache.headline) cache.headline.classList.add("fade-only");
       hideElement(cache.subtext);
+      hideElement(cache.headline);
     }, 5000));
 
     timeouts.push(setTimeout(function () {

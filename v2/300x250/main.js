@@ -249,13 +249,15 @@
       showElement(cache.subtext);
     }, 0));
 
-    // Fade out subtext
+    // Fade out headline e subtext
     timeouts.push(setTimeout(function () {
       if (cache.subtext) cache.subtext.classList.add("fade-only");
+      if (cache.headline) cache.headline.classList.add("fade-only");
       hideElement(cache.subtext);
+      hideElement(cache.headline);
     }, 5000));
 
-    // Frame 2: Headline + CTA variavel
+    // Frame 2: Apenas CTA (sem headline)
     timeouts.push(setTimeout(function () {
       if (cache.subtext && currentContent) {
         cache.subtext.textContent = currentContent.CTA || "";
