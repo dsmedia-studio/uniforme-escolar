@@ -52,10 +52,39 @@
     }
   ];
 
+  var FONT_CONFIG = {
+    headline: { min: 14, max: 18 },
+    subtext: { min: 16, max: 16 }
+  };
+
   var cache = {};
   var timeouts = [];
   var animationStarted = false;
   var currentContent = null;
+
+  function calculateFontSize(text, config) {
+    if (!text) return config.max;
+    var len = text.length;
+    if (len < 30) return config.max;
+    if (len > 80) return config.min;
+    var range = config.max - config.min;
+    var ratio = (len - 30) / 50;
+    return Math.round(config.max - (range * ratio));
+  }
+
+  function applyDynamicFontSize(element, text, config) {
+    if (!element || !text) return;
+    var fontSize = calculateFontSize(text, config);
+    element.style.fontSize = fontSize + 'px';
+
+    var parent = element.parentElement;
+    if (parent && element.scrollHeight > parent.clientHeight) {
+      while (element.scrollHeight > parent.clientHeight && fontSize > config.min) {
+        fontSize--;
+        element.style.fontSize = fontSize + 'px';
+      }
+    }
+  }
 
   function getUrlParam(name) {
     var params = new URLSearchParams(window.location.search);
@@ -181,6 +210,7 @@
 
     if (cache.headline) {
       cache.headline.textContent = currentContent.Headline || "";
+      applyDynamicFontSize(cache.headline, currentContent.Headline, FONT_CONFIG.headline);
     }
 
     if (cache.clickArea && currentContent.ExitURL && currentContent.ExitURL.Url) {
@@ -218,6 +248,7 @@
     timeouts.push(setTimeout(function () {
       if (cache.subtext && currentContent) {
         cache.subtext.textContent = currentContent.Subtext_Frame1 || "";
+        applyDynamicFontSize(cache.subtext, currentContent.Subtext_Frame1, FONT_CONFIG.subtext);
       }
       showElement(cache.headline);
       showElement(cache.subtext);
@@ -231,6 +262,7 @@
     timeouts.push(setTimeout(function () {
       if (cache.subtext && currentContent) {
         cache.subtext.textContent = currentContent.Subtext_Frame2 || "";
+        applyDynamicFontSize(cache.subtext, currentContent.Subtext_Frame2, FONT_CONFIG.subtext);
       }
       showElement(cache.subtext);
     }, 5600));
