@@ -8,7 +8,7 @@
   // Configuracao de fonte dinamica
   var FONT_CONFIG = {
     headline: { min: 11, max: 16, shortThreshold: 30, longThreshold: 70 },
-    subtext: { min: 9, max: 13, shortThreshold: 40, longThreshold: 90 }
+    subtext: { min: 12, max: 17, shortThreshold: 35, longThreshold: 70 }
   };
 
   var StudioEvent = (window.studio && window.studio.events && window.studio.events.StudioEvent) || null;
