@@ -7,8 +7,8 @@
 
   // Configuracao de fonte dinamica - 468x60 (menor formato)
   var FONT_CONFIG = {
-    headline: { min: 10, max: 14, shortThreshold: 25, longThreshold: 70 },
-    subtext: { min: 12, max: 14, shortThreshold: 30, longThreshold: 65 }
+    headline: { min: 8, max: 12, shortThreshold: 25, longThreshold: 60 },
+    subtext: { min: 7, max: 10, shortThreshold: 35, longThreshold: 80 }
   };
 
   var StudioEvent = (window.studio && window.studio.events && window.studio.events.StudioEvent) || null;
@@ -45,7 +45,7 @@
     {
       _id: 0,
       Formato: [{ Width: CREATIVE_SIZE.width, Height: CREATIVE_SIZE.height }],
-      Personagem_Asset: { Type: "file", Url: "menina01_468x60.png" },
+      Personagem_Asset: { Type: "file", Url: "../assets/images/personagens/468x60/menina01_468x60.png" },
       Headline: "Cartao Uniforme Escolar.",
       CTA: "Desbloqueie o seu cartao no aplicativo BRB Social.",
       ExitURL: {
@@ -192,7 +192,7 @@
       var personagemUrl;
       var urlPersonagem = getPersonagemFromUrl();
       if (getUrlParam('personagem')) {
-        personagemUrl = urlPersonagem + '_' + CREATIVE_SIZE.width + 'x' + CREATIVE_SIZE.height + '.png';
+        personagemUrl = '../assets/images/personagens/' + CREATIVE_SIZE.width + 'x' + CREATIVE_SIZE.height + '/' + urlPersonagem + '_' + CREATIVE_SIZE.width + 'x' + CREATIVE_SIZE.height + '.png';
       } else {
         personagemUrl = resolveAssetUrl(content.Personagem_Asset);
       }
@@ -236,6 +236,7 @@
     hideElement(cache.subtext);
     hideElement(cache.frameFinal);
 
+    // Fase 1: Headline (amarelo) + Subtext fixo (branco)
     timeouts.push(setTimeout(function () {
       if (cache.subtext && currentContent) {
         cache.subtext.textContent = currentContent.Subtext || "";
@@ -245,21 +246,25 @@
       showElement(cache.subtext);
     }, 0));
 
+    // Transicao: Esconde headline E subtext
     timeouts.push(setTimeout(function () {
       if (cache.subtext) cache.subtext.classList.add("fade-only");
       if (cache.headline) cache.headline.classList.add("fade-only");
-      hideElement(cache.subtext);
       hideElement(cache.headline);
+      hideElement(cache.subtext);
     }, 5000));
 
+    // Fase 2: Apenas CTA (branco, centralizado) - sem headline
     timeouts.push(setTimeout(function () {
       if (cache.subtext && currentContent) {
         cache.subtext.textContent = currentContent.CTA || "";
         applyDynamicFontSize(cache.subtext, currentContent.CTA, FONT_CONFIG.subtext);
+        cache.subtext.classList.add("cta-phase");
       }
       showElement(cache.subtext);
     }, 5600));
 
+    // Fase 3: Frame final
     timeouts.push(setTimeout(function () {
       showElement(cache.frameFinal);
     }, 10600));

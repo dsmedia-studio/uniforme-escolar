@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GDF Uniforme Escolar - Preview Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #FFCB08;
+      --primary-hover: #ffd633;
+      --bg-dark: #0a0a12;
+      --bg-card: #12121c;
+      --bg-card-hover: #1a1a28;
+      --bg-input: #1e1e2e;
+      --border: #2a2a3e;
+      --text: #ffffff;
+      --text-muted: #8888a0;
+      --text-dim: #5a5a70;
+      --accent-blue: #0c326f;
+      --accent-blue-light: #1a5aa0;
+      --success: #22c55e;
+      --shadow: 0 4px 24px rgba(0,0,0,0.4);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg-dark);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+
+    /* Layout */
+    .app {
+      display: grid;
+      grid-template-columns: 340px 1fr;
+      min-height: 100vh;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      background: var(--bg-card);
+      border-right: 1px solid var(--border);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      overflow-y: auto;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+    }
+
+    .logo-section {
+      text-align: center;
+      padding-bottom: 20px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .logo-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-blue-light));
+      padding: 12px 20px;
+      border-radius: 12px;
+      margin-bottom: 12px;
+    }
+
+    .logo-badge svg {
+      width: 24px;
+      height: 24px;
+      fill: var(--primary);
+    }
+
+    .logo-badge span {
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--primary);
+      letter-spacing: 0.5px;
+    }
+
+    .campaign-title {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .campaign-subtitle {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* Controls */
+    .control-section {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    .section-title {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    .control-label {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-muted);
+    }
+
+    select, .select-display {
+      width: 100%;
+      padding: 12px 16px;
+      font-size: 13px;
+      font-family: inherit;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: var(--bg-input);
+      color: var(--text);
+      cursor: pointer;
+      transition: all 0.2s;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238888a0' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 12px center;
+    }
+
+    select:hover {
+      border-color: var(--primary);
+    }
+
+    select:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(255, 203, 8, 0.15);
+    }
+
+    /* Personagem Cards */
+    .personagem-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+
+    .personagem-card {
+      position: relative;
+      background: var(--bg-input);
+      border: 2px solid var(--border);
+      border-radius: 12px;
+      padding: 12px 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: center;
+    }
+
+    .personagem-card:hover {
+      border-color: var(--text-muted);
+      transform: translateY(-2px);
+    }
+
+    .personagem-card.active {
+      border-color: var(--primary);
+      background: rgba(255, 203, 8, 0.1);
+    }
+
+    .personagem-card .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: var(--accent-blue);
+      margin: 0 auto 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+    }
+
+    .personagem-card .name {
+      font-size: 10px;
+      font-weight: 500;
+      color: var(--text-muted);
+      line-height: 1.3;
+    }
+
+    .personagem-card.active .name {
+      color: var(--primary);
+    }
+
+    /* Format Pills */
+    .format-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .format-pill {
+      padding: 8px 14px;
+      font-size: 12px;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      background: var(--bg-input);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .format-pill:hover {
+      border-color: var(--text-muted);
+    }
+
+    .format-pill.active {
+      border-color: var(--primary);
+      background: rgba(255, 203, 8, 0.15);
+      color: var(--primary);
+    }
+
+    /* Stats */
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .stat-card {
+      background: var(--bg-input);
+      border-radius: 10px;
+      padding: 14px;
+      text-align: center;
+    }
+
+    .stat-value {
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--primary);
+      line-height: 1;
+    }
+
+    .stat-label {
+      font-size: 10px;
+      color: var(--text-dim);
+      margin-top: 4px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    /* Main Content */
+    .main {
+      padding: 32px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .main-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .main-title {
+      font-size: 24px;
+      font-weight: 600;
+    }
+
+    .main-title span {
+      color: var(--primary);
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 12px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 20px;
+      font-size: 13px;
+      font-weight: 600;
+      font-family: inherit;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-decoration: none;
+    }
+
+    .btn svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: var(--accent-blue);
+    }
+
+    .btn-primary:hover {
+      background: var(--primary-hover);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(255, 203, 8, 0.3);
+    }
+
+    .btn-secondary {
+      background: var(--bg-input);
+      color: var(--text);
+      border: 1px solid var(--border);
+    }
+
+    .btn-secondary:hover {
+      background: var(--bg-card-hover);
+      border-color: var(--text-muted);
+    }
+
+    /* Preview Info Bar */
+    .preview-info {
+      background: var(--bg-card);
+      border-radius: 12px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      gap: 24px;
+      flex-wrap: wrap;
+      border: 1px solid var(--border);
+    }
+
+    .info-tag {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+    }
+
+    .info-tag-label {
+      color: var(--text-dim);
+    }
+
+    .info-tag-value {
+      color: var(--text);
+      font-weight: 500;
+      background: var(--bg-input);
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    .info-divider {
+      width: 1px;
+      height: 24px;
+      background: var(--border);
+    }
+
+    /* Preview Area */
+    .preview-container {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .preview-frame {
+      background: var(--bg-card);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+      transition: all 0.3s;
+    }
+
+    .preview-frame iframe {
+      display: block;
+      border: none;
+      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .preview-label {
+      text-align: center;
+      margin-top: 16px;
+      padding-top: 16px;
+      border-top: 1px solid var(--border);
+    }
+
+    .preview-label-format {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    .preview-label-dimensions {
+      font-size: 12px;
+      color: var(--text-dim);
+      margin-top: 2px;
+    }
+
+    /* Current Selection Display */
+    .current-selection {
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-blue-light));
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-top: auto;
+    }
+
+    .selection-title {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--primary);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 8px;
+    }
+
+    .selection-text {
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.9);
+      line-height: 1.5;
+    }
+
+    .selection-text strong {
+      color: var(--primary);
+    }
+
+    /* Combination ID */
+    .combination-id {
+      background: var(--bg-input);
+      border-radius: 8px;
+      padding: 12px 16px;
+      font-family: 'SF Mono', Monaco, monospace;
+      font-size: 12px;
+      color: var(--success);
+      border: 1px solid var(--border);
+      word-break: break-all;
+    }
+
+    .combination-id-label {
+      font-size: 10px;
+      color: var(--text-dim);
+      margin-bottom: 6px;
+      font-family: 'Inter', sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    /* All Formats View - Vertical Stack */
+    .all-formats-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .format-card {
+      background: var(--bg-card);
+      border-radius: 16px;
+      padding: 20px;
+      border: 1px solid var(--border);
+      transition: all 0.2s;
+      width: 100%;
+    }
+
+    .format-card:hover {
+      border-color: var(--text-dim);
+    }
+
+    .format-card[data-format="970x250"] .format-card-preview {
+      overflow-x: auto;
+    }
+
+    .format-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 16px;
+      padding-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .format-card-title {
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--primary);
+    }
+
+    .format-card-size {
+      font-size: 12px;
+      color: var(--text-dim);
+      background: var(--bg-input);
+      padding: 4px 10px;
+      border-radius: 6px;
+    }
+
+    .format-card-preview {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: var(--bg-dark);
+      border-radius: 10px;
+      padding: 20px;
+      overflow: visible;
+    }
+
+    .format-card-preview iframe {
+      display: block;
+      border: none;
+      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.4);
+      flex-shrink: 0;
+      overflow: hidden;
+    }
+
+    /* Ensure no scrollbars on iframes */
+    iframe {
+      overflow: hidden;
+    }
+
+    .format-card-actions {
+      display: flex;
+      gap: 10px;
+      margin-top: 16px;
+    }
+
+    .format-card-actions .btn {
+      flex: 1;
+      justify-content: center;
+      padding: 10px 16px;
+      font-size: 12px;
+    }
+
+    /* View Toggle */
+    .view-toggle {
+      display: flex;
+      background: var(--bg-input);
+      border-radius: 10px;
+      padding: 4px;
+      border: 1px solid var(--border);
+    }
+
+    .view-toggle-btn {
+      padding: 8px 16px;
+      font-size: 12px;
+      font-weight: 500;
+      border: none;
+      border-radius: 8px;
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .view-toggle-btn.active {
+      background: var(--primary);
+      color: var(--accent-blue);
+    }
+
+    .view-toggle-btn:hover:not(.active) {
+      color: var(--text);
+    }
+
+    /* Text Preview */
+    .text-preview {
+      background: var(--bg-input);
+      border-radius: 10px;
+      padding: 14px;
+      margin-top: 8px;
+      border-left: 3px solid var(--primary);
+    }
+
+    .text-preview-content {
+      font-size: 12px;
+      color: var(--text);
+      line-height: 1.5;
+      font-style: italic;
+    }
+
+    /* Responsive */
+    @media (max-width: 1200px) {
+      .app {
+        grid-template-columns: 1fr;
+      }
+
+      .sidebar {
+        position: relative;
+        height: auto;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+      }
+
+      .all-formats-grid {
+        padding: 0 10px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .main {
+        padding: 16px;
+      }
+
+      .stats-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .personagem-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--bg-dark);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--text-dim);
+    }
+
+    /* Animation */
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .animate-in {
+      animation: fadeIn 0.3s ease-out;
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="logo-section">
+        <div class="logo-badge">
+          <svg viewBox="0 0 24 24"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          <span>GDF STUDIO</span>
+        </div>
+        <h1 class="campaign-title">Cartao Uniforme Escolar</h1>
+        <p class="campaign-subtitle">Campanha DCO - Display Ads</p>
+      </div>
+
+      <!-- Stats -->
+      <div class="control-section">
+        <div class="section-title">Estatisticas</div>
+        <div class="stats-grid">
+          <div class="stat-card">
+            <div class="stat-value">4</div>
+            <div class="stat-label">Formatos</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">3</div>
+            <div class="stat-label">Personagens</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">10</div>
+            <div class="stat-label">Headlines</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">1080</div>
+            <div class="stat-label">Combinacoes</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Personagem -->
+      <div class="control-section">
+        <div class="section-title">Personagem</div>
+        <div class="personagem-grid" id="personagemGrid">
+          <div class="personagem-card active" data-value="menina01" onclick="selectPersonagem(this)">
+            <div class="avatar">👧</div>
+            <div class="name">Menina Trancas</div>
+          </div>
+          <div class="personagem-card" data-value="menino01" onclick="selectPersonagem(this)">
+            <div class="avatar">👦</div>
+            <div class="name">Menino Oculos</div>
+          </div>
+          <div class="personagem-card" data-value="menino02" onclick="selectPersonagem(this)">
+            <div class="avatar">👱</div>
+            <div class="name">Menino Loiro</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Format -->
+      <div class="control-section">
+        <div class="section-title">Formato</div>
+        <div class="format-pills" id="formatPills">
+          <button class="format-pill active" data-value="300x250" onclick="selectFormat(this)">300x250</button>
+          <button class="format-pill" data-value="468x60" onclick="selectFormat(this)">468x60</button>
+          <button class="format-pill" data-value="728x90" onclick="selectFormat(this)">728x90</button>
+          <button class="format-pill" data-value="970x250" onclick="selectFormat(this)">970x250</button>
+        </div>
+      </div>
+
+      <!-- Headline -->
+      <div class="control-section">
+        <div class="section-title">Headline</div>
+        <div class="control-group">
+          <select id="headlineSelect" onchange="updatePreview()">
+            <option value="H01">H01 - Cartao Uniforme Escolar.</option>
+            <option value="H02">H02 - Garante acesso ao tamanho certo</option>
+            <option value="H03">H03 - Creditos ja disponiveis</option>
+            <option value="H04">H04 - 442 mil alunos podem usar</option>
+            <option value="H05">H05 - Ate 7 pecas para o ano letivo</option>
+            <option value="H06">H06 - Kits podem ser comprados</option>
+            <option value="H07">H07 - Kits com Cartao Uniforme</option>
+            <option value="H08">H08 - Creditos disponiveis</option>
+            <option value="H09">H09 - 442 mil beneficiados</option>
+            <option value="H10">H10 - 90+ malharias credenciadas</option>
+          </select>
+        </div>
+        <div class="text-preview" id="headlinePreview">
+          <div class="text-preview-content">"Cartao Uniforme Escolar."</div>
+        </div>
+      </div>
+
+      <!-- Subtext Frame 1 -->
+      <div class="control-section">
+        <div class="section-title">Texto Frame 1</div>
+        <div class="control-group">
+          <select id="subtext1Select" onchange="updatePreview()">
+            <option value="S01">S01 - Feito na medida certa para 442 mil</option>
+            <option value="S02">S02 - Estudantes ja podem adquirir</option>
+            <option value="S03">S03 - Garantem ate 7 pecas</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Subtext Frame 2 -->
+      <div class="control-section">
+        <div class="section-title">Texto Frame 2 (CTA)</div>
+        <div class="control-group">
+          <select id="subtext2Select" onchange="updatePreview()">
+            <option value="C01">C01 - Desbloqueie no app BRB Social</option>
+            <option value="C02">C02 - Confira malharias no site</option>
+            <option value="C03">C03 - Procure a Regional de Ensino</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Current Selection -->
+      <div class="current-selection">
+        <div class="selection-title">Combinacao Atual</div>
+        <div class="combination-id">
+          <div class="combination-id-label">Reporting Label</div>
+          <span id="reportingLabel">menina01_300x250_H01_S01_C01</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="main">
+      <div class="main-header">
+        <h2 class="main-title">Preview <span>Criativo</span></h2>
+        <div class="header-actions">
+          <div class="view-toggle">
+            <button class="view-toggle-btn active" onclick="setView('single')" id="viewSingle">Formato Unico</button>
+            <button class="view-toggle-btn" onclick="setView('all')" id="viewAll">Todos Formatos</button>
+          </div>
+          <button class="btn btn-secondary" onclick="reloadPreview()">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 4v6h-6M1 20v-6h6"/><path d="M3.51 9a9 9 0 0114.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0020.49 15"/></svg>
+            Recarregar
+          </button>
+        </div>
+      </div>
+
+      <!-- Preview Info -->
+      <div class="preview-info">
+        <div class="info-tag">
+          <span class="info-tag-label">Personagem:</span>
+          <span class="info-tag-value" id="infoPersonagem">Menina com trancas</span>
+        </div>
+        <div class="info-divider"></div>
+        <div class="info-tag">
+          <span class="info-tag-label">Formato:</span>
+          <span class="info-tag-value" id="infoFormato">300 x 250</span>
+        </div>
+        <div class="info-divider"></div>
+        <div class="info-tag">
+          <span class="info-tag-label">Headline:</span>
+          <span class="info-tag-value" id="infoHeadline">H01</span>
+        </div>
+        <div class="info-divider"></div>
+        <div class="info-tag">
+          <span class="info-tag-label">Duracao:</span>
+          <span class="info-tag-value">15s</span>
+        </div>
+      </div>
+
+      <!-- Single Format Preview -->
+      <div class="preview-container" id="singleView">
+        <div class="preview-frame animate-in" id="previewFrame">
+          <iframe id="mainPreview" src="300x250/index.html" width="300" height="250"></iframe>
+          <div class="preview-label">
+            <div class="preview-label-format" id="previewFormatName">Medium Rectangle</div>
+            <div class="preview-label-dimensions" id="previewDimensions">300 x 250 pixels</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- All Formats View -->
+      <div class="all-formats-grid" id="allView" style="display: none;">
+        <div class="format-card" data-format="300x250">
+          <div class="format-card-header">
+            <span class="format-card-title">Medium Rectangle</span>
+            <span class="format-card-size">300 x 250</span>
+          </div>
+          <div class="format-card-preview">
+            <iframe id="frame-300x250" src="300x250/index.html" width="300" height="250" scrolling="no"></iframe>
+          </div>
+          <div class="format-card-actions">
+            <button class="btn btn-secondary" onclick="reloadSingleFormat('300x250')">Recarregar</button>
+                      </div>
+        </div>
+
+        <div class="format-card" data-format="468x60">
+          <div class="format-card-header">
+            <span class="format-card-title">Full Banner</span>
+            <span class="format-card-size">468 x 60</span>
+          </div>
+          <div class="format-card-preview">
+            <iframe id="frame-468x60" src="468x60/index.html" width="468" height="60" scrolling="no"></iframe>
+          </div>
+          <div class="format-card-actions">
+            <button class="btn btn-secondary" onclick="reloadSingleFormat('468x60')">Recarregar</button>
+                      </div>
+        </div>
+
+        <div class="format-card" data-format="728x90">
+          <div class="format-card-header">
+            <span class="format-card-title">Leaderboard</span>
+            <span class="format-card-size">728 x 90</span>
+          </div>
+          <div class="format-card-preview">
+            <iframe id="frame-728x90" src="728x90/index.html" width="728" height="90" scrolling="no"></iframe>
+          </div>
+          <div class="format-card-actions">
+            <button class="btn btn-secondary" onclick="reloadSingleFormat('728x90')">Recarregar</button>
+                      </div>
+        </div>
+
+        <div class="format-card" data-format="970x250">
+          <div class="format-card-header">
+            <span class="format-card-title">Billboard</span>
+            <span class="format-card-size">970 x 250</span>
+          </div>
+          <div class="format-card-preview">
+            <iframe id="frame-970x250" src="970x250/index.html" width="970" height="250" scrolling="no"></iframe>
+          </div>
+          <div class="format-card-actions">
+            <button class="btn btn-secondary" onclick="reloadSingleFormat('970x250')">Recarregar</button>
+                      </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // Content Data
+    var contentData = {
+      headlines: {
+        H01: "Cartao Uniforme Escolar.",
+        H02: "Cartao Uniforme Escolar garante acesso ao tamanho certo dos uniformes.",
+        H03: "Creditos do Cartao Uniforme Escolar ja estao disponiveis.",
+        H04: "442 mil alunos podem usar Cartao Uniforme Escolar este ano.",
+        H05: "Cartao Uniforme Escolar: ate 7 pecas para o ano letivo.",
+        H06: "Cartao Uniforme Escolar: kits ja podem ser comprados.",
+        H07: "Kits de uniformes podem ser comprados com Cartao Uniforme Escolar.",
+        H08: "Cartao Uniforme Escolar tem creditos disponiveis.",
+        H09: "Mais de 442 mil alunos sao beneficiados pelo Cartao Uniforme Escolar.",
+        H10: "DF tem mais de 90 malharias credenciadas para uniformes."
+      },
+      subtexts1: {
+        S01: "Feito na medida certa para 442 mil estudantes das escolas publicas.",
+        S02: "Estudantes da rede publica do DF ja podem adquirir seus uniformes.",
+        S03: "Jovens e criancas do DF garantem ate 7 pecas para o ano letivo."
+      },
+      subtexts2: {
+        C01: "Desbloqueie o seu cartao no aplicativo BRB Social e confira as malharias credenciadas.",
+        C02: "Confira as malharias credenciadas no site da Secretaria de Educacao.",
+        C03: "Em caso de duvidas, procure a Regional de Ensino do seu filho."
+      },
+      personagens: {
+        menina01: "Menina com trancas",
+        menino01: "Menino com oculos",
+        menino02: "Menino loiro"
+      },
+      formats: {
+        "300x250": { name: "Medium Rectangle", width: 300, height: 250 },
+        "468x60": { name: "Full Banner", width: 468, height: 60 },
+        "728x90": { name: "Leaderboard", width: 728, height: 90 },
+        "970x250": { name: "Billboard", width: 970, height: 250 }
+      }
+    };
+
+    // State
+    var state = {
+      personagem: "menina01",
+      format: "300x250",
+      headline: "H01",
+      subtext1: "S01",
+      subtext2: "C01",
+      view: "single"
+    };
+
+    // Select Personagem
+    function selectPersonagem(el) {
+      document.querySelectorAll('.personagem-card').forEach(function(card) {
+        card.classList.remove('active');
+      });
+      el.classList.add('active');
+      state.personagem = el.dataset.value;
+      updatePreview();
+    }
+
+    // Select Format
+    function selectFormat(el) {
+      document.querySelectorAll('.format-pill').forEach(function(pill) {
+        pill.classList.remove('active');
+      });
+      el.classList.add('active');
+      state.format = el.dataset.value;
+      updatePreview();
+    }
+
+    // Set View
+    function setView(view) {
+      state.view = view;
+      document.getElementById('viewSingle').classList.toggle('active', view === 'single');
+      document.getElementById('viewAll').classList.toggle('active', view === 'all');
+      document.getElementById('singleView').style.display = view === 'single' ? 'flex' : 'none';
+      document.getElementById('allView').style.display = view === 'all' ? 'flex' : 'none';
+
+      if (view === 'all') {
+        reloadAllFormats();
+      }
+    }
+
+    // Build URL with params
+    function buildUrl(format) {
+      var params = new URLSearchParams();
+      params.set('personagem', state.personagem);
+      params.set('headline', state.headline);
+      params.set('subtext1', state.subtext1);
+      params.set('subtext2', state.subtext2);
+      params.set('t', Date.now());
+      return format + '/index.html?' + params.toString();
+    }
+
+    // Update Preview
+    function updatePreview() {
+      state.headline = document.getElementById('headlineSelect').value;
+      state.subtext1 = document.getElementById('subtext1Select').value;
+      state.subtext2 = document.getElementById('subtext2Select').value;
+
+      // Update info bar
+      document.getElementById('infoPersonagem').textContent = contentData.personagens[state.personagem];
+      document.getElementById('infoFormato').textContent = state.format.replace('x', ' x ');
+      document.getElementById('infoHeadline').textContent = state.headline;
+
+      // Update headline preview
+      document.getElementById('headlinePreview').querySelector('.text-preview-content').textContent =
+        '"' + contentData.headlines[state.headline] + '"';
+
+      // Update reporting label
+      document.getElementById('reportingLabel').textContent =
+        state.personagem + '_' + state.format + '_' + state.headline + '_' + state.subtext1 + '_' + state.subtext2;
+
+      // Update single preview
+      var formatInfo = contentData.formats[state.format];
+      var iframe = document.getElementById('mainPreview');
+      iframe.width = formatInfo.width;
+      iframe.height = formatInfo.height;
+      iframe.src = buildUrl(state.format);
+
+      document.getElementById('previewFormatName').textContent = formatInfo.name;
+      document.getElementById('previewDimensions').textContent = formatInfo.width + ' x ' + formatInfo.height + ' pixels';
+
+      // Add animation
+      var frame = document.getElementById('previewFrame');
+      frame.classList.remove('animate-in');
+      void frame.offsetWidth;
+      frame.classList.add('animate-in');
+
+      // If in all view, also update those
+      if (state.view === 'all') {
+        reloadAllFormats();
+      }
+    }
+
+    // Reload single format
+    function reloadSingleFormat(format) {
+      var iframe = document.getElementById('frame-' + format);
+      if (iframe) {
+        iframe.src = buildUrl(format);
+      }
+    }
+
+    // Reload all formats
+    function reloadAllFormats() {
+      ['300x250', '468x60', '728x90', '970x250'].forEach(function(format) {
+        reloadSingleFormat(format);
+      });
+    }
+
+    // Reload current preview
+    function reloadPreview() {
+      if (state.view === 'single') {
+        var iframe = document.getElementById('mainPreview');
+        iframe.src = buildUrl(state.format);
+      } else {
+        reloadAllFormats();
+      }
+    }
+
+    // Open in new tab
+    function openInNewTab() {
+      window.open(buildUrl(state.format), '_blank');
+    }
+
+    // Initialize
+    window.onload = function() {
+      updatePreview();
+    };
+  </script>
+</body>
+</html>

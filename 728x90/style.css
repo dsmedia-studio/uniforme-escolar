@@ -2,31 +2,31 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('OpenSans-Regular.woff2') format('woff2');
+  src: url('../assets/fonts/OpenSans-Regular.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
-  src: url('OpenSans-SemiBold.woff2') format('woff2');
+  src: url('../assets/fonts/OpenSans-SemiBold.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: url('OpenSans-Bold.woff2') format('woff2');
+  src: url('../assets/fonts/OpenSans-Bold.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 600;
-  src: url('OpenSans-SemiBoldItalic.woff2') format('woff2');
+  src: url('../assets/fonts/OpenSans-SemiBoldItalic.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 700;
-  src: url('OpenSans-BoldItalic.woff2') format('woff2');
+  src: url('../assets/fonts/OpenSans-BoldItalic.woff2') format('woff2');
 }
 
 * {
@@ -56,7 +56,6 @@ body {
   background: #0c326f;
 }
 
-/* Container principal (frames 1-2) */
 .main-content {
   position: absolute;
   inset: 0;
@@ -64,7 +63,6 @@ body {
   flex-direction: row;
 }
 
-/* Area da imagem - lado esquerdo */
 .image-area {
   position: relative;
   width: 331px;
@@ -83,8 +81,8 @@ body {
   object-position: center;
 }
 
-/* Area de texto - lado direito com fundo azul escuro */
 .text-area {
+  position: relative;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -114,7 +112,7 @@ body {
   font-weight: 600;
   color: #ffffff;
   line-height: 1.25;
-  min-height: 28px;
+  min-height: 34px;
   opacity: 0;
   transform: translateX(-20px);
   transition: opacity 0.4s ease-out, transform 0.4s ease-out;
@@ -130,15 +128,34 @@ body {
   transition: opacity 0.4s ease-out;
 }
 
-/* Frame final */
+.headline.fade-only {
+  transform: translateX(0);
+  transition: opacity 0.4s ease-out;
+}
+
+.subtext.cta-phase {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8px 20px;
+  color: #ffffff;
+  min-height: auto;
+}
+
 .frame-final {
   position: absolute;
   inset: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
-  gap: 24px;
+  justify-content: space-between;
+  padding: 0 40px;
   background: #0c326f;
   opacity: 0;
   pointer-events: none;
@@ -151,24 +168,31 @@ body {
 }
 
 .cta-final {
-  font-size: 15px;
+  flex: 1;
+  font-size: 20px;
   font-weight: 700;
   color: #FFCB08;
+  text-align: center;
 }
 
 .logo-final {
-  height: 50px;
+  height: 65px;
   width: auto;
+  flex-shrink: 0;
 }
 
 .slogan-final {
+  flex: 1;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  gap: 6px;
-  font-size: 10px;
+  justify-content: center;
+  gap: 0;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.5px;
+  line-height: 1.2;
+  text-align: center;
 }
 
 .slogan-yellow {
@@ -179,7 +203,6 @@ body {
   color: #ffffff;
 }
 
-/* Botao clicavel */
 .click-area {
   position: absolute;
   inset: 0;

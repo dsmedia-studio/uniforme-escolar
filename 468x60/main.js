@@ -5,6 +5,12 @@
   var PROFILE_ID = 0;
   var CREATIVE_SIZE = { width: 468, height: 60 };
 
+  // Configuracao de fonte dinamica - 468x60 (menor formato)
+  var FONT_CONFIG = {
+    headline: { min: 8, max: 12, shortThreshold: 25, longThreshold: 60 },
+    subtext: { min: 7, max: 10, shortThreshold: 35, longThreshold: 80 }
+  };
+
   var StudioEvent = (window.studio && window.studio.events && window.studio.events.StudioEvent) || null;
   var eventFallback = {
     INIT: "init",
@@ -25,66 +31,33 @@
       H09: "Mais de 442 mil alunos sao beneficiados pelo Cartao Uniforme Escolar.",
       H10: "DF tem mais de 90 malharias credenciadas para uniformes."
     },
-    subtexts1: {
-      S01: "Feito na medida certa para 442 mil estudantes das escolas publicas.",
-      S02: "Estudantes da rede publica do DF ja podem adquirir seus uniformes.",
-      S03: "Jovens e criancas do DF garantem ate 7 pecas para o ano letivo."
-    },
-    subtexts2: {
-      C01: "Desbloqueie o seu cartao no aplicativo BRB Social e confira as malharias credenciadas.",
-      C02: "Confira as malharias credenciadas no site da Secretaria de Educacao.",
+    ctas: {
+      C01: "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      C02: "Confira as malharias credenciadas.",
       C03: "Em caso de duvidas, procure a Regional de Ensino do seu filho."
     }
   };
+
+  var FIXED_SUBTEXT = "Feito na medida certa para 442 mil estudantes das escolas publicas.";
 
   var devDynamicContent = {};
   devDynamicContent[PROFILE_NAME] = [
     {
       _id: 0,
       Formato: [{ Width: CREATIVE_SIZE.width, Height: CREATIVE_SIZE.height }],
-      Personagem_Asset: { Type: "file", Url: "menina01_468x60.png" },
+      Personagem_Asset: { Type: "file", Url: "../assets/images/personagens/468x60/menina01_468x60.png" },
       Headline: "Cartao Uniforme Escolar.",
-      Subtext_Frame1: "Feito na medida certa para 442 mil estudantes das escolas publicas.",
-      Subtext_Frame2: "Desbloqueie o seu cartao no aplicativo BRB Social e confira as malharias credenciadas.",
+      CTA: "Desbloqueie o seu cartao no aplicativo BRB Social.",
       ExitURL: {
         Url: "https://agenciabrasilia.df.gov.br/w/cartao-uniforme-escolar-permite-a-aquisicao-de-itens-para-estudantes-da-rede-publica-em-malharias-credenciadas?redirect=%2Fnoticias&utm_source=dv360&utm_medium=display&utm_campaign=uniforme_escolar&utm_content=default_468x60"
       }
     }
   ];
 
-  var FONT_CONFIG = {
-    headline: { min: 10, max: 12 },
-    subtext: { min: 12, max: 11 }
-  };
-
   var cache = {};
   var timeouts = [];
   var animationStarted = false;
   var currentContent = null;
-
-  function calculateFontSize(text, config) {
-    if (!text) return config.max;
-    var len = text.length;
-    if (len < 30) return config.max;
-    if (len > 80) return config.min;
-    var range = config.max - config.min;
-    var ratio = (len - 30) / 50;
-    return Math.round(config.max - (range * ratio));
-  }
-
-  function applyDynamicFontSize(element, text, config) {
-    if (!element || !text) return;
-    var fontSize = calculateFontSize(text, config);
-    element.style.fontSize = fontSize + 'px';
-
-    var parent = element.parentElement;
-    if (parent && element.scrollHeight > parent.clientHeight) {
-      while (element.scrollHeight > parent.clientHeight && fontSize > config.min) {
-        fontSize--;
-        element.style.fontSize = fontSize + 'px';
-      }
-    }
-  }
 
   function getUrlParam(name) {
     var params = new URLSearchParams(window.location.search);
@@ -101,14 +74,32 @@
 
   function getContentFromUrl() {
     var headline = getUrlParam('headline');
-    var subtext1 = getUrlParam('subtext1');
-    var subtext2 = getUrlParam('subtext2');
+    var cta = getUrlParam('cta');
 
     return {
       headline: headline && contentLibrary.headlines[headline] ? contentLibrary.headlines[headline] : null,
-      subtext1: subtext1 && contentLibrary.subtexts1[subtext1] ? contentLibrary.subtexts1[subtext1] : null,
-      subtext2: subtext2 && contentLibrary.subtexts2[subtext2] ? contentLibrary.subtexts2[subtext2] : null
+      cta: cta && contentLibrary.ctas[cta] ? contentLibrary.ctas[cta] : null
     };
+  }
+
+  function calculateFontSize(text, config) {
+    var len = text ? text.length : 0;
+    if (len <= config.shortThreshold) {
+      return config.max;
+    } else if (len >= config.longThreshold) {
+      return config.min;
+    } else {
+      var range = config.longThreshold - config.shortThreshold;
+      var fontRange = config.max - config.min;
+      var ratio = (len - config.shortThreshold) / range;
+      return Math.round(config.max - (ratio * fontRange));
+    }
+  }
+
+  function applyDynamicFontSize(element, text, config) {
+    if (!element || !text) return;
+    var fontSize = calculateFontSize(text, config);
+    element.style.fontSize = fontSize + 'px';
   }
 
   function resolveAssetUrl(asset) {
@@ -192,8 +183,8 @@
 
     currentContent = {
       Headline: urlContent.headline || content.Headline,
-      Subtext_Frame1: urlContent.subtext1 || content.Subtext_Frame1,
-      Subtext_Frame2: urlContent.subtext2 || content.Subtext_Frame2,
+      Subtext: FIXED_SUBTEXT,
+      CTA: urlContent.cta || content.CTA,
       ExitURL: content.ExitURL
     };
 
@@ -201,7 +192,7 @@
       var personagemUrl;
       var urlPersonagem = getPersonagemFromUrl();
       if (getUrlParam('personagem')) {
-        personagemUrl = urlPersonagem + '_' + CREATIVE_SIZE.width + 'x' + CREATIVE_SIZE.height + '.png';
+        personagemUrl = '../assets/images/personagens/' + CREATIVE_SIZE.width + 'x' + CREATIVE_SIZE.height + '/' + urlPersonagem + '_' + CREATIVE_SIZE.width + 'x' + CREATIVE_SIZE.height + '.png';
       } else {
         personagemUrl = resolveAssetUrl(content.Personagem_Asset);
       }
@@ -245,28 +236,35 @@
     hideElement(cache.subtext);
     hideElement(cache.frameFinal);
 
+    // Fase 1: Headline (amarelo) + Subtext fixo (branco)
     timeouts.push(setTimeout(function () {
       if (cache.subtext && currentContent) {
-        cache.subtext.textContent = currentContent.Subtext_Frame1 || "";
-        applyDynamicFontSize(cache.subtext, currentContent.Subtext_Frame1, FONT_CONFIG.subtext);
+        cache.subtext.textContent = currentContent.Subtext || "";
+        applyDynamicFontSize(cache.subtext, currentContent.Subtext, FONT_CONFIG.subtext);
       }
       showElement(cache.headline);
       showElement(cache.subtext);
     }, 0));
 
+    // Transicao: Esconde headline E subtext
     timeouts.push(setTimeout(function () {
       if (cache.subtext) cache.subtext.classList.add("fade-only");
+      if (cache.headline) cache.headline.classList.add("fade-only");
+      hideElement(cache.headline);
       hideElement(cache.subtext);
     }, 5000));
 
+    // Fase 2: Apenas CTA (branco, centralizado) - sem headline
     timeouts.push(setTimeout(function () {
       if (cache.subtext && currentContent) {
-        cache.subtext.textContent = currentContent.Subtext_Frame2 || "";
-        applyDynamicFontSize(cache.subtext, currentContent.Subtext_Frame2, FONT_CONFIG.subtext);
+        cache.subtext.textContent = currentContent.CTA || "";
+        applyDynamicFontSize(cache.subtext, currentContent.CTA, FONT_CONFIG.subtext);
+        cache.subtext.classList.add("cta-phase");
       }
       showElement(cache.subtext);
     }, 5600));
 
+    // Fase 3: Frame final
     timeouts.push(setTimeout(function () {
       showElement(cache.frameFinal);
     }, 10600));

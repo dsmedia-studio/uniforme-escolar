@@ -1,0 +1,58 @@
+{
+  "campaign": {
+    "name": "Cartão Uniforme Escolar",
+    "client": "GDF - Governo do Distrito Federal",
+    "agency": "Studio",
+    "year": 2024
+  },
+  "formats": [
+    { "id": "300x250", "name": "Medium Rectangle", "width": 300, "height": 250 },
+    { "id": "468x60", "name": "Full Banner", "width": 468, "height": 60 },
+    { "id": "728x90", "name": "Leaderboard", "width": 728, "height": 90 },
+    { "id": "970x250", "name": "Billboard", "width": 970, "height": 250 }
+  ],
+  "personagens": [
+    { "id": "menina01", "name": "Menina com tranças", "thumbnail": "menina01" },
+    { "id": "menino01", "name": "Menino com óculos", "thumbnail": "menino01" },
+    { "id": "menino02", "name": "Menino loiro", "thumbnail": "menino02" }
+  ],
+  "headlines": [
+    { "id": "H01", "text": "Cartão Uniforme Escolar." },
+    { "id": "H02", "text": "Cartão Uniforme Escolar garante acesso ao tamanho certo dos uniformes." },
+    { "id": "H03", "text": "Créditos do Cartão Uniforme Escolar já estão disponíveis." },
+    { "id": "H04", "text": "442 mil alunos podem usar Cartão Uniforme Escolar este ano." },
+    { "id": "H05", "text": "Cartão Uniforme Escolar: até 7 peças para o ano letivo." },
+    { "id": "H06", "text": "Cartão Uniforme Escolar: kits já podem ser comprados." },
+    { "id": "H07", "text": "Kits de uniformes podem ser comprados com Cartão Uniforme Escolar." },
+    { "id": "H08", "text": "Cartão Uniforme Escolar tem créditos disponíveis." },
+    { "id": "H09", "text": "Mais de 442 mil alunos são beneficiados pelo Cartão Uniforme Escolar." },
+    { "id": "H10", "text": "DF tem mais de 90 malharias credenciadas para uniformes." }
+  ],
+  "subtexts_frame1": [
+    { "id": "S01", "text": "Feito na medida certa para 442 mil estudantes das escolas públicas." },
+    { "id": "S02", "text": "Estudantes da rede pública do DF já podem adquirir seus uniformes." },
+    { "id": "S03", "text": "Jovens e crianças do DF garantem até 7 peças para o ano letivo." }
+  ],
+  "subtexts_frame2": [
+    { "id": "C01", "text": "Desbloqueie o seu cartão no aplicativo BRB Social e confira as malharias credenciadas." },
+    { "id": "C02", "text": "Confira as malharias credenciadas no site da Secretaria de Educação." },
+    { "id": "C03", "text": "Em caso de dúvidas, procure a Regional de Ensino do seu filho." }
+  ],
+  "exitUrl": {
+    "base": "https://agenciabrasilia.df.gov.br/w/cartao-uniforme-escolar-permite-a-aquisicao-de-itens-para-estudantes-da-rede-publica-em-malharias-credenciadas",
+    "params": {
+      "redirect": "/noticias",
+      "utm_source": "dv360",
+      "utm_medium": "display",
+      "utm_campaign": "uniforme_escolar"
+    }
+  },
+  "stats": {
+    "totalFormats": 4,
+    "totalPersonagens": 3,
+    "totalHeadlines": 10,
+    "totalSubtexts1": 3,
+    "totalSubtexts2": 3,
+    "totalCombinations": 1080
+  }
+}

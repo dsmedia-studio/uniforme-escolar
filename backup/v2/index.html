@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GDF Uniforme Escolar v2 - Preview Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #FFCB08;
+      --primary-hover: #ffd633;
+      --bg-dark: #0a0a12;
+      --bg-card: #12121c;
+      --bg-card-hover: #1a1a28;
+      --bg-input: #1e1e2e;
+      --border: #2a2a3e;
+      --text: #ffffff;
+      --text-muted: #8888a0;
+      --text-dim: #5a5a70;
+      --accent-blue: #0c326f;
+      --accent-blue-light: #1a5aa0;
+      --success: #22c55e;
+      --shadow: 0 4px 24px rgba(0,0,0,0.4);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg-dark);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    .app {
+      display: grid;
+      grid-template-columns: 320px 1fr;
+      min-height: 100vh;
+    }
+
+    .sidebar {
+      background: var(--bg-card);
+      border-right: 1px solid var(--border);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      overflow-y: auto;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+    }
+
+    .logo-section {
+      text-align: center;
+      padding-bottom: 16px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .logo-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-blue-light));
+      padding: 10px 16px;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    .logo-badge span {
+      font-weight: 700;
+      font-size: 13px;
+      color: var(--primary);
+      letter-spacing: 0.5px;
+    }
+
+    .campaign-title { font-size: 16px; font-weight: 600; margin-bottom: 2px; }
+    .campaign-subtitle { font-size: 11px; color: var(--text-muted); }
+    .version-badge {
+      display: inline-block;
+      background: var(--success);
+      color: #000;
+      font-size: 10px;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 10px;
+      margin-top: 8px;
+    }
+
+    .control-section { display: flex; flex-direction: column; gap: 12px; }
+    .section-title {
+      font-size: 10px;
+      font-weight: 600;
+      color: var(--text-dim);
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .section-title::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+
+    .stats-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+    .stat-card { background: var(--bg-input); border-radius: 8px; padding: 12px; text-align: center; }
+    .stat-value { font-size: 20px; font-weight: 700; color: var(--primary); line-height: 1; }
+    .stat-label { font-size: 9px; color: var(--text-dim); margin-top: 4px; text-transform: uppercase; }
+
+    .personagem-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+    .personagem-card {
+      background: var(--bg-input);
+      border: 2px solid var(--border);
+      border-radius: 10px;
+      padding: 10px 6px;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-align: center;
+    }
+    .personagem-card:hover { border-color: var(--text-muted); transform: translateY(-2px); }
+    .personagem-card.active { border-color: var(--primary); background: rgba(255, 203, 8, 0.1); }
+    .personagem-card .avatar { font-size: 24px; margin-bottom: 4px; }
+    .personagem-card .name { font-size: 9px; font-weight: 500; color: var(--text-muted); }
+    .personagem-card.active .name { color: var(--primary); }
+
+    .format-pills { display: flex; flex-wrap: wrap; gap: 6px; }
+    .format-pill {
+      padding: 6px 12px;
+      font-size: 11px;
+      font-weight: 500;
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      background: var(--bg-input);
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .format-pill:hover { border-color: var(--text-muted); }
+    .format-pill.active { border-color: var(--primary); background: rgba(255, 203, 8, 0.15); color: var(--primary); }
+
+    select {
+      width: 100%;
+      padding: 10px 14px;
+      font-size: 12px;
+      font-family: inherit;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--bg-input);
+      color: var(--text);
+      cursor: pointer;
+      transition: all 0.2s;
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%238888a0' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 10px center;
+    }
+    select:hover { border-color: var(--primary); }
+    select:focus { outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(255, 203, 8, 0.15); }
+
+    .text-preview {
+      background: var(--bg-input);
+      border-radius: 8px;
+      padding: 10px;
+      border-left: 3px solid var(--primary);
+      font-size: 11px;
+      color: var(--text);
+      line-height: 1.4;
+      font-style: italic;
+    }
+
+    .combination-box {
+      background: linear-gradient(135deg, var(--accent-blue), var(--accent-blue-light));
+      border-radius: 10px;
+      padding: 14px;
+      margin-top: auto;
+    }
+    .combination-title { font-size: 10px; font-weight: 600; color: var(--primary); text-transform: uppercase; margin-bottom: 6px; }
+    .combination-id {
+      font-family: 'SF Mono', Monaco, monospace;
+      font-size: 11px;
+      color: var(--success);
+      background: rgba(0,0,0,0.3);
+      padding: 8px 10px;
+      border-radius: 6px;
+      word-break: break-all;
+    }
+
+    .main { padding: 28px; display: flex; flex-direction: column; gap: 20px; }
+    .main-header { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; }
+    .main-title { font-size: 22px; font-weight: 600; }
+    .main-title span { color: var(--primary); }
+
+    .header-actions { display: flex; gap: 10px; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 16px;
+      font-size: 12px;
+      font-weight: 600;
+      font-family: inherit;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s;
+      text-decoration: none;
+    }
+    .btn-primary { background: var(--primary); color: var(--accent-blue); }
+    .btn-primary:hover { background: var(--primary-hover); transform: translateY(-1px); }
+    .btn-secondary { background: var(--bg-input); color: var(--text); border: 1px solid var(--border); }
+    .btn-secondary:hover { background: var(--bg-card-hover); border-color: var(--text-muted); }
+
+    .view-toggle { display: flex; background: var(--bg-input); border-radius: 8px; padding: 3px; border: 1px solid var(--border); }
+    .view-toggle-btn {
+      padding: 6px 14px;
+      font-size: 11px;
+      font-weight: 500;
+      border: none;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--text-muted);
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .view-toggle-btn.active { background: var(--primary); color: var(--accent-blue); }
+
+    .preview-container { flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; }
+    .preview-frame {
+      background: var(--bg-card);
+      border-radius: 14px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+      border: 1px solid var(--border);
+    }
+    .preview-frame iframe { display: block; border: none; box-shadow: 0 2px 16px rgba(0, 0, 0, 0.5); }
+    .preview-label { text-align: center; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); }
+    .preview-label-format { font-size: 13px; font-weight: 600; color: var(--primary); }
+    .preview-label-dimensions { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
+
+    .all-formats-grid { display: flex; flex-direction: column; gap: 20px; max-width: 1100px; margin: 0 auto; }
+    .format-card {
+      background: var(--bg-card);
+      border-radius: 14px;
+      padding: 16px;
+      border: 1px solid var(--border);
+      transition: all 0.2s;
+    }
+    .format-card:hover { border-color: var(--text-dim); }
+    .format-card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; padding-bottom: 10px; border-bottom: 1px solid var(--border); }
+    .format-card-title { font-size: 14px; font-weight: 600; color: var(--primary); }
+    .format-card-size { font-size: 11px; color: var(--text-dim); background: var(--bg-input); padding: 3px 8px; border-radius: 4px; }
+    .format-card-preview { display: flex; justify-content: center; align-items: center; background: var(--bg-dark); border-radius: 8px; padding: 16px; overflow: visible; }
+    .format-card-preview iframe { display: block; border: none; box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4); flex-shrink: 0; }
+    .format-card-actions { display: flex; gap: 8px; margin-top: 12px; }
+    .format-card-actions .btn { flex: 1; justify-content: center; padding: 8px 12px; font-size: 11px; }
+
+    @media (max-width: 1200px) {
+      .app { grid-template-columns: 1fr; }
+      .sidebar { position: relative; height: auto; border-right: none; border-bottom: 1px solid var(--border); }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="logo-section">
+        <div class="logo-badge"><span>GDF STUDIO</span></div>
+        <h1 class="campaign-title">Cartao Uniforme Escolar</h1>
+        <p class="campaign-subtitle">Campanha DCO - Display Ads</p>
+        <span class="version-badge">V2 - Simplificado</span>
+      </div>
+
+      <div class="control-section">
+        <div class="section-title">Estatisticas</div>
+        <div class="stats-grid">
+          <div class="stat-card"><div class="stat-value">4</div><div class="stat-label">Formatos</div></div>
+          <div class="stat-card"><div class="stat-value">3</div><div class="stat-label">Personagens</div></div>
+          <div class="stat-card"><div class="stat-value">10</div><div class="stat-label">Headlines</div></div>
+          <div class="stat-card"><div class="stat-value">360</div><div class="stat-label">Combinacoes</div></div>
+        </div>
+      </div>
+
+      <div class="control-section">
+        <div class="section-title">Personagem</div>
+        <div class="personagem-grid" id="personagemGrid">
+          <div class="personagem-card active" data-value="menina01" onclick="selectPersonagem(this)">
+            <div class="avatar">👧</div>
+            <div class="name">Menina</div>
+          </div>
+          <div class="personagem-card" data-value="menino01" onclick="selectPersonagem(this)">
+            <div class="avatar">👦</div>
+            <div class="name">Menino 1</div>
+          </div>
+          <div class="personagem-card" data-value="menino02" onclick="selectPersonagem(this)">
+            <div class="avatar">👱</div>
+            <div class="name">Menino 2</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="control-section">
+        <div class="section-title">Formato</div>
+        <div class="format-pills" id="formatPills">
+          <button class="format-pill active" data-value="300x250" onclick="selectFormat(this)">300x250</button>
+          <button class="format-pill" data-value="468x60" onclick="selectFormat(this)">468x60</button>
+          <button class="format-pill" data-value="728x90" onclick="selectFormat(this)">728x90</button>
+          <button class="format-pill" data-value="970x250" onclick="selectFormat(this)">970x250</button>
+        </div>
+      </div>
+
+      <div class="control-section">
+        <div class="section-title">Headline (Frame 1)</div>
+        <select id="headlineSelect" onchange="updatePreview()">
+          <option value="H01">H01 - Cartao Uniforme Escolar.</option>
+          <option value="H02">H02 - Garante acesso ao tamanho certo</option>
+          <option value="H03">H03 - Creditos ja disponiveis</option>
+          <option value="H04">H04 - 442 mil alunos podem usar</option>
+          <option value="H05">H05 - Ate 7 pecas para o ano letivo</option>
+          <option value="H06">H06 - Kits podem ser comprados</option>
+          <option value="H07">H07 - Kits com Cartao Uniforme</option>
+          <option value="H08">H08 - Creditos disponiveis</option>
+          <option value="H09">H09 - 442 mil beneficiados</option>
+          <option value="H10">H10 - 90+ malharias credenciadas</option>
+        </select>
+        <div class="text-preview" id="headlinePreview">"Cartao Uniforme Escolar."</div>
+      </div>
+
+      <div class="control-section">
+        <div class="section-title">CTA (Frame 2)</div>
+        <select id="ctaSelect" onchange="updatePreview()">
+          <option value="C01">C01 - Desbloqueie no app BRB Social</option>
+          <option value="C02">C02 - Confira malharias credenciadas</option>
+          <option value="C03">C03 - Procure a Regional de Ensino</option>
+        </select>
+        <div class="text-preview" id="ctaPreview">"Desbloqueie o seu cartao no aplicativo BRB Social."</div>
+      </div>
+
+      <div class="combination-box">
+        <div class="combination-title">Combinacao Atual</div>
+        <div class="combination-id" id="reportingLabel">menina01_300x250_H01_C01</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <div class="main-header">
+        <h2 class="main-title">Preview <span>Criativo v2</span></h2>
+        <div class="header-actions">
+          <div class="view-toggle">
+            <button class="view-toggle-btn active" onclick="setView('single')" id="viewSingle">Formato Unico</button>
+            <button class="view-toggle-btn" onclick="setView('all')" id="viewAll">Todos Formatos</button>
+          </div>
+          <button class="btn btn-secondary" onclick="reloadPreview()">Recarregar</button>
+        </div>
+      </div>
+
+      <div class="preview-container" id="singleView">
+        <div class="preview-frame" id="previewFrame">
+          <iframe id="mainPreview" src="300x250/index.html" width="300" height="250"></iframe>
+          <div class="preview-label">
+            <div class="preview-label-format" id="previewFormatName">Medium Rectangle</div>
+            <div class="preview-label-dimensions" id="previewDimensions">300 x 250 pixels</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="all-formats-grid" id="allView" style="display: none;">
+        <div class="format-card" data-format="300x250">
+          <div class="format-card-header">
+            <span class="format-card-title">Medium Rectangle</span>
+            <span class="format-card-size">300 x 250</span>
+          </div>
+          <div class="format-card-preview">
+            <iframe id="frame-300x250" src="300x250/index.html" width="300" height="250" scrolling="no"></iframe>
+          </div>
+          <div class="format-card-actions">
+            <button class="btn btn-secondary" onclick="reloadSingleFormat('300x250')">Recarregar</button>
+          </div>
+        </div>
+
+        <div class="format-card" data-format="468x60">
+          <div class="format-card-header">
+            <span class="format-card-title">Full Banner</span>
+            <span class="format-card-size">468 x 60</span>
+          </div>
+          <div class="format-card-preview">
+            <iframe id="frame-468x60" src="468x60/index.html" width="468" height="60" scrolling="no"></iframe>
+          </div>
+          <div class="format-card-actions">
+            <button class="btn btn-secondary" onclick="reloadSingleFormat('468x60')">Recarregar</button>
+          </div>
+        </div>
+
+        <div class="format-card" data-format="728x90">
+          <div class="format-card-header">
+            <span class="format-card-title">Leaderboard</span>
+            <span class="format-card-size">728 x 90</span>
+          </div>
+          <div class="format-card-preview">
+            <iframe id="frame-728x90" src="728x90/index.html" width="728" height="90" scrolling="no"></iframe>
+          </div>
+          <div class="format-card-actions">
+            <button class="btn btn-secondary" onclick="reloadSingleFormat('728x90')">Recarregar</button>
+          </div>
+        </div>
+
+        <div class="format-card" data-format="970x250">
+          <div class="format-card-header">
+            <span class="format-card-title">Billboard</span>
+            <span class="format-card-size">970 x 250</span>
+          </div>
+          <div class="format-card-preview">
+            <iframe id="frame-970x250" src="970x250/index.html" width="970" height="250" scrolling="no"></iframe>
+          </div>
+          <div class="format-card-actions">
+            <button class="btn btn-secondary" onclick="reloadSingleFormat('970x250')">Recarregar</button>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    var contentData = {
+      headlines: {
+        H01: "Cartao Uniforme Escolar.",
+        H02: "Cartao Uniforme Escolar garante acesso ao tamanho certo dos uniformes.",
+        H03: "Creditos do Cartao Uniforme Escolar ja estao disponiveis.",
+        H04: "442 mil alunos podem usar Cartao Uniforme Escolar este ano.",
+        H05: "Cartao Uniforme Escolar: ate 7 pecas para o ano letivo.",
+        H06: "Cartao Uniforme Escolar: kits ja podem ser comprados.",
+        H07: "Kits de uniformes podem ser comprados com Cartao Uniforme Escolar.",
+        H08: "Cartao Uniforme Escolar tem creditos disponiveis.",
+        H09: "Mais de 442 mil alunos sao beneficiados pelo Cartao Uniforme Escolar.",
+        H10: "DF tem mais de 90 malharias credenciadas para uniformes."
+      },
+      ctas: {
+        C01: "Desbloqueie o seu cartao no aplicativo BRB Social.",
+        C02: "Confira as malharias credenciadas.",
+        C03: "Em caso de duvidas, procure a Regional de Ensino do seu filho."
+      },
+      personagens: {
+        menina01: "Menina com trancas",
+        menino01: "Menino com oculos",
+        menino02: "Menino loiro"
+      },
+      formats: {
+        "300x250": { name: "Medium Rectangle", width: 300, height: 250 },
+        "468x60": { name: "Full Banner", width: 468, height: 60 },
+        "728x90": { name: "Leaderboard", width: 728, height: 90 },
+        "970x250": { name: "Billboard", width: 970, height: 250 }
+      }
+    };
+
+    var state = {
+      personagem: "menina01",
+      format: "300x250",
+      headline: "H01",
+      cta: "C01",
+      view: "single"
+    };
+
+    function selectPersonagem(el) {
+      document.querySelectorAll('.personagem-card').forEach(function(card) { card.classList.remove('active'); });
+      el.classList.add('active');
+      state.personagem = el.dataset.value;
+      updatePreview();
+    }
+
+    function selectFormat(el) {
+      document.querySelectorAll('.format-pill').forEach(function(pill) { pill.classList.remove('active'); });
+      el.classList.add('active');
+      state.format = el.dataset.value;
+      updatePreview();
+    }
+
+    function setView(view) {
+      state.view = view;
+      document.getElementById('viewSingle').classList.toggle('active', view === 'single');
+      document.getElementById('viewAll').classList.toggle('active', view === 'all');
+      document.getElementById('singleView').style.display = view === 'single' ? 'flex' : 'none';
+      document.getElementById('allView').style.display = view === 'all' ? 'flex' : 'none';
+      if (view === 'all') reloadAllFormats();
+    }
+
+    function buildUrl(format) {
+      var params = new URLSearchParams();
+      params.set('personagem', state.personagem);
+      params.set('headline', state.headline);
+      params.set('cta', state.cta);
+      params.set('t', Date.now());
+      return format + '/index.html?' + params.toString();
+    }
+
+    function updatePreview() {
+      state.headline = document.getElementById('headlineSelect').value;
+      state.cta = document.getElementById('ctaSelect').value;
+
+      document.getElementById('headlinePreview').textContent = '"' + contentData.headlines[state.headline] + '"';
+      document.getElementById('ctaPreview').textContent = '"' + contentData.ctas[state.cta] + '"';
+      document.getElementById('reportingLabel').textContent = state.personagem + '_' + state.format + '_' + state.headline + '_' + state.cta;
+
+      var formatInfo = contentData.formats[state.format];
+      var iframe = document.getElementById('mainPreview');
+      iframe.width = formatInfo.width;
+      iframe.height = formatInfo.height;
+      iframe.src = buildUrl(state.format);
+
+      document.getElementById('previewFormatName').textContent = formatInfo.name;
+      document.getElementById('previewDimensions').textContent = formatInfo.width + ' x ' + formatInfo.height + ' pixels';
+
+      if (state.view === 'all') reloadAllFormats();
+    }
+
+    function reloadSingleFormat(format) {
+      var iframe = document.getElementById('frame-' + format);
+      if (iframe) iframe.src = buildUrl(format);
+    }
+
+    function reloadAllFormats() {
+      ['300x250', '468x60', '728x90', '970x250'].forEach(function(format) { reloadSingleFormat(format); });
+    }
+
+    function reloadPreview() {
+      if (state.view === 'single') {
+        document.getElementById('mainPreview').src = buildUrl(state.format);
+      } else {
+        reloadAllFormats();
+      }
+    }
+
+    window.onload = function() { updatePreview(); };
+  </script>
+</body>
+</html>

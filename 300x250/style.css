@@ -2,31 +2,31 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('OpenSans-Regular.woff2') format('woff2');
+  src: url('../assets/fonts/OpenSans-Regular.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 600;
-  src: url('OpenSans-SemiBold.woff2') format('woff2');
+  src: url('../assets/fonts/OpenSans-SemiBold.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 700;
-  src: url('OpenSans-Bold.woff2') format('woff2');
+  src: url('../assets/fonts/OpenSans-Bold.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 600;
-  src: url('OpenSans-SemiBoldItalic.woff2') format('woff2');
+  src: url('../assets/fonts/OpenSans-SemiBoldItalic.woff2') format('woff2');
 }
 @font-face {
   font-family: 'Open Sans';
   font-style: italic;
   font-weight: 700;
-  src: url('OpenSans-BoldItalic.woff2') format('woff2');
+  src: url('../assets/fonts/OpenSans-BoldItalic.woff2') format('woff2');
 }
 
 * {
@@ -56,7 +56,6 @@ body {
   background: #0c326f;
 }
 
-/* Container principal (frames 1-2) */
 .main-content {
   position: absolute;
   inset: 0;
@@ -64,7 +63,6 @@ body {
   flex-direction: column;
 }
 
-/* Area da imagem - parte superior */
 .image-area {
   position: relative;
   width: 100%;
@@ -78,14 +76,14 @@ body {
   display: block;
 }
 
-/* Area de texto - parte inferior com fundo azul escuro */
 .text-area {
+  position: relative;
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 6px 10px;
+  padding: 8px 10px;
   background: #0c326f;
   text-align: center;
 }
@@ -111,7 +109,7 @@ body {
   font-weight: 600;
   color: #ffffff;
   line-height: 1.2;
-  min-height: 24px;
+  min-height: 28px;
   opacity: 0;
   transform: translateX(-20px);
   transition: opacity 0.4s ease-out, transform 0.4s ease-out;
@@ -127,7 +125,26 @@ body {
   transition: opacity 0.4s ease-out;
 }
 
-/* Frame final */
+.headline.fade-only {
+  transform: translateX(0);
+  transition: opacity 0.4s ease-out;
+}
+
+.subtext.cta-phase {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 8px 10px;
+  color: #ffffff;
+  min-height: auto;
+}
+
 .frame-final {
   position: absolute;
   inset: 0;
@@ -179,7 +196,6 @@ body {
   color: #ffffff;
 }
 
-/* Botao clicavel */
 .click-area {
   position: absolute;
   inset: 0;
