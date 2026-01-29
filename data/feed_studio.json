@@ -1,0 +1,514 @@
+{
+  "DCO_GDF_UNIFORME_ESCOLAR": [
+    {
+      "_id": 0,
+      "Unique_ID": 1,
+      "Reporting_Label": "menina01_H01_C01",
+      "Headline": "Cartao Uniforme Escolar.",
+      "CTA": "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      "Personagem": "menina01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menina01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": true,
+      "Active": true
+    },
+    {
+      "_id": 1,
+      "Unique_ID": 2,
+      "Reporting_Label": "menina01_H02_C01",
+      "Headline": "Cartao Uniforme Escolar garante acesso ao tamanho certo dos uniformes.",
+      "CTA": "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      "Personagem": "menina01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menina01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 2,
+      "Unique_ID": 3,
+      "Reporting_Label": "menina01_H03_C01",
+      "Headline": "Creditos do Cartao Uniforme Escolar ja estao disponiveis.",
+      "CTA": "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      "Personagem": "menina01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menina01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 3,
+      "Unique_ID": 4,
+      "Reporting_Label": "menina01_H04_C01",
+      "Headline": "442 mil alunos podem usar Cartao Uniforme Escolar este ano.",
+      "CTA": "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      "Personagem": "menina01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menina01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 4,
+      "Unique_ID": 5,
+      "Reporting_Label": "menina01_H05_C01",
+      "Headline": "Cartao Uniforme Escolar: ate 7 pecas para o ano letivo.",
+      "CTA": "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      "Personagem": "menina01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menina01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 5,
+      "Unique_ID": 6,
+      "Reporting_Label": "menina01_H06_C02",
+      "Headline": "Cartao Uniforme Escolar: kits ja podem ser comprados.",
+      "CTA": "Confira as malharias credenciadas.",
+      "Personagem": "menina01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menina01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 6,
+      "Unique_ID": 7,
+      "Reporting_Label": "menina01_H07_C02",
+      "Headline": "Kits de uniformes podem ser comprados com Cartao Uniforme Escolar.",
+      "CTA": "Confira as malharias credenciadas.",
+      "Personagem": "menina01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menina01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 7,
+      "Unique_ID": 8,
+      "Reporting_Label": "menina01_H08_C02",
+      "Headline": "Cartao Uniforme Escolar tem creditos disponiveis.",
+      "CTA": "Confira as malharias credenciadas.",
+      "Personagem": "menina01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menina01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 8,
+      "Unique_ID": 9,
+      "Reporting_Label": "menina01_H09_C03",
+      "Headline": "Mais de 442 mil alunos sao beneficiados pelo Cartao Uniforme Escolar.",
+      "CTA": "Em caso de duvidas, procure a Regional de Ensino do seu filho.",
+      "Personagem": "menina01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menina01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 9,
+      "Unique_ID": 10,
+      "Reporting_Label": "menina01_H10_C03",
+      "Headline": "DF tem mais de 90 malharias credenciadas para uniformes.",
+      "CTA": "Em caso de duvidas, procure a Regional de Ensino do seu filho.",
+      "Personagem": "menina01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menina01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 10,
+      "Unique_ID": 11,
+      "Reporting_Label": "menino01_H01_C01",
+      "Headline": "Cartao Uniforme Escolar.",
+      "CTA": "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      "Personagem": "menino01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 11,
+      "Unique_ID": 12,
+      "Reporting_Label": "menino01_H02_C01",
+      "Headline": "Cartao Uniforme Escolar garante acesso ao tamanho certo dos uniformes.",
+      "CTA": "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      "Personagem": "menino01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 12,
+      "Unique_ID": 13,
+      "Reporting_Label": "menino01_H03_C01",
+      "Headline": "Creditos do Cartao Uniforme Escolar ja estao disponiveis.",
+      "CTA": "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      "Personagem": "menino01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 13,
+      "Unique_ID": 14,
+      "Reporting_Label": "menino01_H04_C01",
+      "Headline": "442 mil alunos podem usar Cartao Uniforme Escolar este ano.",
+      "CTA": "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      "Personagem": "menino01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 14,
+      "Unique_ID": 15,
+      "Reporting_Label": "menino01_H05_C01",
+      "Headline": "Cartao Uniforme Escolar: ate 7 pecas para o ano letivo.",
+      "CTA": "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      "Personagem": "menino01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 15,
+      "Unique_ID": 16,
+      "Reporting_Label": "menino01_H06_C02",
+      "Headline": "Cartao Uniforme Escolar: kits ja podem ser comprados.",
+      "CTA": "Confira as malharias credenciadas.",
+      "Personagem": "menino01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 16,
+      "Unique_ID": 17,
+      "Reporting_Label": "menino01_H07_C02",
+      "Headline": "Kits de uniformes podem ser comprados com Cartao Uniforme Escolar.",
+      "CTA": "Confira as malharias credenciadas.",
+      "Personagem": "menino01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 17,
+      "Unique_ID": 18,
+      "Reporting_Label": "menino01_H08_C02",
+      "Headline": "Cartao Uniforme Escolar tem creditos disponiveis.",
+      "CTA": "Confira as malharias credenciadas.",
+      "Personagem": "menino01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 18,
+      "Unique_ID": 19,
+      "Reporting_Label": "menino01_H09_C03",
+      "Headline": "Mais de 442 mil alunos sao beneficiados pelo Cartao Uniforme Escolar.",
+      "CTA": "Em caso de duvidas, procure a Regional de Ensino do seu filho.",
+      "Personagem": "menino01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 19,
+      "Unique_ID": 20,
+      "Reporting_Label": "menino01_H10_C03",
+      "Headline": "DF tem mais de 90 malharias credenciadas para uniformes.",
+      "CTA": "Em caso de duvidas, procure a Regional de Ensino do seu filho.",
+      "Personagem": "menino01",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino01"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 20,
+      "Unique_ID": 21,
+      "Reporting_Label": "menino02_H01_C01",
+      "Headline": "Cartao Uniforme Escolar.",
+      "CTA": "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      "Personagem": "menino02",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino02"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 21,
+      "Unique_ID": 22,
+      "Reporting_Label": "menino02_H02_C01",
+      "Headline": "Cartao Uniforme Escolar garante acesso ao tamanho certo dos uniformes.",
+      "CTA": "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      "Personagem": "menino02",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino02"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 22,
+      "Unique_ID": 23,
+      "Reporting_Label": "menino02_H03_C01",
+      "Headline": "Creditos do Cartao Uniforme Escolar ja estao disponiveis.",
+      "CTA": "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      "Personagem": "menino02",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino02"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 23,
+      "Unique_ID": 24,
+      "Reporting_Label": "menino02_H04_C01",
+      "Headline": "442 mil alunos podem usar Cartao Uniforme Escolar este ano.",
+      "CTA": "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      "Personagem": "menino02",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino02"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 24,
+      "Unique_ID": 25,
+      "Reporting_Label": "menino02_H05_C01",
+      "Headline": "Cartao Uniforme Escolar: ate 7 pecas para o ano letivo.",
+      "CTA": "Desbloqueie o seu cartao no aplicativo BRB Social.",
+      "Personagem": "menino02",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino02"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 25,
+      "Unique_ID": 26,
+      "Reporting_Label": "menino02_H06_C02",
+      "Headline": "Cartao Uniforme Escolar: kits ja podem ser comprados.",
+      "CTA": "Confira as malharias credenciadas.",
+      "Personagem": "menino02",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino02"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 26,
+      "Unique_ID": 27,
+      "Reporting_Label": "menino02_H07_C02",
+      "Headline": "Kits de uniformes podem ser comprados com Cartao Uniforme Escolar.",
+      "CTA": "Confira as malharias credenciadas.",
+      "Personagem": "menino02",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino02"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 27,
+      "Unique_ID": 28,
+      "Reporting_Label": "menino02_H08_C02",
+      "Headline": "Cartao Uniforme Escolar tem creditos disponiveis.",
+      "CTA": "Confira as malharias credenciadas.",
+      "Personagem": "menino02",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino02"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 28,
+      "Unique_ID": 29,
+      "Reporting_Label": "menino02_H09_C03",
+      "Headline": "Mais de 442 mil alunos sao beneficiados pelo Cartao Uniforme Escolar.",
+      "CTA": "Em caso de duvidas, procure a Regional de Ensino do seu filho.",
+      "Personagem": "menino02",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino02"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    },
+    {
+      "_id": 29,
+      "Unique_ID": 30,
+      "Reporting_Label": "menino02_H10_C03",
+      "Headline": "DF tem mais de 90 malharias credenciadas para uniformes.",
+      "CTA": "Em caso de duvidas, procure a Regional de Ensino do seu filho.",
+      "Personagem": "menino02",
+      "Personagem_Asset": {
+        "Type": "file",
+        "Url": "menino02"
+      },
+      "Exit_URL": {
+        "Url": "https://www.educacao.df.gov.br/cartao-uniforme-escolar/"
+      },
+      "Default": false,
+      "Active": true
+    }
+  ]
+}
