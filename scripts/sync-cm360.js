@@ -93,6 +93,7 @@ async function createReport(dfareporting, profileId) {
         dimensions: [
           { name: 'date' },
           { name: 'site' },
+          { name: 'siteId' },
           { name: 'creative' },
           { name: 'placement' }
         ],
@@ -256,7 +257,7 @@ function processReportData(rawData, siteId = null) {
   // Filter by site ID if provided
   let data = rawData;
   if (siteId) {
-    data = rawData.filter(row => row['Site ID'] === siteId || row['Site'] === siteId);
+    data = rawData.filter(row => row['Site ID (CM360)'] === siteId || row['Site ID'] === siteId || row['siteId'] === siteId);
     console.log(`Filtered to ${data.length} rows for site ${siteId}`);
   }
 
