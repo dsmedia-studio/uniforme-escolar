@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GDF Uniforme Escolar - Dashboard de Performance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/dashboard.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <div class="app">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-left">
+        <div class="logo-badge"><span>GDF STUDIO</span></div>
+        <nav class="nav-tabs">
+          <a href="../index.html" class="nav-tab">Studio</a>
+          <a href="index.html" class="nav-tab active">Dashboard</a>
+        </nav>
+      </div>
+      <div class="header-right">
+        <button class="btn btn-icon" id="settingsBtn" title="Configuracoes">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="3"></circle>
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
+          </svg>
+        </button>
+        <button class="btn btn-secondary" id="refreshBtn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="23 4 23 10 17 10"></polyline>
+            <polyline points="1 20 1 14 7 14"></polyline>
+            <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+          </svg>
+          Atualizar
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+      <!-- Page Title -->
+      <div class="page-header">
+        <div>
+          <h1 class="page-title">Dashboard de <span>Performance</span></h1>
+          <p class="page-subtitle">Campanha Uniforme Escolar 2025 - Dados do CM360</p>
+        </div>
+        <div class="update-info">
+          <span class="update-label">Ultima atualizacao:</span>
+          <span class="update-time" id="lastUpdate">--</span>
+        </div>
+      </div>
+
+      <!-- Summary Cards -->
+      <section class="cards-grid">
+        <div class="metric-card">
+          <div class="metric-icon impressions">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+              <circle cx="12" cy="12" r="3"></circle>
+            </svg>
+          </div>
+          <div class="metric-content">
+            <span class="metric-value" id="totalImpressions">--</span>
+            <span class="metric-label">Impressoes</span>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-icon clicks">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M15 15l-2 5L9 9l11 4-5 2zm0 0l5 5M7.188 2.239l.777 2.897M5.136 7.965l-2.898-.777M13.95 4.05l-2.122 2.122m-5.657 5.656l-2.12 2.122"></path>
+            </svg>
+          </div>
+          <div class="metric-content">
+            <span class="metric-value" id="totalClicks">--</span>
+            <span class="metric-label">Cliques</span>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-icon ctr">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="20" x2="12" y2="10"></line>
+              <line x1="18" y1="20" x2="18" y2="4"></line>
+              <line x1="6" y1="20" x2="6" y2="16"></line>
+            </svg>
+          </div>
+          <div class="metric-content">
+            <span class="metric-value" id="avgCTR">--</span>
+            <span class="metric-label">CTR Medio</span>
+          </div>
+        </div>
+
+        <div class="metric-card">
+          <div class="metric-icon viewability">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </div>
+          <div class="metric-content">
+            <span class="metric-value" id="avgViewability">--</span>
+            <span class="metric-label">Viewability</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Charts Row 1 -->
+      <section class="charts-row">
+        <div class="chart-card chart-large">
+          <div class="chart-header">
+            <h3 class="chart-title">Performance Diaria</h3>
+            <div class="chart-legend">
+              <span class="legend-item"><span class="legend-color impressions"></span> Impressoes</span>
+              <span class="legend-item"><span class="legend-color clicks"></span> Cliques</span>
+            </div>
+          </div>
+          <div class="chart-body">
+            <canvas id="dailyChart"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <!-- Charts Row 2 -->
+      <section class="charts-row charts-row-2">
+        <div class="chart-card">
+          <div class="chart-header">
+            <h3 class="chart-title">Por Formato</h3>
+          </div>
+          <div class="chart-body">
+            <canvas id="formatChart"></canvas>
+          </div>
+        </div>
+
+        <div class="chart-card">
+          <div class="chart-header">
+            <h3 class="chart-title">Por Personagem</h3>
+          </div>
+          <div class="chart-body chart-body-donut">
+            <canvas id="personagemChart"></canvas>
+          </div>
+        </div>
+      </section>
+
+      <!-- Top Performers Table -->
+      <section class="table-section">
+        <div class="table-header">
+          <h3 class="table-title">Top 10 Combinacoes DCO por CTR</h3>
+          <p class="table-subtitle">Passe o mouse sobre o nome para visualizar o criativo</p>
+        </div>
+        <div class="table-container">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th class="th-rank">#</th>
+                <th class="th-label">Reporting Label</th>
+                <th class="th-number">Impressoes</th>
+                <th class="th-number">Cliques</th>
+                <th class="th-number">CTR</th>
+                <th class="th-number">Viewability</th>
+              </tr>
+            </thead>
+            <tbody id="topPerformersTable">
+              <!-- Populated by JavaScript -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>Proxima atualizacao: <span id="nextUpdate">--</span></p>
+        <p>Dados sincronizados automaticamente via GitHub Actions a cada 6 horas</p>
+      </footer>
+    </main>
+  </div>
+
+  <!-- Settings Modal -->
+  <div class="modal-overlay" id="settingsModal">
+    <div class="modal">
+      <div class="modal-header">
+        <h2 class="modal-title">Configuracoes</h2>
+        <button class="modal-close" id="closeModal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+          <label class="form-label" for="siteIdInput">CM360 Site ID</label>
+          <input type="text" class="form-input" id="siteIdInput" placeholder="Ex: 123456">
+          <p class="form-help">O Site ID identifica sua campanha no CM360.</p>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Como Configurar</label>
+          <div class="config-instructions">
+            <p>1. Edite o arquivo <code>dashboard/data/config.json</code></p>
+            <p>2. Altere o campo <code>"siteId"</code> com seu ID</p>
+            <p>3. Faca commit e push para o repositorio</p>
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="form-label">Status dos Dados</label>
+          <div class="status-badge" id="connectionStatus">
+            <span class="status-dot"></span>
+            <span class="status-text">Aguardando configuracao</span>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" id="cancelSettings">Cancelar</button>
+        <button class="btn btn-primary" id="saveSettings">Salvar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Preview Tooltip -->
+  <div class="preview-tooltip" id="previewTooltip">
+    <div class="preview-iframe-container">
+      <iframe id="previewIframe" src="" frameborder="0"></iframe>
+    </div>
+    <div class="preview-info">
+      <span class="preview-format" id="previewFormat">300x250</span>
+      <span class="preview-label" id="previewLabel">--</span>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/utils.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/preview.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>

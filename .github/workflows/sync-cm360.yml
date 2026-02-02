@@ -1,0 +1,74 @@
+name: Sync CM360 Data
+
+on:
+  schedule:
+    # Run every 6 hours: 00:00, 06:00, 12:00, 18:00 UTC
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+    # Allow manual trigger from GitHub Actions UI
+    inputs:
+      force_update:
+        description: 'Force update even if no new data'
+        required: false
+        default: 'false'
+        type: boolean
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install googleapis
+
+      - name: Sync CM360 Data
+        env:
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          CM360_PROFILE_ID: ${{ secrets.CM360_PROFILE_ID }}
+          CM360_SITE_ID: ${{ secrets.CM360_SITE_ID }}
+          FORCE_UPDATE: ${{ github.event.inputs.force_update }}
+        run: node scripts/sync-cm360.js
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet dashboard/data/performance.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add dashboard/data/performance.json
+          git commit -m "chore: update CM360 performance data
+
+          Automated sync at $(date -u +"%Y-%m-%d %H:%M:%S UTC")
+
+          Co-Authored-By: GitHub Actions <actions@github.com>"
+          git push
+
+      - name: Log sync status
+        run: |
+          if [ "${{ steps.check_changes.outputs.changed }}" == "true" ]; then
+            echo "✅ Performance data updated successfully"
+          else
+            echo "ℹ️ No changes detected in performance data"
+          fi

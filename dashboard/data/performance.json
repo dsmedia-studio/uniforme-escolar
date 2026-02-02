@@ -1,0 +1,293 @@
+{
+  "lastUpdated": "2025-02-02T12:00:00Z",
+  "nextUpdate": "2025-02-02T18:00:00Z",
+  "campaign": {
+    "name": "GDF Uniforme Escolar 2025",
+    "siteId": "123456",
+    "siteName": "Uniforme Escolar",
+    "startDate": "2025-01-15",
+    "endDate": "2025-03-31"
+  },
+  "summary": {
+    "impressions": 1523847,
+    "clicks": 15892,
+    "ctr": 1.04,
+    "viewableImpressions": 1218652,
+    "eligibleImpressions": 1420000,
+    "viewabilityRate": 85.82
+  },
+  "daily": [
+    { "date": "2025-01-15", "impressions": 45000, "clicks": 420, "ctr": 0.93, "viewabilityRate": 82.1 },
+    { "date": "2025-01-16", "impressions": 48500, "clicks": 465, "ctr": 0.96, "viewabilityRate": 83.5 },
+    { "date": "2025-01-17", "impressions": 52000, "clicks": 510, "ctr": 0.98, "viewabilityRate": 84.2 },
+    { "date": "2025-01-18", "impressions": 38000, "clicks": 380, "ctr": 1.0, "viewabilityRate": 85.0 },
+    { "date": "2025-01-19", "impressions": 35000, "clicks": 350, "ctr": 1.0, "viewabilityRate": 84.8 },
+    { "date": "2025-01-20", "impressions": 55000, "clicks": 580, "ctr": 1.05, "viewabilityRate": 85.5 },
+    { "date": "2025-01-21", "impressions": 58000, "clicks": 620, "ctr": 1.07, "viewabilityRate": 86.2 },
+    { "date": "2025-01-22", "impressions": 62000, "clicks": 670, "ctr": 1.08, "viewabilityRate": 86.8 },
+    { "date": "2025-01-23", "impressions": 65000, "clicks": 715, "ctr": 1.1, "viewabilityRate": 87.1 },
+    { "date": "2025-01-24", "impressions": 68000, "clicks": 760, "ctr": 1.12, "viewabilityRate": 87.5 },
+    { "date": "2025-01-25", "impressions": 42000, "clicks": 455, "ctr": 1.08, "viewabilityRate": 86.0 },
+    { "date": "2025-01-26", "impressions": 40000, "clicks": 420, "ctr": 1.05, "viewabilityRate": 85.5 },
+    { "date": "2025-01-27", "impressions": 72000, "clicks": 790, "ctr": 1.1, "viewabilityRate": 87.2 },
+    { "date": "2025-01-28", "impressions": 75000, "clicks": 825, "ctr": 1.1, "viewabilityRate": 87.8 },
+    { "date": "2025-01-29", "impressions": 78000, "clicks": 870, "ctr": 1.12, "viewabilityRate": 88.1 },
+    { "date": "2025-01-30", "impressions": 80000, "clicks": 920, "ctr": 1.15, "viewabilityRate": 88.5 },
+    { "date": "2025-01-31", "impressions": 82000, "clicks": 960, "ctr": 1.17, "viewabilityRate": 88.8 },
+    { "date": "2025-02-01", "impressions": 85000, "clicks": 1020, "ctr": 1.2, "viewabilityRate": 89.2 },
+    { "date": "2025-02-02", "impressions": 43347, "clicks": 562, "ctr": 1.3, "viewabilityRate": 89.5 }
+  ],
+  "byFormat": {
+    "300x250": {
+      "impressions": 609538,
+      "clicks": 7125,
+      "ctr": 1.17,
+      "viewabilityRate": 87.5
+    },
+    "728x90": {
+      "impressions": 411439,
+      "clicks": 4110,
+      "ctr": 1.0,
+      "viewabilityRate": 84.2
+    },
+    "970x250": {
+      "impressions": 304769,
+      "clicks": 2590,
+      "ctr": 0.85,
+      "viewabilityRate": 88.1
+    },
+    "468x60": {
+      "impressions": 198101,
+      "clicks": 2067,
+      "ctr": 1.04,
+      "viewabilityRate": 82.5
+    }
+  },
+  "byPersonagem": {
+    "menina": {
+      "impressions": 533347,
+      "clicks": 5867,
+      "ctr": 1.1,
+      "viewabilityRate": 86.5
+    },
+    "menino01": {
+      "impressions": 502846,
+      "clicks": 5180,
+      "ctr": 1.03,
+      "viewabilityRate": 85.8
+    },
+    "menino02": {
+      "impressions": 487654,
+      "clicks": 4845,
+      "ctr": 0.99,
+      "viewabilityRate": 85.1
+    }
+  },
+  "byReportingLabel": [
+    {
+      "label": "menina_titulo03_cta02",
+      "personagem": "menina",
+      "headline": "titulo03",
+      "cta": "cta02",
+      "impressions": 45200,
+      "clicks": 612,
+      "ctr": 1.35,
+      "viewabilityRate": 89.2
+    },
+    {
+      "label": "menino01_titulo07_cta01",
+      "personagem": "menino01",
+      "headline": "titulo07",
+      "cta": "cta01",
+      "impressions": 38700,
+      "clicks": 499,
+      "ctr": 1.29,
+      "viewabilityRate": 88.5
+    },
+    {
+      "label": "menina_titulo01_cta01",
+      "personagem": "menina",
+      "headline": "titulo01",
+      "cta": "cta01",
+      "impressions": 52100,
+      "clicks": 651,
+      "ctr": 1.25,
+      "viewabilityRate": 87.8
+    },
+    {
+      "label": "menino02_titulo05_cta03",
+      "personagem": "menino02",
+      "headline": "titulo05",
+      "cta": "cta03",
+      "impressions": 41500,
+      "clicks": 498,
+      "ctr": 1.2,
+      "viewabilityRate": 90.1
+    },
+    {
+      "label": "menina_titulo08_cta01",
+      "personagem": "menina",
+      "headline": "titulo08",
+      "cta": "cta01",
+      "impressions": 36800,
+      "clicks": 436,
+      "ctr": 1.18,
+      "viewabilityRate": 86.9
+    },
+    {
+      "label": "menino01_titulo02_cta02",
+      "personagem": "menino01",
+      "headline": "titulo02",
+      "cta": "cta02",
+      "impressions": 43200,
+      "clicks": 502,
+      "ctr": 1.16,
+      "viewabilityRate": 85.4
+    },
+    {
+      "label": "menina_titulo04_cta03",
+      "personagem": "menina",
+      "headline": "titulo04",
+      "cta": "cta03",
+      "impressions": 39500,
+      "clicks": 451,
+      "ctr": 1.14,
+      "viewabilityRate": 86.2
+    },
+    {
+      "label": "menino02_titulo09_cta01",
+      "personagem": "menino02",
+      "headline": "titulo09",
+      "cta": "cta01",
+      "impressions": 35800,
+      "clicks": 401,
+      "ctr": 1.12,
+      "viewabilityRate": 84.8
+    },
+    {
+      "label": "menino01_titulo06_cta03",
+      "personagem": "menino01",
+      "headline": "titulo06",
+      "cta": "cta03",
+      "impressions": 37200,
+      "clicks": 413,
+      "ctr": 1.11,
+      "viewabilityRate": 85.9
+    },
+    {
+      "label": "menina_titulo10_cta02",
+      "personagem": "menina",
+      "headline": "titulo10",
+      "cta": "cta02",
+      "impressions": 33400,
+      "clicks": 367,
+      "ctr": 1.1,
+      "viewabilityRate": 87.3
+    },
+    {
+      "label": "menino02_titulo01_cta01",
+      "personagem": "menino02",
+      "headline": "titulo01",
+      "cta": "cta01",
+      "impressions": 48500,
+      "clicks": 524,
+      "ctr": 1.08,
+      "viewabilityRate": 86.0
+    },
+    {
+      "label": "menino01_titulo04_cta01",
+      "personagem": "menino01",
+      "headline": "titulo04",
+      "cta": "cta01",
+      "impressions": 42100,
+      "clicks": 450,
+      "ctr": 1.07,
+      "viewabilityRate": 85.2
+    },
+    {
+      "label": "menina_titulo05_cta01",
+      "personagem": "menina",
+      "headline": "titulo05",
+      "cta": "cta01",
+      "impressions": 38900,
+      "clicks": 409,
+      "ctr": 1.05,
+      "viewabilityRate": 84.5
+    },
+    {
+      "label": "menino02_titulo03_cta02",
+      "personagem": "menino02",
+      "headline": "titulo03",
+      "cta": "cta02",
+      "impressions": 36200,
+      "clicks": 376,
+      "ctr": 1.04,
+      "viewabilityRate": 85.8
+    },
+    {
+      "label": "menino01_titulo10_cta02",
+      "personagem": "menino01",
+      "headline": "titulo10",
+      "cta": "cta02",
+      "impressions": 31500,
+      "clicks": 322,
+      "ctr": 1.02,
+      "viewabilityRate": 83.9
+    },
+    {
+      "label": "menina_titulo06_cta03",
+      "personagem": "menina",
+      "headline": "titulo06",
+      "cta": "cta03",
+      "impressions": 34800,
+      "clicks": 352,
+      "ctr": 1.01,
+      "viewabilityRate": 84.2
+    },
+    {
+      "label": "menino02_titulo07_cta01",
+      "personagem": "menino02",
+      "headline": "titulo07",
+      "cta": "cta01",
+      "impressions": 29800,
+      "clicks": 298,
+      "ctr": 1.0,
+      "viewabilityRate": 85.1
+    },
+    {
+      "label": "menino01_titulo08_cta03",
+      "personagem": "menino01",
+      "headline": "titulo08",
+      "cta": "cta03",
+      "impressions": 32400,
+      "clicks": 321,
+      "ctr": 0.99,
+      "viewabilityRate": 84.6
+    },
+    {
+      "label": "menina_titulo02_cta02",
+      "personagem": "menina",
+      "headline": "titulo02",
+      "cta": "cta02",
+      "impressions": 35600,
+      "clicks": 349,
+      "ctr": 0.98,
+      "viewabilityRate": 83.8
+    },
+    {
+      "label": "menino02_titulo08_cta02",
+      "personagem": "menino02",
+      "headline": "titulo08",
+      "cta": "cta02",
+      "impressions": 28900,
+      "clicks": 281,
+      "ctr": 0.97,
+      "viewabilityRate": 82.9
+    }
+  ],
+  "topPerformers": {
+    "byCTR": ["menina_titulo03_cta02", "menino01_titulo07_cta01", "menina_titulo01_cta01"],
+    "byViewability": ["menino02_titulo05_cta03", "menina_titulo03_cta02", "menino01_titulo07_cta01"],
+    "byVolume": ["menina_titulo01_cta01", "menino02_titulo01_cta01", "menina_titulo03_cta02"]
+  }
+}
