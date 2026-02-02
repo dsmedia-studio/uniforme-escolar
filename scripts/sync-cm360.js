@@ -94,9 +94,7 @@ async function createReport(dfareporting, profileId) {
           { name: 'date' },
           { name: 'site' },
           { name: 'creative' },
-          { name: 'creativeName' },
-          { name: 'placement' },
-          { name: 'feedReportingLabel1' } // DCO Reporting Label
+          { name: 'placement' }
         ],
         metricNames: [
           'impressions',
