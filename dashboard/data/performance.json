@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-03T13:55:42.300Z",
-  "nextUpdate": "2026-02-03T19:55:42.300Z",
+  "lastUpdated": "2026-02-03T14:00:12.987Z",
+  "nextUpdate": "2026-02-03T20:00:12.987Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -445,6 +445,18 @@
       "menino02_H02_C01"
     ]
   },
+  "bySite": [
+    {
+      "name": "DBM Monks-DV360-DS Media-36727-BR 1481230269-AG - Babel",
+      "siteId": "10491182",
+      "impressions": 556507,
+      "clicks": 463,
+      "viewable": 464307,
+      "eligible": 556502,
+      "ctr": 0.08319751593421107,
+      "viewabilityRate": 83.43312333109316
+    }
+  ],
   "byPlacement": [
     {
       "name": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
