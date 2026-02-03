@@ -94,7 +94,6 @@ async function createReport(dfareporting, profileId) {
           { name: 'date' },
           { name: 'site' },
           { name: 'siteId' },
-          { name: 'domain' },
           { name: 'creative' },
           { name: 'creativeId' },
           { name: 'placement' },
@@ -115,6 +114,48 @@ async function createReport(dfareporting, profileId) {
   });
 
   console.log(`Report created with ID: ${report.data.id}`);
+  return report.data;
+}
+
+/**
+ * Create a CM360 domain report (separate report for domain dimension)
+ * @param {object} dfareporting - CM360 API client
+ * @param {string} profileId - CM360 Profile ID
+ * @returns {object} Report object
+ */
+async function createDomainReport(dfareporting, profileId) {
+  console.log('Creating CM360 domain report...');
+
+  const report = await dfareporting.reports.insert({
+    profileId: profileId,
+    requestBody: {
+      name: `GDF Uniforme Escolar - Domains ${new Date().toISOString()}`,
+      type: 'STANDARD',
+      criteria: {
+        dateRange: {
+          relativeDateRange: CONFIG.reportDateRange
+        },
+        dimensions: [
+          { name: 'advertiser' },
+          { name: 'campaign' },
+          { name: 'site' },
+          { name: 'siteId' },
+          { name: 'domain' }
+        ],
+        metricNames: [
+          'impressions',
+          'clicks',
+          'activeViewViewableImpressions',
+          'activeViewEligibleImpressions'
+        ]
+      },
+      delivery: {
+        emailOwner: false
+      }
+    }
+  });
+
+  console.log(`Domain report created with ID: ${report.data.id}`);
   return report.data;
 }
 
@@ -279,7 +320,6 @@ function processReportData(rawData, siteId = null) {
   const byPlacement = {};
   const byCreativePlacement = {};
   const bySite = {};
-  const byDomain = {};
   let totalImpressions = 0;
   let totalClicks = 0;
   let totalViewable = 0;
@@ -366,23 +406,6 @@ function processReportData(rawData, siteId = null) {
       bySite[siteName].clicks += clicks;
       bySite[siteName].viewable += viewable;
       bySite[siteName].eligible += eligible;
-    }
-
-    // Domain (URL real - g1, uol, etc.) aggregation
-    const domainName = row['Domain'] || '';
-    if (domainName && domainName !== '(not set)') {
-      if (!byDomain[domainName]) {
-        byDomain[domainName] = {
-          impressions: 0,
-          clicks: 0,
-          viewable: 0,
-          eligible: 0
-        };
-      }
-      byDomain[domainName].impressions += impressions;
-      byDomain[domainName].clicks += clicks;
-      byDomain[domainName].viewable += viewable;
-      byDomain[domainName].eligible += eligible;
     }
 
     // Placement aggregation
@@ -488,12 +511,6 @@ function processReportData(rawData, siteId = null) {
         ...calculateMetrics(bySite[name])
       }))
       .sort((a, b) => b.impressions - a.impressions),
-    byDomain: Object.keys(byDomain)
-      .map(name => ({
-        name,
-        ...calculateMetrics(byDomain[name])
-      }))
-      .sort((a, b) => b.impressions - a.impressions),
     byPlacement: Object.keys(byPlacement)
       .map(name => ({
         name,
@@ -509,6 +526,61 @@ function processReportData(rawData, siteId = null) {
       }))
       .sort((a, b) => b.impressions - a.impressions)
   };
+}
+
+/**
+ * Process domain report data
+ * @param {array} rawData - Raw domain report data
+ * @param {string} siteId - Optional site ID filter
+ * @returns {array} Processed domain data
+ */
+function processDomainData(rawData, siteId = null) {
+  console.log(`Processing ${rawData.length} rows of domain data...`);
+
+  // Filter by site ID if provided
+  let data = rawData;
+  if (siteId) {
+    data = rawData.filter(row => row['Site ID (CM360)'] === siteId || row['Site ID'] === siteId || row['siteId'] === siteId);
+    console.log(`Filtered to ${data.length} rows for site ${siteId}`);
+  }
+
+  const byDomain = {};
+
+  data.forEach(row => {
+    const domainName = row['Domain'] || '';
+    const impressions = parseInt(row['Impressions'] || '0', 10);
+    const clicks = parseInt(row['Clicks'] || '0', 10);
+    const viewable = parseInt(row['Active View: Viewable Impressions'] || '0', 10);
+    const eligible = parseInt(row['Active View: Eligible Impressions'] || '0', 10);
+
+    if (domainName && domainName !== '(not set)' && domainName !== '') {
+      if (!byDomain[domainName]) {
+        byDomain[domainName] = {
+          impressions: 0,
+          clicks: 0,
+          viewable: 0,
+          eligible: 0
+        };
+      }
+      byDomain[domainName].impressions += impressions;
+      byDomain[domainName].clicks += clicks;
+      byDomain[domainName].viewable += viewable;
+      byDomain[domainName].eligible += eligible;
+    }
+  });
+
+  // Convert to array with calculated metrics
+  return Object.keys(byDomain)
+    .map(name => ({
+      name,
+      impressions: byDomain[name].impressions,
+      clicks: byDomain[name].clicks,
+      viewable: byDomain[name].viewable,
+      eligible: byDomain[name].eligible,
+      ctr: byDomain[name].impressions > 0 ? (byDomain[name].clicks / byDomain[name].impressions) * 100 : 0,
+      viewabilityRate: byDomain[name].eligible > 0 ? (byDomain[name].viewable / byDomain[name].eligible) * 100 : 0
+    }))
+    .sort((a, b) => b.impressions - a.impressions);
 }
 
 /**
@@ -620,19 +692,46 @@ async function main() {
       auth: oauth2Client
     });
 
-    // Create and run report
+    // Create and run main report
     const report = await createReport(dfareporting, profileId);
     const file = await runReport(dfareporting, profileId, report.id);
     const completedFile = await waitForReport(dfareporting, profileId, report.id, file.id);
 
-    // Download and process report data
+    // Download and process main report data
     const rawData = await downloadReport(dfareporting, completedFile);
     const processedData = processReportData(rawData, siteId);
+
+    // Try to get domain data (separate report)
+    try {
+      console.log('\nFetching domain data...');
+      const domainReport = await createDomainReport(dfareporting, profileId);
+      const domainFile = await runReport(dfareporting, profileId, domainReport.id);
+      const completedDomainFile = await waitForReport(dfareporting, profileId, domainReport.id, domainFile.id);
+      const domainRawData = await downloadReport(dfareporting, completedDomainFile);
+
+      // Process domain data
+      const domainData = processDomainData(domainRawData, siteId);
+      processedData.byDomain = domainData;
+
+      // Clean up domain report
+      try {
+        await dfareporting.reports.delete({
+          profileId: profileId,
+          reportId: domainReport.id
+        });
+        console.log('Domain report deleted');
+      } catch (e) {
+        console.warn('Could not delete domain report:', e.message);
+      }
+    } catch (domainError) {
+      console.warn('Could not fetch domain data:', domainError.message);
+      processedData.byDomain = [];
+    }
 
     // Save to file
     saveData(processedData);
 
-    // Clean up - delete the report
+    // Clean up - delete the main report
     try {
       await dfareporting.reports.delete({
         profileId: profileId,
