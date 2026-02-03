@@ -179,6 +179,40 @@
         </div>
       </section>
 
+      <!-- Top Sites/Veículos Table -->
+      <section class="table-section sites-section">
+        <div class="table-header">
+          <div class="table-header-left">
+            <h3 class="table-title">Top Sites / Veiculos</h3>
+            <p class="table-subtitle">Dominios e parceiros de midia por volume</p>
+          </div>
+          <div class="table-header-right">
+            <select id="siteSortBy" class="sort-select">
+              <option value="impressions">Por Impressoes</option>
+              <option value="viewabilityRate">Por Viewability</option>
+              <option value="ctr">Por CTR</option>
+            </select>
+          </div>
+        </div>
+        <div class="table-container">
+          <table class="data-table sites-table">
+            <thead>
+              <tr>
+                <th class="th-rank">#</th>
+                <th class="th-site">Site / Veiculo</th>
+                <th class="th-number">Impressoes</th>
+                <th class="th-number">Cliques</th>
+                <th class="th-number">CTR</th>
+                <th class="th-viewability">Viewability</th>
+              </tr>
+            </thead>
+            <tbody id="topSitesTable">
+              <!-- Populated by JavaScript -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
       <!-- Top Placements Table -->
       <section class="table-section placement-section">
         <div class="table-header">

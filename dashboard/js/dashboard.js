@@ -85,6 +85,14 @@ const Dashboard = {
       refreshBtn.addEventListener('click', () => this.loadData());
     }
 
+    // Site sort selector
+    const siteSortBy = document.getElementById('siteSortBy');
+    if (siteSortBy) {
+      siteSortBy.addEventListener('change', (e) => {
+        this.updateSitesTable(e.target.value);
+      });
+    }
+
     // Placement sort selector
     const placementSortBy = document.getElementById('placementSortBy');
     if (placementSortBy) {
@@ -116,6 +124,7 @@ const Dashboard = {
       // Update UI
       this.updateMetricCards();
       this.updateTable();
+      this.updateSitesTable();
       this.updatePlacementsTable();
       this.updateTimestamps();
 
@@ -353,6 +362,64 @@ const Dashboard = {
       console.warn('Could not load config:', err.message);
       this.updateConnectionStatus(false);
     }
+  },
+
+  /**
+   * Update top sites table
+   * @param {string} sortBy - Field to sort by (impressions, viewabilityRate, ctr)
+   */
+  updateSitesTable(sortBy = 'impressions') {
+    const tableBody = document.getElementById('topSitesTable');
+    if (!tableBody || !this.data?.bySite) return;
+
+    // Sort and get top 10
+    const sorted = [...this.data.bySite]
+      .sort((a, b) => b[sortBy] - a[sortBy])
+      .slice(0, 10);
+
+    // Find max value for progress bar
+    const maxValue = Math.max(...sorted.map(s => s[sortBy]));
+
+    // Build table rows
+    const rows = sorted.map((item, index) => {
+      const viewabilityPercent = item.viewabilityRate || 0;
+      const viewabilityClass = viewabilityPercent >= 70 ? 'high' : viewabilityPercent >= 50 ? 'medium' : 'low';
+      const barWidth = maxValue > 0 ? (item[sortBy] / maxValue) * 100 : 0;
+
+      return `
+        <tr>
+          <td class="td-rank">${index + 1}</td>
+          <td class="td-site">
+            <div class="site-name" title="${item.name}">${this.truncateSiteName(item.name)}</div>
+            <div class="site-bar-container">
+              <div class="site-bar" style="width: ${barWidth}%"></div>
+            </div>
+          </td>
+          <td class="td-number">${Utils.formatNumber(item.impressions)}</td>
+          <td class="td-number">${Utils.formatNumber(item.clicks)}</td>
+          <td class="td-number">${Utils.formatPercent(item.ctr)}</td>
+          <td class="td-viewability">
+            <div class="viewability-bar-container">
+              <div class="viewability-bar ${viewabilityClass}" style="width: ${viewabilityPercent}%"></div>
+              <span class="viewability-value">${Utils.formatPercent(viewabilityPercent)}</span>
+            </div>
+          </td>
+        </tr>
+      `;
+    }).join('');
+
+    tableBody.innerHTML = rows;
+  },
+
+  /**
+   * Truncate site name for display
+   * @param {string} name - Full site name
+   * @returns {string} Truncated name
+   */
+  truncateSiteName(name) {
+    if (!name) return '--';
+    if (name.length <= 60) return name;
+    return name.substring(0, 57) + '...';
   },
 
   /**
