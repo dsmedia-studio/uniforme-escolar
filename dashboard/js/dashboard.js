@@ -85,11 +85,11 @@ const Dashboard = {
       refreshBtn.addEventListener('click', () => this.loadData());
     }
 
-    // Site sort selector
-    const siteSortBy = document.getElementById('siteSortBy');
-    if (siteSortBy) {
-      siteSortBy.addEventListener('change', (e) => {
-        this.updateSitesTable(e.target.value);
+    // Domain sort selector
+    const domainSortBy = document.getElementById('domainSortBy');
+    if (domainSortBy) {
+      domainSortBy.addEventListener('change', (e) => {
+        this.updateDomainsTable(e.target.value);
       });
     }
 
@@ -124,7 +124,7 @@ const Dashboard = {
       // Update UI
       this.updateMetricCards();
       this.updateTable();
-      this.updateSitesTable();
+      this.updateDomainsTable();
       this.updatePlacementsTable();
       this.updateTimestamps();
 
@@ -365,20 +365,20 @@ const Dashboard = {
   },
 
   /**
-   * Update top sites table
+   * Update top domains table
    * @param {string} sortBy - Field to sort by (impressions, viewabilityRate, ctr)
    */
-  updateSitesTable(sortBy = 'impressions') {
-    const tableBody = document.getElementById('topSitesTable');
-    if (!tableBody || !this.data?.bySite) return;
+  updateDomainsTable(sortBy = 'impressions') {
+    const tableBody = document.getElementById('topDomainsTable');
+    if (!tableBody || !this.data?.byDomain) return;
 
     // Sort and get top 10
-    const sorted = [...this.data.bySite]
+    const sorted = [...this.data.byDomain]
       .sort((a, b) => b[sortBy] - a[sortBy])
       .slice(0, 10);
 
     // Find max value for progress bar
-    const maxValue = Math.max(...sorted.map(s => s[sortBy]));
+    const maxValue = Math.max(...sorted.map(d => d[sortBy]));
 
     // Build table rows
     const rows = sorted.map((item, index) => {
@@ -389,10 +389,10 @@ const Dashboard = {
       return `
         <tr>
           <td class="td-rank">${index + 1}</td>
-          <td class="td-site">
-            <div class="site-name" title="${item.name}">${this.truncateSiteName(item.name)}</div>
-            <div class="site-bar-container">
-              <div class="site-bar" style="width: ${barWidth}%"></div>
+          <td class="td-domain">
+            <div class="domain-name" title="${item.name}">${item.name}</div>
+            <div class="domain-bar-container">
+              <div class="domain-bar" style="width: ${barWidth}%"></div>
             </div>
           </td>
           <td class="td-number">${Utils.formatNumber(item.impressions)}</td>
@@ -409,17 +409,6 @@ const Dashboard = {
     }).join('');
 
     tableBody.innerHTML = rows;
-  },
-
-  /**
-   * Truncate site name for display
-   * @param {string} name - Full site name
-   * @returns {string} Truncated name
-   */
-  truncateSiteName(name) {
-    if (!name) return '--';
-    if (name.length <= 60) return name;
-    return name.substring(0, 57) + '...';
   },
 
   /**

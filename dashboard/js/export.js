@@ -103,6 +103,7 @@ const ExcelExport = {
     if (type === 'complete') {
       this.addDailySheet(workbook, data);
       this.addCreativeSheet(workbook, data);
+      this.addDomainsSheet(workbook, data);
       this.addCreativePlacementSheet(workbook, data);
       this.addPlacementsSheet(workbook, data);
       this.addSummarySheet(workbook, data);
@@ -184,6 +185,33 @@ const ExcelExport = {
     const sheet = XLSX.utils.aoa_to_sheet(sheetData);
     this.setColumnWidths(sheet, [35, 12, 12, 10, 15, 12, 12, 15]);
     XLSX.utils.book_append_sheet(workbook, sheet, 'Por Criativo');
+  },
+
+  /**
+   * Add domains sheet
+   * @param {object} workbook - XLSX workbook
+   * @param {object} data - Dashboard data
+   */
+  addDomainsSheet(workbook, data) {
+    if (!data.byDomain || data.byDomain.length === 0) return;
+
+    const sheetData = [
+      ['Dominio / URL', 'Impressoes', 'Cliques', 'CTR (%)', 'Viewability (%)']
+    ];
+
+    data.byDomain.forEach(item => {
+      sheetData.push([
+        item.name,
+        item.impressions,
+        item.clicks,
+        parseFloat(item.ctr?.toFixed(2) || 0),
+        parseFloat(item.viewabilityRate?.toFixed(2) || 0)
+      ]);
+    });
+
+    const sheet = XLSX.utils.aoa_to_sheet(sheetData);
+    this.setColumnWidths(sheet, [50, 15, 12, 12, 15]);
+    XLSX.utils.book_append_sheet(workbook, sheet, 'Dominios');
   },
 
   /**
@@ -308,6 +336,17 @@ const ExcelExport = {
         .slice(0, 5);
       topByCTR.forEach((item, i) => {
         sheetData.push([i + 1, item.label, `${(item.ctr || 0).toFixed(2)}%`]);
+      });
+    }
+
+    sheetData.push([]);
+    sheetData.push(['TOP 5 DOMINIOS POR IMPRESSOES']);
+    sheetData.push(['Ranking', 'Dominio', 'Impressoes', 'Viewability (%)']);
+
+    // Add top domains
+    if (data.byDomain) {
+      data.byDomain.slice(0, 5).forEach((item, i) => {
+        sheetData.push([i + 1, item.name, item.impressions, `${(item.viewabilityRate || 0).toFixed(2)}%`]);
       });
     }
 

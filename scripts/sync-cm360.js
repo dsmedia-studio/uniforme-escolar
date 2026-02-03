@@ -94,6 +94,7 @@ async function createReport(dfareporting, profileId) {
           { name: 'date' },
           { name: 'site' },
           { name: 'siteId' },
+          { name: 'domain' },
           { name: 'creative' },
           { name: 'creativeId' },
           { name: 'placement' },
@@ -278,6 +279,7 @@ function processReportData(rawData, siteId = null) {
   const byPlacement = {};
   const byCreativePlacement = {};
   const bySite = {};
+  const byDomain = {};
   let totalImpressions = 0;
   let totalClicks = 0;
   let totalViewable = 0;
@@ -347,7 +349,7 @@ function processReportData(rawData, siteId = null) {
       byPersonagem[personagem].eligible += eligible;
     }
 
-    // Site (domain/veículo) aggregation
+    // Site (veículo) aggregation
     const siteName = row['Site'] || row['Site (CM360)'] || '';
     const siteIdValue = row['Site ID'] || row['Site ID (CM360)'] || '';
     if (siteName) {
@@ -364,6 +366,23 @@ function processReportData(rawData, siteId = null) {
       bySite[siteName].clicks += clicks;
       bySite[siteName].viewable += viewable;
       bySite[siteName].eligible += eligible;
+    }
+
+    // Domain (URL real - g1, uol, etc.) aggregation
+    const domainName = row['Domain'] || '';
+    if (domainName && domainName !== '(not set)') {
+      if (!byDomain[domainName]) {
+        byDomain[domainName] = {
+          impressions: 0,
+          clicks: 0,
+          viewable: 0,
+          eligible: 0
+        };
+      }
+      byDomain[domainName].impressions += impressions;
+      byDomain[domainName].clicks += clicks;
+      byDomain[domainName].viewable += viewable;
+      byDomain[domainName].eligible += eligible;
     }
 
     // Placement aggregation
@@ -467,6 +486,12 @@ function processReportData(rawData, siteId = null) {
         name,
         siteId: bySite[name].siteId,
         ...calculateMetrics(bySite[name])
+      }))
+      .sort((a, b) => b.impressions - a.impressions),
+    byDomain: Object.keys(byDomain)
+      .map(name => ({
+        name,
+        ...calculateMetrics(byDomain[name])
       }))
       .sort((a, b) => b.impressions - a.impressions),
     byPlacement: Object.keys(byPlacement)

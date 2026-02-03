@@ -1127,35 +1127,36 @@ html, body {
    Placements Section
    ============================================================================= */
 
-.sites-section {
+.domains-section {
   margin-top: 8px;
 }
 
-.sites-table .th-site {
+.domains-table .th-domain {
   min-width: 320px;
 }
 
-.td-site {
+.td-domain {
   max-width: 350px;
 }
 
-.site-name {
+.domain-name {
   font-size: 12px;
   color: var(--text);
   margin-bottom: 6px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: 'SF Mono', Monaco, 'Consolas', monospace;
 }
 
-.site-bar-container {
+.domain-bar-container {
   height: 4px;
   background: var(--bg-input);
   border-radius: 2px;
   overflow: hidden;
 }
 
-.site-bar {
+.domain-bar {
   height: 100%;
   background: linear-gradient(90deg, var(--chart-viewability) 0%, #a78bfa 100%);
   border-radius: 2px;
