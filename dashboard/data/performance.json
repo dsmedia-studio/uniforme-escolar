@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-03T13:16:13.977Z",
-  "nextUpdate": "2026-02-03T19:16:13.977Z",
+  "lastUpdated": "2026-02-03T13:21:32.880Z",
+  "nextUpdate": "2026-02-03T19:21:32.880Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -88,11 +88,361 @@
       "viewabilityRate": 84.716796875
     }
   },
-  "byPersonagem": {},
-  "byReportingLabel": [],
+  "byPersonagem": {
+    "menina": {
+      "impressions": 186773,
+      "clicks": 145,
+      "viewable": 156133,
+      "eligible": 186772,
+      "ctr": 0.07763434757700524,
+      "viewabilityRate": 83.59550682115092
+    },
+    "menino01": {
+      "impressions": 189137,
+      "clicks": 161,
+      "viewable": 158430,
+      "eligible": 189135,
+      "ctr": 0.08512348192051264,
+      "viewabilityRate": 83.7655642794829
+    },
+    "menino02": {
+      "impressions": 180593,
+      "clicks": 157,
+      "viewable": 149739,
+      "eligible": 180591,
+      "ctr": 0.08693581700287387,
+      "viewabilityRate": 82.91609216406133
+    }
+  },
+  "byReportingLabel": [
+    {
+      "label": "menino02_H09_C03",
+      "personagem": "menino02",
+      "headline": "h09",
+      "cta": "c03",
+      "impressions": 15008,
+      "clicks": 28,
+      "viewable": 12413,
+      "eligible": 15008,
+      "ctr": 0.18656716417910446,
+      "viewabilityRate": 82.70922174840085
+    },
+    {
+      "label": "menina01_H02_C01",
+      "personagem": "menina01",
+      "headline": "h02",
+      "cta": "c01",
+      "impressions": 16227,
+      "clicks": 23,
+      "viewable": 13582,
+      "eligible": 16227,
+      "ctr": 0.14173907684722992,
+      "viewabilityRate": 83.70000616256857
+    },
+    {
+      "label": "menino01_H09_C03",
+      "personagem": "menino01",
+      "headline": "h09",
+      "cta": "c03",
+      "impressions": 24226,
+      "clicks": 33,
+      "viewable": 20708,
+      "eligible": 24226,
+      "ctr": 0.1362172872120862,
+      "viewabilityRate": 85.47841162387517
+    },
+    {
+      "label": "menino01_H01_C01",
+      "personagem": "menino01",
+      "headline": "h01",
+      "cta": "c01",
+      "impressions": 22132,
+      "clicks": 26,
+      "viewable": 18869,
+      "eligible": 22131,
+      "ctr": 0.11747695644315921,
+      "viewabilityRate": 85.26049432922146
+    },
+    {
+      "label": "menino02_H08_C03",
+      "personagem": "menino02",
+      "headline": "h08",
+      "cta": "c03",
+      "impressions": 20543,
+      "clicks": 23,
+      "viewable": 16790,
+      "eligible": 20543,
+      "ctr": 0.11196027844034465,
+      "viewabilityRate": 81.73100326145159
+    },
+    {
+      "label": "menino02_H05_C01",
+      "personagem": "menino02",
+      "headline": "h05",
+      "cta": "c01",
+      "impressions": 31351,
+      "clicks": 31,
+      "viewable": 25985,
+      "eligible": 31351,
+      "ctr": 0.09888041848744858,
+      "viewabilityRate": 82.88411852891456
+    },
+    {
+      "label": "menino01_H05_C01",
+      "personagem": "menino01",
+      "headline": "h05",
+      "cta": "c01",
+      "impressions": 12155,
+      "clicks": 12,
+      "viewable": 10230,
+      "eligible": 12155,
+      "ctr": 0.09872480460715755,
+      "viewabilityRate": 84.16289592760181
+    },
+    {
+      "label": "menino02_H02_C01",
+      "personagem": "menino02",
+      "headline": "h02",
+      "cta": "c01",
+      "impressions": 26666,
+      "clicks": 26,
+      "viewable": 22150,
+      "eligible": 26666,
+      "ctr": 0.09750243756093903,
+      "viewabilityRate": 83.06457661441536
+    },
+    {
+      "label": "menino01_H08_C03",
+      "personagem": "menino01",
+      "headline": "h08",
+      "cta": "c03",
+      "impressions": 20733,
+      "clicks": 20,
+      "viewable": 17117,
+      "eligible": 20732,
+      "ctr": 0.0964645733854242,
+      "viewabilityRate": 82.56318734323752
+    },
+    {
+      "label": "menino01_H04_C01",
+      "personagem": "menino01",
+      "headline": "h04",
+      "cta": "c01",
+      "impressions": 20695,
+      "clicks": 19,
+      "viewable": 17276,
+      "eligible": 20695,
+      "ctr": 0.09180961584923894,
+      "viewabilityRate": 83.47910123218169
+    },
+    {
+      "label": "menino02_H04_C01",
+      "personagem": "menino02",
+      "headline": "h04",
+      "cta": "c01",
+      "impressions": 20884,
+      "clicks": 17,
+      "viewable": 17271,
+      "eligible": 20884,
+      "ctr": 0.08140203026240184,
+      "viewabilityRate": 82.69967439187896
+    },
+    {
+      "label": "menino02_H07_C02",
+      "personagem": "menino02",
+      "headline": "h07",
+      "cta": "c02",
+      "impressions": 13574,
+      "clicks": 10,
+      "viewable": 11297,
+      "eligible": 13574,
+      "ctr": 0.07367025195226168,
+      "viewabilityRate": 83.22528363047002
+    },
+    {
+      "label": "menino01_H06_C02",
+      "personagem": "menino01",
+      "headline": "h06",
+      "cta": "c02",
+      "impressions": 25893,
+      "clicks": 19,
+      "viewable": 21352,
+      "eligible": 25893,
+      "ctr": 0.07337890549569381,
+      "viewabilityRate": 82.46244158652918
+    },
+    {
+      "label": "menina01_H01_C01",
+      "personagem": "menina01",
+      "headline": "h01",
+      "cta": "c01",
+      "impressions": 127032,
+      "clicks": 93,
+      "viewable": 106119,
+      "eligible": 127032,
+      "ctr": 0.07320989986774985,
+      "viewabilityRate": 83.53721896844888
+    },
+    {
+      "label": "menina01_H04_C01",
+      "personagem": "menina01",
+      "headline": "h04",
+      "cta": "c01",
+      "impressions": 17113,
+      "clicks": 12,
+      "viewable": 14496,
+      "eligible": 17113,
+      "ctr": 0.0701221293753287,
+      "viewabilityRate": 84.70753228539706
+    },
+    {
+      "label": "menino02_H10_C03",
+      "personagem": "menino02",
+      "headline": "h10",
+      "cta": "c03",
+      "impressions": 15004,
+      "clicks": 10,
+      "viewable": 12462,
+      "eligible": 15004,
+      "ctr": 0.06664889362836578,
+      "viewabilityRate": 83.05785123966942
+    },
+    {
+      "label": "menina01_H08_C03",
+      "personagem": "menina01",
+      "headline": "h08",
+      "cta": "c03",
+      "impressions": 13618,
+      "clicks": 9,
+      "viewable": 11223,
+      "eligible": 13618,
+      "ctr": 0.06608899985313556,
+      "viewabilityRate": 82.41298281686004
+    },
+    {
+      "label": "menina01_H03_C01",
+      "personagem": "menina01",
+      "headline": "h03",
+      "cta": "c01",
+      "impressions": 12783,
+      "clicks": 8,
+      "viewable": 10713,
+      "eligible": 12782,
+      "ctr": 0.06258311820386452,
+      "viewabilityRate": 83.8131747770302
+    },
+    {
+      "label": "menino01_H03_C01",
+      "personagem": "menino01",
+      "headline": "h03",
+      "cta": "c01",
+      "impressions": 19237,
+      "clicks": 11,
+      "viewable": 16087,
+      "eligible": 19237,
+      "ctr": 0.05718147320268233,
+      "viewabilityRate": 83.62530540105007
+    },
+    {
+      "label": "menino01_H07_C02",
+      "personagem": "menino01",
+      "headline": "h07",
+      "cta": "c02",
+      "impressions": 15789,
+      "clicks": 8,
+      "viewable": 13128,
+      "eligible": 15789,
+      "ctr": 0.05066818671226803,
+      "viewabilityRate": 83.14649439483185
+    },
+    {
+      "label": "menino01_H10_C03",
+      "personagem": "menino01",
+      "headline": "h10",
+      "cta": "c03",
+      "impressions": 17055,
+      "clicks": 8,
+      "viewable": 14341,
+      "eligible": 17055,
+      "ctr": 0.04690706537672237,
+      "viewabilityRate": 84.08677807094693
+    },
+    {
+      "label": "menino01_H02_C01",
+      "personagem": "menino01",
+      "headline": "h02",
+      "cta": "c01",
+      "impressions": 11222,
+      "clicks": 5,
+      "viewable": 9322,
+      "eligible": 11222,
+      "ctr": 0.044555337729459986,
+      "viewabilityRate": 83.0689716628052
+    },
+    {
+      "label": "menino02_H06_C02",
+      "personagem": "menino02",
+      "headline": "h06",
+      "cta": "c02",
+      "impressions": 14352,
+      "clicks": 6,
+      "viewable": 11926,
+      "eligible": 14351,
+      "ctr": 0.04180602006688963,
+      "viewabilityRate": 83.10222284161382
+    },
+    {
+      "label": "menino02_H01_C01",
+      "personagem": "menino02",
+      "headline": "h01",
+      "cta": "c01",
+      "impressions": 13039,
+      "clicks": 5,
+      "viewable": 10879,
+      "eligible": 13038,
+      "ctr": 0.03834649896464453,
+      "viewabilityRate": 83.44071176560823
+    },
+    {
+      "label": "menino02_H03_C01",
+      "personagem": "menino02",
+      "headline": "h03",
+      "cta": "c01",
+      "impressions": 10172,
+      "clicks": 1,
+      "viewable": 8566,
+      "eligible": 10172,
+      "ctr": 0.009830908375933936,
+      "viewabilityRate": 84.2115611482501
+    },
+    {
+      "label": "(not set)",
+      "personagem": "",
+      "headline": "",
+      "cta": "",
+      "impressions": 7,
+      "clicks": 0,
+      "viewable": 5,
+      "eligible": 7,
+      "ctr": 0,
+      "viewabilityRate": 71.42857142857143
+    }
+  ],
   "topPerformers": {
-    "byCTR": [],
-    "byViewability": [],
-    "byVolume": []
+    "byCTR": [
+      "menino02_H09_C03",
+      "menina01_H02_C01",
+      "menino01_H09_C03"
+    ],
+    "byViewability": [
+      "menino01_H09_C03",
+      "menino01_H01_C01",
+      "menina01_H04_C01"
+    ],
+    "byVolume": [
+      "menina01_H01_C01",
+      "menino02_H05_C01",
+      "menino02_H02_C01"
+    ]
   }
 }
