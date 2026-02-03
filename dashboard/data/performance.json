@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-02T19:36:26.442Z",
-  "nextUpdate": "2026-02-03T01:36:26.442Z",
+  "lastUpdated": "2026-02-03T01:18:00.385Z",
+  "nextUpdate": "2026-02-03T07:18:00.385Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -9,12 +9,12 @@
     "endDate": "2026-02-01"
   },
   "summary": {
-    "impressions": 413458,
-    "clicks": 401,
-    "ctr": 0.09698687653885038,
-    "viewableImpressions": 345646,
-    "eligibleImpressions": 413454,
-    "viewabilityRate": 83.5996265606331
+    "impressions": 413457,
+    "clicks": 400,
+    "ctr": 0.09674524799435008,
+    "viewableImpressions": 345645,
+    "eligibleImpressions": 413453,
+    "viewabilityRate": 83.59958689379445
   },
   "daily": [
     {
@@ -37,12 +37,12 @@
     },
     {
       "date": "2026-02-01",
-      "impressions": 143399,
-      "clicks": 149,
-      "viewable": 122262,
-      "eligible": 143398,
-      "ctr": 0.1039058849782774,
-      "viewabilityRate": 85.26060335569534
+      "impressions": 143398,
+      "clicks": 148,
+      "viewable": 122261,
+      "eligible": 143397,
+      "ctr": 0.10320924978033166,
+      "viewabilityRate": 85.2605005683522
     }
   ],
   "byFormat": {
@@ -63,12 +63,12 @@
       "viewabilityRate": 87.67431211755401
     },
     "728x90": {
-      "impressions": 152876,
-      "clicks": 45,
-      "viewable": 129273,
-      "eligible": 152875,
-      "ctr": 0.029435621026191162,
-      "viewabilityRate": 84.56124284546198
+      "impressions": 152875,
+      "clicks": 44,
+      "viewable": 129272,
+      "eligible": 152874,
+      "ctr": 0.028781684382665578,
+      "viewabilityRate": 84.56114185538416
     },
     "970x250": {
       "impressions": 71562,
