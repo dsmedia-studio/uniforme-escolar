@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-02-03T06:39:19.280Z",
-  "nextUpdate": "2026-02-03T12:39:19.280Z",
+  "lastUpdated": "2026-02-03T12:38:21.307Z",
+  "nextUpdate": "2026-02-03T18:38:21.307Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
     "siteName": "Uniforme Escolar",
     "startDate": "2026-01-30",
-    "endDate": "2026-02-01"
+    "endDate": "2026-02-02"
   },
   "summary": {
-    "impressions": 413457,
-    "clicks": 400,
-    "ctr": 0.09674524799435008,
-    "viewableImpressions": 345645,
-    "eligibleImpressions": 413453,
-    "viewabilityRate": 83.59958689379445
+    "impressions": 556510,
+    "clicks": 463,
+    "ctr": 0.08319706743814127,
+    "viewableImpressions": 464307,
+    "eligibleImpressions": 556505,
+    "viewabilityRate": 83.43267356088445
   },
   "daily": [
     {
@@ -37,46 +37,55 @@
     },
     {
       "date": "2026-02-01",
-      "impressions": 143398,
+      "impressions": 143395,
       "clicks": 148,
-      "viewable": 122261,
-      "eligible": 143397,
-      "ctr": 0.10320924978033166,
-      "viewabilityRate": 85.2605005683522
+      "viewable": 122258,
+      "eligible": 143394,
+      "ctr": 0.10321140904494579,
+      "viewabilityRate": 85.26019219772097
+    },
+    {
+      "date": "2026-02-02",
+      "impressions": 143056,
+      "clicks": 63,
+      "viewable": 118665,
+      "eligible": 143055,
+      "ctr": 0.044038698132199974,
+      "viewabilityRate": 82.95061340044039
     }
   ],
   "byFormat": {
     "300x250": {
-      "impressions": 164997,
-      "clicks": 159,
-      "viewable": 134778,
-      "eligible": 164994,
-      "ctr": 0.09636538846160839,
-      "viewabilityRate": 81.6866067857013
+      "impressions": 228972,
+      "clicks": 186,
+      "viewable": 184607,
+      "eligible": 228968,
+      "ctr": 0.08123263979875268,
+      "viewabilityRate": 80.6256769504909
     },
     "468x60": {
-      "impressions": 24023,
-      "clicks": 4,
-      "viewable": 21062,
-      "eligible": 24023,
-      "ctr": 0.01665070973650252,
-      "viewabilityRate": 87.67431211755401
+      "impressions": 30119,
+      "clicks": 6,
+      "viewable": 26394,
+      "eligible": 30119,
+      "ctr": 0.01992098011222152,
+      "viewabilityRate": 87.63239151366248
     },
     "728x90": {
-      "impressions": 152875,
-      "clicks": 44,
-      "viewable": 129272,
-      "eligible": 152874,
-      "ctr": 0.028781684382665578,
-      "viewabilityRate": 84.56114185538416
+      "impressions": 211403,
+      "clicks": 49,
+      "viewable": 180436,
+      "eligible": 211402,
+      "ctr": 0.023178479018746187,
+      "viewabilityRate": 85.35207803142826
     },
     "970x250": {
-      "impressions": 71562,
-      "clicks": 193,
-      "viewable": 60533,
-      "eligible": 71562,
-      "ctr": 0.2696962074844191,
-      "viewabilityRate": 84.58818926245772
+      "impressions": 86016,
+      "clicks": 222,
+      "viewable": 72870,
+      "eligible": 86016,
+      "ctr": 0.25809151785714285,
+      "viewabilityRate": 84.716796875
     }
   },
   "byPersonagem": {},
