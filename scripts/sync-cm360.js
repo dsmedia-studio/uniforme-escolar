@@ -97,7 +97,8 @@ async function createReport(dfareporting, profileId) {
           { name: 'creative' },
           { name: 'creativeId' },
           { name: 'placement' },
-          { name: 'placementId' }
+          { name: 'placementId' },
+          { name: 'dynamicElement1Value' }
         ],
         metricNames: [
           'impressions',
