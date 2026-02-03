@@ -537,6 +537,12 @@ function processReportData(rawData, siteId = null) {
 function processDomainData(rawData, siteId = null) {
   console.log(`Processing ${rawData.length} rows of domain data...`);
 
+  // Debug: Log sample data
+  if (rawData.length > 0) {
+    console.log('Domain report columns:', Object.keys(rawData[0]).join(', '));
+    console.log('Sample domain row:', JSON.stringify(rawData[0], null, 2));
+  }
+
   // Filter by site ID if provided
   let data = rawData;
   if (siteId) {
@@ -709,8 +715,8 @@ async function main() {
       const completedDomainFile = await waitForReport(dfareporting, profileId, domainReport.id, domainFile.id);
       const domainRawData = await downloadReport(dfareporting, completedDomainFile);
 
-      // Process domain data
-      const domainData = processDomainData(domainRawData, siteId);
+      // Process domain data (don't filter by siteId - domain report may have different site structure)
+      const domainData = processDomainData(domainRawData, null);
       processedData.byDomain = domainData;
 
       // Clean up domain report
