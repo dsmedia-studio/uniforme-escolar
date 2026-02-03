@@ -277,6 +277,7 @@ function processReportData(rawData, siteId = null) {
   const byReportingLabel = {};
   const byPlacement = {};
   const byCreativePlacement = {};
+  const bySite = {};
   let totalImpressions = 0;
   let totalClicks = 0;
   let totalViewable = 0;
@@ -344,6 +345,25 @@ function processReportData(rawData, siteId = null) {
       byPersonagem[personagem].clicks += clicks;
       byPersonagem[personagem].viewable += viewable;
       byPersonagem[personagem].eligible += eligible;
+    }
+
+    // Site (domain/veículo) aggregation
+    const siteName = row['Site'] || row['Site (CM360)'] || '';
+    const siteIdValue = row['Site ID'] || row['Site ID (CM360)'] || '';
+    if (siteName) {
+      if (!bySite[siteName]) {
+        bySite[siteName] = {
+          siteId: siteIdValue,
+          impressions: 0,
+          clicks: 0,
+          viewable: 0,
+          eligible: 0
+        };
+      }
+      bySite[siteName].impressions += impressions;
+      bySite[siteName].clicks += clicks;
+      bySite[siteName].viewable += viewable;
+      bySite[siteName].eligible += eligible;
     }
 
     // Placement aggregation
@@ -442,6 +462,13 @@ function processReportData(rawData, siteId = null) {
       byViewability: getTopLabels(byReportingLabel, 'viewabilityRate', 3),
       byVolume: getTopLabels(byReportingLabel, 'impressions', 3)
     },
+    bySite: Object.keys(bySite)
+      .map(name => ({
+        name,
+        siteId: bySite[name].siteId,
+        ...calculateMetrics(bySite[name])
+      }))
+      .sort((a, b) => b.impressions - a.impressions),
     byPlacement: Object.keys(byPlacement)
       .map(name => ({
         name,
