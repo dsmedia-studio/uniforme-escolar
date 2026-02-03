@@ -24,6 +24,7 @@ const Dashboard = {
   async init() {
     // Initialize sub-modules
     Preview.init();
+    ExcelExport.init();
 
     // Setup event listeners
     this.setupEventListeners();
@@ -83,6 +84,14 @@ const Dashboard = {
     if (refreshBtn) {
       refreshBtn.addEventListener('click', () => this.loadData());
     }
+
+    // Placement sort selector
+    const placementSortBy = document.getElementById('placementSortBy');
+    if (placementSortBy) {
+      placementSortBy.addEventListener('change', (e) => {
+        this.updatePlacementsTable(e.target.value);
+      });
+    }
   },
 
   /**
@@ -107,6 +116,7 @@ const Dashboard = {
       // Update UI
       this.updateMetricCards();
       this.updateTable();
+      this.updatePlacementsTable();
       this.updateTimestamps();
 
       // Initialize/update charts
@@ -343,6 +353,64 @@ const Dashboard = {
       console.warn('Could not load config:', err.message);
       this.updateConnectionStatus(false);
     }
+  },
+
+  /**
+   * Update top placements table
+   * @param {string} sortBy - Field to sort by (impressions, viewabilityRate)
+   */
+  updatePlacementsTable(sortBy = 'impressions') {
+    const tableBody = document.getElementById('topPlacementsTable');
+    if (!tableBody || !this.data?.byPlacement) return;
+
+    // Sort and get top 10
+    const sorted = [...this.data.byPlacement]
+      .sort((a, b) => b[sortBy] - a[sortBy])
+      .slice(0, 10);
+
+    // Find max value for progress bar
+    const maxValue = Math.max(...sorted.map(p => p[sortBy]));
+
+    // Build table rows
+    const rows = sorted.map((item, index) => {
+      const viewabilityPercent = item.viewabilityRate || 0;
+      const viewabilityClass = viewabilityPercent >= 70 ? 'high' : viewabilityPercent >= 50 ? 'medium' : 'low';
+      const barWidth = maxValue > 0 ? (item[sortBy] / maxValue) * 100 : 0;
+
+      return `
+        <tr>
+          <td class="td-rank">${index + 1}</td>
+          <td class="td-placement">
+            <div class="placement-name" title="${item.name}">${this.truncatePlacement(item.name)}</div>
+            <div class="placement-bar-container">
+              <div class="placement-bar" style="width: ${barWidth}%"></div>
+            </div>
+          </td>
+          <td class="td-number">${Utils.formatNumber(item.impressions)}</td>
+          <td class="td-number">${Utils.formatNumber(item.clicks)}</td>
+          <td class="td-number">${Utils.formatPercent(item.ctr)}</td>
+          <td class="td-viewability">
+            <div class="viewability-bar-container">
+              <div class="viewability-bar ${viewabilityClass}" style="width: ${viewabilityPercent}%"></div>
+              <span class="viewability-value">${Utils.formatPercent(viewabilityPercent)}</span>
+            </div>
+          </td>
+        </tr>
+      `;
+    }).join('');
+
+    tableBody.innerHTML = rows;
+  },
+
+  /**
+   * Truncate placement name for display
+   * @param {string} name - Full placement name
+   * @returns {string} Truncated name
+   */
+  truncatePlacement(name) {
+    if (!name) return '--';
+    if (name.length <= 50) return name;
+    return name.substring(0, 47) + '...';
   },
 
   /**

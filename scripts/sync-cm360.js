@@ -275,6 +275,8 @@ function processReportData(rawData, siteId = null) {
   const byFormat = {};
   const byPersonagem = {};
   const byReportingLabel = {};
+  const byPlacement = {};
+  const byCreativePlacement = {};
   let totalImpressions = 0;
   let totalClicks = 0;
   let totalViewable = 0;
@@ -343,6 +345,45 @@ function processReportData(rawData, siteId = null) {
       byPersonagem[personagem].viewable += viewable;
       byPersonagem[personagem].eligible += eligible;
     }
+
+    // Placement aggregation
+    const placementName = row['Placement'] || row['Placement Name'] || '';
+    const placementId = row['Placement ID'] || row['Placement ID (CM360)'] || '';
+    if (placementName) {
+      if (!byPlacement[placementName]) {
+        byPlacement[placementName] = {
+          placementId: placementId,
+          impressions: 0,
+          clicks: 0,
+          viewable: 0,
+          eligible: 0
+        };
+      }
+      byPlacement[placementName].impressions += impressions;
+      byPlacement[placementName].clicks += clicks;
+      byPlacement[placementName].viewable += viewable;
+      byPlacement[placementName].eligible += eligible;
+    }
+
+    // Creative x Placement combination
+    if (reportingLabel && placementName) {
+      const key = `${reportingLabel}|||${placementName}`;
+      if (!byCreativePlacement[key]) {
+        byCreativePlacement[key] = {
+          creative: reportingLabel,
+          placement: placementName,
+          placementId: placementId,
+          impressions: 0,
+          clicks: 0,
+          viewable: 0,
+          eligible: 0
+        };
+      }
+      byCreativePlacement[key].impressions += impressions;
+      byCreativePlacement[key].clicks += clicks;
+      byCreativePlacement[key].viewable += viewable;
+      byCreativePlacement[key].eligible += eligible;
+    }
   });
 
   // Calculate derived metrics
@@ -400,7 +441,21 @@ function processReportData(rawData, siteId = null) {
       byCTR: getTopLabels(byReportingLabel, 'ctr', 3),
       byViewability: getTopLabels(byReportingLabel, 'viewabilityRate', 3),
       byVolume: getTopLabels(byReportingLabel, 'impressions', 3)
-    }
+    },
+    byPlacement: Object.keys(byPlacement)
+      .map(name => ({
+        name,
+        placementId: byPlacement[name].placementId,
+        ...calculateMetrics(byPlacement[name])
+      }))
+      .sort((a, b) => b.impressions - a.impressions),
+    byCreativePlacement: Object.values(byCreativePlacement)
+      .map(item => ({
+        ...item,
+        ctr: item.impressions > 0 ? (item.clicks / item.impressions) * 100 : 0,
+        viewabilityRate: item.eligible > 0 ? (item.viewable / item.eligible) * 100 : 0
+      }))
+      .sort((a, b) => b.impressions - a.impressions)
   };
 }
 
