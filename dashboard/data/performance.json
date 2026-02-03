@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-03T14:00:12.987Z",
-  "nextUpdate": "2026-02-03T20:00:12.987Z",
+  "lastUpdated": "2026-02-03T14:19:25.168Z",
+  "nextUpdate": "2026-02-03T20:19:25.168Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -1633,5 +1633,6 @@
       "ctr": 0,
       "viewabilityRate": 50
     }
-  ]
+  ],
+  "byDomain": []
 }
