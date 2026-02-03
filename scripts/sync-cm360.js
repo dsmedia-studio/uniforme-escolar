@@ -21,7 +21,7 @@ const CONFIG = {
   outputPath: path.join(__dirname, '..', 'dashboard', 'data', 'performance.json'),
   configPath: path.join(__dirname, '..', 'dashboard', 'data', 'config.json'),
   reportDateRange: 'LAST_30_DAYS',
-  reportWaitTimeout: 120000, // 2 minutes
+  reportWaitTimeout: 300000, // 5 minutes
   pollInterval: 5000, // 5 seconds
 };
 
@@ -133,7 +133,7 @@ async function createDomainReport(dfareporting, profileId) {
       type: 'STANDARD',
       criteria: {
         dateRange: {
-          relativeDateRange: CONFIG.reportDateRange
+          relativeDateRange: 'LAST_7_DAYS' // Shorter period for faster generation
         },
         dimensions: [
           { name: 'advertiser' },
