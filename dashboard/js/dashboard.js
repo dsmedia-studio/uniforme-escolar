@@ -222,8 +222,8 @@ const Dashboard = {
     const tableBody = document.getElementById('topPerformersTable');
     if (!tableBody || !this.data?.byReportingLabel) return;
 
-    // Get top 10 by CTR
-    const topPerformers = Utils.getTopN(this.data.byReportingLabel, 'ctr', 10);
+    // Get top 10 by impressions (volume)
+    const topPerformers = Utils.getTopN(this.data.byReportingLabel, 'impressions', 10);
 
     // Calculate average CTR for trend indicator
     const avgCTR = this.data.summary?.ctr || 0;
@@ -250,7 +250,7 @@ const Dashboard = {
               ${item.label}
             </span>
           </td>
-          <td class="td-number">${Utils.formatCompact(item.impressions)}</td>
+          <td class="td-number">${Utils.formatNumber(item.impressions)}</td>
           <td class="td-number">${Utils.formatNumber(item.clicks)}</td>
           <td class="td-number">${Utils.formatPercent(item.ctr)} ${trendIndicator}</td>
           <td class="td-number">${Utils.formatPercent(item.viewabilityRate)}</td>
