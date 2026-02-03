@@ -95,7 +95,10 @@ async function createReport(dfareporting, profileId) {
           { name: 'site' },
           { name: 'siteId' },
           { name: 'creative' },
-          { name: 'placement' }
+          { name: 'creativeId' },
+          { name: 'placement' },
+          { name: 'feedReportingDimension1' },
+          { name: 'feedReportingDimension2' }
         ],
         metricNames: [
           'impressions',
@@ -254,6 +257,12 @@ function parseCSVLine(line) {
 function processReportData(rawData, siteId = null) {
   console.log(`Processing ${rawData.length} rows of data...`);
 
+  // Debug: Log available columns and sample data
+  if (rawData.length > 0) {
+    console.log('\nAvailable columns:', Object.keys(rawData[0]).join(', '));
+    console.log('\nSample row:', JSON.stringify(rawData[0], null, 2));
+  }
+
   // Filter by site ID if provided
   let data = rawData;
   if (siteId) {
@@ -279,7 +288,9 @@ function processReportData(rawData, siteId = null) {
     const viewable = parseInt(row['Active View: Viewable Impressions'] || '0', 10);
     const eligible = parseInt(row['Active View: Eligible Impressions'] || '0', 10);
     const creativeName = row['Creative'] || row['Creative Name'] || '';
-    const reportingLabel = row['Reporting Label 1'] || row['Feed Reporting Label 1'] || '';
+    const creativeId = row['Creative ID'] || row['Creative ID (CM360)'] || '';
+    const reportingLabel = row['Feed Reporting Dimension 1'] || row['Feed Reporting Label 1'] || row['Reporting Label 1'] || '';
+    const reportingLabel2 = row['Feed Reporting Dimension 2'] || '';
 
     // Totals
     totalImpressions += impressions;
@@ -320,18 +331,18 @@ function processReportData(rawData, siteId = null) {
       byReportingLabel[reportingLabel].clicks += clicks;
       byReportingLabel[reportingLabel].viewable += viewable;
       byReportingLabel[reportingLabel].eligible += eligible;
+    }
 
-      // Extract personagem from label
-      const personagem = extractPersonagem(reportingLabel);
-      if (personagem) {
-        if (!byPersonagem[personagem]) {
-          byPersonagem[personagem] = { impressions: 0, clicks: 0, viewable: 0, eligible: 0 };
-        }
-        byPersonagem[personagem].impressions += impressions;
-        byPersonagem[personagem].clicks += clicks;
-        byPersonagem[personagem].viewable += viewable;
-        byPersonagem[personagem].eligible += eligible;
+    // Extract personagem from reporting label OR creative name
+    const personagem = extractPersonagem(reportingLabel) || extractPersonagem(creativeName);
+    if (personagem) {
+      if (!byPersonagem[personagem]) {
+        byPersonagem[personagem] = { impressions: 0, clicks: 0, viewable: 0, eligible: 0 };
       }
+      byPersonagem[personagem].impressions += impressions;
+      byPersonagem[personagem].clicks += clicks;
+      byPersonagem[personagem].viewable += viewable;
+      byPersonagem[personagem].eligible += eligible;
     }
   });
 
@@ -395,15 +406,26 @@ function processReportData(rawData, siteId = null) {
 }
 
 /**
- * Extract personagem from reporting label
- * @param {string} label - Reporting label
+ * Extract personagem from reporting label or creative name
+ * @param {string} text - Reporting label or creative name
  * @returns {string} Personagem name
  */
-function extractPersonagem(label) {
-  const lower = label.toLowerCase();
-  if (lower.includes('menina')) return 'menina';
-  if (lower.includes('menino02')) return 'menino02';
-  if (lower.includes('menino01') || lower.includes('menino')) return 'menino01';
+function extractPersonagem(text) {
+  if (!text) return '';
+  const lower = text.toLowerCase();
+
+  // Check for specific personagens
+  if (lower.includes('menina') || lower.includes('girl')) return 'menina';
+  if (lower.includes('menino02') || lower.includes('menino_02') || lower.includes('boy02') || lower.includes('boy_02')) return 'menino02';
+  if (lower.includes('menino01') || lower.includes('menino_01') || lower.includes('boy01') || lower.includes('boy_01')) return 'menino01';
+  if (lower.includes('menino') || lower.includes('boy')) return 'menino01';
+
+  // Check for personagem patterns like "p1", "p2", "personagem1"
+  const personagemMatch = lower.match(/(?:personagem|persona|pers|p)[\s_-]?(\d+)/);
+  if (personagemMatch) {
+    return `personagem${personagemMatch[1]}`;
+  }
+
   return '';
 }
 
