@@ -98,7 +98,7 @@ async function createReport(dfareporting, profileId) {
           { name: 'creativeId' },
           { name: 'placement' },
           { name: 'placementId' },
-          { name: 'dynamicElement1Value' }
+          { name: 'feed1ReportingLabel' }
         ],
         metricNames: [
           'impressions',
@@ -289,8 +289,7 @@ function processReportData(rawData, siteId = null) {
     const eligible = parseInt(row['Active View: Eligible Impressions'] || '0', 10);
     const creativeName = row['Creative'] || row['Creative Name'] || '';
     const creativeId = row['Creative ID'] || row['Creative ID (CM360)'] || '';
-    const reportingLabel = row['Feed Reporting Dimension 1'] || row['Feed Reporting Label 1'] || row['Reporting Label 1'] || '';
-    const reportingLabel2 = row['Feed Reporting Dimension 2'] || '';
+    const reportingLabel = row['Feed 1 - Reporting label'] || row['Feed 1 - Reporting Label'] || row['Feed Reporting Label 1'] || '';
 
     // Totals
     totalImpressions += impressions;
