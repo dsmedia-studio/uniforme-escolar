@@ -219,9 +219,10 @@ async function waitForReport(dfareporting, profileId, reportId, fileId) {
  * Download and parse report data
  * @param {object} dfareporting - CM360 API client
  * @param {object} file - File object with URL
+ * @param {string} headerMarker - Column name to identify header row (default: 'Date')
  * @returns {array} Parsed report data
  */
-async function downloadReport(dfareporting, file) {
+async function downloadReport(dfareporting, file, headerMarker = 'Date') {
   console.log('Downloading report...');
 
   const response = await dfareporting.files.get({
@@ -237,7 +238,7 @@ async function downloadReport(dfareporting, file) {
   // Find header row (skip report metadata)
   let headerIndex = 0;
   for (let i = 0; i < lines.length; i++) {
-    if (lines[i].includes('Date') && lines[i].includes('Impressions')) {
+    if (lines[i].includes(headerMarker) && lines[i].includes('Impressions')) {
       headerIndex = i;
       break;
     }
@@ -713,7 +714,7 @@ async function main() {
       const domainReport = await createDomainReport(dfareporting, profileId);
       const domainFile = await runReport(dfareporting, profileId, domainReport.id);
       const completedDomainFile = await waitForReport(dfareporting, profileId, domainReport.id, domainFile.id);
-      const domainRawData = await downloadReport(dfareporting, completedDomainFile);
+      const domainRawData = await downloadReport(dfareporting, completedDomainFile, 'Domain');
 
       // Process domain data (don't filter by siteId - domain report may have different site structure)
       const domainData = processDomainData(domainRawData, null);
