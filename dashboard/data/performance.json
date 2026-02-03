@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-03T13:21:32.880Z",
-  "nextUpdate": "2026-02-03T19:21:32.880Z",
+  "lastUpdated": "2026-02-03T13:55:42.300Z",
+  "nextUpdate": "2026-02-03T19:55:42.300Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -9,12 +9,12 @@
     "endDate": "2026-02-02"
   },
   "summary": {
-    "impressions": 556510,
+    "impressions": 556507,
     "clicks": 463,
-    "ctr": 0.08319706743814127,
+    "ctr": 0.08319751593421107,
     "viewableImpressions": 464307,
-    "eligibleImpressions": 556505,
-    "viewabilityRate": 83.43267356088445
+    "eligibleImpressions": 556502,
+    "viewabilityRate": 83.43312333109316
   },
   "daily": [
     {
@@ -37,12 +37,12 @@
     },
     {
       "date": "2026-02-01",
-      "impressions": 143395,
+      "impressions": 143392,
       "clicks": 148,
       "viewable": 122258,
-      "eligible": 143394,
-      "ctr": 0.10321140904494579,
-      "viewabilityRate": 85.26019219772097
+      "eligible": 143391,
+      "ctr": 0.10321356839991074,
+      "viewabilityRate": 85.26197599570405
     },
     {
       "date": "2026-02-02",
@@ -56,12 +56,12 @@
   ],
   "byFormat": {
     "300x250": {
-      "impressions": 228972,
+      "impressions": 228969,
       "clicks": 186,
       "viewable": 184607,
-      "eligible": 228968,
-      "ctr": 0.08123263979875268,
-      "viewabilityRate": 80.6256769504909
+      "eligible": 228965,
+      "ctr": 0.08123370412588604,
+      "viewabilityRate": 80.62673334352411
     },
     "468x60": {
       "impressions": 30119,
@@ -90,12 +90,12 @@
   },
   "byPersonagem": {
     "menina": {
-      "impressions": 186773,
+      "impressions": 186772,
       "clicks": 145,
       "viewable": 156133,
-      "eligible": 186772,
-      "ctr": 0.07763434757700524,
-      "viewabilityRate": 83.59550682115092
+      "eligible": 186771,
+      "ctr": 0.07763476324074273,
+      "viewabilityRate": 83.5959544040563
     },
     "menino01": {
       "impressions": 189137,
@@ -106,12 +106,12 @@
       "viewabilityRate": 83.7655642794829
     },
     "menino02": {
-      "impressions": 180593,
+      "impressions": 180591,
       "clicks": 157,
       "viewable": 149739,
-      "eligible": 180591,
-      "ctr": 0.08693581700287387,
-      "viewabilityRate": 82.91609216406133
+      "eligible": 180589,
+      "ctr": 0.08693677979522789,
+      "viewabilityRate": 82.91701044914142
     }
   },
   "byReportingLabel": [
@@ -168,24 +168,24 @@
       "personagem": "menino02",
       "headline": "h08",
       "cta": "c03",
-      "impressions": 20543,
+      "impressions": 20542,
       "clicks": 23,
       "viewable": 16790,
-      "eligible": 20543,
-      "ctr": 0.11196027844034465,
-      "viewabilityRate": 81.73100326145159
+      "eligible": 20542,
+      "ctr": 0.11196572875085192,
+      "viewabilityRate": 81.7349819881219
     },
     {
       "label": "menino02_H05_C01",
       "personagem": "menino02",
       "headline": "h05",
       "cta": "c01",
-      "impressions": 31351,
+      "impressions": 31350,
       "clicks": 31,
       "viewable": 25985,
-      "eligible": 31351,
-      "ctr": 0.09888041848744858,
-      "viewabilityRate": 82.88411852891456
+      "eligible": 31350,
+      "ctr": 0.0988835725677831,
+      "viewabilityRate": 82.88676236044658
     },
     {
       "label": "menino01_H05_C01",
@@ -276,12 +276,12 @@
       "personagem": "menina01",
       "headline": "h01",
       "cta": "c01",
-      "impressions": 127032,
+      "impressions": 127031,
       "clicks": 93,
       "viewable": 106119,
-      "eligible": 127032,
-      "ctr": 0.07320989986774985,
-      "viewabilityRate": 83.53721896844888
+      "eligible": 127031,
+      "ctr": 0.07321047618297896,
+      "viewabilityRate": 83.53787658130692
     },
     {
       "label": "menina01_H04_C01",
@@ -444,5 +444,1182 @@
       "menino02_H05_C01",
       "menino02_H02_C01"
     ]
-  }
+  },
+  "byPlacement": [
+    {
+      "name": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 228969,
+      "clicks": 186,
+      "viewable": 184607,
+      "eligible": 228965,
+      "ctr": 0.08123370412588604,
+      "viewabilityRate": 80.62673334352411
+    },
+    {
+      "name": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 211403,
+      "clicks": 49,
+      "viewable": 180436,
+      "eligible": 211402,
+      "ctr": 0.023178479018746187,
+      "viewabilityRate": 85.35207803142826
+    },
+    {
+      "name": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 86016,
+      "clicks": 222,
+      "viewable": 72870,
+      "eligible": 86016,
+      "ctr": 0.25809151785714285,
+      "viewabilityRate": 84.716796875
+    },
+    {
+      "name": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 30119,
+      "clicks": 6,
+      "viewable": 26394,
+      "eligible": 30119,
+      "ctr": 0.01992098011222152,
+      "viewabilityRate": 87.63239151366248
+    }
+  ],
+  "byCreativePlacement": [
+    {
+      "creative": "menina01_H01_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 55181,
+      "clicks": 48,
+      "viewable": 44791,
+      "eligible": 55181,
+      "ctr": 0.08698646273173738,
+      "viewabilityRate": 81.17105525452601
+    },
+    {
+      "creative": "menina01_H01_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 52534,
+      "clicks": 14,
+      "viewable": 44842,
+      "eligible": 52534,
+      "ctr": 0.026649408002436516,
+      "viewabilityRate": 85.35805383180417
+    },
+    {
+      "creative": "menino01_H09_C03",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 15732,
+      "clicks": 8,
+      "viewable": 13593,
+      "eligible": 15732,
+      "ctr": 0.05085176709890668,
+      "viewabilityRate": 86.40350877192982
+    },
+    {
+      "creative": "menino02_H05_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 15213,
+      "clicks": 16,
+      "viewable": 12201,
+      "eligible": 15213,
+      "ctr": 0.10517320712548478,
+      "viewabilityRate": 80.2011437586275
+    },
+    {
+      "creative": "menina01_H01_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 14256,
+      "clicks": 30,
+      "viewable": 12036,
+      "eligible": 14256,
+      "ctr": 0.21043771043771042,
+      "viewabilityRate": 84.42760942760943
+    },
+    {
+      "creative": "menino02_H08_C03",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 13978,
+      "clicks": 19,
+      "viewable": 11187,
+      "eligible": 13978,
+      "ctr": 0.1359278866790671,
+      "viewabilityRate": 80.03290885677494
+    },
+    {
+      "creative": "menino01_H06_C02",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 13138,
+      "clicks": 8,
+      "viewable": 10473,
+      "eligible": 13138,
+      "ctr": 0.06089206880803775,
+      "viewabilityRate": 79.71532957832243
+    },
+    {
+      "creative": "menino01_H01_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 13133,
+      "clicks": 4,
+      "viewable": 11290,
+      "eligible": 13133,
+      "ctr": 0.0304576258280667,
+      "viewabilityRate": 85.96664889971827
+    },
+    {
+      "creative": "menino02_H02_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 12335,
+      "clicks": 14,
+      "viewable": 9842,
+      "eligible": 12335,
+      "ctr": 0.11349817592217266,
+      "viewabilityRate": 79.7892176732874
+    },
+    {
+      "creative": "menino02_H04_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 12334,
+      "clicks": 10,
+      "viewable": 9934,
+      "eligible": 12334,
+      "ctr": 0.08107669855683476,
+      "viewabilityRate": 80.54159234635966
+    },
+    {
+      "creative": "menino01_H08_C03",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 11418,
+      "clicks": 11,
+      "viewable": 9169,
+      "eligible": 11417,
+      "ctr": 0.09633911368015415,
+      "viewabilityRate": 80.31006393973898
+    },
+    {
+      "creative": "menino02_H05_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 11047,
+      "clicks": 2,
+      "viewable": 9469,
+      "eligible": 11047,
+      "ctr": 0.01810446275006789,
+      "viewabilityRate": 85.71557889019643
+    },
+    {
+      "creative": "menina01_H04_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 10971,
+      "clicks": 3,
+      "viewable": 9443,
+      "eligible": 10971,
+      "ctr": 0.027344818156959255,
+      "viewabilityRate": 86.07237261872208
+    },
+    {
+      "creative": "menino02_H02_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 9513,
+      "clicks": 4,
+      "viewable": 8175,
+      "eligible": 9513,
+      "ctr": 0.042047724166929465,
+      "viewabilityRate": 85.93503626616209
+    },
+    {
+      "creative": "menino01_H03_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 9454,
+      "clicks": 3,
+      "viewable": 8048,
+      "eligible": 9454,
+      "ctr": 0.031732599957689865,
+      "viewabilityRate": 85.12798815316268
+    },
+    {
+      "creative": "menino01_H04_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 9236,
+      "clicks": 6,
+      "viewable": 7537,
+      "eligible": 9236,
+      "ctr": 0.06496318752706799,
+      "viewabilityRate": 81.60459073191858
+    },
+    {
+      "creative": "menino01_H06_C02",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 8860,
+      "clicks": 2,
+      "viewable": 7555,
+      "eligible": 8860,
+      "ctr": 0.02257336343115124,
+      "viewabilityRate": 85.27088036117382
+    },
+    {
+      "creative": "menino01_H10_C03",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 8519,
+      "clicks": 2,
+      "viewable": 7298,
+      "eligible": 8519,
+      "ctr": 0.023476933912431035,
+      "viewabilityRate": 85.66733184646085
+    },
+    {
+      "creative": "menino01_H07_C02",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 7710,
+      "clicks": 5,
+      "viewable": 6239,
+      "eligible": 7710,
+      "ctr": 0.06485084306095978,
+      "viewabilityRate": 80.92088197146563
+    },
+    {
+      "creative": "menina01_H02_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 7316,
+      "clicks": 17,
+      "viewable": 6224,
+      "eligible": 7316,
+      "ctr": 0.23236741388737014,
+      "viewabilityRate": 85.07381082558774
+    },
+    {
+      "creative": "menina01_H08_C03",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 7193,
+      "clicks": 7,
+      "viewable": 5724,
+      "eligible": 7193,
+      "ctr": 0.09731683581259558,
+      "viewabilityRate": 79.57736688447102
+    },
+    {
+      "creative": "menino01_H03_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 6827,
+      "clicks": 3,
+      "viewable": 5528,
+      "eligible": 6827,
+      "ctr": 0.04394316683755676,
+      "viewabilityRate": 80.97260875933793
+    },
+    {
+      "creative": "menino02_H09_C03",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 6151,
+      "clicks": 21,
+      "viewable": 5176,
+      "eligible": 6151,
+      "ctr": 0.3414079011542839,
+      "viewabilityRate": 84.14891887497969
+    },
+    {
+      "creative": "menino02_H06_C02",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 5772,
+      "clicks": 4,
+      "viewable": 4621,
+      "eligible": 5771,
+      "ctr": 0.0693000693000693,
+      "viewabilityRate": 80.072777681511
+    },
+    {
+      "creative": "menino02_H09_C03",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 5679,
+      "clicks": 7,
+      "viewable": 4559,
+      "eligible": 5679,
+      "ctr": 0.12326113752421201,
+      "viewabilityRate": 80.27821799612607
+    },
+    {
+      "creative": "menino01_H05_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 5662,
+      "clicks": 3,
+      "viewable": 4828,
+      "eligible": 5662,
+      "ctr": 0.0529848110208407,
+      "viewabilityRate": 85.27022253620629
+    },
+    {
+      "creative": "menino02_H07_C02",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 5659,
+      "clicks": 5,
+      "viewable": 4569,
+      "eligible": 5659,
+      "ctr": 0.08835483300936561,
+      "viewabilityRate": 80.73864640395828
+    },
+    {
+      "creative": "menino02_H10_C03",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 5630,
+      "clicks": 0,
+      "viewable": 4734,
+      "eligible": 5630,
+      "ctr": 0,
+      "viewabilityRate": 84.08525754884548
+    },
+    {
+      "creative": "menina01_H02_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 5624,
+      "clicks": 5,
+      "viewable": 4568,
+      "eligible": 5624,
+      "ctr": 0.08890469416785206,
+      "viewabilityRate": 81.22332859174965
+    },
+    {
+      "creative": "menino02_H01_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 5605,
+      "clicks": 3,
+      "viewable": 4531,
+      "eligible": 5604,
+      "ctr": 0.05352363960749331,
+      "viewabilityRate": 80.85296216987867
+    },
+    {
+      "creative": "menino01_H07_C02",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 5597,
+      "clicks": 1,
+      "viewable": 4743,
+      "eligible": 5597,
+      "ctr": 0.017866714311238163,
+      "viewabilityRate": 84.74182597820261
+    },
+    {
+      "creative": "menino01_H02_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 5595,
+      "clicks": 5,
+      "viewable": 4511,
+      "eligible": 5595,
+      "ctr": 0.08936550491510277,
+      "viewabilityRate": 80.62555853440571
+    },
+    {
+      "creative": "menino02_H01_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 5587,
+      "clicks": 1,
+      "viewable": 4765,
+      "eligible": 5587,
+      "ctr": 0.017898693395382137,
+      "viewabilityRate": 85.28727402899588
+    },
+    {
+      "creative": "menino01_H10_C03",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 5563,
+      "clicks": 2,
+      "viewable": 4532,
+      "eligible": 5563,
+      "ctr": 0.03595182455509617,
+      "viewabilityRate": 81.46683444184792
+    },
+    {
+      "creative": "menino02_H06_C02",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 5556,
+      "clicks": 0,
+      "viewable": 4714,
+      "eligible": 5556,
+      "ctr": 0,
+      "viewabilityRate": 84.84521238300935
+    },
+    {
+      "creative": "menino01_H08_C03",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 5542,
+      "clicks": 0,
+      "viewable": 4704,
+      "eligible": 5542,
+      "ctr": 0,
+      "viewabilityRate": 84.87910501623962
+    },
+    {
+      "creative": "menino02_H04_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 5530,
+      "clicks": 0,
+      "viewable": 4738,
+      "eligible": 5530,
+      "ctr": 0,
+      "viewabilityRate": 85.67811934900543
+    },
+    {
+      "creative": "menino02_H07_C02",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 5524,
+      "clicks": 1,
+      "viewable": 4675,
+      "eligible": 5524,
+      "ctr": 0.018102824040550324,
+      "viewabilityRate": 84.63070238957278
+    },
+    {
+      "creative": "menino02_H03_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 5480,
+      "clicks": 0,
+      "viewable": 4691,
+      "eligible": 5480,
+      "ctr": 0,
+      "viewabilityRate": 85.60218978102189
+    },
+    {
+      "creative": "menino02_H10_C03",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 5472,
+      "clicks": 3,
+      "viewable": 4408,
+      "eligible": 5472,
+      "ctr": 0.05482456140350877,
+      "viewabilityRate": 80.55555555555556
+    },
+    {
+      "creative": "menino01_H04_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 5428,
+      "clicks": 0,
+      "viewable": 4619,
+      "eligible": 5428,
+      "ctr": 0,
+      "viewabilityRate": 85.0957995578482
+    },
+    {
+      "creative": "menino01_H04_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 5323,
+      "clicks": 13,
+      "viewable": 4498,
+      "eligible": 5323,
+      "ctr": 0.24422318241593086,
+      "viewabilityRate": 84.50122111591209
+    },
+    {
+      "creative": "menino01_H01_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 5072,
+      "clicks": 21,
+      "viewable": 4336,
+      "eligible": 5072,
+      "ctr": 0.41403785488958994,
+      "viewabilityRate": 85.48895899053628
+    },
+    {
+      "creative": "menina01_H01_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 5060,
+      "clicks": 1,
+      "viewable": 4450,
+      "eligible": 5060,
+      "ctr": 0.019762845849802372,
+      "viewabilityRate": 87.94466403162056
+    },
+    {
+      "creative": "menino01_H09_C03",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 4797,
+      "clicks": 25,
+      "viewable": 4072,
+      "eligible": 4797,
+      "ctr": 0.5211590577444236,
+      "viewabilityRate": 84.88638732541172
+    },
+    {
+      "creative": "menina01_H03_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 4498,
+      "clicks": 2,
+      "viewable": 3612,
+      "eligible": 4498,
+      "ctr": 0.044464206313917294,
+      "viewabilityRate": 80.30235660293464
+    },
+    {
+      "creative": "menino02_H05_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 4380,
+      "clicks": 13,
+      "viewable": 3713,
+      "eligible": 4380,
+      "ctr": 0.2968036529680365,
+      "viewabilityRate": 84.77168949771689
+    },
+    {
+      "creative": "menina01_H03_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 4154,
+      "clicks": 1,
+      "viewable": 3656,
+      "eligible": 4154,
+      "ctr": 0.02407318247472316,
+      "viewabilityRate": 88.01155512758787
+    },
+    {
+      "creative": "menina01_H08_C03",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 3892,
+      "clicks": 1,
+      "viewable": 3308,
+      "eligible": 3892,
+      "ctr": 0.025693730729701953,
+      "viewabilityRate": 84.99486125385405
+    },
+    {
+      "creative": "menino02_H02_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 3580,
+      "clicks": 8,
+      "viewable": 3038,
+      "eligible": 3580,
+      "ctr": 0.22346368715083798,
+      "viewabilityRate": 84.86033519553072
+    },
+    {
+      "creative": "menina01_H04_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 3184,
+      "clicks": 2,
+      "viewable": 2547,
+      "eligible": 3184,
+      "ctr": 0.06281407035175879,
+      "viewabilityRate": 79.99371859296483
+    },
+    {
+      "creative": "menino01_H01_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 3162,
+      "clicks": 1,
+      "viewable": 2568,
+      "eligible": 3161,
+      "ctr": 0.031625553447185324,
+      "viewabilityRate": 81.24011388801013
+    },
+    {
+      "creative": "menino01_H06_C02",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 3141,
+      "clicks": 9,
+      "viewable": 2663,
+      "eligible": 3141,
+      "ctr": 0.28653295128939826,
+      "viewabilityRate": 84.78191658707418
+    },
+    {
+      "creative": "menino02_H10_C03",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 3109,
+      "clicks": 7,
+      "viewable": 2619,
+      "eligible": 3109,
+      "ctr": 0.2251527822450949,
+      "viewabilityRate": 84.23930524284336
+    },
+    {
+      "creative": "menino01_H08_C03",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 3043,
+      "clicks": 9,
+      "viewable": 2610,
+      "eligible": 3043,
+      "ctr": 0.29576076240552085,
+      "viewabilityRate": 85.77062109760105
+    },
+    {
+      "creative": "menino01_H05_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 2947,
+      "clicks": 9,
+      "viewable": 2479,
+      "eligible": 2947,
+      "ctr": 0.3053953172718018,
+      "viewabilityRate": 84.11944350186631
+    },
+    {
+      "creative": "menino01_H09_C03",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 2914,
+      "clicks": 0,
+      "viewable": 2367,
+      "eligible": 2914,
+      "ctr": 0,
+      "viewabilityRate": 81.22855181880576
+    },
+    {
+      "creative": "menino02_H03_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 2868,
+      "clicks": 0,
+      "viewable": 2320,
+      "eligible": 2868,
+      "ctr": 0,
+      "viewabilityRate": 80.8926080892608
+    },
+    {
+      "creative": "menino01_H05_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 2809,
+      "clicks": 0,
+      "viewable": 2268,
+      "eligible": 2809,
+      "ctr": 0,
+      "viewabilityRate": 80.74047703809185
+    },
+    {
+      "creative": "menino01_H02_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 2525,
+      "clicks": 0,
+      "viewable": 2114,
+      "eligible": 2525,
+      "ctr": 0,
+      "viewabilityRate": 83.72277227722772
+    },
+    {
+      "creative": "menina01_H03_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 2495,
+      "clicks": 0,
+      "viewable": 2062,
+      "eligible": 2494,
+      "ctr": 0,
+      "viewabilityRate": 82.6784282277466
+    },
+    {
+      "creative": "menina01_H02_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 2494,
+      "clicks": 0,
+      "viewable": 2098,
+      "eligible": 2494,
+      "ctr": 0,
+      "viewabilityRate": 84.12189254210104
+    },
+    {
+      "creative": "menino02_H09_C03",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 2413,
+      "clicks": 0,
+      "viewable": 2011,
+      "eligible": 2413,
+      "ctr": 0,
+      "viewabilityRate": 83.34024036469125
+    },
+    {
+      "creative": "menino02_H04_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 2290,
+      "clicks": 6,
+      "viewable": 1963,
+      "eligible": 2290,
+      "ctr": 0.26200873362445415,
+      "viewabilityRate": 85.72052401746724
+    },
+    {
+      "creative": "menino02_H08_C03",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 2283,
+      "clicks": 0,
+      "viewable": 1917,
+      "eligible": 2283,
+      "ctr": 0,
+      "viewabilityRate": 83.96846254927726
+    },
+    {
+      "creative": "menino02_H06_C02",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 2264,
+      "clicks": 2,
+      "viewable": 1937,
+      "eligible": 2264,
+      "ctr": 0.08833922261484099,
+      "viewabilityRate": 85.5565371024735
+    },
+    {
+      "creative": "menina01_H04_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 2244,
+      "clicks": 7,
+      "viewable": 1871,
+      "eligible": 2244,
+      "ctr": 0.31194295900178254,
+      "viewabilityRate": 83.37789661319073
+    },
+    {
+      "creative": "menino01_H10_C03",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 2240,
+      "clicks": 4,
+      "viewable": 1886,
+      "eligible": 2240,
+      "ctr": 0.17857142857142858,
+      "viewabilityRate": 84.19642857142857
+    },
+    {
+      "creative": "menino02_H08_C03",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 2185,
+      "clicks": 3,
+      "viewable": 1868,
+      "eligible": 2185,
+      "ctr": 0.13729977116704806,
+      "viewabilityRate": 85.49199084668192
+    },
+    {
+      "creative": "menino01_H03_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 2179,
+      "clicks": 5,
+      "viewable": 1830,
+      "eligible": 2179,
+      "ctr": 0.2294630564479119,
+      "viewabilityRate": 83.98347865993576
+    },
+    {
+      "creative": "menino02_H08_C03",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 2096,
+      "clicks": 1,
+      "viewable": 1818,
+      "eligible": 2096,
+      "ctr": 0.047709923664122134,
+      "viewabilityRate": 86.73664122137404
+    },
+    {
+      "creative": "menino01_H02_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 1993,
+      "clicks": 0,
+      "viewable": 1754,
+      "eligible": 1993,
+      "ctr": 0,
+      "viewabilityRate": 88.0080280983442
+    },
+    {
+      "creative": "menino01_H07_C02",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 1734,
+      "clicks": 2,
+      "viewable": 1484,
+      "eligible": 1734,
+      "ctr": 0.11534025374855825,
+      "viewabilityRate": 85.58246828143022
+    },
+    {
+      "creative": "menina01_H03_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 1636,
+      "clicks": 5,
+      "viewable": 1383,
+      "eligible": 1636,
+      "ctr": 0.3056234718826406,
+      "viewabilityRate": 84.5354523227384
+    },
+    {
+      "creative": "menino02_H07_C02",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 1629,
+      "clicks": 3,
+      "viewable": 1374,
+      "eligible": 1629,
+      "ctr": 0.1841620626151013,
+      "viewabilityRate": 84.34622467771639
+    },
+    {
+      "creative": "menina01_H08_C03",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 1394,
+      "clicks": 0,
+      "viewable": 1216,
+      "eligible": 1394,
+      "ctr": 0,
+      "viewabilityRate": 87.2309899569584
+    },
+    {
+      "creative": "menino02_H02_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 1238,
+      "clicks": 0,
+      "viewable": 1095,
+      "eligible": 1238,
+      "ctr": 0,
+      "viewabilityRate": 88.44911147011308
+    },
+    {
+      "creative": "menina01_H08_C03",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 1139,
+      "clicks": 1,
+      "viewable": 975,
+      "eligible": 1139,
+      "ctr": 0.08779631255487269,
+      "viewabilityRate": 85.60140474100088
+    },
+    {
+      "creative": "menino02_H03_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 1126,
+      "clicks": 1,
+      "viewable": 940,
+      "eligible": 1126,
+      "ctr": 0.08880994671403197,
+      "viewabilityRate": 83.48134991119005
+    },
+    {
+      "creative": "menino02_H01_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 1123,
+      "clicks": 1,
+      "viewable": 950,
+      "eligible": 1123,
+      "ctr": 0.08904719501335707,
+      "viewabilityRate": 84.59483526268923
+    },
+    {
+      "creative": "menino01_H02_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 1109,
+      "clicks": 0,
+      "viewable": 943,
+      "eligible": 1109,
+      "ctr": 0,
+      "viewabilityRate": 85.03155996393147
+    },
+    {
+      "creative": "menina01_H02_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 793,
+      "clicks": 1,
+      "viewable": 692,
+      "eligible": 793,
+      "ctr": 0.12610340479192939,
+      "viewabilityRate": 87.26355611601512
+    },
+    {
+      "creative": "menino02_H10_C03",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 793,
+      "clicks": 0,
+      "viewable": 701,
+      "eligible": 793,
+      "ctr": 0,
+      "viewabilityRate": 88.39848675914249
+    },
+    {
+      "creative": "menino01_H09_C03",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 783,
+      "clicks": 0,
+      "viewable": 676,
+      "eligible": 783,
+      "ctr": 0,
+      "viewabilityRate": 86.33461047254151
+    },
+    {
+      "creative": "menino01_H03_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 777,
+      "clicks": 0,
+      "viewable": 681,
+      "eligible": 777,
+      "ctr": 0,
+      "viewabilityRate": 87.64478764478764
+    },
+    {
+      "creative": "menino01_H01_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 765,
+      "clicks": 0,
+      "viewable": 675,
+      "eligible": 765,
+      "ctr": 0,
+      "viewabilityRate": 88.23529411764706
+    },
+    {
+      "creative": "menino02_H09_C03",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 765,
+      "clicks": 0,
+      "viewable": 667,
+      "eligible": 765,
+      "ctr": 0,
+      "viewabilityRate": 87.18954248366013
+    },
+    {
+      "creative": "menino02_H07_C02",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 762,
+      "clicks": 1,
+      "viewable": 679,
+      "eligible": 762,
+      "ctr": 0.13123359580052493,
+      "viewabilityRate": 89.10761154855643
+    },
+    {
+      "creative": "menino02_H06_C02",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 760,
+      "clicks": 0,
+      "viewable": 654,
+      "eligible": 760,
+      "ctr": 0,
+      "viewabilityRate": 86.05263157894737
+    },
+    {
+      "creative": "menino01_H06_C02",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 754,
+      "clicks": 0,
+      "viewable": 661,
+      "eligible": 754,
+      "ctr": 0,
+      "viewabilityRate": 87.66578249336871
+    },
+    {
+      "creative": "menino01_H07_C02",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 748,
+      "clicks": 0,
+      "viewable": 662,
+      "eligible": 748,
+      "ctr": 0,
+      "viewabilityRate": 88.50267379679144
+    },
+    {
+      "creative": "menino01_H05_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 737,
+      "clicks": 0,
+      "viewable": 655,
+      "eligible": 737,
+      "ctr": 0,
+      "viewabilityRate": 88.87381275440977
+    },
+    {
+      "creative": "menino01_H10_C03",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 733,
+      "clicks": 0,
+      "viewable": 625,
+      "eligible": 733,
+      "ctr": 0,
+      "viewabilityRate": 85.26603001364256
+    },
+    {
+      "creative": "menino01_H08_C03",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 730,
+      "clicks": 0,
+      "viewable": 634,
+      "eligible": 730,
+      "ctr": 0,
+      "viewabilityRate": 86.84931506849315
+    },
+    {
+      "creative": "menino02_H04_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 730,
+      "clicks": 1,
+      "viewable": 636,
+      "eligible": 730,
+      "ctr": 0.136986301369863,
+      "viewabilityRate": 87.12328767123287
+    },
+    {
+      "creative": "menino02_H01_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 724,
+      "clicks": 0,
+      "viewable": 633,
+      "eligible": 724,
+      "ctr": 0,
+      "viewabilityRate": 87.43093922651933
+    },
+    {
+      "creative": "menina01_H04_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 714,
+      "clicks": 0,
+      "viewable": 635,
+      "eligible": 714,
+      "ctr": 0,
+      "viewabilityRate": 88.93557422969187
+    },
+    {
+      "creative": "menino02_H05_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 710,
+      "clicks": 0,
+      "viewable": 602,
+      "eligible": 710,
+      "ctr": 0,
+      "viewabilityRate": 84.78873239436619
+    },
+    {
+      "creative": "menino01_H04_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 708,
+      "clicks": 0,
+      "viewable": 622,
+      "eligible": 708,
+      "ctr": 0,
+      "viewabilityRate": 87.85310734463276
+    },
+    {
+      "creative": "menino02_H03_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 698,
+      "clicks": 0,
+      "viewable": 615,
+      "eligible": 698,
+      "ctr": 0,
+      "viewabilityRate": 88.10888252148997
+    },
+    {
+      "creative": "(not set)",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 3,
+      "clicks": 0,
+      "viewable": 2,
+      "eligible": 3,
+      "ctr": 0,
+      "viewabilityRate": 66.66666666666666
+    },
+    {
+      "creative": "(not set)",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 2,
+      "clicks": 0,
+      "viewable": 2,
+      "eligible": 2,
+      "ctr": 0,
+      "viewabilityRate": 100
+    },
+    {
+      "creative": "(not set)",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 2,
+      "clicks": 0,
+      "viewable": 1,
+      "eligible": 2,
+      "ctr": 0,
+      "viewabilityRate": 50
+    }
+  ]
 }
