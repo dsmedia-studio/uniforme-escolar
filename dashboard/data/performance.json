@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-04T12:39:30.466Z",
-  "nextUpdate": "2026-02-04T18:39:30.466Z",
+  "lastUpdated": "2026-02-04T18:37:58.493Z",
+  "nextUpdate": "2026-02-05T00:37:58.493Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -9,12 +9,12 @@
     "endDate": "2026-02-03"
   },
   "summary": {
-    "impressions": 690024,
+    "impressions": 690013,
     "clicks": 492,
-    "ctr": 0.07130186776112135,
-    "viewableImpressions": 578166,
-    "eligibleImpressions": 690019,
-    "viewabilityRate": 83.78986665584571
+    "ctr": 0.0713030044361483,
+    "viewableImpressions": 578165,
+    "eligibleImpressions": 690008,
+    "viewabilityRate": 83.79105749498557
   },
   "daily": [
     {
@@ -46,47 +46,47 @@
     },
     {
       "date": "2026-02-02",
-      "impressions": 143056,
+      "impressions": 143046,
       "clicks": 63,
       "viewable": 118665,
-      "eligible": 143055,
-      "ctr": 0.044038698132199974,
-      "viewabilityRate": 82.95061340044039
+      "eligible": 143045,
+      "ctr": 0.0440417767711086,
+      "viewabilityRate": 82.95641231780209
     },
     {
       "date": "2026-02-03",
-      "impressions": 133605,
+      "impressions": 133604,
       "clicks": 29,
-      "viewable": 113934,
-      "eligible": 133605,
-      "ctr": 0.021705774484487857,
-      "viewabilityRate": 85.27674862467723
+      "viewable": 113933,
+      "eligible": 133604,
+      "ctr": 0.02170593694799557,
+      "viewabilityRate": 85.27663842399929
     }
   ],
   "byFormat": {
     "300x250": {
-      "impressions": 281561,
+      "impressions": 281555,
       "clicks": 192,
       "viewable": 227786,
-      "eligible": 281557,
-      "ctr": 0.06819126228419418,
-      "viewabilityRate": 80.9022684571863
+      "eligible": 281551,
+      "ctr": 0.06819271545523965,
+      "viewabilityRate": 80.90399252710877
     },
     "468x60": {
-      "impressions": 34755,
+      "impressions": 34754,
       "clicks": 7,
       "viewable": 30585,
-      "eligible": 34755,
-      "ctr": 0.02014098690835851,
-      "viewabilityRate": 88.00172637030643
+      "eligible": 34754,
+      "ctr": 0.02014156643839558,
+      "viewabilityRate": 88.0042585026184
     },
     "728x90": {
-      "impressions": 278589,
+      "impressions": 278585,
       "clicks": 55,
-      "viewable": 238803,
-      "eligible": 278588,
-      "ctr": 0.019742344457247055,
-      "viewabilityRate": 85.71905466136374
+      "viewable": 238802,
+      "eligible": 278584,
+      "ctr": 0.01974262792325502,
+      "viewabilityRate": 85.71992648536887
     },
     "970x250": {
       "impressions": 95119,
@@ -99,28 +99,28 @@
   },
   "byPersonagem": {
     "menina": {
-      "impressions": 237052,
+      "impressions": 237046,
       "clicks": 154,
-      "viewable": 198971,
-      "eligible": 237051,
-      "ctr": 0.06496464910652515,
-      "viewabilityRate": 83.93594627316484
+      "viewable": 198970,
+      "eligible": 237045,
+      "ctr": 0.06496629346202847,
+      "viewabilityRate": 83.93764896960492
     },
     "menino01": {
-      "impressions": 229114,
+      "impressions": 229111,
       "clicks": 175,
       "viewable": 192828,
-      "eligible": 229112,
-      "ctr": 0.07638119014988172,
-      "viewabilityRate": 84.16320402248681
+      "eligible": 229109,
+      "ctr": 0.07638219029204185,
+      "viewabilityRate": 84.16430607265536
     },
     "menino02": {
-      "impressions": 223846,
+      "impressions": 223844,
       "clicks": 163,
       "viewable": 186358,
-      "eligible": 223844,
-      "ctr": 0.0728179194624876,
-      "viewabilityRate": 83.25351584138954
+      "eligible": 223842,
+      "ctr": 0.07281857007558835,
+      "viewabilityRate": 83.25425970103912
     }
   },
   "byReportingLabel": [
@@ -153,12 +153,12 @@
       "personagem": "menino01",
       "headline": "h09",
       "cta": "c03",
-      "impressions": 31550,
+      "impressions": 31549,
       "clicks": 36,
       "viewable": 27078,
-      "eligible": 31550,
-      "ctr": 0.11410459587955625,
-      "viewabilityRate": 85.8256735340729
+      "eligible": 31549,
+      "ctr": 0.11410821262163619,
+      "viewabilityRate": 85.82839392690735
     },
     {
       "label": "menino01_H01_C01",
@@ -273,12 +273,12 @@
       "personagem": "menino02",
       "headline": "h02",
       "cta": "c01",
-      "impressions": 38367,
+      "impressions": 38365,
       "clicks": 26,
       "viewable": 32134,
-      "eligible": 38367,
-      "ctr": 0.06776657022962441,
-      "viewabilityRate": 83.75426799072119
+      "eligible": 38365,
+      "ctr": 0.06777010295842564,
+      "viewabilityRate": 83.75863417177113
     },
     {
       "label": "menina01_H03_C01",
@@ -309,12 +309,12 @@
       "personagem": "menina01",
       "headline": "h01",
       "cta": "c01",
-      "impressions": 160971,
+      "impressions": 160966,
       "clicks": 94,
-      "viewable": 134988,
-      "eligible": 160971,
-      "ctr": 0.05839561163190885,
-      "viewabilityRate": 83.85858322306503
+      "viewable": 134987,
+      "eligible": 160966,
+      "ctr": 0.058397425543282436,
+      "viewabilityRate": 83.86056682777729
     },
     {
       "label": "menina01_H04_C01",
@@ -333,24 +333,24 @@
       "personagem": "menino01",
       "headline": "h03",
       "cta": "c01",
-      "impressions": 21225,
+      "impressions": 21224,
       "clicks": 11,
       "viewable": 17796,
-      "eligible": 21225,
-      "ctr": 0.05182567726737338,
-      "viewabilityRate": 83.84452296819788
+      "eligible": 21224,
+      "ctr": 0.05182811911044101,
+      "viewabilityRate": 83.84847342630984
     },
     {
       "label": "menina01_H08_C03",
       "personagem": "menina01",
       "headline": "h08",
       "cta": "c03",
-      "impressions": 19892,
+      "impressions": 19891,
       "clicks": 10,
       "viewable": 16497,
-      "eligible": 19892,
-      "ctr": 0.05027146591594611,
-      "viewabilityRate": 82.9328373215363
+      "eligible": 19891,
+      "ctr": 0.05027399326328491,
+      "viewabilityRate": 82.93700668644111
     },
     {
       "label": "menino01_H07_C02",
@@ -381,12 +381,12 @@
       "personagem": "menino01",
       "headline": "h02",
       "cta": "c01",
-      "impressions": 14300,
+      "impressions": 14299,
       "clicks": 5,
       "viewable": 11888,
-      "eligible": 14300,
-      "ctr": 0.03496503496503497,
-      "viewabilityRate": 83.13286713286713
+      "eligible": 14299,
+      "ctr": 0.034967480243373664,
+      "viewabilityRate": 83.13868102664522
     },
     {
       "label": "menino02_H01_C01",
@@ -458,34 +458,34 @@
     {
       "name": "DBM Monks-DV360-DS Media-36727-BR 1481230269-AG - Babel",
       "siteId": "10491182",
-      "impressions": 690024,
+      "impressions": 690013,
       "clicks": 492,
-      "viewable": 578166,
-      "eligible": 690019,
-      "ctr": 0.07130186776112135,
-      "viewabilityRate": 83.78986665584571
+      "viewable": 578165,
+      "eligible": 690008,
+      "ctr": 0.0713030044361483,
+      "viewabilityRate": 83.79105749498557
     }
   ],
   "byPlacement": [
     {
       "name": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 281561,
+      "impressions": 281555,
       "clicks": 192,
       "viewable": 227786,
-      "eligible": 281557,
-      "ctr": 0.06819126228419418,
-      "viewabilityRate": 80.9022684571863
+      "eligible": 281551,
+      "ctr": 0.06819271545523965,
+      "viewabilityRate": 80.90399252710877
     },
     {
       "name": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 278589,
+      "impressions": 278585,
       "clicks": 55,
-      "viewable": 238803,
-      "eligible": 278588,
-      "ctr": 0.019742344457247055,
-      "viewabilityRate": 85.71905466136374
+      "viewable": 238802,
+      "eligible": 278584,
+      "ctr": 0.01974262792325502,
+      "viewabilityRate": 85.71992648536887
     },
     {
       "name": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
@@ -500,12 +500,12 @@
     {
       "name": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 34755,
+      "impressions": 34754,
       "clicks": 7,
       "viewable": 30585,
-      "eligible": 34755,
-      "ctr": 0.02014098690835851,
-      "viewabilityRate": 88.00172637030643
+      "eligible": 34754,
+      "ctr": 0.02014156643839558,
+      "viewabilityRate": 88.0042585026184
     }
   ],
   "byCreativePlacement": [
@@ -513,34 +513,34 @@
       "creative": "menina01_H01_C01",
       "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 71314,
+      "impressions": 71311,
       "clicks": 14,
-      "viewable": 61173,
-      "eligible": 71314,
-      "ctr": 0.019631488908208768,
-      "viewabilityRate": 85.77979078441821
+      "viewable": 61172,
+      "eligible": 71311,
+      "ctr": 0.019632314790144576,
+      "viewabilityRate": 85.78199716733744
     },
     {
       "creative": "menina01_H01_C01",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 69094,
+      "impressions": 69093,
       "clicks": 49,
       "viewable": 56197,
-      "eligible": 69094,
-      "ctr": 0.07091787998957941,
-      "viewabilityRate": 81.33412452600804
+      "eligible": 69093,
+      "ctr": 0.0709189064015168,
+      "viewabilityRate": 81.33530169481713
     },
     {
       "creative": "menino01_H09_C03",
       "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 22035,
+      "impressions": 22034,
       "clicks": 8,
       "viewable": 19065,
-      "eligible": 22035,
-      "ctr": 0.036305877013841616,
-      "viewabilityRate": 86.5214431586113
+      "eligible": 22034,
+      "ctr": 0.036307524734501224,
+      "viewabilityRate": 86.52536988290824
     },
     {
       "creative": "menino02_H05_C01",
@@ -579,12 +579,12 @@
       "creative": "menino02_H02_C01",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 17305,
+      "impressions": 17303,
       "clicks": 14,
       "viewable": 13917,
-      "eligible": 17305,
-      "ctr": 0.08090147356255417,
-      "viewabilityRate": 80.42184339786189
+      "eligible": 17303,
+      "ctr": 0.08091082471247761,
+      "viewabilityRate": 80.43113910882505
     },
     {
       "creative": "menina01_H04_C01",
@@ -678,12 +678,12 @@
       "creative": "menina01_H08_C03",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 11528,
+      "impressions": 11527,
       "clicks": 7,
       "viewable": 9296,
-      "eligible": 11528,
-      "ctr": 0.06072172102706454,
-      "viewabilityRate": 80.6384455239417
+      "eligible": 11527,
+      "ctr": 0.06072698880888349,
+      "viewabilityRate": 80.64544113819727
     },
     {
       "creative": "menino01_H06_C02",
@@ -744,12 +744,12 @@
       "creative": "menino01_H02_C01",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 8152,
+      "impressions": 8151,
       "clicks": 5,
       "viewable": 6601,
-      "eligible": 8152,
-      "ctr": 0.061334641805691856,
-      "viewabilityRate": 80.97399411187438
+      "eligible": 8151,
+      "ctr": 0.061342166605324495,
+      "viewabilityRate": 80.98392835234941
     },
     {
       "creative": "menino01_H07_C02",
@@ -909,12 +909,12 @@
       "creative": "menino01_H03_C01",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 6927,
+      "impressions": 6926,
       "clicks": 3,
       "viewable": 5604,
-      "eligible": 6927,
-      "ctr": 0.043308791684711995,
-      "viewabilityRate": 80.90082286704201
+      "eligible": 6926,
+      "ctr": 0.04331504475887958,
+      "viewabilityRate": 80.91250360958706
     },
     {
       "creative": "menino01_H10_C03",
@@ -942,12 +942,12 @@
       "creative": "menina01_H01_C01",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 6269,
+      "impressions": 6268,
       "clicks": 1,
       "viewable": 5549,
-      "eligible": 6269,
-      "ctr": 0.01595150741745095,
-      "viewabilityRate": 88.51491465943532
+      "eligible": 6268,
+      "ctr": 0.015954052329291642,
+      "viewabilityRate": 88.52903637523931
     },
     {
       "creative": "menino02_H10_C03",
@@ -1646,12 +1646,12 @@
   "byDomain": [
     {
       "name": "olx.com.br",
-      "impressions": 121633,
+      "impressions": 121630,
       "clicks": 10,
       "viewable": 95509,
-      "eligible": 121633,
-      "ctr": 0.008221453059613757,
-      "viewabilityRate": 78.52227602706502
+      "eligible": 121630,
+      "ctr": 0.008221655841486476,
+      "viewabilityRate": 78.52421277645317
     },
     {
       "name": "metropoles.com",
@@ -1664,21 +1664,21 @@
     },
     {
       "name": "uol.com.br",
-      "impressions": 63439,
+      "impressions": 63437,
       "clicks": 49,
-      "viewable": 54844,
-      "eligible": 63438,
-      "ctr": 0.0772395529563833,
-      "viewabilityRate": 86.45291465683029
+      "viewable": 54843,
+      "eligible": 63436,
+      "ctr": 0.07724198811419204,
+      "viewabilityRate": 86.45406393845767
     },
     {
       "name": "letras.mus.br",
-      "impressions": 42499,
+      "impressions": 42498,
       "clicks": 11,
       "viewable": 36470,
-      "eligible": 42499,
-      "ctr": 0.02588296195204593,
-      "viewabilityRate": 85.81378385373773
+      "eligible": 42498,
+      "ctr": 0.025883570991576073,
+      "viewabilityRate": 85.81580309661632
     },
     {
       "name": "cifraclub.com.br",
@@ -1709,12 +1709,12 @@
     },
     {
       "name": "todamateria.com.br",
-      "impressions": 25352,
+      "impressions": 25347,
       "clicks": 14,
       "viewable": 23523,
-      "eligible": 25352,
-      "ctr": 0.0552224676554118,
-      "viewabilityRate": 92.78557904701799
+      "eligible": 25347,
+      "ctr": 0.055233360950013806,
+      "viewabilityRate": 92.80388211622677
     },
     {
       "name": "tudogostoso.com.br",
