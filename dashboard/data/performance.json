@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-04T18:37:58.493Z",
-  "nextUpdate": "2026-02-05T00:37:58.493Z",
+  "lastUpdated": "2026-02-05T01:14:55.242Z",
+  "nextUpdate": "2026-02-05T07:14:55.242Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -12,9 +12,9 @@
     "impressions": 690013,
     "clicks": 492,
     "ctr": 0.0713030044361483,
-    "viewableImpressions": 578165,
+    "viewableImpressions": 578163,
     "eligibleImpressions": 690008,
-    "viewabilityRate": 83.79105749498557
+    "viewabilityRate": 83.7907676432737
   },
   "daily": [
     {
@@ -48,10 +48,10 @@
       "date": "2026-02-02",
       "impressions": 143046,
       "clicks": 63,
-      "viewable": 118665,
+      "viewable": 118663,
       "eligible": 143045,
       "ctr": 0.0440417767711086,
-      "viewabilityRate": 82.95641231780209
+      "viewabilityRate": 82.95501415638435
     },
     {
       "date": "2026-02-03",
@@ -67,10 +67,10 @@
     "300x250": {
       "impressions": 281555,
       "clicks": 192,
-      "viewable": 227786,
+      "viewable": 227785,
       "eligible": 281551,
       "ctr": 0.06819271545523965,
-      "viewabilityRate": 80.90399252710877
+      "viewabilityRate": 80.90363735166986
     },
     "468x60": {
       "impressions": 34754,
@@ -83,10 +83,10 @@
     "728x90": {
       "impressions": 278585,
       "clicks": 55,
-      "viewable": 238802,
+      "viewable": 238801,
       "eligible": 278584,
       "ctr": 0.01974262792325502,
-      "viewabilityRate": 85.71992648536887
+      "viewabilityRate": 85.71956752720902
     },
     "970x250": {
       "impressions": 95119,
@@ -101,10 +101,10 @@
     "menina": {
       "impressions": 237046,
       "clicks": 154,
-      "viewable": 198970,
+      "viewable": 198968,
       "eligible": 237045,
       "ctr": 0.06496629346202847,
-      "viewabilityRate": 83.93764896960492
+      "viewabilityRate": 83.9368052479487
     },
     "menino01": {
       "impressions": 229111,
@@ -311,10 +311,10 @@
       "cta": "c01",
       "impressions": 160966,
       "clicks": 94,
-      "viewable": 134987,
+      "viewable": 134985,
       "eligible": 160966,
       "ctr": 0.058397425543282436,
-      "viewabilityRate": 83.86056682777729
+      "viewabilityRate": 83.85932432936148
     },
     {
       "label": "menina01_H04_C01",
@@ -460,10 +460,10 @@
       "siteId": "10491182",
       "impressions": 690013,
       "clicks": 492,
-      "viewable": 578165,
+      "viewable": 578163,
       "eligible": 690008,
       "ctr": 0.0713030044361483,
-      "viewabilityRate": 83.79105749498557
+      "viewabilityRate": 83.7907676432737
     }
   ],
   "byPlacement": [
@@ -472,20 +472,20 @@
       "placementId": "439015540",
       "impressions": 281555,
       "clicks": 192,
-      "viewable": 227786,
+      "viewable": 227785,
       "eligible": 281551,
       "ctr": 0.06819271545523965,
-      "viewabilityRate": 80.90399252710877
+      "viewabilityRate": 80.90363735166986
     },
     {
       "name": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
       "impressions": 278585,
       "clicks": 55,
-      "viewable": 238802,
+      "viewable": 238801,
       "eligible": 278584,
       "ctr": 0.01974262792325502,
-      "viewabilityRate": 85.71992648536887
+      "viewabilityRate": 85.71956752720902
     },
     {
       "name": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
@@ -515,10 +515,10 @@
       "placementId": "439186229",
       "impressions": 71311,
       "clicks": 14,
-      "viewable": 61172,
+      "viewable": 61171,
       "eligible": 71311,
       "ctr": 0.019632314790144576,
-      "viewabilityRate": 85.78199716733744
+      "viewabilityRate": 85.78059485913813
     },
     {
       "creative": "menina01_H01_C01",
@@ -526,10 +526,10 @@
       "placementId": "439015540",
       "impressions": 69093,
       "clicks": 49,
-      "viewable": 56197,
+      "viewable": 56196,
       "eligible": 69093,
       "ctr": 0.0709189064015168,
-      "viewabilityRate": 81.33530169481713
+      "viewabilityRate": 81.33385437019669
     },
     {
       "creative": "menino01_H09_C03",
@@ -1648,10 +1648,10 @@
       "name": "olx.com.br",
       "impressions": 121630,
       "clicks": 10,
-      "viewable": 95509,
+      "viewable": 95507,
       "eligible": 121630,
       "ctr": 0.008221655841486476,
-      "viewabilityRate": 78.52421277645317
+      "viewabilityRate": 78.52256844528488
     },
     {
       "name": "metropoles.com",
