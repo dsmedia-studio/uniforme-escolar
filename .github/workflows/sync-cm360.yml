@@ -63,6 +63,7 @@ jobs:
           Automated sync at $(date -u +"%Y-%m-%d %H:%M:%S UTC")
 
           Co-Authored-By: GitHub Actions <actions@github.com>"
+          git pull --rebase origin main
           git push
 
       - name: Log sync status
