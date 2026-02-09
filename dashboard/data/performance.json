@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-08T18:25:13.165Z",
-  "nextUpdate": "2026-02-09T00:25:13.165Z",
+  "lastUpdated": "2026-02-09T01:20:25.848Z",
+  "nextUpdate": "2026-02-09T07:20:25.848Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -12,9 +12,9 @@
     "impressions": 1255937,
     "clicks": 572,
     "ctr": 0.04554368571035012,
-    "viewableImpressions": 1053999,
+    "viewableImpressions": 1053997,
     "eligibleImpressions": 1255930,
-    "viewabilityRate": 83.92179500449866
+    "viewabilityRate": 83.92163575995477
   },
   "daily": [
     {
@@ -75,19 +75,19 @@
       "date": "2026-02-05",
       "impressions": 133856,
       "clicks": 24,
-      "viewable": 113198,
+      "viewable": 113197,
       "eligible": 133854,
       "ctr": 0.01792971551518049,
-      "viewabilityRate": 84.5682609410253
+      "viewabilityRate": 84.56751385838301
     },
     {
       "date": "2026-02-06",
       "impressions": 146159,
       "clicks": 13,
-      "viewable": 121865,
+      "viewable": 121864,
       "eligible": 146159,
       "ctr": 0.008894423196655697,
-      "viewabilityRate": 83.37837560464973
+      "viewabilityRate": 83.37769141825
     },
     {
       "date": "2026-02-07",
@@ -119,10 +119,10 @@
     "728x90": {
       "impressions": 510780,
       "clicks": 79,
-      "viewable": 448996,
+      "viewable": 448994,
       "eligible": 510778,
       "ctr": 0.015466541368103683,
-      "viewabilityRate": 87.90433417257594
+      "viewabilityRate": 87.90394261303345
     },
     "970x250": {
       "impressions": 126479,
@@ -137,10 +137,10 @@
     "menina": {
       "impressions": 438538,
       "clicks": 172,
-      "viewable": 367479,
+      "viewable": 367477,
       "eligible": 438537,
       "ctr": 0.03922123054330526,
-      "viewabilityRate": 83.79657816786269
+      "viewabilityRate": 83.79612210600246
     },
     "menino01": {
       "impressions": 412452,
@@ -359,10 +359,10 @@
       "cta": "c01",
       "impressions": 298548,
       "clicks": 98,
-      "viewable": 249850,
+      "viewable": 249848,
       "eligible": 298548,
       "ctr": 0.032825542291356834,
-      "viewabilityRate": 83.68838511730107
+      "viewabilityRate": 83.68771520827471
     },
     {
       "label": "menino02_H07_C02",
@@ -496,10 +496,10 @@
       "siteId": "10491182",
       "impressions": 1255937,
       "clicks": 572,
-      "viewable": 1053999,
+      "viewable": 1053997,
       "eligible": 1255930,
       "ctr": 0.04554368571035012,
-      "viewabilityRate": 83.92179500449866
+      "viewabilityRate": 83.92163575995477
     }
   ],
   "byPlacement": [
@@ -518,10 +518,10 @@
       "placementId": "439186229",
       "impressions": 510780,
       "clicks": 79,
-      "viewable": 448996,
+      "viewable": 448994,
       "eligible": 510778,
       "ctr": 0.015466541368103683,
-      "viewabilityRate": 87.90433417257594
+      "viewabilityRate": 87.90394261303345
     },
     {
       "name": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
@@ -562,10 +562,10 @@
       "placementId": "439186229",
       "impressions": 132492,
       "clicks": 17,
-      "viewable": 116568,
+      "viewable": 116566,
       "eligible": 132492,
       "ctr": 0.012830963378920993,
-      "viewabilityRate": 87.98116112670954
+      "viewabilityRate": 87.97965160160614
     },
     {
       "creative": "menino02_H08_C03",
@@ -1713,10 +1713,10 @@
       "name": "uol.com.br",
       "impressions": 91755,
       "clicks": 38,
-      "viewable": 81045,
+      "viewable": 81044,
       "eligible": 91755,
       "ctr": 0.04141463680453381,
-      "viewabilityRate": 88.32761157430113
+      "viewabilityRate": 88.32652171543785
     },
     {
       "name": "todamateria.com.br",
@@ -1740,10 +1740,10 @@
       "name": "cifraclub.com.br",
       "impressions": 57035,
       "clicks": 12,
-      "viewable": 48330,
+      "viewable": 48329,
       "eligible": 57035,
       "ctr": 0.021039712457263084,
-      "viewabilityRate": 84.73744192162707
+      "viewabilityRate": 84.73568861225563
     },
     {
       "name": "globo.com",
