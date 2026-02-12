@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-02-12T06:52:38.846Z",
-  "nextUpdate": "2026-02-12T12:52:38.846Z",
+  "lastUpdated": "2026-02-12T12:44:11.589Z",
+  "nextUpdate": "2026-02-12T18:44:11.589Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
     "siteName": "Uniforme Escolar",
     "startDate": "2026-01-30",
-    "endDate": "2026-02-10"
+    "endDate": "2026-02-11"
   },
   "summary": {
-    "impressions": 1815798,
-    "clicks": 804,
-    "ctr": 0.0442780529552296,
-    "viewableImpressions": 1524289,
-    "eligibleImpressions": 1815788,
-    "viewabilityRate": 83.94641885506458
+    "impressions": 2104571,
+    "clicks": 930,
+    "ctr": 0.04418952841220372,
+    "viewableImpressions": 1758407,
+    "eligibleImpressions": 2104536,
+    "viewabilityRate": 83.5531917724382
   },
   "daily": [
     {
@@ -124,66 +124,75 @@
       "eligible": 286794,
       "ctr": 0.04184144185608636,
       "viewabilityRate": 81.0599245451439
+    },
+    {
+      "date": "2026-02-11",
+      "impressions": 288773,
+      "clicks": 126,
+      "viewable": 234118,
+      "eligible": 288748,
+      "ctr": 0.04363288811627126,
+      "viewabilityRate": 81.0803884355909
     }
   ],
   "byFormat": {
     "300x250": {
-      "impressions": 785291,
-      "clicks": 239,
-      "viewable": 619409,
-      "eligible": 785286,
-      "ctr": 0.03043457775525251,
-      "viewabilityRate": 78.87686779084308
+      "impressions": 909322,
+      "clicks": 279,
+      "viewable": 714901,
+      "eligible": 909314,
+      "ctr": 0.03068220058461139,
+      "viewabilityRate": 78.61981669698255
     },
     "468x60": {
-      "impressions": 60711,
+      "impressions": 67822,
       "clicks": 10,
-      "viewable": 53051,
-      "eligible": 60711,
-      "ctr": 0.016471479633015436,
-      "viewabilityRate": 87.38284660111017
+      "viewable": 58835,
+      "eligible": 67822,
+      "ctr": 0.014744478192916754,
+      "viewabilityRate": 86.74913744802572
     },
     "728x90": {
-      "impressions": 790383,
-      "clicks": 133,
-      "viewable": 698692,
-      "eligible": 790380,
-      "ctr": 0.016827284999803894,
-      "viewabilityRate": 88.3995040360333
+      "impressions": 918340,
+      "clicks": 165,
+      "viewable": 807552,
+      "eligible": 918317,
+      "ctr": 0.01796720169000588,
+      "viewabilityRate": 87.93826097088478
     },
     "970x250": {
-      "impressions": 179413,
-      "clicks": 422,
-      "viewable": 153137,
-      "eligible": 179411,
-      "ctr": 0.23521149526511456,
-      "viewabilityRate": 85.35541299028488
+      "impressions": 209087,
+      "clicks": 476,
+      "viewable": 177119,
+      "eligible": 209083,
+      "ctr": 0.22765643009847575,
+      "viewabilityRate": 84.7122912910184
     }
   },
   "byPersonagem": {
     "menina": {
-      "impressions": 629817,
-      "clicks": 249,
-      "viewable": 526209,
-      "eligible": 629813,
-      "ctr": 0.03953529358527953,
-      "viewabilityRate": 83.55003786838316
+      "impressions": 732829,
+      "clicks": 283,
+      "viewable": 609889,
+      "eligible": 732813,
+      "ctr": 0.03861746737642752,
+      "viewabilityRate": 83.22573425962695
     },
     "menino01": {
-      "impressions": 623422,
-      "clicks": 310,
-      "viewable": 529458,
-      "eligible": 623418,
-      "ctr": 0.04972554706122017,
-      "viewabilityRate": 84.92825038738053
+      "impressions": 729495,
+      "clicks": 365,
+      "viewable": 615597,
+      "eligible": 729486,
+      "ctr": 0.05003461298569559,
+      "viewabilityRate": 84.38777440554034
     },
     "menino02": {
-      "impressions": 562403,
-      "clicks": 245,
-      "viewable": 468489,
-      "eligible": 562401,
-      "ctr": 0.04356306776457451,
-      "viewabilityRate": 83.30159441395018
+      "impressions": 642063,
+      "clicks": 282,
+      "viewable": 532762,
+      "eligible": 642053,
+      "ctr": 0.04392092364767943,
+      "viewabilityRate": 82.97788500326297
     }
   },
   "byReportingLabel": [
@@ -192,324 +201,324 @@
       "personagem": "menino02",
       "headline": "h09",
       "cta": "c03",
-      "impressions": 50178,
-      "clicks": 43,
-      "viewable": 41993,
-      "eligible": 50178,
-      "ctr": 0.08569492606321495,
-      "viewabilityRate": 83.6880704691299
-    },
-    {
-      "label": "menino01_H04_C01",
-      "personagem": "menino01",
-      "headline": "h04",
-      "cta": "c01",
-      "impressions": 44408,
-      "clicks": 31,
-      "viewable": 37114,
-      "eligible": 44407,
-      "ctr": 0.06980724193838948,
-      "viewabilityRate": 83.57691354966559
+      "impressions": 56985,
+      "clicks": 44,
+      "viewable": 47446,
+      "eligible": 56984,
+      "ctr": 0.07721330174607352,
+      "viewabilityRate": 83.2619682717956
     },
     {
       "label": "menino01_H09_C03",
       "personagem": "menino01",
       "headline": "h09",
       "cta": "c03",
-      "impressions": 89235,
-      "clicks": 62,
-      "viewable": 77429,
-      "eligible": 89235,
-      "ctr": 0.0694794643357427,
-      "viewabilityRate": 86.76976522664873
+      "impressions": 105040,
+      "clicks": 72,
+      "viewable": 90461,
+      "eligible": 105037,
+      "ctr": 0.06854531607006854,
+      "viewabilityRate": 86.12298523377476
     },
     {
-      "label": "menina01_H02_C01",
-      "personagem": "menina01",
-      "headline": "h02",
-      "cta": "c01",
-      "impressions": 121763,
-      "clicks": 81,
-      "viewable": 98222,
-      "eligible": 121762,
-      "ctr": 0.06652267109056118,
-      "viewabilityRate": 80.6672032325356
-    },
-    {
-      "label": "menino02_H10_C03",
-      "personagem": "menino02",
-      "headline": "h10",
-      "cta": "c03",
-      "impressions": 46267,
-      "clicks": 28,
-      "viewable": 38663,
-      "eligible": 46267,
-      "ctr": 0.06051829597769468,
-      "viewabilityRate": 83.56495990662891
-    },
-    {
-      "label": "menino02_H05_C01",
-      "personagem": "menino02",
-      "headline": "h05",
-      "cta": "c01",
-      "impressions": 83190,
-      "clicks": 47,
-      "viewable": 68391,
-      "eligible": 83190,
-      "ctr": 0.05649717514124294,
-      "viewabilityRate": 82.21060223584566
-    },
-    {
-      "label": "menino01_H06_C02",
+      "label": "menino01_H04_C01",
       "personagem": "menino01",
-      "headline": "h06",
-      "cta": "c02",
-      "impressions": 113423,
-      "clicks": 62,
-      "viewable": 95076,
-      "eligible": 113422,
-      "ctr": 0.054662634562654834,
-      "viewabilityRate": 83.82500749413694
-    },
-    {
-      "label": "menino01_H05_C01",
-      "personagem": "menino01",
-      "headline": "h05",
+      "headline": "h04",
       "cta": "c01",
-      "impressions": 53260,
-      "clicks": 29,
-      "viewable": 46084,
-      "eligible": 53260,
-      "ctr": 0.054449868569282765,
-      "viewabilityRate": 86.52647390161472
+      "impressions": 52760,
+      "clicks": 35,
+      "viewable": 43762,
+      "eligible": 52759,
+      "ctr": 0.06633813495072025,
+      "viewabilityRate": 82.94698534847134
     },
     {
       "label": "menino02_H07_C02",
       "personagem": "menino02",
       "headline": "h07",
       "cta": "c02",
-      "impressions": 42994,
-      "clicks": 23,
-      "viewable": 35887,
-      "eligible": 42994,
-      "ctr": 0.053495836628366746,
-      "viewabilityRate": 83.46978648183467
+      "impressions": 49163,
+      "clicks": 31,
+      "viewable": 40930,
+      "eligible": 49163,
+      "ctr": 0.06305554990541667,
+      "viewabilityRate": 83.2536663751195
     },
     {
-      "label": "menino01_H01_C01",
-      "personagem": "menino01",
-      "headline": "h01",
+      "label": "menino02_H10_C03",
+      "personagem": "menino02",
+      "headline": "h10",
+      "cta": "c03",
+      "impressions": 59994,
+      "clicks": 34,
+      "viewable": 49513,
+      "eligible": 59994,
+      "ctr": 0.05667233390005667,
+      "viewabilityRate": 82.52991965863254
+    },
+    {
+      "label": "menina01_H02_C01",
+      "personagem": "menina01",
+      "headline": "h02",
       "cta": "c01",
-      "impressions": 88962,
-      "clicks": 43,
-      "viewable": 77872,
-      "eligible": 88961,
-      "ctr": 0.048335244261594836,
-      "viewabilityRate": 87.53498724160025
+      "impressions": 183338,
+      "clicks": 103,
+      "viewable": 147473,
+      "eligible": 183336,
+      "ctr": 0.05618038813557473,
+      "viewabilityRate": 80.4386481651176
+    },
+    {
+      "label": "menino01_H06_C02",
+      "personagem": "menino01",
+      "headline": "h06",
+      "cta": "c02",
+      "impressions": 131679,
+      "clicks": 73,
+      "viewable": 109845,
+      "eligible": 131678,
+      "ctr": 0.055437845062614385,
+      "viewabilityRate": 83.41940187426906
+    },
+    {
+      "label": "menino01_H05_C01",
+      "personagem": "menino01",
+      "headline": "h05",
+      "cta": "c01",
+      "impressions": 61709,
+      "clicks": 34,
+      "viewable": 52900,
+      "eligible": 61709,
+      "ctr": 0.05509731157529696,
+      "viewabilityRate": 85.72493477450614
+    },
+    {
+      "label": "menino02_H05_C01",
+      "personagem": "menino02",
+      "headline": "h05",
+      "cta": "c01",
+      "impressions": 93862,
+      "clicks": 51,
+      "viewable": 77165,
+      "eligible": 93861,
+      "ctr": 0.05433508768191601,
+      "viewabilityRate": 82.21199433204418
     },
     {
       "label": "menino01_H08_C03",
       "personagem": "menino01",
       "headline": "h08",
       "cta": "c03",
-      "impressions": 58991,
-      "clicks": 28,
-      "viewable": 49052,
-      "eligible": 58990,
-      "ctr": 0.047464867522164396,
-      "viewabilityRate": 83.15307679267673
+      "impressions": 69298,
+      "clicks": 35,
+      "viewable": 57502,
+      "eligible": 69297,
+      "ctr": 0.05050650812433259,
+      "viewabilityRate": 82.97906114261801
+    },
+    {
+      "label": "menino01_H01_C01",
+      "personagem": "menino01",
+      "headline": "h01",
+      "cta": "c01",
+      "impressions": 104276,
+      "clicks": 47,
+      "viewable": 90706,
+      "eligible": 104274,
+      "ctr": 0.045072691702788756,
+      "viewabilityRate": 86.98812743349254
     },
     {
       "label": "menino02_H04_C01",
       "personagem": "menino02",
       "headline": "h04",
       "cta": "c01",
-      "impressions": 41176,
-      "clicks": 18,
-      "viewable": 34121,
-      "eligible": 41176,
-      "ctr": 0.043714785311832136,
-      "viewabilityRate": 82.86623275694579
-    },
-    {
-      "label": "menina01_H04_C01",
-      "personagem": "menina01",
-      "headline": "h04",
-      "cta": "c01",
-      "impressions": 38678,
-      "clicks": 16,
-      "viewable": 33011,
-      "eligible": 38678,
-      "ctr": 0.0413671854801179,
-      "viewabilityRate": 85.34825999276075
-    },
-    {
-      "label": "menino02_H02_C01",
-      "personagem": "menino02",
-      "headline": "h02",
-      "cta": "c01",
-      "impressions": 86543,
-      "clicks": 32,
-      "viewable": 72310,
-      "eligible": 86543,
-      "ctr": 0.03697583860046451,
-      "viewabilityRate": 83.55384028748715
+      "impressions": 43960,
+      "clicks": 19,
+      "viewable": 36480,
+      "eligible": 43959,
+      "ctr": 0.04322111010009099,
+      "viewabilityRate": 82.98641916331127
     },
     {
       "label": "menino01_H07_C02",
       "personagem": "menino01",
       "headline": "h07",
       "cta": "c02",
-      "impressions": 41788,
-      "clicks": 15,
-      "viewable": 34694,
-      "eligible": 41788,
-      "ctr": 0.03589547238441658,
-      "viewabilityRate": 83.02383459366325
+      "impressions": 50924,
+      "clicks": 20,
+      "viewable": 42113,
+      "eligible": 50924,
+      "ctr": 0.039274212552038335,
+      "viewabilityRate": 82.69774566019952
+    },
+    {
+      "label": "menina01_H04_C01",
+      "personagem": "menina01",
+      "headline": "h04",
+      "cta": "c01",
+      "impressions": 41698,
+      "clicks": 16,
+      "viewable": 35321,
+      "eligible": 41698,
+      "ctr": 0.038371144899035925,
+      "viewabilityRate": 84.706700561178
+    },
+    {
+      "label": "menino02_H02_C01",
+      "personagem": "menino02",
+      "headline": "h02",
+      "cta": "c01",
+      "impressions": 90230,
+      "clicks": 34,
+      "viewable": 75163,
+      "eligible": 90230,
+      "ctr": 0.03768148066053419,
+      "viewabilityRate": 83.30156267316858
     },
     {
       "label": "menino02_H08_C03",
       "personagem": "menino02",
       "headline": "h08",
       "cta": "c03",
-      "impressions": 77348,
-      "clicks": 27,
-      "viewable": 63092,
-      "eligible": 77348,
-      "ctr": 0.03490717277757667,
-      "viewabilityRate": 81.56901277343952
-    },
-    {
-      "label": "menino01_H03_C01",
-      "personagem": "menino01",
-      "headline": "h03",
-      "cta": "c01",
-      "impressions": 34863,
-      "clicks": 12,
-      "viewable": 29458,
-      "eligible": 34863,
-      "ctr": 0.03442044574477239,
-      "viewabilityRate": 84.49645756245877
-    },
-    {
-      "label": "menina01_H03_C01",
-      "personagem": "menina01",
-      "headline": "h03",
-      "cta": "c01",
-      "impressions": 73252,
-      "clicks": 25,
-      "viewable": 62700,
-      "eligible": 73250,
-      "ctr": 0.034128760989461035,
-      "viewabilityRate": 85.59726962457339
+      "impressions": 79776,
+      "clicks": 29,
+      "viewable": 65119,
+      "eligible": 79775,
+      "ctr": 0.03635178499799439,
+      "viewabilityRate": 81.62832967721717
     },
     {
       "label": "menino01_H10_C03",
       "personagem": "menino01",
       "headline": "h10",
       "cta": "c03",
-      "impressions": 62905,
-      "clicks": 21,
-      "viewable": 52783,
-      "eligible": 62905,
-      "ctr": 0.03338367379381607,
-      "viewabilityRate": 83.90906923138066
+      "impressions": 74841,
+      "clicks": 27,
+      "viewable": 62058,
+      "eligible": 74841,
+      "ctr": 0.03607648214214134,
+      "viewabilityRate": 82.91978995470397
     },
     {
       "label": "menina01_H08_C03",
       "personagem": "menina01",
       "headline": "h08",
       "cta": "c03",
-      "impressions": 66134,
-      "clicks": 22,
-      "viewable": 54296,
-      "eligible": 66134,
-      "ctr": 0.033265793691595845,
-      "viewabilityRate": 82.09997883085856
+      "impressions": 72790,
+      "clicks": 26,
+      "viewable": 59754,
+      "eligible": 72790,
+      "ctr": 0.03571919219673032,
+      "viewabilityRate": 82.09094655859322
+    },
+    {
+      "label": "menino01_H03_C01",
+      "personagem": "menino01",
+      "headline": "h03",
+      "cta": "c01",
+      "impressions": 39820,
+      "clicks": 14,
+      "viewable": 33412,
+      "eligible": 39820,
+      "ctr": 0.03515821195379207,
+      "viewabilityRate": 83.9075841285786
     },
     {
       "label": "menina01_H01_C01",
       "personagem": "menina01",
       "headline": "h01",
       "cta": "c01",
-      "impressions": 329990,
-      "clicks": 105,
-      "viewable": 277980,
-      "eligible": 329989,
-      "ctr": 0.031819146034728324,
-      "viewabilityRate": 84.2391716087506
+      "impressions": 330518,
+      "clicks": 106,
+      "viewable": 278429,
+      "eligible": 330517,
+      "ctr": 0.03207087057285836,
+      "viewabilityRate": 84.24044754127624
+    },
+    {
+      "label": "menina01_H03_C01",
+      "personagem": "menina01",
+      "headline": "h03",
+      "cta": "c01",
+      "impressions": 104485,
+      "clicks": 32,
+      "viewable": 88912,
+      "eligible": 104472,
+      "ctr": 0.030626405704168063,
+      "viewabilityRate": 85.10605712535416
     },
     {
       "label": "menino02_H01_C01",
       "personagem": "menino02",
       "headline": "h01",
       "cta": "c01",
-      "impressions": 47602,
-      "clicks": 12,
-      "viewable": 41251,
-      "eligible": 47601,
-      "ctr": 0.025209024830889454,
-      "viewabilityRate": 86.65994411882103
-    },
-    {
-      "label": "menino01_H02_C01",
-      "personagem": "menino01",
-      "headline": "h02",
-      "cta": "c01",
-      "impressions": 35587,
-      "clicks": 7,
-      "viewable": 29896,
-      "eligible": 35587,
-      "ctr": 0.019670104251552533,
-      "viewabilityRate": 84.0082052434878
-    },
-    {
-      "label": "menino02_H06_C02",
-      "personagem": "menino02",
-      "headline": "h06",
-      "cta": "c02",
-      "impressions": 47298,
-      "clicks": 9,
-      "viewable": 39465,
-      "eligible": 47297,
-      "ctr": 0.019028288722567552,
-      "viewabilityRate": 83.4408101993784
+      "impressions": 59148,
+      "clicks": 16,
+      "viewable": 50778,
+      "eligible": 59143,
+      "ctr": 0.027050787854196255,
+      "viewabilityRate": 85.8563143567286
     },
     {
       "label": "menino02_H03_C01",
       "personagem": "menino02",
       "headline": "h03",
       "cta": "c01",
-      "impressions": 39807,
-      "clicks": 6,
-      "viewable": 33316,
-      "eligible": 39807,
-      "ctr": 0.015072725902479463,
-      "viewabilityRate": 83.69382269450097
+      "impressions": 53980,
+      "clicks": 13,
+      "viewable": 44414,
+      "eligible": 53980,
+      "ctr": 0.02408299370137088,
+      "viewabilityRate": 82.27862171174509
+    },
+    {
+      "label": "menino01_H02_C01",
+      "personagem": "menino01",
+      "headline": "h02",
+      "cta": "c01",
+      "impressions": 39148,
+      "clicks": 8,
+      "viewable": 32838,
+      "eligible": 39147,
+      "ctr": 0.020435271278226218,
+      "viewabilityRate": 83.88382251513526
+    },
+    {
+      "label": "menino02_H06_C02",
+      "personagem": "menino02",
+      "headline": "h06",
+      "cta": "c02",
+      "impressions": 54965,
+      "clicks": 11,
+      "viewable": 45754,
+      "eligible": 54964,
+      "ctr": 0.020012735377058128,
+      "viewabilityRate": 83.24357761443855
     },
     {
       "label": "(not set)",
       "personagem": "",
       "headline": "",
       "cta": "",
-      "impressions": 156,
+      "impressions": 184,
       "clicks": 0,
-      "viewable": 133,
-      "eligible": 156,
+      "viewable": 159,
+      "eligible": 184,
       "ctr": 0,
-      "viewabilityRate": 85.25641025641025
+      "viewabilityRate": 86.41304347826086
     }
   ],
   "topPerformers": {
     "byCTR": [
       "menino02_H09_C03",
-      "menino01_H04_C01",
-      "menino01_H09_C03"
+      "menino01_H09_C03",
+      "menino01_H04_C01"
     ],
     "byViewability": [
       "menino01_H01_C01",
-      "menino01_H09_C03",
-      "menino02_H01_C01"
+      "(not set)",
+      "menino01_H09_C03"
     ],
     "byVolume": [
       "menina01_H01_C01",
@@ -521,54 +530,54 @@
     {
       "name": "DBM Monks-DV360-DS Media-36727-BR 1481230269-AG - Babel",
       "siteId": "10491182",
-      "impressions": 1815798,
-      "clicks": 804,
-      "viewable": 1524289,
-      "eligible": 1815788,
-      "ctr": 0.0442780529552296,
-      "viewabilityRate": 83.94641885506458
+      "impressions": 2104571,
+      "clicks": 930,
+      "viewable": 1758407,
+      "eligible": 2104536,
+      "ctr": 0.04418952841220372,
+      "viewabilityRate": 83.5531917724382
     }
   ],
   "byPlacement": [
     {
       "name": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 790383,
-      "clicks": 133,
-      "viewable": 698692,
-      "eligible": 790380,
-      "ctr": 0.016827284999803894,
-      "viewabilityRate": 88.3995040360333
+      "impressions": 918340,
+      "clicks": 165,
+      "viewable": 807552,
+      "eligible": 918317,
+      "ctr": 0.01796720169000588,
+      "viewabilityRate": 87.93826097088478
     },
     {
       "name": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 785291,
-      "clicks": 239,
-      "viewable": 619409,
-      "eligible": 785286,
-      "ctr": 0.03043457775525251,
-      "viewabilityRate": 78.87686779084308
+      "impressions": 909322,
+      "clicks": 279,
+      "viewable": 714901,
+      "eligible": 909314,
+      "ctr": 0.03068220058461139,
+      "viewabilityRate": 78.61981669698255
     },
     {
       "name": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186241",
-      "impressions": 179413,
-      "clicks": 422,
-      "viewable": 153137,
-      "eligible": 179411,
-      "ctr": 0.23521149526511456,
-      "viewabilityRate": 85.35541299028488
+      "impressions": 209087,
+      "clicks": 476,
+      "viewable": 177119,
+      "eligible": 209083,
+      "ctr": 0.22765643009847575,
+      "viewabilityRate": 84.7122912910184
     },
     {
       "name": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 60711,
+      "impressions": 67822,
       "clicks": 10,
-      "viewable": 53051,
-      "eligible": 60711,
-      "ctr": 0.016471479633015436,
-      "viewabilityRate": 87.38284660111017
+      "viewable": 58835,
+      "eligible": 67822,
+      "ctr": 0.014744478192916754,
+      "viewabilityRate": 86.74913744802572
     }
   ],
   "byCreativePlacement": [
@@ -576,12 +585,12 @@
       "creative": "menina01_H01_C01",
       "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 161754,
+      "impressions": 161797,
       "clicks": 22,
-      "viewable": 142968,
-      "eligible": 161754,
-      "ctr": 0.013600900132299665,
-      "viewabilityRate": 88.38606773248266
+      "viewable": 143008,
+      "eligible": 161797,
+      "ctr": 0.013597285487369977,
+      "viewabilityRate": 88.38730013535479
     },
     {
       "creative": "menina01_H01_C01",
@@ -598,232 +607,309 @@
       "creative": "menina01_H02_C01",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 75415,
-      "clicks": 17,
-      "viewable": 58305,
-      "eligible": 75415,
-      "ctr": 0.022541934628389576,
-      "viewabilityRate": 77.3122057946032
+      "impressions": 110622,
+      "clicks": 31,
+      "viewable": 85438,
+      "eligible": 110621,
+      "ctr": 0.02802335882555007,
+      "viewabilityRate": 77.23488306921831
     },
     {
       "creative": "menino01_H01_C01",
       "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 65717,
-      "clicks": 14,
-      "viewable": 58476,
-      "eligible": 65717,
-      "ctr": 0.021303467900238904,
-      "viewabilityRate": 88.98154206674073
+      "impressions": 77934,
+      "clicks": 17,
+      "viewable": 68894,
+      "eligible": 77933,
+      "ctr": 0.02181332922729489,
+      "viewabilityRate": 88.40157571247097
     },
     {
       "creative": "menino01_H09_C03",
       "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 63329,
-      "clicks": 18,
-      "viewable": 56071,
-      "eligible": 63329,
-      "ctr": 0.028422997362977466,
-      "viewabilityRate": 88.53921584108386
-    },
-    {
-      "creative": "menino02_H08_C03",
-      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439015540",
-      "impressions": 58083,
-      "clicks": 22,
-      "viewable": 46066,
-      "eligible": 58083,
-      "ctr": 0.03787683143088339,
-      "viewabilityRate": 79.31064166795792
-    },
-    {
-      "creative": "menino01_H06_C02",
-      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186229",
-      "impressions": 50562,
-      "clicks": 12,
-      "viewable": 44971,
-      "eligible": 50561,
-      "ctr": 0.023733238400379733,
-      "viewabilityRate": 88.94404778386503
-    },
-    {
-      "creative": "menino02_H05_C01",
-      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439015540",
-      "impressions": 50264,
-      "clicks": 21,
-      "viewable": 39816,
-      "eligible": 50264,
-      "ctr": 0.04177940474295719,
-      "viewabilityRate": 79.21375139264683
-    },
-    {
-      "creative": "menino01_H06_C02",
-      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439015540",
-      "impressions": 50151,
-      "clicks": 13,
-      "viewable": 39270,
-      "eligible": 50151,
-      "ctr": 0.025921716416422404,
-      "viewabilityRate": 78.30352335945446
+      "impressions": 74540,
+      "clicks": 25,
+      "viewable": 65539,
+      "eligible": 74538,
+      "ctr": 0.03353903944191038,
+      "viewabilityRate": 87.92696342805012
     },
     {
       "creative": "menina01_H03_C01",
       "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 46990,
-      "clicks": 9,
-      "viewable": 41067,
-      "eligible": 46988,
-      "ctr": 0.01915301127899553,
-      "viewabilityRate": 87.39891036009195
+      "impressions": 72451,
+      "clicks": 14,
+      "viewable": 62782,
+      "eligible": 72438,
+      "ctr": 0.019323404783922925,
+      "viewabilityRate": 86.66997984483282
+    },
+    {
+      "creative": "menino01_H06_C02",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 58985,
+      "clicks": 16,
+      "viewable": 46077,
+      "eligible": 58985,
+      "ctr": 0.027125540391624986,
+      "viewabilityRate": 78.11647028905654
+    },
+    {
+      "creative": "menino02_H08_C03",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 58118,
+      "clicks": 22,
+      "viewable": 46090,
+      "eligible": 58118,
+      "ctr": 0.03785402112942634,
+      "viewabilityRate": 79.30417426614818
+    },
+    {
+      "creative": "menino01_H06_C02",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 56975,
+      "clicks": 12,
+      "viewable": 50476,
+      "eligible": 56974,
+      "ctr": 0.021061869240895127,
+      "viewabilityRate": 88.59479762698776
+    },
+    {
+      "creative": "menino02_H05_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 54119,
+      "clicks": 21,
+      "viewable": 42801,
+      "eligible": 54119,
+      "ctr": 0.03880337774164341,
+      "viewabilityRate": 79.08682717714666
     },
     {
       "creative": "menino02_H02_C01",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 46234,
-      "clicks": 17,
-      "viewable": 36703,
-      "eligible": 46234,
-      "ctr": 0.036769477008262316,
-      "viewabilityRate": 79.38530086083834
+      "impressions": 49129,
+      "clicks": 19,
+      "viewable": 38910,
+      "eligible": 49129,
+      "ctr": 0.038673695780496245,
+      "viewabilityRate": 79.199658043111
     },
     {
       "creative": "menina01_H08_C03",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 42346,
-      "clicks": 11,
-      "viewable": 33332,
-      "eligible": 42346,
-      "ctr": 0.025976479478581213,
-      "viewabilityRate": 78.7134558163699
+      "impressions": 44308,
+      "clicks": 12,
+      "viewable": 34886,
+      "eligible": 44308,
+      "ctr": 0.02708314525593572,
+      "viewabilityRate": 78.7352171165478
     },
     {
       "creative": "menino02_H01_C01",
       "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 33721,
-      "clicks": 6,
-      "viewable": 29916,
-      "eligible": 33721,
-      "ctr": 0.01779306663503455,
-      "viewabilityRate": 88.71623024228225
+      "impressions": 41722,
+      "clicks": 8,
+      "viewable": 36694,
+      "eligible": 41720,
+      "ctr": 0.01917453621590528,
+      "viewabilityRate": 87.95302013422818
+    },
+    {
+      "creative": "menino01_H10_C03",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 37487,
+      "clicks": 5,
+      "viewable": 29233,
+      "eligible": 37487,
+      "ctr": 0.013337957158481606,
+      "viewabilityRate": 77.98170032277856
     },
     {
       "creative": "menino01_H05_C01",
       "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 33184,
-      "clicks": 6,
-      "viewable": 29641,
-      "eligible": 33184,
-      "ctr": 0.018081002892960465,
-      "viewabilityRate": 89.32316779170685
-    },
-    {
-      "creative": "menino02_H02_C01",
-      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186229",
-      "impressions": 32700,
-      "clicks": 4,
-      "viewable": 29001,
-      "eligible": 32700,
-      "ctr": 0.012232415902140673,
-      "viewabilityRate": 88.68807339449542
-    },
-    {
-      "creative": "menino01_H08_C03",
-      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439015540",
-      "impressions": 31204,
-      "clicks": 12,
-      "viewable": 24669,
-      "eligible": 31203,
-      "ctr": 0.03845660812716318,
-      "viewabilityRate": 79.05970579751947
-    },
-    {
-      "creative": "menino01_H10_C03",
-      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186229",
-      "impressions": 28372,
-      "clicks": 4,
-      "viewable": 25300,
-      "eligible": 28372,
-      "ctr": 0.014098406880022559,
-      "viewabilityRate": 89.17242351614267
-    },
-    {
-      "creative": "menino01_H10_C03",
-      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439015540",
-      "impressions": 27756,
-      "clicks": 4,
-      "viewable": 21757,
-      "eligible": 27756,
-      "ctr": 0.014411298457991066,
-      "viewabilityRate": 78.3866551376279
+      "impressions": 35677,
+      "clicks": 7,
+      "viewable": 31780,
+      "eligible": 35677,
+      "ctr": 0.019620483785071613,
+      "viewabilityRate": 89.07699638422513
     },
     {
       "creative": "menina01_H02_C01",
       "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186241",
-      "impressions": 27603,
-      "clicks": 59,
-      "viewable": 23569,
-      "eligible": 27602,
-      "ctr": 0.2137448828025939,
-      "viewabilityRate": 85.3887399463807
+      "impressions": 34524,
+      "clicks": 64,
+      "viewable": 29161,
+      "eligible": 34523,
+      "ctr": 0.1853782875680686,
+      "viewabilityRate": 84.46832546418331
     },
     {
-      "creative": "menino02_H04_C01",
+      "creative": "menino01_H08_C03",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 24338,
-      "clicks": 10,
-      "viewable": 19430,
-      "eligible": 24338,
-      "ctr": 0.04108801051853069,
-      "viewabilityRate": 79.83400443750513
+      "impressions": 34054,
+      "clicks": 16,
+      "viewable": 26843,
+      "eligible": 34053,
+      "ctr": 0.0469842015622247,
+      "viewabilityRate": 78.82712242680527
+    },
+    {
+      "creative": "menina01_H02_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 33210,
+      "clicks": 7,
+      "viewable": 28840,
+      "eligible": 33210,
+      "ctr": 0.021077988557663352,
+      "viewabilityRate": 86.84131285757302
+    },
+    {
+      "creative": "menino02_H02_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 32794,
+      "clicks": 4,
+      "viewable": 29081,
+      "eligible": 32794,
+      "ctr": 0.012197353174361164,
+      "viewabilityRate": 88.67780691589925
     },
     {
       "creative": "menino02_H05_C01",
       "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 23802,
+      "impressions": 29735,
+      "clicks": 9,
+      "viewable": 25804,
+      "eligible": 29734,
+      "ctr": 0.030267361694972253,
+      "viewabilityRate": 86.7828075603686
+    },
+    {
+      "creative": "menino02_H03_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 28653,
+      "clicks": 10,
+      "viewable": 22166,
+      "eligible": 28653,
+      "ctr": 0.03490035947370258,
+      "viewabilityRate": 77.36013680940914
+    },
+    {
+      "creative": "menino01_H10_C03",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 28426,
+      "clicks": 4,
+      "viewable": 25346,
+      "eligible": 28426,
+      "ctr": 0.014071624569056496,
+      "viewabilityRate": 89.16484908182649
+    },
+    {
+      "creative": "menino01_H08_C03",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 27426,
+      "clicks": 2,
+      "viewable": 23919,
+      "eligible": 27426,
+      "ctr": 0.00729235032450959,
+      "viewabilityRate": 87.21286370597244
+    },
+    {
+      "creative": "menino02_H10_C03",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 27188,
       "clicks": 6,
-      "viewable": 20749,
-      "eligible": 23802,
-      "ctr": 0.025207965717166627,
-      "viewabilityRate": 87.17334677758171
+      "viewable": 21123,
+      "eligible": 27188,
+      "ctr": 0.022068559658672944,
+      "viewabilityRate": 77.6923642783581
     },
     {
       "creative": "menino02_H09_C03",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 23281,
-      "clicks": 8,
-      "viewable": 18624,
-      "eligible": 23281,
-      "ctr": 0.03436278510373266,
-      "viewabilityRate": 79.99656372148962
+      "impressions": 26108,
+      "clicks": 9,
+      "viewable": 20782,
+      "eligible": 26108,
+      "ctr": 0.03447219243143864,
+      "viewabilityRate": 79.60012256779532
     },
     {
       "creative": "menino02_H06_C02",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 22879,
-      "clicks": 5,
-      "viewable": 18046,
-      "eligible": 22878,
-      "ctr": 0.021854102014948206,
-      "viewabilityRate": 78.87927266369438
+      "impressions": 25684,
+      "clicks": 7,
+      "viewable": 20213,
+      "eligible": 25683,
+      "ctr": 0.027254321756735714,
+      "viewabilityRate": 78.7018650469182
+    },
+    {
+      "creative": "menino01_H04_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 25252,
+      "clicks": 9,
+      "viewable": 20076,
+      "eligible": 25251,
+      "ctr": 0.03564074132741961,
+      "viewabilityRate": 79.50576214803374
+    },
+    {
+      "creative": "menino02_H04_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 24350,
+      "clicks": 10,
+      "viewable": 19440,
+      "eligible": 24350,
+      "ctr": 0.04106776180698152,
+      "viewabilityRate": 79.83572895277207
+    },
+    {
+      "creative": "menino02_H06_C02",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 24153,
+      "clicks": 2,
+      "viewable": 21186,
+      "eligible": 24153,
+      "ctr": 0.008280544859851777,
+      "viewabilityRate": 87.71581170040989
+    },
+    {
+      "creative": "menino01_H07_C02",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 23963,
+      "clicks": 7,
+      "viewable": 18732,
+      "eligible": 23963,
+      "ctr": 0.029211701372949962,
+      "viewabilityRate": 78.17051287401411
     },
     {
       "creative": "menina01_H04_C01",
@@ -837,367 +923,301 @@
       "viewabilityRate": 87.50879662209712
     },
     {
-      "creative": "menino01_H07_C02",
-      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439015540",
-      "impressions": 21149,
-      "clicks": 6,
-      "viewable": 16589,
-      "eligible": 21149,
-      "ctr": 0.028370135703815785,
-      "viewabilityRate": 78.4386968651
-    },
-    {
-      "creative": "menino01_H08_C03",
-      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186229",
-      "impressions": 21066,
-      "clicks": 2,
-      "viewable": 18546,
-      "eligible": 21066,
-      "ctr": 0.009493971328206589,
-      "viewabilityRate": 88.03759612645969
-    },
-    {
-      "creative": "menino01_H04_C01",
-      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439015540",
-      "impressions": 20413,
-      "clicks": 8,
-      "viewable": 16345,
-      "eligible": 20412,
-      "ctr": 0.03919071180130309,
-      "viewabilityRate": 80.07544581618656
-    },
-    {
       "creative": "menino02_H10_C03",
       "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 19807,
+      "impressions": 22267,
       "clicks": 3,
-      "viewable": 17436,
-      "eligible": 19807,
-      "ctr": 0.01514616044832635,
-      "viewabilityRate": 88.02948452567274
+      "viewable": 19544,
+      "eligible": 22267,
+      "ctr": 0.013472852202811334,
+      "viewabilityRate": 87.77114115058157
     },
     {
-      "creative": "menino02_H06_C02",
+      "creative": "menino01_H07_C02",
       "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 19796,
-      "clicks": 2,
-      "viewable": 17475,
-      "eligible": 19796,
-      "ctr": 0.010103051121438673,
-      "viewabilityRate": 88.27540917357042
-    },
-    {
-      "creative": "menino01_H03_C01",
-      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186229",
-      "impressions": 19790,
-      "clicks": 3,
-      "viewable": 17202,
-      "eligible": 19790,
-      "ctr": 0.015159171298635674,
-      "viewabilityRate": 86.92268822637695
+      "impressions": 21611,
+      "clicks": 6,
+      "viewable": 18875,
+      "eligible": 21611,
+      "ctr": 0.027763638887603536,
+      "viewabilityRate": 87.33978066725278
     },
     {
       "creative": "menino02_H03_C01",
       "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 19757,
-      "clicks": 1,
-      "viewable": 17453,
-      "eligible": 19757,
-      "ctr": 0.005061497190869059,
-      "viewabilityRate": 88.3383104722377
+      "impressions": 21607,
+      "clicks": 2,
+      "viewable": 19048,
+      "eligible": 21607,
+      "ctr": 0.009256259545517656,
+      "viewabilityRate": 88.15661591151016
+    },
+    {
+      "creative": "menino01_H03_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 21436,
+      "clicks": 3,
+      "viewable": 18606,
+      "eligible": 21436,
+      "ctr": 0.013995148348572496,
+      "viewabilityRate": 86.79791005784662
     },
     {
       "creative": "menino02_H07_C02",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 19701,
+      "impressions": 20539,
       "clicks": 6,
-      "viewable": 15549,
-      "eligible": 19701,
-      "ctr": 0.030455306837216384,
-      "viewabilityRate": 78.92492766864626
-    },
-    {
-      "creative": "menino02_H10_C03",
-      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439015540",
-      "impressions": 18416,
-      "clicks": 5,
-      "viewable": 14382,
-      "eligible": 18416,
-      "ctr": 0.027150304083405737,
-      "viewabilityRate": 78.09513466550825
+      "viewable": 16199,
+      "eligible": 20539,
+      "ctr": 0.029212717269584694,
+      "viewabilityRate": 78.86946784166707
     },
     {
       "creative": "menina01_H08_C03",
       "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 17989,
-      "clicks": 4,
-      "viewable": 15960,
-      "eligible": 17989,
-      "ctr": 0.02223581077325032,
-      "viewabilityRate": 88.72088498526878
-    },
-    {
-      "creative": "menino02_H07_C02",
-      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186229",
-      "impressions": 16957,
-      "clicks": 3,
-      "viewable": 14996,
-      "eligible": 16957,
-      "ctr": 0.017691808692575337,
-      "viewabilityRate": 88.43545438461992
-    },
-    {
-      "creative": "menino01_H07_C02",
-      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186229",
-      "impressions": 16829,
-      "clicks": 4,
-      "viewable": 14847,
-      "eligible": 16829,
-      "ctr": 0.023768494860062987,
-      "viewabilityRate": 88.22271079683878
-    },
-    {
-      "creative": "menino01_H02_C01",
-      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439015540",
-      "impressions": 16694,
+      "impressions": 20390,
       "clicks": 5,
-      "viewable": 13277,
-      "eligible": 16694,
-      "ctr": 0.02995088055588834,
-      "viewabilityRate": 79.53156822810591
-    },
-    {
-      "creative": "menino02_H03_C01",
-      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439015540",
-      "impressions": 16583,
-      "clicks": 4,
-      "viewable": 12881,
-      "eligible": 16583,
-      "ctr": 0.024121087861062533,
-      "viewabilityRate": 77.67593318458663
-    },
-    {
-      "creative": "menina01_H01_C01",
-      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186241",
-      "impressions": 16084,
-      "clicks": 33,
-      "viewable": 13608,
-      "eligible": 16083,
-      "ctr": 0.2051728425764735,
-      "viewabilityRate": 84.61108002238389
+      "viewable": 18015,
+      "eligible": 20390,
+      "ctr": 0.024521824423737126,
+      "viewabilityRate": 88.35213339872486
     },
     {
       "creative": "menina01_H03_C01",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 15437,
-      "clicks": 4,
-      "viewable": 12151,
-      "eligible": 15437,
-      "ctr": 0.025911770421714067,
-      "viewabilityRate": 78.71348059856189
+      "impressions": 20003,
+      "clicks": 6,
+      "viewable": 15687,
+      "eligible": 20003,
+      "ctr": 0.029995500674898767,
+      "viewabilityRate": 78.42323651452283
     },
     {
-      "creative": "menina01_H02_C01",
+      "creative": "menino02_H07_C02",
       "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 14968,
-      "clicks": 4,
-      "viewable": 13273,
-      "eligible": 14968,
-      "ctr": 0.026723677177979688,
-      "viewabilityRate": 88.67584179583112
-    },
-    {
-      "creative": "menino02_H09_C03",
-      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186241",
-      "impressions": 13243,
-      "clicks": 34,
-      "viewable": 11270,
-      "eligible": 13243,
-      "ctr": 0.25673940949935814,
-      "viewabilityRate": 85.1015630899343
-    },
-    {
-      "creative": "menino01_H09_C03",
-      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186241",
-      "impressions": 13065,
-      "clicks": 44,
-      "viewable": 11210,
-      "eligible": 13065,
-      "ctr": 0.336777650210486,
-      "viewabilityRate": 85.8017604286261
-    },
-    {
-      "creative": "menino02_H08_C03",
-      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186229",
-      "impressions": 12332,
-      "clicks": 0,
-      "viewable": 11014,
-      "eligible": 12332,
-      "ctr": 0,
-      "viewabilityRate": 89.31235809276679
+      "impressions": 19461,
+      "clicks": 5,
+      "viewable": 17104,
+      "eligible": 19461,
+      "ctr": 0.025692410461949543,
+      "viewabilityRate": 87.88859770823699
     },
     {
       "creative": "menino01_H02_C01",
-      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186229",
-      "impressions": 12204,
-      "clicks": 1,
-      "viewable": 10797,
-      "eligible": 12204,
-      "ctr": 0.00819403474270731,
-      "viewabilityRate": 88.47099311701082
-    },
-    {
-      "creative": "menino02_H04_C01",
-      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186229",
-      "impressions": 12167,
-      "clicks": 0,
-      "viewable": 10661,
-      "eligible": 12167,
-      "ctr": 0,
-      "viewabilityRate": 87.62225692446782
-    },
-    {
-      "creative": "menino02_H09_C03",
-      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186229",
-      "impressions": 12161,
-      "clicks": 1,
-      "viewable": 10795,
-      "eligible": 12161,
-      "ctr": 0.008223007976317738,
-      "viewabilityRate": 88.76737110434996
-    },
-    {
-      "creative": "menino01_H04_C01",
-      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186229",
-      "impressions": 11621,
-      "clicks": 1,
-      "viewable": 10115,
-      "eligible": 11621,
-      "ctr": 0.008605111436193098,
-      "viewabilityRate": 87.0407021770932
-    },
-    {
-      "creative": "menino01_H09_C03",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 11339,
-      "clicks": 0,
-      "viewable": 8852,
-      "eligible": 11339,
-      "ctr": 0,
-      "viewabilityRate": 78.06684892847694
+      "impressions": 17328,
+      "clicks": 5,
+      "viewable": 13775,
+      "eligible": 17328,
+      "ctr": 0.028855032317636198,
+      "viewabilityRate": 79.49561403508771
     },
     {
-      "creative": "menino01_H04_C01",
+      "creative": "menina01_H01_C01",
       "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186241",
-      "impressions": 10896,
-      "clicks": 22,
-      "viewable": 9352,
-      "eligible": 10896,
-      "ctr": 0.20190895741556536,
-      "viewabilityRate": 85.82966226138032
-    },
-    {
-      "creative": "menino01_H06_C02",
-      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186241",
-      "impressions": 10748,
-      "clicks": 37,
-      "viewable": 9094,
-      "eligible": 10748,
-      "ctr": 0.3442500930405657,
-      "viewabilityRate": 84.61109043542984
-    },
-    {
-      "creative": "menino01_H03_C01",
-      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439015540",
-      "impressions": 10747,
-      "clicks": 4,
-      "viewable": 8537,
-      "eligible": 10747,
-      "ctr": 0.03721968921559505,
-      "viewabilityRate": 79.43612170838374
-    },
-    {
-      "creative": "menino01_H01_C01",
-      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186241",
-      "impressions": 10700,
-      "clicks": 27,
-      "viewable": 9282,
-      "eligible": 10700,
-      "ctr": 0.2523364485981308,
-      "viewabilityRate": 86.74766355140187
-    },
-    {
-      "creative": "menino01_H01_C01",
-      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439015540",
-      "impressions": 10566,
-      "clicks": 1,
-      "viewable": 8363,
-      "eligible": 10565,
-      "ctr": 0.00946431951542684,
-      "viewabilityRate": 79.15759583530524
+      "impressions": 16569,
+      "clicks": 34,
+      "viewable": 14017,
+      "eligible": 16568,
+      "ctr": 0.20520248657130785,
+      "viewabilityRate": 84.60284886528248
     },
     {
       "creative": "menino01_H05_C01",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 10331,
+      "impressions": 14669,
       "clicks": 2,
-      "viewable": 8101,
-      "eligible": 10331,
-      "ctr": 0.019359210144226115,
-      "viewabilityRate": 78.41448068918788
+      "viewable": 11459,
+      "eligible": 14669,
+      "ctr": 0.013634194559956372,
+      "viewabilityRate": 78.11711773127003
+    },
+    {
+      "creative": "menino02_H09_C03",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 14628,
+      "clicks": 1,
+      "viewable": 12878,
+      "eligible": 14627,
+      "ctr": 0.006836204539239814,
+      "viewabilityRate": 88.04266083270664
+    },
+    {
+      "creative": "menino01_H02_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 14566,
+      "clicks": 2,
+      "viewable": 12789,
+      "eligible": 14566,
+      "ctr": 0.013730605519703419,
+      "viewabilityRate": 87.80035699574351
+    },
+    {
+      "creative": "menino02_H09_C03",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 14531,
+      "clicks": 34,
+      "viewable": 12305,
+      "eligible": 14531,
+      "ctr": 0.23398252012937856,
+      "viewabilityRate": 84.68102677035304
+    },
+    {
+      "creative": "menino01_H09_C03",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 14530,
+      "clicks": 47,
+      "viewable": 12382,
+      "eligible": 14530,
+      "ctr": 0.3234686854783207,
+      "viewabilityRate": 85.21679284239504
+    },
+    {
+      "creative": "menino02_H04_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 14512,
+      "clicks": 1,
+      "viewable": 12656,
+      "eligible": 14511,
+      "ctr": 0.006890848952590959,
+      "viewabilityRate": 87.21659430776653
+    },
+    {
+      "creative": "menino01_H09_C03",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 14213,
+      "clicks": 0,
+      "viewable": 11042,
+      "eligible": 14212,
+      "ctr": 0,
+      "viewabilityRate": 77.69490571348156
+    },
+    {
+      "creative": "menino01_H04_C01",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 14164,
+      "clicks": 1,
+      "viewable": 12257,
+      "eligible": 14164,
+      "ctr": 0.007060152499293985,
+      "viewabilityRate": 86.53628918384638
+    },
+    {
+      "creative": "menino02_H08_C03",
+      "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186229",
+      "impressions": 14033,
+      "clicks": 0,
+      "viewable": 12454,
+      "eligible": 14032,
+      "ctr": 0,
+      "viewabilityRate": 88.75427594070695
+    },
+    {
+      "creative": "menino01_H03_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 13569,
+      "clicks": 5,
+      "viewable": 10693,
+      "eligible": 13569,
+      "ctr": 0.0368486992409168,
+      "viewabilityRate": 78.80462819662466
+    },
+    {
+      "creative": "menino01_H06_C02",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 13520,
+      "clicks": 45,
+      "viewable": 11356,
+      "eligible": 13520,
+      "ctr": 0.33284023668639057,
+      "viewabilityRate": 83.99408284023669
+    },
+    {
+      "creative": "menino01_H01_C01",
+      "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439015540",
+      "impressions": 13412,
+      "clicks": 1,
+      "viewable": 10574,
+      "eligible": 13411,
+      "ctr": 0.007456009543692217,
+      "viewabilityRate": 78.84572365968235
     },
     {
       "creative": "menino02_H01_C01",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 9680,
+      "impressions": 12503,
       "clicks": 3,
-      "viewable": 7709,
-      "eligible": 9679,
-      "ctr": 0.030991735537190084,
-      "viewabilityRate": 79.64665771257361
+      "viewable": 9883,
+      "eligible": 12501,
+      "ctr": 0.023994241382068304,
+      "viewabilityRate": 79.05767538596912
     },
     {
       "creative": "menina01_H04_C01",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 9383,
+      "impressions": 12157,
       "clicks": 2,
-      "viewable": 7481,
-      "eligible": 9383,
-      "ctr": 0.021315144410103376,
-      "viewabilityRate": 79.72929766599168
+      "viewable": 9597,
+      "eligible": 12157,
+      "ctr": 0.016451427161306244,
+      "viewabilityRate": 78.94217323352801
+    },
+    {
+      "creative": "menino01_H04_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 11647,
+      "clicks": 25,
+      "viewable": 9949,
+      "eligible": 11647,
+      "ctr": 0.21464754872499353,
+      "viewabilityRate": 85.42113849059844
+    },
+    {
+      "creative": "menino01_H01_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 10715,
+      "clicks": 28,
+      "viewable": 9296,
+      "eligible": 10715,
+      "ctr": 0.26131591227251516,
+      "viewabilityRate": 86.75688287447504
+    },
+    {
+      "creative": "menino01_H05_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 9630,
+      "clicks": 25,
+      "viewable": 8136,
+      "eligible": 9630,
+      "ctr": 0.25960539979231567,
+      "viewabilityRate": 84.48598130841121
     },
     {
       "creative": "menina01_H01_C01",
@@ -1211,59 +1231,92 @@
       "viewabilityRate": 88.87934735938171
     },
     {
-      "creative": "menino01_H05_C01",
+      "creative": "menino02_H10_C03",
       "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186241",
-      "impressions": 8264,
-      "clicks": 21,
-      "viewable": 7033,
-      "eligible": 8264,
-      "ctr": 0.25411423039690223,
-      "viewabilityRate": 85.10406582768636
+      "impressions": 8760,
+      "clicks": 25,
+      "viewable": 7316,
+      "eligible": 8760,
+      "ctr": 0.28538812785388123,
+      "viewabilityRate": 83.51598173515981
     },
     {
       "creative": "menino02_H05_C01",
       "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186241",
-      "impressions": 7658,
-      "clicks": 20,
-      "viewable": 6564,
-      "eligible": 7658,
-      "ctr": 0.26116479498563594,
-      "viewabilityRate": 85.71428571428571
+      "impressions": 8335,
+      "clicks": 21,
+      "viewable": 7117,
+      "eligible": 8335,
+      "ctr": 0.2519496100779844,
+      "viewabilityRate": 85.3869226154769
     },
     {
-      "creative": "menino02_H10_C03",
+      "creative": "menino02_H07_C02",
       "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186241",
-      "impressions": 6513,
-      "clicks": 20,
-      "viewable": 5509,
-      "eligible": 6513,
-      "ctr": 0.30707815138952865,
-      "viewabilityRate": 84.58467680024566
+      "impressions": 7386,
+      "clicks": 19,
+      "viewable": 6074,
+      "eligible": 7386,
+      "ctr": 0.25724343352288115,
+      "viewabilityRate": 82.23666395884105
     },
     {
-      "creative": "menino02_H02_C01",
+      "creative": "menino01_H10_C03",
       "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186241",
-      "impressions": 5612,
-      "clicks": 11,
-      "viewable": 4836,
-      "eligible": 5612,
-      "ctr": 0.19600855310049894,
-      "viewabilityRate": 86.17248752672843
+      "impressions": 7240,
+      "clicks": 18,
+      "viewable": 6038,
+      "eligible": 7240,
+      "ctr": 0.24861878453038672,
+      "viewabilityRate": 83.39779005524862
     },
     {
       "creative": "menina01_H03_C01",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 5565,
+      "impressions": 6294,
       "clicks": 1,
-      "viewable": 4887,
-      "eligible": 5565,
-      "ctr": 0.017969451931716084,
-      "viewabilityRate": 87.81671159029649
+      "viewable": 5463,
+      "eligible": 6294,
+      "ctr": 0.01588814744200826,
+      "viewabilityRate": 86.79694947569114
+    },
+    {
+      "creative": "menino01_H08_C03",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 6144,
+      "clicks": 17,
+      "viewable": 5288,
+      "eligible": 6144,
+      "ctr": 0.27669270833333337,
+      "viewabilityRate": 86.06770833333334
+    },
+    {
+      "creative": "menino02_H02_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 6068,
+      "clicks": 11,
+      "viewable": 5202,
+      "eligible": 6068,
+      "ctr": 0.1812788398154252,
+      "viewabilityRate": 85.72841133816743
+    },
+    {
+      "creative": "menina01_H03_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 5737,
+      "clicks": 11,
+      "viewable": 4980,
+      "eligible": 5737,
+      "ctr": 0.19173784207774097,
+      "viewabilityRate": 86.80495032246819
     },
     {
       "creative": "menina01_H04_C01",
@@ -1277,202 +1330,180 @@
       "viewabilityRate": 85.4975952645209
     },
     {
-      "creative": "menino01_H10_C03",
-      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186241",
-      "impressions": 5333,
-      "clicks": 13,
-      "viewable": 4484,
-      "eligible": 5333,
-      "ctr": 0.24376523532720792,
-      "viewabilityRate": 84.0802550159385
+      "creative": "menina01_H02_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 4982,
+      "clicks": 1,
+      "viewable": 4034,
+      "eligible": 4982,
+      "ctr": 0.02007226013649137,
+      "viewabilityRate": 80.97149739060619
     },
     {
-      "creative": "menina01_H03_C01",
+      "creative": "menina01_H08_C03",
       "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186241",
-      "impressions": 5260,
-      "clicks": 11,
-      "viewable": 4595,
-      "eligible": 5260,
-      "ctr": 0.2091254752851711,
-      "viewabilityRate": 87.3574144486692
-    },
-    {
-      "creative": "menino01_H08_C03",
-      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186241",
-      "impressions": 5253,
-      "clicks": 14,
-      "viewable": 4557,
-      "eligible": 5253,
-      "ctr": 0.266514372739387,
-      "viewabilityRate": 86.75042832667047
-    },
-    {
-      "creative": "menino02_H07_C02",
-      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186241",
-      "impressions": 4805,
-      "clicks": 13,
-      "viewable": 3995,
-      "eligible": 4805,
-      "ctr": 0.2705515088449532,
-      "viewabilityRate": 83.14255983350677
+      "impressions": 4806,
+      "clicks": 8,
+      "viewable": 3982,
+      "eligible": 4806,
+      "ctr": 0.16645859342488556,
+      "viewabilityRate": 82.85476487723679
     },
     {
       "creative": "menino02_H08_C03",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 4442,
+      "impressions": 4664,
       "clicks": 2,
-      "viewable": 3883,
-      "eligible": 4442,
-      "ctr": 0.04502476361999099,
-      "viewabilityRate": 87.41557856821251
+      "viewable": 4068,
+      "eligible": 4664,
+      "ctr": 0.04288164665523156,
+      "viewabilityRate": 87.221269296741
     },
     {
       "creative": "menino01_H02_C01",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 4433,
+      "impressions": 4659,
       "clicks": 0,
-      "viewable": 3907,
-      "eligible": 4433,
+      "viewable": 4088,
+      "eligible": 4659,
       "ctr": 0,
-      "viewabilityRate": 88.13444619896232
-    },
-    {
-      "creative": "menina01_H02_C01",
-      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186217",
-      "impressions": 3777,
-      "clicks": 1,
-      "viewable": 3075,
-      "eligible": 3777,
-      "ctr": 0.026476039184537992,
-      "viewabilityRate": 81.41382049245432
-    },
-    {
-      "creative": "menino02_H06_C02",
-      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186241",
-      "impressions": 3091,
-      "clicks": 2,
-      "viewable": 2632,
-      "eligible": 3091,
-      "ctr": 0.06470397929472663,
-      "viewabilityRate": 85.15043675186024
-    },
-    {
-      "creative": "menina01_H08_C03",
-      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186217",
-      "impressions": 3027,
-      "clicks": 1,
-      "viewable": 2657,
-      "eligible": 3027,
-      "ctr": 0.033036009250082585,
-      "viewabilityRate": 87.77667657746943
-    },
-    {
-      "creative": "menino02_H04_C01",
-      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186241",
-      "impressions": 3013,
-      "clicks": 6,
-      "viewable": 2591,
-      "eligible": 3013,
-      "ctr": 0.19913707268503153,
-      "viewabilityRate": 85.99402588781945
-    },
-    {
-      "creative": "menino01_H03_C01",
-      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186241",
-      "impressions": 2795,
-      "clicks": 5,
-      "viewable": 2371,
-      "eligible": 2795,
-      "ctr": 0.17889087656529518,
-      "viewabilityRate": 84.83005366726297
-    },
-    {
-      "creative": "menina01_H08_C03",
-      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186241",
-      "impressions": 2772,
-      "clicks": 6,
-      "viewable": 2347,
-      "eligible": 2772,
-      "ctr": 0.21645021645021645,
-      "viewabilityRate": 84.66810966810966
-    },
-    {
-      "creative": "menino02_H08_C03",
-      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186241",
-      "impressions": 2491,
-      "clicks": 3,
-      "viewable": 2129,
-      "eligible": 2491,
-      "ctr": 0.12043356081894822,
-      "viewabilityRate": 85.46768366118025
+      "viewabilityRate": 87.74415110538743
     },
     {
       "creative": "menino01_H07_C02",
       "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186241",
-      "impressions": 2305,
-      "clicks": 5,
-      "viewable": 1954,
-      "eligible": 2305,
-      "ctr": 0.21691973969631237,
-      "viewabilityRate": 84.77223427331887
+      "impressions": 3608,
+      "clicks": 7,
+      "viewable": 3011,
+      "eligible": 3608,
+      "ctr": 0.19401330376940135,
+      "viewabilityRate": 83.45343680709534
     },
     {
-      "creative": "menino01_H02_C01",
+      "creative": "menino02_H06_C02",
       "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186241",
-      "impressions": 2256,
+      "impressions": 3369,
+      "clicks": 2,
+      "viewable": 2856,
+      "eligible": 3369,
+      "ctr": 0.05936479667557139,
+      "viewabilityRate": 84.77292965271594
+    },
+    {
+      "creative": "menina01_H08_C03",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 3286,
       "clicks": 1,
-      "viewable": 1915,
-      "eligible": 2256,
-      "ctr": 0.044326241134751775,
-      "viewabilityRate": 84.88475177304964
+      "viewable": 2871,
+      "eligible": 3286,
+      "ctr": 0.030432136335970784,
+      "viewabilityRate": 87.37066342057213
+    },
+    {
+      "creative": "menino02_H04_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 3215,
+      "clicks": 6,
+      "viewable": 2763,
+      "eligible": 3215,
+      "ctr": 0.18662519440124417,
+      "viewabilityRate": 85.94090202177294
+    },
+    {
+      "creative": "menino01_H03_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 3067,
+      "clicks": 6,
+      "viewable": 2584,
+      "eligible": 3067,
+      "ctr": 0.19563090968373,
+      "viewabilityRate": 84.25171177045974
+    },
+    {
+      "creative": "menino02_H08_C03",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 2961,
+      "clicks": 5,
+      "viewable": 2507,
+      "eligible": 2961,
+      "ctr": 0.16886187098953057,
+      "viewabilityRate": 84.66734211415063
     },
     {
       "creative": "menino02_H01_C01",
       "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186241",
-      "impressions": 2256,
-      "clicks": 3,
-      "viewable": 1918,
-      "eligible": 2256,
-      "ctr": 0.13297872340425532,
-      "viewabilityRate": 85.01773049645391
+      "impressions": 2730,
+      "clicks": 5,
+      "viewable": 2288,
+      "eligible": 2729,
+      "ctr": 0.18315018315018314,
+      "viewabilityRate": 83.84023451813852
+    },
+    {
+      "creative": "menino01_H02_C01",
+      "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186241",
+      "impressions": 2595,
+      "clicks": 1,
+      "viewable": 2186,
+      "eligible": 2594,
+      "ctr": 0.03853564547206166,
+      "viewabilityRate": 84.27139552814187
     },
     {
       "creative": "menino02_H02_C01",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 1997,
+      "impressions": 2239,
       "clicks": 0,
-      "viewable": 1770,
-      "eligible": 1997,
+      "viewable": 1970,
+      "eligible": 2239,
       "ctr": 0,
-      "viewabilityRate": 88.63294942413621
+      "viewabilityRate": 87.98570790531487
     },
     {
       "creative": "menino01_H01_C01",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 1979,
+      "impressions": 2215,
       "clicks": 1,
-      "viewable": 1751,
-      "eligible": 1979,
-      "ctr": 0.05053057099545225,
-      "viewabilityRate": 88.47902981303689
+      "viewable": 1942,
+      "eligible": 2215,
+      "ctr": 0.04514672686230248,
+      "viewabilityRate": 87.67494356659142
+    },
+    {
+      "creative": "menino01_H06_C02",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 2199,
+      "clicks": 0,
+      "viewable": 1936,
+      "eligible": 2199,
+      "ctr": 0,
+      "viewabilityRate": 88.0400181900864
+    },
+    {
+      "creative": "menino02_H01_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 2193,
+      "clicks": 0,
+      "viewable": 1913,
+      "eligible": 2193,
+      "ctr": 0,
+      "viewabilityRate": 87.23210214318286
     },
     {
       "creative": "menino02_H03_C01",
@@ -1486,224 +1517,202 @@
       "viewabilityRate": 85.31645569620252
     },
     {
-      "creative": "menino01_H06_C02",
-      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186217",
-      "impressions": 1962,
-      "clicks": 0,
-      "viewable": 1741,
-      "eligible": 1962,
-      "ctr": 0,
-      "viewabilityRate": 88.73598369011214
-    },
-    {
-      "creative": "menino02_H01_C01",
-      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186217",
-      "impressions": 1945,
-      "clicks": 0,
-      "viewable": 1708,
-      "eligible": 1945,
-      "ctr": 0,
-      "viewabilityRate": 87.81491002570694
-    },
-    {
       "creative": "menino02_H04_C01",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 1658,
+      "impressions": 1883,
       "clicks": 2,
-      "viewable": 1439,
-      "eligible": 1658,
-      "ctr": 0.12062726176115801,
-      "viewabilityRate": 86.7913148371532
-    },
-    {
-      "creative": "menino02_H06_C02",
-      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186217",
-      "impressions": 1532,
-      "clicks": 0,
-      "viewable": 1312,
-      "eligible": 1532,
-      "ctr": 0,
-      "viewabilityRate": 85.6396866840731
-    },
-    {
-      "creative": "menino01_H03_C01",
-      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186217",
-      "impressions": 1531,
-      "clicks": 0,
-      "viewable": 1348,
-      "eligible": 1531,
-      "ctr": 0,
-      "viewabilityRate": 88.04702808621816
-    },
-    {
-      "creative": "menino02_H07_C02",
-      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186217",
-      "impressions": 1531,
-      "clicks": 1,
-      "viewable": 1347,
-      "eligible": 1531,
-      "ctr": 0.06531678641410843,
-      "viewabilityRate": 87.98171129980406
+      "viewable": 1621,
+      "eligible": 1883,
+      "ctr": 0.10621348911311736,
+      "viewabilityRate": 86.08603292618162
     },
     {
       "creative": "menino02_H10_C03",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 1531,
+      "impressions": 1779,
       "clicks": 0,
-      "viewable": 1336,
-      "eligible": 1531,
+      "viewable": 1530,
+      "eligible": 1779,
       "ctr": 0,
-      "viewabilityRate": 87.26322664924886
+      "viewabilityRate": 86.00337268128162
     },
     {
-      "creative": "menino01_H07_C02",
+      "creative": "menino02_H07_C02",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 1505,
+      "impressions": 1777,
+      "clicks": 1,
+      "viewable": 1553,
+      "eligible": 1777,
+      "ctr": 0.056274620146314014,
+      "viewabilityRate": 87.39448508722566
+    },
+    {
+      "creative": "menino02_H06_C02",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 1759,
       "clicks": 0,
-      "viewable": 1304,
-      "eligible": 1505,
+      "viewable": 1499,
+      "eligible": 1759,
       "ctr": 0,
-      "viewabilityRate": 86.64451827242526
+      "viewabilityRate": 85.21887436043207
     },
     {
       "creative": "menino01_H09_C03",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 1502,
+      "impressions": 1757,
       "clicks": 0,
-      "viewable": 1296,
-      "eligible": 1502,
+      "viewable": 1498,
+      "eligible": 1757,
       "ctr": 0,
-      "viewabilityRate": 86.28495339547271
+      "viewabilityRate": 85.2589641434263
     },
     {
-      "creative": "menino02_H09_C03",
+      "creative": "menino01_H03_C01",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 1493,
+      "impressions": 1748,
       "clicks": 0,
-      "viewable": 1304,
-      "eligible": 1493,
+      "viewable": 1529,
+      "eligible": 1748,
       "ctr": 0,
-      "viewabilityRate": 87.34092431346284
+      "viewabilityRate": 87.47139588100687
     },
     {
       "creative": "menino02_H03_C01",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 1492,
+      "impressions": 1745,
       "clicks": 0,
-      "viewable": 1297,
-      "eligible": 1492,
+      "viewable": 1515,
+      "eligible": 1745,
       "ctr": 0,
-      "viewabilityRate": 86.93029490616621
+      "viewabilityRate": 86.81948424068769
+    },
+    {
+      "creative": "menino01_H07_C02",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 1742,
+      "clicks": 0,
+      "viewable": 1495,
+      "eligible": 1742,
+      "ctr": 0,
+      "viewabilityRate": 85.82089552238806
     },
     {
       "creative": "menino01_H05_C01",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 1481,
+      "impressions": 1733,
       "clicks": 0,
-      "viewable": 1309,
-      "eligible": 1481,
+      "viewable": 1525,
+      "eligible": 1733,
       "ctr": 0,
-      "viewabilityRate": 88.38622552329507
+      "viewabilityRate": 87.99769186381997
+    },
+    {
+      "creative": "menino02_H09_C03",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 1718,
+      "clicks": 0,
+      "viewable": 1481,
+      "eligible": 1718,
+      "ctr": 0,
+      "viewabilityRate": 86.20488940628638
     },
     {
       "creative": "menino01_H04_C01",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 1478,
+      "impressions": 1697,
       "clicks": 0,
-      "viewable": 1302,
-      "eligible": 1478,
+      "viewable": 1480,
+      "eligible": 1697,
       "ctr": 0,
-      "viewabilityRate": 88.09201623815967
-    },
-    {
-      "creative": "menino01_H08_C03",
-      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186217",
-      "impressions": 1468,
-      "clicks": 0,
-      "viewable": 1280,
-      "eligible": 1468,
-      "ctr": 0,
-      "viewabilityRate": 87.19346049046321
-    },
-    {
-      "creative": "menino02_H05_C01",
-      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
-      "placementId": "439186217",
-      "impressions": 1466,
-      "clicks": 0,
-      "viewable": 1262,
-      "eligible": 1466,
-      "ctr": 0,
-      "viewabilityRate": 86.08458390177354
+      "viewabilityRate": 87.2127283441367
     },
     {
       "creative": "menino01_H10_C03",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 1444,
+      "impressions": 1688,
       "clicks": 0,
-      "viewable": 1242,
-      "eligible": 1444,
+      "viewable": 1441,
+      "eligible": 1688,
       "ctr": 0,
-      "viewabilityRate": 86.01108033240997
+      "viewabilityRate": 85.36729857819904
+    },
+    {
+      "creative": "menino01_H08_C03",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 1674,
+      "clicks": 0,
+      "viewable": 1452,
+      "eligible": 1674,
+      "ctr": 0,
+      "viewabilityRate": 86.73835125448028
+    },
+    {
+      "creative": "menino02_H05_C01",
+      "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
+      "placementId": "439186217",
+      "impressions": 1673,
+      "clicks": 0,
+      "viewable": 1443,
+      "eligible": 1673,
+      "ctr": 0,
+      "viewabilityRate": 86.25224148236701
     },
     {
       "creative": "menina01_H04_C01",
       "placement": "[P]-[468x60] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186217",
-      "impressions": 1153,
+      "impressions": 1399,
       "clicks": 0,
-      "viewable": 1012,
-      "eligible": 1153,
+      "viewable": 1206,
+      "eligible": 1399,
       "ctr": 0,
-      "viewabilityRate": 87.77103209019947
+      "viewabilityRate": 86.20443173695497
     },
     {
       "creative": "(not set)",
       "placement": "[P]-[728x90] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186229",
-      "impressions": 72,
+      "impressions": 89,
       "clicks": 0,
-      "viewable": 66,
-      "eligible": 72,
+      "viewable": 81,
+      "eligible": 89,
       "ctr": 0,
-      "viewabilityRate": 91.66666666666666
+      "viewabilityRate": 91.01123595505618
     },
     {
       "creative": "(not set)",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 65,
+      "impressions": 73,
       "clicks": 0,
-      "viewable": 50,
-      "eligible": 65,
+      "viewable": 58,
+      "eligible": 73,
       "ctr": 0,
-      "viewabilityRate": 76.92307692307693
+      "viewabilityRate": 79.45205479452055
     },
     {
       "creative": "(not set)",
       "placement": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439186241",
-      "impressions": 16,
+      "impressions": 19,
       "clicks": 0,
-      "viewable": 15,
-      "eligible": 16,
+      "viewable": 18,
+      "eligible": 19,
       "ctr": 0,
-      "viewabilityRate": 93.75
+      "viewabilityRate": 94.73684210526315
     },
     {
       "creative": "(not set)",
@@ -1720,1308 +1729,1398 @@
   "byDomain": [
     {
       "name": "metropoles.com",
-      "impressions": 272986,
+      "impressions": 262725,
       "clicks": 0,
-      "viewable": 206377,
-      "eligible": 272986,
+      "viewable": 198160,
+      "eligible": 262725,
       "ctr": 0,
-      "viewabilityRate": 75.5998476112328
+      "viewabilityRate": 75.42487391759445
     },
     {
       "name": "uol.com.br",
-      "impressions": 175752,
-      "clicks": 25,
-      "viewable": 153922,
-      "eligible": 175750,
-      "ctr": 0.01422458919386408,
-      "viewabilityRate": 87.5800853485064
+      "impressions": 231892,
+      "clicks": 46,
+      "viewable": 200961,
+      "eligible": 231890,
+      "ctr": 0.01983682058889483,
+      "viewabilityRate": 86.66221053085515
     },
     {
       "name": "todamateria.com.br",
-      "impressions": 102599,
-      "clicks": 59,
-      "viewable": 95214,
-      "eligible": 102599,
-      "ctr": 0.05750543377615766,
-      "viewabilityRate": 92.80207409428942
+      "impressions": 114135,
+      "clicks": 61,
+      "viewable": 105130,
+      "eligible": 114135,
+      "ctr": 0.053445481228369916,
+      "viewabilityRate": 92.11022035309064
     },
     {
       "name": "letras.mus.br",
-      "impressions": 87237,
-      "clicks": 22,
-      "viewable": 71648,
-      "eligible": 87236,
-      "ctr": 0.025218657221133235,
-      "viewabilityRate": 82.13123022605346
+      "impressions": 97536,
+      "clicks": 28,
+      "viewable": 77076,
+      "eligible": 97535,
+      "ctr": 0.028707349081364828,
+      "viewabilityRate": 79.02394012405803
     },
     {
       "name": "cifraclub.com.br",
-      "impressions": 70617,
-      "clicks": 20,
-      "viewable": 55723,
-      "eligible": 70617,
-      "ctr": 0.028321792203010607,
-      "viewabilityRate": 78.908761346418
+      "impressions": 78991,
+      "clicks": 27,
+      "viewable": 59336,
+      "eligible": 78991,
+      "ctr": 0.034181109240293196,
+      "viewabilityRate": 75.11741844007545
     },
     {
       "name": "globo.com",
-      "impressions": 59237,
+      "impressions": 66041,
       "clicks": 45,
-      "viewable": 51707,
-      "eligible": 59237,
-      "ctr": 0.07596603474179989,
-      "viewabilityRate": 87.28835018653882
+      "viewable": 57125,
+      "eligible": 66020,
+      "ctr": 0.0681394891052528,
+      "viewabilityRate": 86.52681005755831
     },
     {
       "name": "netvasco.com.br",
-      "impressions": 56764,
+      "impressions": 61010,
       "clicks": 0,
-      "viewable": 51924,
-      "eligible": 56764,
+      "viewable": 55564,
+      "eligible": 61010,
       "ctr": 0,
-      "viewabilityRate": 91.47346910013388
+      "viewabilityRate": 91.0735944927061
     },
     {
       "name": "correiobraziliense.com.br",
-      "impressions": 27470,
-      "clicks": 4,
-      "viewable": 23361,
-      "eligible": 27470,
-      "ctr": 0.014561339643247179,
-      "viewabilityRate": 85.04186385147433
-    },
-    {
-      "name": "olx.com.br",
-      "impressions": 24192,
-      "clicks": 0,
-      "viewable": 19402,
-      "eligible": 24192,
-      "ctr": 0,
-      "viewabilityRate": 80.20006613756614
+      "impressions": 39413,
+      "clicks": 5,
+      "viewable": 33273,
+      "eligible": 39410,
+      "ctr": 0.012686169537969706,
+      "viewabilityRate": 84.42781020045673
     },
     {
       "name": "tudogostoso.com.br",
-      "impressions": 22991,
+      "impressions": 25239,
       "clicks": 8,
-      "viewable": 21005,
-      "eligible": 22991,
-      "ctr": 0.034796224609629854,
-      "viewabilityRate": 91.3618372406594
-    },
-    {
-      "name": "geniol.com.br",
-      "impressions": 21129,
-      "clicks": 6,
-      "viewable": 18304,
-      "eligible": 21129,
-      "ctr": 0.02839698991906858,
-      "viewabilityRate": 86.62975057977188
+      "viewable": 22975,
+      "eligible": 25239,
+      "ctr": 0.03169697690082808,
+      "viewabilityRate": 91.02975553706565
     },
     {
       "name": "sinonimos.com.br",
-      "impressions": 17475,
-      "clicks": 1,
-      "viewable": 16413,
-      "eligible": 17475,
-      "ctr": 0.005722460658082976,
-      "viewabilityRate": 93.92274678111589
+      "impressions": 20891,
+      "clicks": 2,
+      "viewable": 19406,
+      "eligible": 20891,
+      "ctr": 0.009573500550476281,
+      "viewabilityRate": 92.89167584127136
+    },
+    {
+      "name": "geniol.com.br",
+      "impressions": 20743,
+      "clicks": 6,
+      "viewable": 17590,
+      "eligible": 20743,
+      "ctr": 0.028925420623824905,
+      "viewabilityRate": 84.79969146218002
     },
     {
       "name": "conjur.com.br",
-      "impressions": 15463,
+      "impressions": 18984,
       "clicks": 1,
-      "viewable": 12706,
-      "eligible": 15463,
-      "ctr": 0.006467050378322447,
-      "viewabilityRate": 82.17034210696501
-    },
-    {
-      "name": "dicio.com.br",
-      "impressions": 13667,
-      "clicks": 0,
-      "viewable": 12799,
-      "eligible": 13667,
-      "ctr": 0,
-      "viewabilityRate": 93.6489353918197
+      "viewable": 15544,
+      "eligible": 18984,
+      "ctr": 0.005267593763168985,
+      "viewabilityRate": 81.87947745469869
     },
     {
       "name": "cnnbrasil.com.br",
-      "impressions": 13471,
-      "clicks": 10,
-      "viewable": 11667,
-      "eligible": 13471,
-      "ctr": 0.07423353871279044,
-      "viewabilityRate": 86.60826961621261
+      "impressions": 16469,
+      "clicks": 12,
+      "viewable": 14114,
+      "eligible": 16469,
+      "ctr": 0.07286416904487218,
+      "viewabilityRate": 85.70040682494383
     },
     {
-      "name": "comprasparaguai.com.br",
-      "impressions": 7617,
-      "clicks": 3,
-      "viewable": 7009,
-      "eligible": 7617,
-      "ctr": 0.03938558487593541,
-      "viewabilityRate": 92.01785479847709
-    },
-    {
-      "name": "ndmais.com.br",
-      "impressions": 7576,
-      "clicks": 15,
-      "viewable": 5316,
-      "eligible": 7576,
-      "ctr": 0.1979936642027455,
-      "viewabilityRate": 70.16895459345301
-    },
-    {
-      "name": "portal6.com.br",
-      "impressions": 7070,
-      "clicks": 3,
-      "viewable": 6007,
-      "eligible": 7070,
-      "ctr": 0.042432814710042434,
-      "viewabilityRate": 84.96463932107497
+      "name": "dicio.com.br",
+      "impressions": 15814,
+      "clicks": 2,
+      "viewable": 14676,
+      "eligible": 15814,
+      "ctr": 0.01264702162640698,
+      "viewabilityRate": 92.80384469457442
     },
     {
       "name": "caras.com.br",
-      "impressions": 6348,
-      "clicks": 12,
-      "viewable": 4707,
-      "eligible": 6346,
-      "ctr": 0.1890359168241966,
-      "viewabilityRate": 74.17270721714466
+      "impressions": 15179,
+      "clicks": 23,
+      "viewable": 10754,
+      "eligible": 15177,
+      "ctr": 0.1515251334079979,
+      "viewabilityRate": 70.85721815905647
+    },
+    {
+      "name": "ndmais.com.br",
+      "impressions": 13653,
+      "clicks": 25,
+      "viewable": 9270,
+      "eligible": 13653,
+      "ctr": 0.18310993920750018,
+      "viewabilityRate": 67.89716545814107
+    },
+    {
+      "name": "comprasparaguai.com.br",
+      "impressions": 9640,
+      "clicks": 4,
+      "viewable": 8778,
+      "eligible": 9640,
+      "ctr": 0.04149377593360996,
+      "viewabilityRate": 91.05809128630705
+    },
+    {
+      "name": "portal6.com.br",
+      "impressions": 8333,
+      "clicks": 5,
+      "viewable": 7022,
+      "eligible": 8333,
+      "ctr": 0.060002400096003834,
+      "viewabilityRate": 84.26737069482779
     },
     {
       "name": "olhardigital.com.br",
-      "impressions": 5582,
-      "clicks": 0,
-      "viewable": 5251,
-      "eligible": 5582,
-      "ctr": 0,
-      "viewabilityRate": 94.0702257255464
-    },
-    {
-      "name": "vagas.com.br",
-      "impressions": 4451,
-      "clicks": 0,
-      "viewable": 4057,
-      "eligible": 4451,
-      "ctr": 0,
-      "viewabilityRate": 91.14805661649068
-    },
-    {
-      "name": "statusinvest.com.br",
-      "impressions": 4429,
+      "impressions": 8068,
       "clicks": 1,
-      "viewable": 4168,
-      "eligible": 4429,
-      "ctr": 0.022578460149017838,
-      "viewabilityRate": 94.10702190110635
-    },
-    {
-      "name": "mensagemaniversario.com.br",
-      "impressions": 4276,
-      "clicks": 3,
-      "viewable": 3988,
-      "eligible": 4276,
-      "ctr": 0.07015902712815715,
-      "viewabilityRate": 93.26473339569691
-    },
-    {
-      "name": "noticiasagricolas.com.br",
-      "impressions": 4018,
-      "clicks": 0,
-      "viewable": 3787,
-      "eligible": 4018,
-      "ctr": 0,
-      "viewabilityRate": 94.25087108013938
+      "viewable": 7621,
+      "eligible": 8068,
+      "ctr": 0.012394645513138323,
+      "viewabilityRate": 94.45959345562717
     },
     {
       "name": "otempo.com.br",
-      "impressions": 3968,
-      "clicks": 2,
-      "viewable": 3233,
-      "eligible": 3968,
-      "ctr": 0.05040322580645161,
-      "viewabilityRate": 81.47681451612904
-    },
-    {
-      "name": "adrenaline.com.br",
-      "impressions": 3504,
-      "clicks": 0,
-      "viewable": 3170,
-      "eligible": 3504,
-      "ctr": 0,
-      "viewabilityRate": 90.46803652968036
-    },
-    {
-      "name": "itatiaia.com.br",
-      "impressions": 3427,
-      "clicks": 11,
-      "viewable": 2779,
-      "eligible": 3427,
-      "ctr": 0.32098044937262915,
-      "viewabilityRate": 81.09133352786694
-    },
-    {
-      "name": "significados.com.br",
-      "impressions": 3382,
-      "clicks": 3,
-      "viewable": 3247,
-      "eligible": 3382,
-      "ctr": 0.08870490833826139,
-      "viewabilityRate": 96.00827912477824
-    },
-    {
-      "name": "jornaldebrasilia.com.br",
-      "impressions": 3120,
-      "clicks": 1,
-      "viewable": 2356,
-      "eligible": 3120,
-      "ctr": 0.03205128205128205,
-      "viewabilityRate": 75.51282051282051
-    },
-    {
-      "name": "terra.com.br",
-      "impressions": 3091,
-      "clicks": 2,
-      "viewable": 2649,
-      "eligible": 3091,
-      "ctr": 0.06470397929472663,
-      "viewabilityRate": 85.70042057586541
-    },
-    {
-      "name": "campograndenews.com.br",
-      "impressions": 3047,
-      "clicks": 2,
-      "viewable": 2370,
-      "eligible": 3047,
-      "ctr": 0.06563833278634722,
-      "viewabilityRate": 77.78142435182146
-    },
-    {
-      "name": "calculoexato.com.br",
-      "impressions": 2815,
-      "clicks": 0,
-      "viewable": 2318,
-      "eligible": 2815,
-      "ctr": 0,
-      "viewabilityRate": 82.34458259325045
-    },
-    {
-      "name": "infojobs.com.br",
-      "impressions": 2439,
-      "clicks": 0,
-      "viewable": 2004,
-      "eligible": 2439,
-      "ctr": 0,
-      "viewabilityRate": 82.16482164821647
-    },
-    {
-      "name": "tecnoblog.net",
-      "impressions": 2411,
-      "clicks": 0,
-      "viewable": 2356,
-      "eligible": 2411,
-      "ctr": 0,
-      "viewabilityRate": 97.71878888428039
-    },
-    {
-      "name": "webmotors.com.br",
-      "impressions": 2214,
-      "clicks": 1,
-      "viewable": 1664,
-      "eligible": 2214,
-      "ctr": 0.045167118337850046,
-      "viewabilityRate": 75.15808491418248
-    },
-    {
-      "name": "canaltech.com.br",
-      "impressions": 2099,
-      "clicks": 0,
-      "viewable": 1945,
-      "eligible": 2099,
-      "ctr": 0,
-      "viewabilityRate": 92.663172939495
-    },
-    {
-      "name": "purepeople.com.br",
-      "impressions": 2088,
-      "clicks": 1,
-      "viewable": 1981,
-      "eligible": 2088,
-      "ctr": 0.047892720306513405,
-      "viewabilityRate": 94.87547892720306
-    },
-    {
-      "name": "xataka.com.br",
-      "impressions": 1969,
-      "clicks": 0,
-      "viewable": 1633,
-      "eligible": 1969,
-      "ctr": 0,
-      "viewabilityRate": 82.93550025393601
-    },
-    {
-      "name": "climatempo.com.br",
-      "impressions": 1890,
-      "clicks": 3,
-      "viewable": 1503,
-      "eligible": 1890,
-      "ctr": 0.15873015873015872,
-      "viewabilityRate": 79.52380952380952
-    },
-    {
-      "name": "uai.com.br",
-      "impressions": 1821,
-      "clicks": 0,
-      "viewable": 1583,
-      "eligible": 1821,
-      "ctr": 0,
-      "viewabilityRate": 86.93025809994509
-    },
-    {
-      "name": "rachacuca.com.br",
-      "impressions": 1424,
-      "clicks": 0,
-      "viewable": 1320,
-      "eligible": 1424,
-      "ctr": 0,
-      "viewabilityRate": 92.69662921348315
-    },
-    {
-      "name": "guiadasemana.com.br",
-      "impressions": 1416,
-      "clicks": 1,
-      "viewable": 1153,
-      "eligible": 1416,
-      "ctr": 0.07062146892655367,
-      "viewabilityRate": 81.42655367231639
-    },
-    {
-      "name": "contabeis.com.br",
-      "impressions": 1383,
-      "clicks": 0,
-      "viewable": 1213,
-      "eligible": 1383,
-      "ctr": 0,
-      "viewabilityRate": 87.70788141720897
-    },
-    {
-      "name": "correiodopovo.com.br",
-      "impressions": 1350,
-      "clicks": 0,
-      "viewable": 1035,
-      "eligible": 1350,
-      "ctr": 0,
-      "viewabilityRate": 76.66666666666667
-    },
-    {
-      "name": "receiteria.com.br",
-      "impressions": 1294,
+      "impressions": 6402,
       "clicks": 4,
-      "viewable": 1273,
-      "eligible": 1294,
-      "ctr": 0.3091190108191654,
-      "viewabilityRate": 98.37712519319938
+      "viewable": 4980,
+      "eligible": 6402,
+      "ctr": 0.06248047485160887,
+      "viewabilityRate": 77.78819119025304
     },
     {
-      "name": "noataque.com.br",
-      "impressions": 1285,
+      "name": "vagas.com.br",
+      "impressions": 6002,
       "clicks": 0,
-      "viewable": 1182,
-      "eligible": 1285,
+      "viewable": 5504,
+      "eligible": 6002,
       "ctr": 0,
-      "viewabilityRate": 91.98443579766537
+      "viewabilityRate": 91.70276574475174
     },
     {
-      "name": "acheconcursos.com.br",
-      "impressions": 1271,
-      "clicks": 0,
-      "viewable": 1140,
-      "eligible": 1271,
-      "ctr": 0,
-      "viewabilityRate": 89.6931549960661
-    },
-    {
-      "name": "fazendoanossafesta.com.br",
-      "impressions": 1219,
-      "clicks": 0,
-      "viewable": 1063,
-      "eligible": 1219,
-      "ctr": 0,
-      "viewabilityRate": 87.20262510254307
+      "name": "mensagemaniversario.com.br",
+      "impressions": 5723,
+      "clicks": 7,
+      "viewable": 5326,
+      "eligible": 5723,
+      "ctr": 0.12231347195526823,
+      "viewabilityRate": 93.06307880482264
     },
     {
       "name": "catracalivre.com.br",
-      "impressions": 1148,
+      "impressions": 5144,
+      "clicks": 6,
+      "viewable": 3853,
+      "eligible": 5144,
+      "ctr": 0.11664074650077762,
+      "viewabilityRate": 74.90279937791601
+    },
+    {
+      "name": "jornaldebrasilia.com.br",
+      "impressions": 5097,
+      "clicks": 2,
+      "viewable": 3793,
+      "eligible": 5097,
+      "ctr": 0.039238767902687856,
+      "viewabilityRate": 74.41632332744751
+    },
+    {
+      "name": "itatiaia.com.br",
+      "impressions": 4873,
+      "clicks": 14,
+      "viewable": 3963,
+      "eligible": 4873,
+      "ctr": 0.2872973527601067,
+      "viewabilityRate": 81.32567207059307
+    },
+    {
+      "name": "statusinvest.com.br",
+      "impressions": 4684,
       "clicks": 1,
-      "viewable": 834,
-      "eligible": 1148,
-      "ctr": 0.08710801393728224,
-      "viewabilityRate": 72.64808362369338
+      "viewable": 4387,
+      "eligible": 4684,
+      "ctr": 0.02134927412467976,
+      "viewabilityRate": 93.65926558497011
     },
     {
-      "name": "diariodocentrodomundo.com.br",
-      "impressions": 1061,
-      "clicks": 1,
-      "viewable": 920,
-      "eligible": 1061,
-      "ctr": 0.0942507068803016,
-      "viewabilityRate": 86.71065032987747
-    },
-    {
-      "name": "noticiasautomotivas.com.br",
-      "impressions": 1057,
-      "clicks": 0,
-      "viewable": 710,
-      "eligible": 1057,
-      "ctr": 0,
-      "viewabilityRate": 67.17123935666982
-    },
-    {
-      "name": "jovemnerd.com.br",
-      "impressions": 1047,
-      "clicks": 0,
-      "viewable": 1041,
-      "eligible": 1047,
-      "ctr": 0,
-      "viewabilityRate": 99.42693409742121
-    },
-    {
-      "name": "curapelanatureza.com.br",
-      "impressions": 974,
-      "clicks": 0,
-      "viewable": 953,
-      "eligible": 974,
-      "ctr": 0,
-      "viewabilityRate": 97.84394250513347
-    },
-    {
-      "name": "tripadvisor.com.br",
-      "impressions": 974,
-      "clicks": 0,
-      "viewable": 814,
-      "eligible": 974,
-      "ctr": 0,
-      "viewabilityRate": 83.5728952772074
-    },
-    {
-      "name": "conjugacao.com.br",
-      "impressions": 948,
+      "name": "campograndenews.com.br",
+      "impressions": 4112,
       "clicks": 3,
-      "viewable": 904,
-      "eligible": 948,
-      "ctr": 0.31645569620253167,
-      "viewabilityRate": 95.35864978902954
+      "viewable": 3141,
+      "eligible": 4112,
+      "ctr": 0.07295719844357977,
+      "viewabilityRate": 76.38618677042801
     },
     {
-      "name": "folhavitoria.com.br",
-      "impressions": 942,
+      "name": "adrenaline.com.br",
+      "impressions": 4042,
       "clicks": 0,
-      "viewable": 816,
-      "eligible": 942,
+      "viewable": 3604,
+      "eligible": 4042,
       "ctr": 0,
-      "viewabilityRate": 86.62420382165605
+      "viewabilityRate": 89.16378030677882
     },
     {
-      "name": "simuladododetran.net.br",
-      "impressions": 924,
-      "clicks": 1,
-      "viewable": 710,
-      "eligible": 924,
-      "ctr": 0.10822510822510822,
-      "viewabilityRate": 76.83982683982684
-    },
-    {
-      "name": "em.com.br",
-      "impressions": 879,
+      "name": "noticiasagricolas.com.br",
+      "impressions": 4007,
       "clicks": 0,
-      "viewable": 713,
-      "eligible": 879,
+      "viewable": 3768,
+      "eligible": 4007,
       "ctr": 0,
-      "viewabilityRate": 81.11490329920365
+      "viewabilityRate": 94.03543798352882
     },
     {
-      "name": "dicionariodenomesproprios.com.br",
-      "impressions": 872,
+      "name": "significados.com.br",
+      "impressions": 3918,
+      "clicks": 4,
+      "viewable": 3733,
+      "eligible": 3918,
+      "ctr": 0.10209290454313426,
+      "viewabilityRate": 95.27820316488004
+    },
+    {
+      "name": "climatempo.com.br",
+      "impressions": 3738,
+      "clicks": 7,
+      "viewable": 2962,
+      "eligible": 3738,
+      "ctr": 0.18726591760299627,
+      "viewabilityRate": 79.24023542001069
+    },
+    {
+      "name": "webmotors.com.br",
+      "impressions": 3489,
       "clicks": 1,
-      "viewable": 795,
-      "eligible": 872,
-      "ctr": 0.11467889908256881,
-      "viewabilityRate": 91.1697247706422
+      "viewable": 2592,
+      "eligible": 3489,
+      "ctr": 0.028661507595299514,
+      "viewabilityRate": 74.29062768701634
     },
     {
-      "name": "lance.com.br",
-      "impressions": 869,
+      "name": "calculoexato.com.br",
+      "impressions": 3252,
       "clicks": 0,
-      "viewable": 801,
-      "eligible": 869,
+      "viewable": 2652,
+      "eligible": 3252,
       "ctr": 0,
-      "viewabilityRate": 92.17491369390103
+      "viewabilityRate": 81.54981549815497
     },
     {
-      "name": "autoo.com.br",
-      "impressions": 812,
+      "name": "canaltech.com.br",
+      "impressions": 3076,
       "clicks": 0,
-      "viewable": 731,
-      "eligible": 812,
+      "viewable": 2781,
+      "eligible": 3076,
       "ctr": 0,
-      "viewabilityRate": 90.02463054187191
+      "viewabilityRate": 90.40962288686606
     },
     {
-      "name": "naointendo.com.br",
-      "impressions": 748,
+      "name": "terra.com.br",
+      "impressions": 3066,
       "clicks": 1,
-      "viewable": 693,
-      "eligible": 748,
-      "ctr": 0.1336898395721925,
-      "viewabilityRate": 92.64705882352942
+      "viewable": 2608,
+      "eligible": 3066,
+      "ctr": 0.03261578604044357,
+      "viewabilityRate": 85.06196999347684
     },
     {
-      "name": "imprimirepintar.com.br",
-      "impressions": 735,
-      "clicks": 1,
-      "viewable": 634,
-      "eligible": 735,
-      "ctr": 0.13605442176870747,
-      "viewabilityRate": 86.25850340136054
+      "name": "tecnoblog.net",
+      "impressions": 2848,
+      "clicks": 0,
+      "viewable": 2779,
+      "eligible": 2848,
+      "ctr": 0,
+      "viewabilityRate": 97.57724719101124
+    },
+    {
+      "name": "infojobs.com.br",
+      "impressions": 2785,
+      "clicks": 0,
+      "viewable": 2176,
+      "eligible": 2785,
+      "ctr": 0,
+      "viewabilityRate": 78.13285457809694
+    },
+    {
+      "name": "purepeople.com.br",
+      "impressions": 2463,
+      "clicks": 2,
+      "viewable": 2323,
+      "eligible": 2463,
+      "ctr": 0.08120178643930166,
+      "viewabilityRate": 94.31587494924888
+    },
+    {
+      "name": "noataque.com.br",
+      "impressions": 2357,
+      "clicks": 0,
+      "viewable": 2144,
+      "eligible": 2357,
+      "ctr": 0,
+      "viewabilityRate": 90.96308867204073
+    },
+    {
+      "name": "uai.com.br",
+      "impressions": 2185,
+      "clicks": 0,
+      "viewable": 1885,
+      "eligible": 2185,
+      "ctr": 0,
+      "viewabilityRate": 86.2700228832952
+    },
+    {
+      "name": "receiteria.com.br",
+      "impressions": 2032,
+      "clicks": 5,
+      "viewable": 1991,
+      "eligible": 2032,
+      "ctr": 0.24606299212598426,
+      "viewabilityRate": 97.98228346456693
+    },
+    {
+      "name": "xataka.com.br",
+      "impressions": 1974,
+      "clicks": 0,
+      "viewable": 1624,
+      "eligible": 1974,
+      "ctr": 0,
+      "viewabilityRate": 82.26950354609929
+    },
+    {
+      "name": "contabeis.com.br",
+      "impressions": 1957,
+      "clicks": 0,
+      "viewable": 1690,
+      "eligible": 1957,
+      "ctr": 0,
+      "viewabilityRate": 86.35666836995401
     },
     {
       "name": "horabrasil.com.br",
-      "impressions": 701,
-      "clicks": 1,
-      "viewable": 511,
-      "eligible": 701,
-      "ctr": 0.14265335235378032,
-      "viewabilityRate": 72.89586305278173
-    },
-    {
-      "name": "techtudo.com.br",
-      "impressions": 679,
-      "clicks": 0,
-      "viewable": 594,
-      "eligible": 679,
-      "ctr": 0,
-      "viewabilityRate": 87.48159057437408
-    },
-    {
-      "name": "jumperbrasil.com.br",
-      "impressions": 652,
-      "clicks": 0,
-      "viewable": 608,
-      "eligible": 652,
-      "ctr": 0,
-      "viewabilityRate": 93.25153374233128
-    },
-    {
-      "name": "normaculta.com.br",
-      "impressions": 652,
-      "clicks": 0,
-      "viewable": 628,
-      "eligible": 652,
-      "ctr": 0,
-      "viewabilityRate": 96.31901840490798
-    },
-    {
-      "name": "bnews.com.br",
-      "impressions": 613,
-      "clicks": 0,
-      "viewable": 531,
-      "eligible": 613,
-      "ctr": 0,
-      "viewabilityRate": 86.6231647634584
-    },
-    {
-      "name": "metrocptm.com.br",
-      "impressions": 582,
-      "clicks": 0,
-      "viewable": 495,
-      "eligible": 582,
-      "ctr": 0,
-      "viewabilityRate": 85.05154639175258
-    },
-    {
-      "name": "palcomp3.com.br",
-      "impressions": 582,
-      "clicks": 0,
-      "viewable": 471,
-      "eligible": 582,
-      "ctr": 0,
-      "viewabilityRate": 80.9278350515464
-    },
-    {
-      "name": "horoscopovirtual.com.br",
-      "impressions": 553,
-      "clicks": 0,
-      "viewable": 529,
-      "eligible": 553,
-      "ctr": 0,
-      "viewabilityRate": 95.66003616636529
-    },
-    {
-      "name": "omelete.com.br",
-      "impressions": 522,
-      "clicks": 5,
-      "viewable": 424,
-      "eligible": 522,
-      "ctr": 0.9578544061302682,
-      "viewabilityRate": 81.22605363984674
-    },
-    {
-      "name": "correio24horas.com.br",
-      "impressions": 512,
-      "clicks": 0,
-      "viewable": 456,
-      "eligible": 512,
-      "ctr": 0,
-      "viewabilityRate": 89.0625
-    },
-    {
-      "name": "meuip.com.br",
-      "impressions": 498,
-      "clicks": 0,
-      "viewable": 496,
-      "eligible": 498,
-      "ctr": 0,
-      "viewabilityRate": 99.59839357429718
-    },
-    {
-      "name": "autoracing.com.br",
-      "impressions": 495,
-      "clicks": 0,
-      "viewable": 401,
-      "eligible": 495,
-      "ctr": 0,
-      "viewabilityRate": 81.01010101010101
-    },
-    {
-      "name": "estadao.com.br",
-      "impressions": 491,
-      "clicks": 0,
-      "viewable": 397,
-      "eligible": 491,
-      "ctr": 0,
-      "viewabilityRate": 80.85539714867616
-    },
-    {
-      "name": "noticiasaominuto.com.br",
-      "impressions": 482,
+      "impressions": 1874,
       "clicks": 2,
-      "viewable": 376,
-      "eligible": 482,
-      "ctr": 0.4149377593360996,
-      "viewabilityRate": 78.00829875518673
+      "viewable": 1456,
+      "eligible": 1874,
+      "ctr": 0.10672358591248667,
+      "viewabilityRate": 77.6947705442903
     },
     {
-      "name": "jovempan.com.br",
-      "impressions": 470,
-      "clicks": 0,
-      "viewable": 426,
-      "eligible": 470,
-      "ctr": 0,
-      "viewabilityRate": 90.63829787234042
-    },
-    {
-      "name": "joaobidu.com.br",
-      "impressions": 457,
-      "clicks": 0,
-      "viewable": 328,
-      "eligible": 457,
-      "ctr": 0,
-      "viewabilityRate": 71.77242888402627
-    },
-    {
-      "name": "motoo.com.br",
-      "impressions": 453,
-      "clicks": 0,
-      "viewable": 424,
-      "eligible": 453,
-      "ctr": 0,
-      "viewabilityRate": 93.59823399558499
-    },
-    {
-      "name": "clickpetroleoegas.com.br",
-      "impressions": 451,
-      "clicks": 1,
-      "viewable": 325,
-      "eligible": 451,
-      "ctr": 0.22172949002217296,
-      "viewabilityRate": 72.06208425720621
-    },
-    {
-      "name": "oantagonista.com.br",
-      "impressions": 414,
-      "clicks": 3,
-      "viewable": 298,
-      "eligible": 414,
-      "ctr": 0.7246376811594203,
-      "viewabilityRate": 71.98067632850241
-    },
-    {
-      "name": "contigo.com.br",
-      "impressions": 408,
-      "clicks": 0,
-      "viewable": 299,
-      "eligible": 408,
-      "ctr": 0,
-      "viewabilityRate": 73.2843137254902
-    },
-    {
-      "name": "oficinadanet.com.br",
-      "impressions": 399,
-      "clicks": 0,
-      "viewable": 390,
-      "eligible": 399,
-      "ctr": 0,
-      "viewabilityRate": 97.74436090225564
-    },
-    {
-      "name": "netflu.com.br",
-      "impressions": 337,
+      "name": "guiadasemana.com.br",
+      "impressions": 1688,
       "clicks": 2,
-      "viewable": 310,
-      "eligible": 337,
-      "ctr": 0.5934718100890208,
-      "viewabilityRate": 91.98813056379822
+      "viewable": 1361,
+      "eligible": 1688,
+      "ctr": 0.11848341232227488,
+      "viewabilityRate": 80.62796208530806
     },
     {
-      "name": "tecmundo.com.br",
-      "impressions": 325,
-      "clicks": 0,
-      "viewable": 276,
-      "eligible": 325,
-      "ctr": 0,
-      "viewabilityRate": 84.92307692307692
-    },
-    {
-      "name": "aventurasnahistoria.com.br",
-      "impressions": 313,
+      "name": "noticiasautomotivas.com.br",
+      "impressions": 1657,
       "clicks": 1,
-      "viewable": 237,
-      "eligible": 313,
-      "ctr": 0.3194888178913738,
-      "viewabilityRate": 75.71884984025559
+      "viewable": 1158,
+      "eligible": 1657,
+      "ctr": 0.06035003017501509,
+      "viewabilityRate": 69.88533494266747
     },
     {
       "name": "sonhos.com.br",
-      "impressions": 308,
-      "clicks": 0,
-      "viewable": 254,
-      "eligible": 308,
-      "ctr": 0,
-      "viewabilityRate": 82.46753246753246
+      "impressions": 1570,
+      "clicks": 1,
+      "viewable": 1404,
+      "eligible": 1570,
+      "ctr": 0.06369426751592357,
+      "viewabilityRate": 89.4267515923567
     },
     {
-      "name": "ogol.com.br",
-      "impressions": 306,
+      "name": "fazendoanossafesta.com.br",
+      "impressions": 1524,
       "clicks": 0,
-      "viewable": 209,
-      "eligible": 306,
+      "viewable": 1325,
+      "eligible": 1524,
       "ctr": 0,
-      "viewabilityRate": 68.30065359477125
+      "viewabilityRate": 86.94225721784777
+    },
+    {
+      "name": "simuladododetran.net.br",
+      "impressions": 1513,
+      "clicks": 2,
+      "viewable": 1036,
+      "eligible": 1513,
+      "ctr": 0.13218770654329146,
+      "viewabilityRate": 68.47323198942499
+    },
+    {
+      "name": "rachacuca.com.br",
+      "impressions": 1415,
+      "clicks": 0,
+      "viewable": 1257,
+      "eligible": 1415,
+      "ctr": 0,
+      "viewabilityRate": 88.8339222614841
+    },
+    {
+      "name": "correiodopovo.com.br",
+      "impressions": 1396,
+      "clicks": 0,
+      "viewable": 1066,
+      "eligible": 1396,
+      "ctr": 0,
+      "viewabilityRate": 76.36103151862464
+    },
+    {
+      "name": "acheconcursos.com.br",
+      "impressions": 1356,
+      "clicks": 0,
+      "viewable": 1213,
+      "eligible": 1356,
+      "ctr": 0,
+      "viewabilityRate": 89.45427728613569
+    },
+    {
+      "name": "lance.com.br",
+      "impressions": 1331,
+      "clicks": 0,
+      "viewable": 1243,
+      "eligible": 1331,
+      "ctr": 0,
+      "viewabilityRate": 93.38842975206612
+    },
+    {
+      "name": "em.com.br",
+      "impressions": 1235,
+      "clicks": 0,
+      "viewable": 989,
+      "eligible": 1235,
+      "ctr": 0,
+      "viewabilityRate": 80.08097165991903
+    },
+    {
+      "name": "jovemnerd.com.br",
+      "impressions": 1234,
+      "clicks": 0,
+      "viewable": 1221,
+      "eligible": 1234,
+      "ctr": 0,
+      "viewabilityRate": 98.94651539708266
+    },
+    {
+      "name": "conjugacao.com.br",
+      "impressions": 1224,
+      "clicks": 3,
+      "viewable": 1165,
+      "eligible": 1224,
+      "ctr": 0.24509803921568626,
+      "viewabilityRate": 95.1797385620915
+    },
+    {
+      "name": "tripadvisor.com.br",
+      "impressions": 1222,
+      "clicks": 0,
+      "viewable": 1016,
+      "eligible": 1222,
+      "ctr": 0,
+      "viewabilityRate": 83.14238952536824
+    },
+    {
+      "name": "dicionariodenomesproprios.com.br",
+      "impressions": 1160,
+      "clicks": 1,
+      "viewable": 1062,
+      "eligible": 1160,
+      "ctr": 0.08620689655172414,
+      "viewabilityRate": 91.55172413793103
+    },
+    {
+      "name": "diariodocentrodomundo.com.br",
+      "impressions": 1117,
+      "clicks": 1,
+      "viewable": 969,
+      "eligible": 1117,
+      "ctr": 0.08952551477170993,
+      "viewabilityRate": 86.75022381378693
+    },
+    {
+      "name": "noticiasaominuto.com.br",
+      "impressions": 1002,
+      "clicks": 3,
+      "viewable": 778,
+      "eligible": 1002,
+      "ctr": 0.29940119760479045,
+      "viewabilityRate": 77.64471057884231
+    },
+    {
+      "name": "autoracing.com.br",
+      "impressions": 987,
+      "clicks": 1,
+      "viewable": 715,
+      "eligible": 987,
+      "ctr": 0.10131712259371835,
+      "viewabilityRate": 72.44174265450862
+    },
+    {
+      "name": "naointendo.com.br",
+      "impressions": 921,
+      "clicks": 1,
+      "viewable": 850,
+      "eligible": 921,
+      "ctr": 0.10857763300760044,
+      "viewabilityRate": 92.29098805646036
+    },
+    {
+      "name": "techtudo.com.br",
+      "impressions": 824,
+      "clicks": 1,
+      "viewable": 732,
+      "eligible": 824,
+      "ctr": 0.12135922330097086,
+      "viewabilityRate": 88.83495145631069
+    },
+    {
+      "name": "autoo.com.br",
+      "impressions": 798,
+      "clicks": 0,
+      "viewable": 713,
+      "eligible": 798,
+      "ctr": 0,
+      "viewabilityRate": 89.3483709273183
+    },
+    {
+      "name": "normaculta.com.br",
+      "impressions": 768,
+      "clicks": 0,
+      "viewable": 729,
+      "eligible": 768,
+      "ctr": 0,
+      "viewabilityRate": 94.921875
+    },
+    {
+      "name": "palcomp3.com.br",
+      "impressions": 756,
+      "clicks": 0,
+      "viewable": 622,
+      "eligible": 756,
+      "ctr": 0,
+      "viewabilityRate": 82.27513227513228
+    },
+    {
+      "name": "imprimirepintar.com.br",
+      "impressions": 731,
+      "clicks": 1,
+      "viewable": 633,
+      "eligible": 731,
+      "ctr": 0.13679890560875513,
+      "viewabilityRate": 86.593707250342
+    },
+    {
+      "name": "folhavitoria.com.br",
+      "impressions": 727,
+      "clicks": 0,
+      "viewable": 619,
+      "eligible": 727,
+      "ctr": 0,
+      "viewabilityRate": 85.14442916093536
+    },
+    {
+      "name": "jovempan.com.br",
+      "impressions": 722,
+      "clicks": 0,
+      "viewable": 672,
+      "eligible": 722,
+      "ctr": 0,
+      "viewabilityRate": 93.07479224376732
+    },
+    {
+      "name": "contigo.com.br",
+      "impressions": 721,
+      "clicks": 0,
+      "viewable": 527,
+      "eligible": 721,
+      "ctr": 0,
+      "viewabilityRate": 73.09292649098474
+    },
+    {
+      "name": "jumperbrasil.com.br",
+      "impressions": 716,
+      "clicks": 0,
+      "viewable": 655,
+      "eligible": 716,
+      "ctr": 0,
+      "viewabilityRate": 91.4804469273743
+    },
+    {
+      "name": "joaobidu.com.br",
+      "impressions": 709,
+      "clicks": 0,
+      "viewable": 541,
+      "eligible": 709,
+      "ctr": 0,
+      "viewabilityRate": 76.3046544428773
+    },
+    {
+      "name": "bnews.com.br",
+      "impressions": 690,
+      "clicks": 0,
+      "viewable": 599,
+      "eligible": 690,
+      "ctr": 0,
+      "viewabilityRate": 86.81159420289855
+    },
+    {
+      "name": "clickpetroleoegas.com.br",
+      "impressions": 684,
+      "clicks": 1,
+      "viewable": 478,
+      "eligible": 684,
+      "ctr": 0.14619883040935672,
+      "viewabilityRate": 69.88304093567251
+    },
+    {
+      "name": "omelete.com.br",
+      "impressions": 674,
+      "clicks": 5,
+      "viewable": 565,
+      "eligible": 674,
+      "ctr": 0.741839762611276,
+      "viewabilityRate": 83.82789317507418
+    },
+    {
+      "name": "correio24horas.com.br",
+      "impressions": 627,
+      "clicks": 0,
+      "viewable": 524,
+      "eligible": 627,
+      "ctr": 0,
+      "viewabilityRate": 83.5725677830941
+    },
+    {
+      "name": "metrocptm.com.br",
+      "impressions": 623,
+      "clicks": 0,
+      "viewable": 513,
+      "eligible": 623,
+      "ctr": 0,
+      "viewabilityRate": 82.34349919743178
+    },
+    {
+      "name": "horoscopovirtual.com.br",
+      "impressions": 598,
+      "clicks": 0,
+      "viewable": 561,
+      "eligible": 598,
+      "ctr": 0,
+      "viewabilityRate": 93.81270903010034
+    },
+    {
+      "name": "meuip.com.br",
+      "impressions": 592,
+      "clicks": 0,
+      "viewable": 590,
+      "eligible": 592,
+      "ctr": 0,
+      "viewabilityRate": 99.66216216216216
+    },
+    {
+      "name": "curapelanatureza.com.br",
+      "impressions": 559,
+      "clicks": 0,
+      "viewable": 546,
+      "eligible": 559,
+      "ctr": 0,
+      "viewabilityRate": 97.67441860465115
+    },
+    {
+      "name": "oantagonista.com.br",
+      "impressions": 553,
+      "clicks": 4,
+      "viewable": 400,
+      "eligible": 553,
+      "ctr": 0.7233273056057866,
+      "viewabilityRate": 72.33273056057867
+    },
+    {
+      "name": "tecmundo.com.br",
+      "impressions": 500,
+      "clicks": 0,
+      "viewable": 414,
+      "eligible": 500,
+      "ctr": 0,
+      "viewabilityRate": 82.8
+    },
+    {
+      "name": "motoo.com.br",
+      "impressions": 496,
+      "clicks": 0,
+      "viewable": 448,
+      "eligible": 496,
+      "ctr": 0,
+      "viewabilityRate": 90.32258064516128
     },
     {
       "name": "serasa.com.br",
-      "impressions": 305,
+      "impressions": 496,
       "clicks": 0,
-      "viewable": 291,
-      "eligible": 305,
+      "viewable": 462,
+      "eligible": 496,
       "ctr": 0,
-      "viewabilityRate": 95.40983606557377
+      "viewabilityRate": 93.14516129032258
     },
     {
-      "name": "dol.com.br",
-      "impressions": 299,
+      "name": "estadao.com.br",
+      "impressions": 494,
       "clicks": 0,
-      "viewable": 275,
-      "eligible": 299,
+      "viewable": 385,
+      "eligible": 494,
       "ctr": 0,
-      "viewabilityRate": 91.9732441471572
+      "viewabilityRate": 77.93522267206477
     },
     {
-      "name": "rollingstone.com.br",
-      "impressions": 282,
+      "name": "ogol.com.br",
+      "impressions": 483,
       "clicks": 0,
-      "viewable": 254,
-      "eligible": 282,
+      "viewable": 351,
+      "eligible": 483,
       "ctr": 0,
-      "viewabilityRate": 90.0709219858156
+      "viewabilityRate": 72.67080745341616
     },
     {
-      "name": "oimparcial.com.br",
-      "impressions": 279,
-      "clicks": 0,
-      "viewable": 256,
-      "eligible": 279,
-      "ctr": 0,
-      "viewabilityRate": 91.75627240143369
-    },
-    {
-      "name": "diariodoamapa.com.br",
-      "impressions": 273,
-      "clicks": 0,
-      "viewable": 209,
-      "eligible": 273,
-      "ctr": 0,
-      "viewabilityRate": 76.55677655677655
-    },
-    {
-      "name": "chavesnamao.com.br",
-      "impressions": 268,
-      "clicks": 0,
-      "viewable": 151,
-      "eligible": 268,
-      "ctr": 0,
-      "viewabilityRate": 56.343283582089555
+      "name": "aventurasnahistoria.com.br",
+      "impressions": 470,
+      "clicks": 1,
+      "viewable": 355,
+      "eligible": 470,
+      "ctr": 0.2127659574468085,
+      "viewabilityRate": 75.53191489361703
     },
     {
       "name": "portaltemponovo.com.br",
-      "impressions": 261,
+      "impressions": 458,
       "clicks": 1,
-      "viewable": 168,
-      "eligible": 261,
-      "ctr": 0.38314176245210724,
-      "viewabilityRate": 64.36781609195403
+      "viewable": 297,
+      "eligible": 458,
+      "ctr": 0.21834061135371177,
+      "viewabilityRate": 64.8471615720524
     },
     {
-      "name": "exame.com",
-      "impressions": 258,
+      "name": "chavesnamao.com.br",
+      "impressions": 457,
       "clicks": 0,
-      "viewable": 237,
-      "eligible": 258,
+      "viewable": 277,
+      "eligible": 457,
       "ctr": 0,
-      "viewabilityRate": 91.86046511627907
+      "viewabilityRate": 60.61269146608315
     },
     {
-      "name": "mundopositivo.com.br",
-      "impressions": 254,
+      "name": "oficinadanet.com.br",
+      "impressions": 428,
       "clicks": 0,
-      "viewable": 155,
-      "eligible": 254,
+      "viewable": 418,
+      "eligible": 428,
       "ctr": 0,
-      "viewabilityRate": 61.023622047244096
+      "viewabilityRate": 97.66355140186917
     },
     {
-      "name": "clubedohardware.com.br",
-      "impressions": 251,
-      "clicks": 0,
-      "viewable": 233,
-      "eligible": 251,
-      "ctr": 0,
-      "viewabilityRate": 92.82868525896414
+      "name": "netflu.com.br",
+      "impressions": 411,
+      "clicks": 2,
+      "viewable": 374,
+      "eligible": 411,
+      "ctr": 0.48661800486618007,
+      "viewabilityRate": 90.99756690997567
     },
     {
       "name": "ratatype.com.br",
-      "impressions": 245,
+      "impressions": 378,
       "clicks": 1,
-      "viewable": 213,
-      "eligible": 245,
-      "ctr": 0.40816326530612246,
-      "viewabilityRate": 86.93877551020408
+      "viewable": 305,
+      "eligible": 378,
+      "ctr": 0.26455026455026454,
+      "viewabilityRate": 80.68783068783068
     },
     {
       "name": "cartacapital.com.br",
-      "impressions": 236,
+      "impressions": 368,
       "clicks": 0,
-      "viewable": 192,
-      "eligible": 236,
+      "viewable": 310,
+      "eligible": 368,
       "ctr": 0,
-      "viewabilityRate": 81.35593220338984
+      "viewabilityRate": 84.23913043478261
     },
     {
-      "name": "airway.com.br",
-      "impressions": 235,
+      "name": "rollingstone.com.br",
+      "impressions": 368,
       "clicks": 0,
-      "viewable": 223,
-      "eligible": 235,
+      "viewable": 327,
+      "eligible": 368,
       "ctr": 0,
-      "viewabilityRate": 94.8936170212766
-    },
-    {
-      "name": "netfla.com.br",
-      "impressions": 235,
-      "clicks": 4,
-      "viewable": 180,
-      "eligible": 235,
-      "ctr": 1.702127659574468,
-      "viewabilityRate": 76.59574468085107
-    },
-    {
-      "name": "empregacampinas.com.br",
-      "impressions": 223,
-      "clicks": 0,
-      "viewable": 179,
-      "eligible": 223,
-      "ctr": 0,
-      "viewabilityRate": 80.26905829596413
-    },
-    {
-      "name": "portugues.com.br",
-      "impressions": 218,
-      "clicks": 0,
-      "viewable": 199,
-      "eligible": 218,
-      "ctr": 0,
-      "viewabilityRate": 91.28440366972477
-    },
-    {
-      "name": "exempl.com.br",
-      "impressions": 208,
-      "clicks": 0,
-      "viewable": 207,
-      "eligible": 208,
-      "ctr": 0,
-      "viewabilityRate": 99.51923076923077
-    },
-    {
-      "name": "bemparana.com.br",
-      "impressions": 202,
-      "clicks": 0,
-      "viewable": 174,
-      "eligible": 202,
-      "ctr": 0,
-      "viewabilityRate": 86.13861386138613
-    },
-    {
-      "name": "folhabv.com.br",
-      "impressions": 198,
-      "clicks": 0,
-      "viewable": 167,
-      "eligible": 198,
-      "ctr": 0,
-      "viewabilityRate": 84.34343434343434
-    },
-    {
-      "name": "disneyplusbrasil.com.br",
-      "impressions": 190,
-      "clicks": 0,
-      "viewable": 156,
-      "eligible": 190,
-      "ctr": 0,
-      "viewabilityRate": 82.10526315789474
-    },
-    {
-      "name": "fiis.com.br",
-      "impressions": 189,
-      "clicks": 0,
-      "viewable": 143,
-      "eligible": 189,
-      "ctr": 0,
-      "viewabilityRate": 75.66137566137566
-    },
-    {
-      "name": "explosaotricolor.com.br",
-      "impressions": 186,
-      "clicks": 0,
-      "viewable": 165,
-      "eligible": 186,
-      "ctr": 0,
-      "viewabilityRate": 88.70967741935483
-    },
-    {
-      "name": "portalinsights.com.br",
-      "impressions": 186,
-      "clicks": 0,
-      "viewable": 162,
-      "eligible": 186,
-      "ctr": 0,
-      "viewabilityRate": 87.09677419354838
-    },
-    {
-      "name": "leismunicipais.com.br",
-      "impressions": 171,
-      "clicks": 0,
-      "viewable": 154,
-      "eligible": 171,
-      "ctr": 0,
-      "viewabilityRate": 90.05847953216374
-    },
-    {
-      "name": "folhape.com.br",
-      "impressions": 170,
-      "clicks": 0,
-      "viewable": 151,
-      "eligible": 170,
-      "ctr": 0,
-      "viewabilityRate": 88.8235294117647
-    },
-    {
-      "name": "midianews.com.br",
-      "impressions": 166,
-      "clicks": 0,
-      "viewable": 156,
-      "eligible": 166,
-      "ctr": 0,
-      "viewabilityRate": 93.97590361445783
-    },
-    {
-      "name": "guiadacozinha.com.br",
-      "impressions": 162,
-      "clicks": 1,
-      "viewable": 119,
-      "eligible": 162,
-      "ctr": 0.6172839506172839,
-      "viewabilityRate": 73.4567901234568
-    },
-    {
-      "name": "tribunademinas.com.br",
-      "impressions": 162,
-      "clicks": 0,
-      "viewable": 128,
-      "eligible": 162,
-      "ctr": 0,
-      "viewabilityRate": 79.01234567901234
+      "viewabilityRate": 88.8586956521739
     },
     {
       "name": "casadosdados.com.br",
-      "impressions": 156,
+      "impressions": 333,
       "clicks": 0,
-      "viewable": 128,
-      "eligible": 156,
+      "viewable": 299,
+      "eligible": 333,
       "ctr": 0,
-      "viewabilityRate": 82.05128205128204
+      "viewabilityRate": 89.7897897897898
     },
     {
-      "name": "canalrural.com.br",
-      "impressions": 155,
-      "clicks": 0,
-      "viewable": 143,
-      "eligible": 155,
-      "ctr": 0,
-      "viewabilityRate": 92.25806451612904
-    },
-    {
-      "name": "soutimao.com.br",
-      "impressions": 143,
+      "name": "fiis.com.br",
+      "impressions": 332,
       "clicks": 1,
-      "viewable": 112,
-      "eligible": 143,
-      "ctr": 0.6993006993006993,
-      "viewabilityRate": 78.32167832167832
+      "viewable": 274,
+      "eligible": 332,
+      "ctr": 0.30120481927710846,
+      "viewabilityRate": 82.53012048192771
     },
     {
-      "name": "bandab.com.br",
-      "impressions": 138,
+      "name": "folhape.com.br",
+      "impressions": 322,
       "clicks": 0,
-      "viewable": 120,
-      "eligible": 138,
+      "viewable": 271,
+      "eligible": 322,
       "ctr": 0,
-      "viewabilityRate": 86.95652173913044
+      "viewabilityRate": 84.16149068322981
     },
     {
-      "name": "manualpdf.com.br",
-      "impressions": 138,
+      "name": "oimparcial.com.br",
+      "impressions": 319,
       "clicks": 0,
-      "viewable": 130,
-      "eligible": 138,
+      "viewable": 295,
+      "eligible": 319,
       "ctr": 0,
-      "viewabilityRate": 94.20289855072464
+      "viewabilityRate": 92.47648902821317
     },
     {
-      "name": "minhavida.com.br",
-      "impressions": 137,
+      "name": "dol.com.br",
+      "impressions": 317,
       "clicks": 0,
-      "viewable": 127,
-      "eligible": 137,
+      "viewable": 284,
+      "eligible": 317,
       "ctr": 0,
-      "viewabilityRate": 92.7007299270073
+      "viewabilityRate": 89.58990536277602
     },
     {
-      "name": "sociedademilitar.com.br",
-      "impressions": 137,
-      "clicks": 3,
-      "viewable": 79,
-      "eligible": 137,
-      "ctr": 2.18978102189781,
-      "viewabilityRate": 57.66423357664233
-    },
-    {
-      "name": "tvpop.com.br",
-      "impressions": 128,
+      "name": "diariodoamapa.com.br",
+      "impressions": 283,
       "clicks": 0,
-      "viewable": 113,
-      "eligible": 128,
+      "viewable": 221,
+      "eligible": 283,
       "ctr": 0,
-      "viewabilityRate": 88.28125
-    },
-    {
-      "name": "futebolinterior.com.br",
-      "impressions": 127,
-      "clicks": 0,
-      "viewable": 124,
-      "eligible": 127,
-      "ctr": 0,
-      "viewabilityRate": 97.63779527559055
-    },
-    {
-      "name": "atarde.com.br",
-      "impressions": 126,
-      "clicks": 0,
-      "viewable": 109,
-      "eligible": 126,
-      "ctr": 0,
-      "viewabilityRate": 86.5079365079365
-    },
-    {
-      "name": "mundoboaforma.com.br",
-      "impressions": 126,
-      "clicks": 0,
-      "viewable": 121,
-      "eligible": 126,
-      "ctr": 0,
-      "viewabilityRate": 96.03174603174604
-    },
-    {
-      "name": "portaln10.com.br",
-      "impressions": 126,
-      "clicks": 0,
-      "viewable": 114,
-      "eligible": 126,
-      "ctr": 0,
-      "viewabilityRate": 90.47619047619048
-    },
-    {
-      "name": "agazeta.com.br",
-      "impressions": 125,
-      "clicks": 1,
-      "viewable": 115,
-      "eligible": 125,
-      "ctr": 0.8,
-      "viewabilityRate": 92
+      "viewabilityRate": 78.09187279151944
     },
     {
       "name": "nsctotal.com.br",
-      "impressions": 124,
+      "impressions": 283,
       "clicks": 2,
-      "viewable": 75,
-      "eligible": 124,
-      "ctr": 1.6129032258064515,
-      "viewabilityRate": 60.483870967741936
+      "viewable": 182,
+      "eligible": 283,
+      "ctr": 0.7067137809187279,
+      "viewabilityRate": 64.31095406360424
     },
     {
-      "name": "diariodopara.com.br",
-      "impressions": 119,
+      "name": "guiadacozinha.com.br",
+      "impressions": 271,
+      "clicks": 1,
+      "viewable": 197,
+      "eligible": 271,
+      "ctr": 0.36900369003690037,
+      "viewabilityRate": 72.69372693726937
+    },
+    {
+      "name": "portugues.com.br",
+      "impressions": 268,
       "clicks": 0,
-      "viewable": 112,
-      "eligible": 119,
+      "viewable": 248,
+      "eligible": 268,
       "ctr": 0,
-      "viewabilityRate": 94.11764705882352
+      "viewabilityRate": 92.53731343283582
     },
     {
-      "name": "aficionados.com.br",
-      "impressions": 112,
+      "name": "mundopositivo.com.br",
+      "impressions": 255,
       "clicks": 0,
-      "viewable": 104,
-      "eligible": 112,
+      "viewable": 156,
+      "eligible": 255,
+      "ctr": 0,
+      "viewabilityRate": 61.1764705882353
+    },
+    {
+      "name": "mrnews.com.br",
+      "impressions": 253,
+      "clicks": 0,
+      "viewable": 210,
+      "eligible": 253,
+      "ctr": 0,
+      "viewabilityRate": 83.00395256916995
+    },
+    {
+      "name": "netfla.com.br",
+      "impressions": 252,
+      "clicks": 4,
+      "viewable": 184,
+      "eligible": 252,
+      "ctr": 1.5873015873015872,
+      "viewabilityRate": 73.01587301587301
+    },
+    {
+      "name": "tenisnews.com.br",
+      "impressions": 252,
+      "clicks": 0,
+      "viewable": 234,
+      "eligible": 252,
       "ctr": 0,
       "viewabilityRate": 92.85714285714286
     },
     {
-      "name": "tribunadonorte.com.br",
-      "impressions": 111,
+      "name": "agazeta.com.br",
+      "impressions": 251,
       "clicks": 1,
-      "viewable": 100,
-      "eligible": 111,
-      "ctr": 0.9009009009009009,
-      "viewabilityRate": 90.09009009009009
+      "viewable": 200,
+      "eligible": 251,
+      "ctr": 0.398406374501992,
+      "viewabilityRate": 79.6812749003984
     },
     {
-      "name": "educador.com.br",
-      "impressions": 110,
+      "name": "leismunicipais.com.br",
+      "impressions": 251,
       "clicks": 0,
-      "viewable": 82,
-      "eligible": 110,
+      "viewable": 232,
+      "eligible": 251,
       "ctr": 0,
-      "viewabilityRate": 74.54545454545455
+      "viewabilityRate": 92.43027888446214
     },
     {
-      "name": "mantosdofutebol.com.br",
-      "impressions": 110,
+      "name": "empregacampinas.com.br",
+      "impressions": 248,
       "clicks": 0,
-      "viewable": 90,
-      "eligible": 110,
+      "viewable": 199,
+      "eligible": 248,
       "ctr": 0,
-      "viewabilityRate": 81.81818181818183
+      "viewabilityRate": 80.24193548387096
     },
     {
-      "name": "criticalhits.com.br",
-      "impressions": 108,
+      "name": "folhabv.com.br",
+      "impressions": 247,
       "clicks": 0,
-      "viewable": 92,
-      "eligible": 108,
+      "viewable": 211,
+      "eligible": 247,
       "ctr": 0,
-      "viewabilityRate": 85.18518518518519
+      "viewabilityRate": 85.4251012145749
     },
     {
-      "name": "historiadomundo.com.br",
-      "impressions": 104,
+      "name": "midianews.com.br",
+      "impressions": 240,
       "clicks": 0,
-      "viewable": 99,
-      "eligible": 104,
+      "viewable": 228,
+      "eligible": 240,
       "ctr": 0,
-      "viewabilityRate": 95.1923076923077
-    },
-    {
-      "name": "diariodobrasilnoticias.com.br",
-      "impressions": 99,
-      "clicks": 0,
-      "viewable": 69,
-      "eligible": 99,
-      "ctr": 0,
-      "viewabilityRate": 69.6969696969697
+      "viewabilityRate": 95
     },
     {
       "name": "antenadosnofutebol.com.br",
-      "impressions": 96,
-      "clicks": 0,
-      "viewable": 65,
-      "eligible": 96,
-      "ctr": 0,
-      "viewabilityRate": 67.70833333333334
+      "impressions": 235,
+      "clicks": 1,
+      "viewable": 159,
+      "eligible": 235,
+      "ctr": 0.425531914893617,
+      "viewabilityRate": 67.65957446808511
     },
     {
-      "name": "opovo.com.br",
-      "impressions": 95,
+      "name": "bemparana.com.br",
+      "impressions": 233,
       "clicks": 0,
-      "viewable": 65,
-      "eligible": 95,
+      "viewable": 201,
+      "eligible": 233,
       "ctr": 0,
-      "viewabilityRate": 68.42105263157895
+      "viewabilityRate": 86.26609442060087
     },
     {
-      "name": "pianoeletronico.com.br",
-      "impressions": 95,
+      "name": "ofuxico.com.br",
+      "impressions": 232,
       "clicks": 0,
-      "viewable": 80,
-      "eligible": 95,
+      "viewable": 180,
+      "eligible": 232,
       "ctr": 0,
-      "viewabilityRate": 84.21052631578947
+      "viewabilityRate": 77.58620689655173
     },
     {
-      "name": "moneytimes.com.br",
-      "impressions": 93,
+      "name": "portalinsights.com.br",
+      "impressions": 227,
       "clicks": 0,
-      "viewable": 76,
-      "eligible": 93,
+      "viewable": 200,
+      "eligible": 227,
       "ctr": 0,
-      "viewabilityRate": 81.72043010752688
+      "viewabilityRate": 88.10572687224669
     },
     {
-      "name": "receitadaboa.com.br",
-      "impressions": 93,
+      "name": "baccinoticias.com.br",
+      "impressions": 221,
       "clicks": 0,
-      "viewable": 85,
-      "eligible": 93,
+      "viewable": 211,
+      "eligible": 221,
       "ctr": 0,
-      "viewabilityRate": 91.39784946236558
+      "viewabilityRate": 95.47511312217195
+    },
+    {
+      "name": "exempl.com.br",
+      "impressions": 218,
+      "clicks": 0,
+      "viewable": 216,
+      "eligible": 218,
+      "ctr": 0,
+      "viewabilityRate": 99.08256880733946
+    },
+    {
+      "name": "tribunademinas.com.br",
+      "impressions": 218,
+      "clicks": 0,
+      "viewable": 169,
+      "eligible": 218,
+      "ctr": 0,
+      "viewabilityRate": 77.52293577981652
+    },
+    {
+      "name": "explosaotricolor.com.br",
+      "impressions": 211,
+      "clicks": 0,
+      "viewable": 188,
+      "eligible": 210,
+      "ctr": 0,
+      "viewabilityRate": 89.52380952380953
+    },
+    {
+      "name": "bahianoticias.com.br",
+      "impressions": 210,
+      "clicks": 0,
+      "viewable": 190,
+      "eligible": 210,
+      "ctr": 0,
+      "viewabilityRate": 90.47619047619048
+    },
+    {
+      "name": "clubedohardware.com.br",
+      "impressions": 207,
+      "clicks": 0,
+      "viewable": 184,
+      "eligible": 207,
+      "ctr": 0,
+      "viewabilityRate": 88.88888888888889
+    },
+    {
+      "name": "futebolinterior.com.br",
+      "impressions": 207,
+      "clicks": 0,
+      "viewable": 195,
+      "eligible": 207,
+      "ctr": 0,
+      "viewabilityRate": 94.20289855072464
+    },
+    {
+      "name": "bandab.com.br",
+      "impressions": 205,
+      "clicks": 0,
+      "viewable": 176,
+      "eligible": 205,
+      "ctr": 0,
+      "viewabilityRate": 85.85365853658537
+    },
+    {
+      "name": "minhavida.com.br",
+      "impressions": 203,
+      "clicks": 0,
+      "viewable": 173,
+      "eligible": 203,
+      "ctr": 0,
+      "viewabilityRate": 85.22167487684729
+    },
+    {
+      "name": "portaln10.com.br",
+      "impressions": 203,
+      "clicks": 0,
+      "viewable": 175,
+      "eligible": 203,
+      "ctr": 0,
+      "viewabilityRate": 86.20689655172413
+    },
+    {
+      "name": "airway.com.br",
+      "impressions": 202,
+      "clicks": 0,
+      "viewable": 190,
+      "eligible": 202,
+      "ctr": 0,
+      "viewabilityRate": 94.05940594059405
+    },
+    {
+      "name": "sociedademilitar.com.br",
+      "impressions": 197,
+      "clicks": 4,
+      "viewable": 118,
+      "eligible": 197,
+      "ctr": 2.030456852791878,
+      "viewabilityRate": 59.89847715736041
+    },
+    {
+      "name": "disneyplusbrasil.com.br",
+      "impressions": 193,
+      "clicks": 0,
+      "viewable": 153,
+      "eligible": 193,
+      "ctr": 0,
+      "viewabilityRate": 79.27461139896373
+    },
+    {
+      "name": "aficionados.com.br",
+      "impressions": 189,
+      "clicks": 1,
+      "viewable": 179,
+      "eligible": 189,
+      "ctr": 0.5291005291005291,
+      "viewabilityRate": 94.70899470899471
+    },
+    {
+      "name": "criticalhits.com.br",
+      "impressions": 180,
+      "clicks": 0,
+      "viewable": 148,
+      "eligible": 180,
+      "ctr": 0,
+      "viewabilityRate": 82.22222222222221
+    },
+    {
+      "name": "mantosdofutebol.com.br",
+      "impressions": 170,
+      "clicks": 0,
+      "viewable": 135,
+      "eligible": 170,
+      "ctr": 0,
+      "viewabilityRate": 79.41176470588235
     },
     {
       "name": "automaistv.com.br",
-      "impressions": 92,
+      "impressions": 167,
       "clicks": 1,
-      "viewable": 75,
-      "eligible": 92,
-      "ctr": 1.0869565217391304,
-      "viewabilityRate": 81.52173913043478
+      "viewable": 135,
+      "eligible": 167,
+      "ctr": 0.5988023952095809,
+      "viewabilityRate": 80.83832335329342
+    },
+    {
+      "name": "tvpop.com.br",
+      "impressions": 161,
+      "clicks": 0,
+      "viewable": 145,
+      "eligible": 161,
+      "ctr": 0,
+      "viewabilityRate": 90.06211180124224
+    },
+    {
+      "name": "mundoboaforma.com.br",
+      "impressions": 160,
+      "clicks": 0,
+      "viewable": 154,
+      "eligible": 160,
+      "ctr": 0,
+      "viewabilityRate": 96.25
+    },
+    {
+      "name": "atarde.com.br",
+      "impressions": 159,
+      "clicks": 0,
+      "viewable": 137,
+      "eligible": 159,
+      "ctr": 0,
+      "viewabilityRate": 86.16352201257862
+    },
+    {
+      "name": "diariodobrasilnoticias.com.br",
+      "impressions": 159,
+      "clicks": 0,
+      "viewable": 120,
+      "eligible": 159,
+      "ctr": 0,
+      "viewabilityRate": 75.47169811320755
+    },
+    {
+      "name": "moneytimes.com.br",
+      "impressions": 158,
+      "clicks": 0,
+      "viewable": 128,
+      "eligible": 158,
+      "ctr": 0,
+      "viewabilityRate": 81.0126582278481
+    },
+    {
+      "name": "educador.com.br",
+      "impressions": 148,
+      "clicks": 0,
+      "viewable": 100,
+      "eligible": 148,
+      "ctr": 0,
+      "viewabilityRate": 67.56756756756756
+    },
+    {
+      "name": "legenda.com.br",
+      "impressions": 148,
+      "clicks": 0,
+      "viewable": 145,
+      "eligible": 148,
+      "ctr": 0,
+      "viewabilityRate": 97.97297297297297
+    },
+    {
+      "name": "canalrural.com.br",
+      "impressions": 146,
+      "clicks": 0,
+      "viewable": 134,
+      "eligible": 146,
+      "ctr": 0,
+      "viewabilityRate": 91.78082191780823
+    },
+    {
+      "name": "pianoeletronico.com.br",
+      "impressions": 137,
+      "clicks": 0,
+      "viewable": 117,
+      "eligible": 137,
+      "ctr": 0,
+      "viewabilityRate": 85.40145985401459
+    },
+    {
+      "name": "historiadomundo.com.br",
+      "impressions": 133,
+      "clicks": 0,
+      "viewable": 126,
+      "eligible": 133,
+      "ctr": 0,
+      "viewabilityRate": 94.73684210526315
+    },
+    {
+      "name": "olhardireto.com.br",
+      "impressions": 132,
+      "clicks": 0,
+      "viewable": 96,
+      "eligible": 132,
+      "ctr": 0,
+      "viewabilityRate": 72.72727272727273
+    },
+    {
+      "name": "maisnovela.com.br",
+      "impressions": 129,
+      "clicks": 0,
+      "viewable": 66,
+      "eligible": 129,
+      "ctr": 0,
+      "viewabilityRate": 51.162790697674424
+    },
+    {
+      "name": "manualpdf.com.br",
+      "impressions": 125,
+      "clicks": 0,
+      "viewable": 118,
+      "eligible": 125,
+      "ctr": 0,
+      "viewabilityRate": 94.39999999999999
+    },
+    {
+      "name": "opovo.com.br",
+      "impressions": 125,
+      "clicks": 0,
+      "viewable": 86,
+      "eligible": 125,
+      "ctr": 0,
+      "viewabilityRate": 68.8
+    },
+    {
+      "name": "vrum.com.br",
+      "impressions": 124,
+      "clicks": 0,
+      "viewable": 107,
+      "eligible": 124,
+      "ctr": 0,
+      "viewabilityRate": 86.29032258064517
+    },
+    {
+      "name": "cruzadasclube.com.br",
+      "impressions": 118,
+      "clicks": 0,
+      "viewable": 108,
+      "eligible": 118,
+      "ctr": 0,
+      "viewabilityRate": 91.52542372881356
+    },
+    {
+      "name": "tribunadonorte.com.br",
+      "impressions": 118,
+      "clicks": 1,
+      "viewable": 109,
+      "eligible": 118,
+      "ctr": 0.847457627118644,
+      "viewabilityRate": 92.37288135593221
+    },
+    {
+      "name": "dicionariodesimbolos.com.br",
+      "impressions": 103,
+      "clicks": 1,
+      "viewable": 97,
+      "eligible": 103,
+      "ctr": 0.9708737864077669,
+      "viewabilityRate": 94.1747572815534
+    },
+    {
+      "name": "hojeemdia.com.br",
+      "impressions": 103,
+      "clicks": 1,
+      "viewable": 53,
+      "eligible": 103,
+      "ctr": 0.9708737864077669,
+      "viewabilityRate": 51.45631067961165
+    },
+    {
+      "name": "receitadaboa.com.br",
+      "impressions": 101,
+      "clicks": 0,
+      "viewable": 92,
+      "eligible": 101,
+      "ctr": 0,
+      "viewabilityRate": 91.0891089108911
+    },
+    {
+      "name": "revistaforum.com.br",
+      "impressions": 95,
+      "clicks": 0,
+      "viewable": 78,
+      "eligible": 95,
+      "ctr": 0,
+      "viewabilityRate": 82.10526315789474
+    },
+    {
+      "name": "alphafm.com.br",
+      "impressions": 93,
+      "clicks": 0,
+      "viewable": 93,
+      "eligible": 93,
+      "ctr": 0,
+      "viewabilityRate": 100
     },
     {
       "name": "polemicaparaiba.com.br",
@@ -3033,58 +3132,94 @@
       "viewabilityRate": 97.77777777777777
     },
     {
-      "name": "dicionariodesimbolos.com.br",
-      "impressions": 88,
-      "clicks": 1,
-      "viewable": 84,
-      "eligible": 88,
-      "ctr": 1.1363636363636365,
-      "viewabilityRate": 95.45454545454545
-    },
-    {
-      "name": "minhaconexao.com.br",
-      "impressions": 83,
-      "clicks": 0,
-      "viewable": 83,
-      "eligible": 83,
-      "ctr": 0,
-      "viewabilityRate": 100
-    },
-    {
       "name": "ouvirmusica.com.br",
-      "impressions": 82,
-      "clicks": 0,
-      "viewable": 66,
-      "eligible": 82,
-      "ctr": 0,
-      "viewabilityRate": 80.48780487804879
-    },
-    {
-      "name": "vrum.com.br",
-      "impressions": 79,
-      "clicks": 0,
-      "viewable": 70,
-      "eligible": 79,
-      "ctr": 0,
-      "viewabilityRate": 88.60759493670885
-    },
-    {
-      "name": "hojeemdia.com.br",
-      "impressions": 78,
-      "clicks": 0,
-      "viewable": 43,
-      "eligible": 78,
-      "ctr": 0,
-      "viewabilityRate": 55.12820512820513
-    },
-    {
-      "name": "bahianoticias.com.br",
-      "impressions": 77,
+      "impressions": 88,
       "clicks": 0,
       "viewable": 63,
+      "eligible": 88,
+      "ctr": 0,
+      "viewabilityRate": 71.5909090909091
+    },
+    {
+      "name": "tnh1.com.br",
+      "impressions": 88,
+      "clicks": 1,
+      "viewable": 67,
+      "eligible": 88,
+      "ctr": 1.1363636363636365,
+      "viewabilityRate": 76.13636363636364
+    },
+    {
+      "name": "acordacidade.com.br",
+      "impressions": 87,
+      "clicks": 0,
+      "viewable": 75,
+      "eligible": 87,
+      "ctr": 0,
+      "viewabilityRate": 86.20689655172413
+    },
+    {
+      "name": "mobills.com.br",
+      "impressions": 87,
+      "clicks": 0,
+      "viewable": 68,
+      "eligible": 87,
+      "ctr": 0,
+      "viewabilityRate": 78.16091954022988
+    },
+    {
+      "name": "4oito.com.br",
+      "impressions": 86,
+      "clicks": 0,
+      "viewable": 64,
+      "eligible": 86,
+      "ctr": 0,
+      "viewabilityRate": 74.4186046511628
+    },
+    {
+      "name": "diariodopara.com.br",
+      "impressions": 85,
+      "clicks": 0,
+      "viewable": 79,
+      "eligible": 85,
+      "ctr": 0,
+      "viewabilityRate": 92.94117647058823
+    },
+    {
+      "name": "tribunaonline.com.br",
+      "impressions": 80,
+      "clicks": 0,
+      "viewable": 68,
+      "eligible": 80,
+      "ctr": 0,
+      "viewabilityRate": 85
+    },
+    {
+      "name": "horoscoposideral.com.br",
+      "impressions": 79,
+      "clicks": 0,
+      "viewable": 64,
+      "eligible": 79,
+      "ctr": 0,
+      "viewabilityRate": 81.0126582278481
+    },
+    {
+      "name": "rdnews.com.br",
+      "impressions": 77,
+      "clicks": 0,
+      "viewable": 49,
       "eligible": 77,
       "ctr": 0,
-      "viewabilityRate": 81.81818181818183
+      "viewabilityRate": 63.63636363636363
+    },
+    {
+      "name": "somostodosum.com.br",
+      "impressions": 77,
+      "clicks": 0,
+      "viewable": 59,
+      "eligible": 77,
+      "ctr": 0,
+      "viewabilityRate": 76.62337662337663
     },
     {
       "name": "devtools.com.br",
@@ -3096,70 +3231,88 @@
       "viewabilityRate": 77.63157894736842
     },
     {
-      "name": "acordacidade.com.br",
-      "impressions": 75,
-      "clicks": 0,
-      "viewable": 68,
-      "eligible": 75,
-      "ctr": 0,
-      "viewabilityRate": 90.66666666666666
-    },
-    {
-      "name": "olhardireto.com.br",
-      "impressions": 74,
-      "clicks": 0,
-      "viewable": 48,
-      "eligible": 74,
-      "ctr": 0,
-      "viewabilityRate": 64.86486486486487
-    },
-    {
-      "name": "4oito.com.br",
-      "impressions": 70,
+      "name": "igormiranda.com.br",
+      "impressions": 76,
       "clicks": 0,
       "viewable": 52,
-      "eligible": 70,
+      "eligible": 76,
       "ctr": 0,
-      "viewabilityRate": 74.28571428571429
+      "viewabilityRate": 68.42105263157895
     },
     {
-      "name": "cruzadasclube.com.br",
-      "impressions": 65,
+      "name": "infonet.com.br",
+      "impressions": 76,
       "clicks": 0,
-      "viewable": 58,
-      "eligible": 65,
+      "viewable": 75,
+      "eligible": 76,
       "ctr": 0,
-      "viewabilityRate": 89.23076923076924
+      "viewabilityRate": 98.68421052631578
+    },
+    {
+      "name": "panelinha.com.br",
+      "impressions": 76,
+      "clicks": 0,
+      "viewable": 60,
+      "eligible": 76,
+      "ctr": 0,
+      "viewabilityRate": 78.94736842105263
     },
     {
       "name": "clicrbs.com.br",
-      "impressions": 64,
+      "impressions": 75,
       "clicks": 0,
-      "viewable": 48,
-      "eligible": 64,
+      "viewable": 53,
+      "eligible": 75,
       "ctr": 0,
-      "viewabilityRate": 75
+      "viewabilityRate": 70.66666666666667
     },
     {
-      "name": "tribunaonline.com.br",
-      "impressions": 64,
+      "name": "opopular.com.br",
+      "impressions": 74,
       "clicks": 0,
-      "viewable": 57,
-      "eligible": 64,
+      "viewable": 45,
+      "eligible": 74,
       "ctr": 0,
-      "viewabilityRate": 89.0625
+      "viewabilityRate": 60.810810810810814
     },
     {
-      "name": "somostodosum.com.br",
-      "impressions": 63,
+      "name": "cadaminuto.com.br",
+      "impressions": 73,
       "clicks": 0,
-      "viewable": 51,
-      "eligible": 63,
+      "viewable": 65,
+      "eligible": 73,
       "ctr": 0,
-      "viewabilityRate": 80.95238095238095
+      "viewabilityRate": 89.04109589041096
+    },
+    {
+      "name": "minhaconexao.com.br",
+      "impressions": 69,
+      "clicks": 0,
+      "viewable": 69,
+      "eligible": 69,
+      "ctr": 0,
+      "viewabilityRate": 100
+    },
+    {
+      "name": "kboing.com.br",
+      "impressions": 66,
+      "clicks": 0,
+      "viewable": 62,
+      "eligible": 66,
+      "ctr": 0,
+      "viewabilityRate": 93.93939393939394
     },
     {
       "name": "downdetector.com.br",
+      "impressions": 62,
+      "clicks": 0,
+      "viewable": 58,
+      "eligible": 62,
+      "ctr": 0,
+      "viewabilityRate": 93.54838709677419
+    },
+    {
+      "name": "giroemipiau1.com.br",
       "impressions": 62,
       "clicks": 0,
       "viewable": 59,
@@ -3168,340 +3321,367 @@
       "viewabilityRate": 95.16129032258065
     },
     {
-      "name": "mrnews.com.br",
-      "impressions": 62,
+      "name": "reciboonline.com.br",
+      "impressions": 58,
       "clicks": 0,
-      "viewable": 57,
-      "eligible": 62,
+      "viewable": 45,
+      "eligible": 58,
       "ctr": 0,
-      "viewabilityRate": 91.93548387096774
+      "viewabilityRate": 77.58620689655173
     },
     {
-      "name": "alphafm.com.br",
-      "impressions": 61,
-      "clicks": 0,
-      "viewable": 61,
-      "eligible": 61,
-      "ctr": 0,
-      "viewabilityRate": 100
-    },
-    {
-      "name": "carnavalesco.com.br",
-      "impressions": 60,
-      "clicks": 0,
-      "viewable": 56,
-      "eligible": 60,
-      "ctr": 0,
-      "viewabilityRate": 93.33333333333333
-    },
-    {
-      "name": "infonet.com.br",
-      "impressions": 59,
-      "clicks": 0,
-      "viewable": 58,
-      "eligible": 59,
-      "ctr": 0,
-      "viewabilityRate": 98.30508474576271
+      "name": "novabrasilfm.com.br",
+      "impressions": 56,
+      "clicks": 1,
+      "viewable": 52,
+      "eligible": 56,
+      "ctr": 1.7857142857142856,
+      "viewabilityRate": 92.85714285714286
     },
     {
       "name": "tvgazeta.com.br",
-      "impressions": 57,
-      "clicks": 0,
-      "viewable": 53,
-      "eligible": 57,
-      "ctr": 0,
-      "viewabilityRate": 92.98245614035088
-    },
-    {
-      "name": "panelinha.com.br",
-      "impressions": 56,
-      "clicks": 0,
-      "viewable": 46,
-      "eligible": 56,
-      "ctr": 0,
-      "viewabilityRate": 82.14285714285714
-    },
-    {
-      "name": "baccinoticias.com.br",
-      "impressions": 54,
+      "impressions": 55,
       "clicks": 0,
       "viewable": 51,
-      "eligible": 54,
+      "eligible": 55,
       "ctr": 0,
-      "viewabilityRate": 94.44444444444444
+      "viewabilityRate": 92.72727272727272
     },
     {
-      "name": "horoscoposideral.com.br",
-      "impressions": 54,
+      "name": "jmonline.com.br",
+      "impressions": 53,
       "clicks": 0,
-      "viewable": 49,
-      "eligible": 54,
+      "viewable": 48,
+      "eligible": 53,
       "ctr": 0,
-      "viewabilityRate": 90.74074074074075
+      "viewabilityRate": 90.56603773584906
     },
     {
-      "name": "tnh1.com.br",
+      "name": "patoshoje.com.br",
+      "impressions": 53,
+      "clicks": 0,
+      "viewable": 44,
+      "eligible": 53,
+      "ctr": 0,
+      "viewabilityRate": 83.01886792452831
+    },
+    {
+      "name": "carnavalesco.com.br",
       "impressions": 52,
-      "clicks": 1,
-      "viewable": 39,
+      "clicks": 0,
+      "viewable": 45,
       "eligible": 52,
-      "ctr": 1.9230769230769231,
-      "viewabilityRate": 75
+      "ctr": 0,
+      "viewabilityRate": 86.53846153846155
+    },
+    {
+      "name": "fragrantica.com.br",
+      "impressions": 51,
+      "clicks": 0,
+      "viewable": 43,
+      "eligible": 51,
+      "ctr": 0,
+      "viewabilityRate": 84.31372549019608
+    },
+    {
+      "name": "massa.com.br",
+      "impressions": 49,
+      "clicks": 0,
+      "viewable": 39,
+      "eligible": 49,
+      "ctr": 0,
+      "viewabilityRate": 79.59183673469387
     },
     {
       "name": "autossegredos.com.br",
       "impressions": 48,
       "clicks": 0,
-      "viewable": 38,
+      "viewable": 40,
       "eligible": 48,
-      "ctr": 0,
-      "viewabilityRate": 79.16666666666666
-    },
-    {
-      "name": "tenisnews.com.br",
-      "impressions": 47,
-      "clicks": 0,
-      "viewable": 44,
-      "eligible": 47,
-      "ctr": 0,
-      "viewabilityRate": 93.61702127659575
-    },
-    {
-      "name": "revistaforum.com.br",
-      "impressions": 42,
-      "clicks": 0,
-      "viewable": 35,
-      "eligible": 42,
       "ctr": 0,
       "viewabilityRate": 83.33333333333334
     },
     {
-      "name": "cadaminuto.com.br",
-      "impressions": 40,
+      "name": "olimpiadatododia.com.br",
+      "impressions": 47,
       "clicks": 0,
-      "viewable": 35,
-      "eligible": 40,
+      "viewable": 28,
+      "eligible": 47,
       "ctr": 0,
-      "viewabilityRate": 87.5
+      "viewabilityRate": 59.57446808510638
     },
     {
-      "name": "jmonline.com.br",
-      "impressions": 40,
+      "name": "bonde.com.br",
+      "impressions": 43,
       "clicks": 0,
-      "viewable": 35,
-      "eligible": 40,
+      "viewable": 39,
+      "eligible": 43,
       "ctr": 0,
-      "viewabilityRate": 87.5
+      "viewabilityRate": 90.69767441860465
     },
     {
-      "name": "massa.com.br",
+      "name": "soutimao.com.br",
+      "impressions": 42,
+      "clicks": 0,
+      "viewable": 28,
+      "eligible": 42,
+      "ctr": 0,
+      "viewabilityRate": 66.66666666666666
+    },
+    {
+      "name": "eusemfronteiras.com.br",
       "impressions": 40,
       "clicks": 0,
-      "viewable": 32,
+      "viewable": 33,
       "eligible": 40,
+      "ctr": 0,
+      "viewabilityRate": 82.5
+    },
+    {
+      "name": "diariosm.com.br",
+      "impressions": 38,
+      "clicks": 0,
+      "viewable": 29,
+      "eligible": 38,
+      "ctr": 0,
+      "viewabilityRate": 76.31578947368422
+    },
+    {
+      "name": "gazetadocerrado.com.br",
+      "impressions": 38,
+      "clicks": 0,
+      "viewable": 28,
+      "eligible": 38,
+      "ctr": 0,
+      "viewabilityRate": 73.68421052631578
+    },
+    {
+      "name": "exame.com",
+      "impressions": 37,
+      "clicks": 0,
+      "viewable": 26,
+      "eligible": 37,
+      "ctr": 0,
+      "viewabilityRate": 70.27027027027027
+    },
+    {
+      "name": "wikiaves.com.br",
+      "impressions": 37,
+      "clicks": 0,
+      "viewable": 35,
+      "eligible": 37,
+      "ctr": 0,
+      "viewabilityRate": 94.5945945945946
+    },
+    {
+      "name": "atitudeevisao.com.br",
+      "impressions": 35,
+      "clicks": 0,
+      "viewable": 12,
+      "eligible": 35,
+      "ctr": 0,
+      "viewabilityRate": 34.285714285714285
+    },
+    {
+      "name": "gaz.com.br",
+      "impressions": 33,
+      "clicks": 0,
+      "viewable": 31,
+      "eligible": 33,
+      "ctr": 0,
+      "viewabilityRate": 93.93939393939394
+    },
+    {
+      "name": "istoedinheiro.com.br",
+      "impressions": 33,
+      "clicks": 0,
+      "viewable": 18,
+      "eligible": 33,
+      "ctr": 0,
+      "viewabilityRate": 54.54545454545454
+    },
+    {
+      "name": "espn.com.br",
+      "impressions": 32,
+      "clicks": 1,
+      "viewable": 24,
+      "eligible": 32,
+      "ctr": 3.125,
+      "viewabilityRate": 75
+    },
+    {
+      "name": "jmais.com.br",
+      "impressions": 31,
+      "clicks": 1,
+      "viewable": 27,
+      "eligible": 31,
+      "ctr": 3.225806451612903,
+      "viewabilityRate": 87.09677419354838
+    },
+    {
+      "name": "saudeemdia.com.br",
+      "impressions": 31,
+      "clicks": 0,
+      "viewable": 24,
+      "eligible": 31,
+      "ctr": 0,
+      "viewabilityRate": 77.41935483870968
+    },
+    {
+      "name": "istoe.com.br",
+      "impressions": 30,
+      "clicks": 0,
+      "viewable": 23,
+      "eligible": 30,
+      "ctr": 0,
+      "viewabilityRate": 76.66666666666667
+    },
+    {
+      "name": "surfguru.com.br",
+      "impressions": 30,
+      "clicks": 0,
+      "viewable": 24,
+      "eligible": 30,
       "ctr": 0,
       "viewabilityRate": 80
     },
     {
-      "name": "igormiranda.com.br",
-      "impressions": 39,
+      "name": "vovonaoca.com.br",
+      "impressions": 29,
       "clicks": 0,
-      "viewable": 32,
-      "eligible": 39,
+      "viewable": 17,
+      "eligible": 29,
       "ctr": 0,
-      "viewabilityRate": 82.05128205128204
+      "viewabilityRate": 58.620689655172406
     },
     {
-      "name": "legenda.com.br",
-      "impressions": 39,
+      "name": "gartic.com.br",
+      "impressions": 28,
       "clicks": 0,
-      "viewable": 38,
-      "eligible": 39,
+      "viewable": 26,
+      "eligible": 28,
       "ctr": 0,
-      "viewabilityRate": 97.43589743589743
+      "viewabilityRate": 92.85714285714286
     },
     {
-      "name": "maisnovela.com.br",
-      "impressions": 38,
+      "name": "sistemampa.com.br",
+      "impressions": 28,
       "clicks": 0,
-      "viewable": 23,
-      "eligible": 38,
+      "viewable": 18,
+      "eligible": 28,
       "ctr": 0,
-      "viewabilityRate": 60.526315789473685
+      "viewabilityRate": 64.28571428571429
     },
     {
-      "name": "eusemfronteiras.com.br",
-      "impressions": 37,
+      "name": "agazetaempregosul.com.br",
+      "impressions": 27,
       "clicks": 0,
-      "viewable": 32,
-      "eligible": 37,
+      "viewable": 21,
+      "eligible": 27,
       "ctr": 0,
-      "viewabilityRate": 86.48648648648648
-    },
-    {
-      "name": "rdnews.com.br",
-      "impressions": 34,
-      "clicks": 0,
-      "viewable": 23,
-      "eligible": 34,
-      "ctr": 0,
-      "viewabilityRate": 67.64705882352942
-    },
-    {
-      "name": "bonde.com.br",
-      "impressions": 33,
-      "clicks": 0,
-      "viewable": 29,
-      "eligible": 33,
-      "ctr": 0,
-      "viewabilityRate": 87.87878787878788
+      "viewabilityRate": 77.77777777777779
     },
     {
       "name": "nossopalmeiras.com.br",
-      "impressions": 31,
-      "clicks": 0,
-      "viewable": 26,
-      "eligible": 31,
-      "ctr": 0,
-      "viewabilityRate": 83.87096774193549
-    },
-    {
-      "name": "olimpiadatododia.com.br",
-      "impressions": 31,
-      "clicks": 0,
-      "viewable": 15,
-      "eligible": 31,
-      "ctr": 0,
-      "viewabilityRate": 48.38709677419355
-    },
-    {
-      "name": "patoshoje.com.br",
-      "impressions": 29,
-      "clicks": 0,
-      "viewable": 23,
-      "eligible": 29,
-      "ctr": 0,
-      "viewabilityRate": 79.3103448275862
-    },
-    {
-      "name": "gazetadocerrado.com.br",
-      "impressions": 28,
-      "clicks": 0,
-      "viewable": 24,
-      "eligible": 28,
-      "ctr": 0,
-      "viewabilityRate": 85.71428571428571
-    },
-    {
-      "name": "novaescola.org.br",
-      "impressions": 28,
-      "clicks": 0,
-      "viewable": 24,
-      "eligible": 28,
-      "ctr": 0,
-      "viewabilityRate": 85.71428571428571
-    },
-    {
-      "name": "gaz.com.br",
       "impressions": 27,
-      "clicks": 0,
-      "viewable": 25,
-      "eligible": 27,
-      "ctr": 0,
-      "viewabilityRate": 92.5925925925926
-    },
-    {
-      "name": "nossoflu.com.br",
-      "impressions": 27,
-      "clicks": 0,
-      "viewable": 24,
-      "eligible": 27,
-      "ctr": 0,
-      "viewabilityRate": 88.88888888888889
-    },
-    {
-      "name": "diariosm.com.br",
-      "impressions": 26,
-      "clicks": 0,
-      "viewable": 24,
-      "eligible": 26,
-      "ctr": 0,
-      "viewabilityRate": 92.3076923076923
-    },
-    {
-      "name": "mobills.com.br",
-      "impressions": 26,
-      "clicks": 0,
-      "viewable": 16,
-      "eligible": 26,
-      "ctr": 0,
-      "viewabilityRate": 61.53846153846154
-    },
-    {
-      "name": "saudeemdia.com.br",
-      "impressions": 26,
-      "clicks": 0,
-      "viewable": 20,
-      "eligible": 26,
-      "ctr": 0,
-      "viewabilityRate": 76.92307692307693
-    },
-    {
-      "name": "abcdoabc.com.br",
-      "impressions": 25,
       "clicks": 0,
       "viewable": 22,
-      "eligible": 25,
+      "eligible": 27,
       "ctr": 0,
-      "viewabilityRate": 88
+      "viewabilityRate": 81.48148148148148
     },
     {
-      "name": "novabrasilfm.com.br",
-      "impressions": 25,
-      "clicks": 1,
-      "viewable": 23,
-      "eligible": 25,
-      "ctr": 4,
-      "viewabilityRate": 92
-    },
-    {
-      "name": "ofuxico.com.br",
-      "impressions": 25,
+      "name": "autopapo.com.br",
+      "impressions": 26,
       "clicks": 0,
-      "viewable": 16,
-      "eligible": 25,
+      "viewable": 14,
+      "eligible": 26,
       "ctr": 0,
-      "viewabilityRate": 64
+      "viewabilityRate": 53.84615384615385
     },
     {
       "name": "avozdesantaquiteria.com.br",
-      "impressions": 24,
+      "impressions": 26,
       "clicks": 0,
-      "viewable": 24,
-      "eligible": 24,
+      "viewable": 26,
+      "eligible": 26,
       "ctr": 0,
       "viewabilityRate": 100
     },
     {
-      "name": "afnoticias.com.br",
-      "impressions": 23,
-      "clicks": 0,
-      "viewable": 17,
-      "eligible": 23,
-      "ctr": 0,
-      "viewabilityRate": 73.91304347826086
-    },
-    {
-      "name": "gartic.com.br",
-      "impressions": 22,
+      "name": "novaescola.org.br",
+      "impressions": 26,
       "clicks": 0,
       "viewable": 21,
-      "eligible": 22,
+      "eligible": 26,
       "ctr": 0,
-      "viewabilityRate": 95.45454545454545
+      "viewabilityRate": 80.76923076923077
     },
     {
-      "name": "fragrantica.com.br",
+      "name": "diariodopeixe.com.br",
+      "impressions": 24,
+      "clicks": 0,
+      "viewable": 1,
+      "eligible": 24,
+      "ctr": 0,
+      "viewabilityRate": 4.166666666666666
+    },
+    {
+      "name": "olharjuridico.com.br",
+      "impressions": 22,
+      "clicks": 0,
+      "viewable": 18,
+      "eligible": 22,
+      "ctr": 0,
+      "viewabilityRate": 81.81818181818183
+    },
+    {
+      "name": "pipocamoderna.com.br",
+      "impressions": 22,
+      "clicks": 0,
+      "viewable": 18,
+      "eligible": 22,
+      "ctr": 0,
+      "viewabilityRate": 81.81818181818183
+    },
+    {
+      "name": "receitasdepesos.com.br",
+      "impressions": 22,
+      "clicks": 0,
+      "viewable": 15,
+      "eligible": 22,
+      "ctr": 0,
+      "viewabilityRate": 68.18181818181817
+    },
+    {
+      "name": "vgnoticias.com.br",
+      "impressions": 22,
+      "clicks": 0,
+      "viewable": 19,
+      "eligible": 22,
+      "ctr": 0,
+      "viewabilityRate": 86.36363636363636
+    },
+    {
+      "name": "douradosagora.com.br",
+      "impressions": 21,
+      "clicks": 0,
+      "viewable": 16,
+      "eligible": 21,
+      "ctr": 0,
+      "viewabilityRate": 76.19047619047619
+    },
+    {
+      "name": "itajaionline.com.br",
+      "impressions": 21,
+      "clicks": 0,
+      "viewable": 21,
+      "eligible": 21,
+      "ctr": 0,
+      "viewabilityRate": 100
+    },
+    {
+      "name": "portaldarmc.com.br",
       "impressions": 21,
       "clicks": 0,
       "viewable": 14,
@@ -3510,52 +3690,16 @@
       "viewabilityRate": 66.66666666666666
     },
     {
-      "name": "istoedinheiro.com.br",
-      "impressions": 21,
-      "clicks": 0,
-      "viewable": 13,
-      "eligible": 21,
-      "ctr": 0,
-      "viewabilityRate": 61.904761904761905
-    },
-    {
-      "name": "opopular.com.br",
-      "impressions": 21,
-      "clicks": 0,
-      "viewable": 15,
-      "eligible": 21,
-      "ctr": 0,
-      "viewabilityRate": 71.42857142857143
-    },
-    {
-      "name": "receitasdepesos.com.br",
-      "impressions": 21,
-      "clicks": 0,
-      "viewable": 19,
-      "eligible": 21,
-      "ctr": 0,
-      "viewabilityRate": 90.47619047619048
-    },
-    {
-      "name": "sistemampa.com.br",
+      "name": "tribunadejundiai.com.br",
       "impressions": 20,
       "clicks": 0,
-      "viewable": 13,
+      "viewable": 17,
       "eligible": 20,
       "ctr": 0,
-      "viewabilityRate": 65
+      "viewabilityRate": 85
     },
     {
-      "name": "diariodopeixe.com.br",
-      "impressions": 19,
-      "clicks": 0,
-      "viewable": 1,
-      "eligible": 19,
-      "ctr": 0,
-      "viewabilityRate": 5.263157894736842
-    },
-    {
-      "name": "istoe.com.br",
+      "name": "nossoflu.com.br",
       "impressions": 19,
       "clicks": 0,
       "viewable": 16,
@@ -3564,58 +3708,67 @@
       "viewabilityRate": 84.21052631578947
     },
     {
-      "name": "vgnoticias.com.br",
-      "impressions": 19,
+      "name": "abcdoabc.com.br",
+      "impressions": 18,
       "clicks": 0,
-      "viewable": 18,
-      "eligible": 19,
+      "viewable": 14,
+      "eligible": 18,
       "ctr": 0,
-      "viewabilityRate": 94.73684210526315
+      "viewabilityRate": 77.77777777777779
     },
     {
-      "name": "reciboonline.com.br",
+      "name": "agazetanews.com.br",
       "impressions": 17,
       "clicks": 0,
-      "viewable": 11,
+      "viewable": 14,
       "eligible": 17,
       "ctr": 0,
-      "viewabilityRate": 64.70588235294117
+      "viewabilityRate": 82.35294117647058
     },
     {
-      "name": "wikiaves.com.br",
-      "impressions": 17,
-      "clicks": 0,
-      "viewable": 15,
-      "eligible": 17,
-      "ctr": 0,
-      "viewabilityRate": 88.23529411764706
-    },
-    {
-      "name": "pipocamoderna.com.br",
-      "impressions": 16,
-      "clicks": 0,
-      "viewable": 13,
-      "eligible": 16,
-      "ctr": 0,
-      "viewabilityRate": 81.25
-    },
-    {
-      "name": "surfguru.com.br",
-      "impressions": 16,
-      "clicks": 0,
-      "viewable": 11,
-      "eligible": 16,
-      "ctr": 0,
-      "viewabilityRate": 68.75
-    },
-    {
-      "name": "vovonaoca.com.br",
+      "name": "lineup.tv.br",
       "impressions": 15,
       "clicks": 0,
-      "viewable": 12,
+      "viewable": 10,
       "eligible": 15,
       "ctr": 0,
-      "viewabilityRate": 80
+      "viewabilityRate": 66.66666666666666
+    },
+    {
+      "name": "afnoticias.com.br",
+      "impressions": 14,
+      "clicks": 0,
+      "viewable": 8,
+      "eligible": 14,
+      "ctr": 0,
+      "viewabilityRate": 57.14285714285714
+    },
+    {
+      "name": "riovagas.com.br",
+      "impressions": 14,
+      "clicks": 0,
+      "viewable": 12,
+      "eligible": 14,
+      "ctr": 0,
+      "viewabilityRate": 85.71428571428571
+    },
+    {
+      "name": "abril.com.br",
+      "impressions": 13,
+      "clicks": 0,
+      "viewable": 11,
+      "eligible": 13,
+      "ctr": 0,
+      "viewabilityRate": 84.61538461538461
+    },
+    {
+      "name": "patrocinioonline.com.br",
+      "impressions": 13,
+      "clicks": 0,
+      "viewable": 11,
+      "eligible": 13,
+      "ctr": 0,
+      "viewabilityRate": 84.61538461538461
     },
     {
       "name": "proteste.org.br",
@@ -3627,52 +3780,70 @@
       "viewabilityRate": 100
     },
     {
+      "name": "giromarilia.com.br",
+      "impressions": 12,
+      "clicks": 0,
+      "viewable": 10,
+      "eligible": 12,
+      "ctr": 0,
+      "viewabilityRate": 83.33333333333334
+    },
+    {
       "name": "acordocerto.com.br",
-      "impressions": 12,
-      "clicks": 0,
-      "viewable": 9,
-      "eligible": 12,
-      "ctr": 0,
-      "viewabilityRate": 75
-    },
-    {
-      "name": "atitudeevisao.com.br",
-      "impressions": 12,
-      "clicks": 0,
-      "viewable": 5,
-      "eligible": 12,
-      "ctr": 0,
-      "viewabilityRate": 41.66666666666667
-    },
-    {
-      "name": "douradosagora.com.br",
       "impressions": 11,
       "clicks": 0,
-      "viewable": 7,
+      "viewable": 8,
       "eligible": 11,
       "ctr": 0,
-      "viewabilityRate": 63.63636363636363
-    },
-    {
-      "name": "espn.com.br",
-      "impressions": 11,
-      "clicks": 0,
-      "viewable": 7,
-      "eligible": 11,
-      "ctr": 0,
-      "viewabilityRate": 63.63636363636363
-    },
-    {
-      "name": "agazetanews.com.br",
-      "impressions": 10,
-      "clicks": 0,
-      "viewable": 9,
-      "eligible": 10,
-      "ctr": 0,
-      "viewabilityRate": 90
+      "viewabilityRate": 72.72727272727273
     },
     {
       "name": "radiorock.com.br",
+      "impressions": 11,
+      "clicks": 0,
+      "viewable": 11,
+      "eligible": 11,
+      "ctr": 0,
+      "viewabilityRate": 100
+    },
+    {
+      "name": "tribunapr.com.br",
+      "impressions": 11,
+      "clicks": 0,
+      "viewable": 8,
+      "eligible": 11,
+      "ctr": 0,
+      "viewabilityRate": 72.72727272727273
+    },
+    {
+      "name": "webvolei.com.br",
+      "impressions": 11,
+      "clicks": 0,
+      "viewable": 5,
+      "eligible": 11,
+      "ctr": 0,
+      "viewabilityRate": 45.45454545454545
+    },
+    {
+      "name": "campos24horas.com.br",
+      "impressions": 10,
+      "clicks": 0,
+      "viewable": 5,
+      "eligible": 10,
+      "ctr": 0,
+      "viewabilityRate": 50
+    },
+    {
+      "name": "ecoserrano.com.br",
+      "impressions": 10,
+      "clicks": 0,
+      "viewable": 5,
+      "eligible": 10,
+      "ctr": 0,
+      "viewabilityRate": 50
+    },
+    {
+      "name": "gmconline.com.br",
       "impressions": 10,
       "clicks": 0,
       "viewable": 10,
@@ -3681,34 +3852,16 @@
       "viewabilityRate": 100
     },
     {
-      "name": "saopauloparacriancas.com.br",
+      "name": "segundoasegundo.com.br",
       "impressions": 10,
       "clicks": 0,
-      "viewable": 9,
+      "viewable": 6,
       "eligible": 10,
       "ctr": 0,
-      "viewabilityRate": 90
+      "viewabilityRate": 60
     },
     {
-      "name": "abril.com.br",
-      "impressions": 9,
-      "clicks": 0,
-      "viewable": 8,
-      "eligible": 9,
-      "ctr": 0,
-      "viewabilityRate": 88.88888888888889
-    },
-    {
-      "name": "autopapo.com.br",
-      "impressions": 9,
-      "clicks": 0,
-      "viewable": 7,
-      "eligible": 9,
-      "ctr": 0,
-      "viewabilityRate": 77.77777777777779
-    },
-    {
-      "name": "itajaionline.com.br",
+      "name": "diariodoaco.com.br",
       "impressions": 9,
       "clicks": 0,
       "viewable": 9,
@@ -3717,16 +3870,7 @@
       "viewabilityRate": 100
     },
     {
-      "name": "jmais.com.br",
-      "impressions": 9,
-      "clicks": 0,
-      "viewable": 6,
-      "eligible": 9,
-      "ctr": 0,
-      "viewabilityRate": 66.66666666666666
-    },
-    {
-      "name": "agazetaempregosul.com.br",
+      "name": "ig.com.br",
       "impressions": 8,
       "clicks": 0,
       "viewable": 8,
@@ -3735,88 +3879,7 @@
       "viewabilityRate": 100
     },
     {
-      "name": "ecoserrano.com.br",
-      "impressions": 8,
-      "clicks": 0,
-      "viewable": 4,
-      "eligible": 8,
-      "ctr": 0,
-      "viewabilityRate": 50
-    },
-    {
-      "name": "ecycle.com.br",
-      "impressions": 8,
-      "clicks": 0,
-      "viewable": 8,
-      "eligible": 8,
-      "ctr": 0,
-      "viewabilityRate": 100
-    },
-    {
-      "name": "giromarilia.com.br",
-      "impressions": 8,
-      "clicks": 0,
-      "viewable": 7,
-      "eligible": 8,
-      "ctr": 0,
-      "viewabilityRate": 87.5
-    },
-    {
-      "name": "tribunadejundiai.com.br",
-      "impressions": 8,
-      "clicks": 0,
-      "viewable": 5,
-      "eligible": 8,
-      "ctr": 0,
-      "viewabilityRate": 62.5
-    },
-    {
-      "name": "tribunapr.com.br",
-      "impressions": 8,
-      "clicks": 0,
-      "viewable": 5,
-      "eligible": 8,
-      "ctr": 0,
-      "viewabilityRate": 62.5
-    },
-    {
-      "name": "webvolei.com.br",
-      "impressions": 8,
-      "clicks": 0,
-      "viewable": 4,
-      "eligible": 8,
-      "ctr": 0,
-      "viewabilityRate": 50
-    },
-    {
-      "name": "gmconline.com.br",
-      "impressions": 7,
-      "clicks": 0,
-      "viewable": 7,
-      "eligible": 7,
-      "ctr": 0,
-      "viewabilityRate": 100
-    },
-    {
-      "name": "ocorreio.com.br",
-      "impressions": 7,
-      "clicks": 0,
-      "viewable": 6,
-      "eligible": 7,
-      "ctr": 0,
-      "viewabilityRate": 85.71428571428571
-    },
-    {
-      "name": "olharjuridico.com.br",
-      "impressions": 7,
-      "clicks": 0,
-      "viewable": 5,
-      "eligible": 7,
-      "ctr": 0,
-      "viewabilityRate": 71.42857142857143
-    },
-    {
-      "name": "portaldarmc.com.br",
+      "name": "leouve.com.br",
       "impressions": 7,
       "clicks": 0,
       "viewable": 4,
@@ -3825,25 +3888,25 @@
       "viewabilityRate": 57.14285714285714
     },
     {
-      "name": "riovagas.com.br",
+      "name": "sampi.net.br",
       "impressions": 7,
       "clicks": 0,
-      "viewable": 7,
+      "viewable": 0,
       "eligible": 7,
       "ctr": 0,
-      "viewabilityRate": 100
+      "viewabilityRate": 0
     },
     {
-      "name": "kboing.com.br",
-      "impressions": 6,
+      "name": "zappeando.com.br",
+      "impressions": 7,
       "clicks": 0,
       "viewable": 4,
-      "eligible": 6,
+      "eligible": 7,
       "ctr": 0,
-      "viewabilityRate": 66.66666666666666
+      "viewabilityRate": 57.14285714285714
     },
     {
-      "name": "patrocinioonline.com.br",
+      "name": "gcmais.com.br",
       "impressions": 6,
       "clicks": 0,
       "viewable": 6,
@@ -3852,22 +3915,13 @@
       "viewabilityRate": 100
     },
     {
-      "name": "radiocidadesa.com.br",
+      "name": "saopauloparacriancas.com.br",
       "impressions": 6,
       "clicks": 0,
       "viewable": 4,
       "eligible": 6,
       "ctr": 0,
       "viewabilityRate": 66.66666666666666
-    },
-    {
-      "name": "sampi.net.br",
-      "impressions": 6,
-      "clicks": 0,
-      "viewable": 0,
-      "eligible": 6,
-      "ctr": 0,
-      "viewabilityRate": 0
     },
     {
       "name": "aratuon.com.br",
@@ -3879,24 +3933,6 @@
       "viewabilityRate": 100
     },
     {
-      "name": "diariodoaco.com.br",
-      "impressions": 5,
-      "clicks": 0,
-      "viewable": 5,
-      "eligible": 5,
-      "ctr": 0,
-      "viewabilityRate": 100
-    },
-    {
-      "name": "giroemipiau1.com.br",
-      "impressions": 5,
-      "clicks": 0,
-      "viewable": 4,
-      "eligible": 5,
-      "ctr": 0,
-      "viewabilityRate": 80
-    },
-    {
       "name": "hojemais.com.br",
       "impressions": 5,
       "clicks": 0,
@@ -3906,13 +3942,31 @@
       "viewabilityRate": 100
     },
     {
-      "name": "ig.com.br",
+      "name": "poa24horas.com.br",
+      "impressions": 5,
+      "clicks": 0,
+      "viewable": 2,
+      "eligible": 5,
+      "ctr": 0,
+      "viewabilityRate": 40
+    },
+    {
+      "name": "saocarlosemrede.com.br",
       "impressions": 5,
       "clicks": 0,
       "viewable": 4,
       "eligible": 5,
       "ctr": 0,
       "viewabilityRate": 80
+    },
+    {
+      "name": "votunews.com.br",
+      "impressions": 5,
+      "clicks": 0,
+      "viewable": 5,
+      "eligible": 5,
+      "ctr": 0,
+      "viewabilityRate": 100
     },
     {
       "name": "aereo.jor.br",
@@ -3933,42 +3987,6 @@
       "viewabilityRate": 75
     },
     {
-      "name": "gcmais.com.br",
-      "impressions": 4,
-      "clicks": 0,
-      "viewable": 4,
-      "eligible": 4,
-      "ctr": 0,
-      "viewabilityRate": 100
-    },
-    {
-      "name": "gp1.com.br",
-      "impressions": 4,
-      "clicks": 0,
-      "viewable": 2,
-      "eligible": 4,
-      "ctr": 0,
-      "viewabilityRate": 50
-    },
-    {
-      "name": "observadorregional.com.br",
-      "impressions": 4,
-      "clicks": 0,
-      "viewable": 3,
-      "eligible": 4,
-      "ctr": 0,
-      "viewabilityRate": 75
-    },
-    {
-      "name": "votunews.com.br",
-      "impressions": 4,
-      "clicks": 0,
-      "viewable": 4,
-      "eligible": 4,
-      "ctr": 0,
-      "viewabilityRate": 100
-    },
-    {
       "name": "bncamazonas.com.br",
       "impressions": 3,
       "clicks": 0,
@@ -3978,7 +3996,7 @@
       "viewabilityRate": 100
     },
     {
-      "name": "campos24horas.com.br",
+      "name": "calendario2018brasil.com.br",
       "impressions": 3,
       "clicks": 0,
       "viewable": 1,
@@ -3987,7 +4005,34 @@
       "viewabilityRate": 33.33333333333333
     },
     {
-      "name": "leouve.com.br",
+      "name": "extraderondonia.com.br",
+      "impressions": 3,
+      "clicks": 0,
+      "viewable": 3,
+      "eligible": 3,
+      "ctr": 0,
+      "viewabilityRate": 100
+    },
+    {
+      "name": "gp1.com.br",
+      "impressions": 3,
+      "clicks": 0,
+      "viewable": 2,
+      "eligible": 3,
+      "ctr": 0,
+      "viewabilityRate": 66.66666666666666
+    },
+    {
+      "name": "liberal.com.br",
+      "impressions": 3,
+      "clicks": 0,
+      "viewable": 1,
+      "eligible": 3,
+      "ctr": 0,
+      "viewabilityRate": 33.33333333333333
+    },
+    {
+      "name": "observadorregional.com.br",
       "impressions": 3,
       "clicks": 0,
       "viewable": 2,
@@ -4005,6 +4050,15 @@
       "viewabilityRate": 100
     },
     {
+      "name": "r7.com",
+      "impressions": 3,
+      "clicks": 0,
+      "viewable": 1,
+      "eligible": 3,
+      "ctr": 0,
+      "viewabilityRate": 33.33333333333333
+    },
+    {
       "name": "saocarlosagora.com.br",
       "impressions": 3,
       "clicks": 0,
@@ -4014,13 +4068,13 @@
       "viewabilityRate": 100
     },
     {
-      "name": "calendario2018brasil.com.br",
+      "name": "ecycle.com.br",
       "impressions": 2,
       "clicks": 0,
-      "viewable": 1,
+      "viewable": 2,
       "eligible": 2,
       "ctr": 0,
-      "viewabilityRate": 50
+      "viewabilityRate": 100
     },
     {
       "name": "focoregional.com.br",
@@ -4032,7 +4086,7 @@
       "viewabilityRate": 100
     },
     {
-      "name": "poa24horas.com.br",
+      "name": "passandoaregua.com.br",
       "impressions": 2,
       "clicks": 0,
       "viewable": 2,
@@ -4041,22 +4095,13 @@
       "viewabilityRate": 100
     },
     {
-      "name": "saopaulosempre.com.br",
+      "name": "radiocidadesa.com.br",
       "impressions": 2,
       "clicks": 0,
-      "viewable": 1,
+      "viewable": 2,
       "eligible": 2,
       "ctr": 0,
-      "viewabilityRate": 50
-    },
-    {
-      "name": "zappeando.com.br",
-      "impressions": 2,
-      "clicks": 0,
-      "viewable": 1,
-      "eligible": 2,
-      "ctr": 0,
-      "viewabilityRate": 50
+      "viewabilityRate": 100
     },
     {
       "name": "belosf7.com.br",
@@ -4068,7 +4113,7 @@
       "viewabilityRate": 100
     },
     {
-      "name": "gazetasbs.com.br",
+      "name": "blogdosena.com.br",
       "impressions": 1,
       "clicks": 0,
       "viewable": 1,
@@ -4077,7 +4122,7 @@
       "viewabilityRate": 100
     },
     {
-      "name": "liberal.com.br",
+      "name": "jornaldelavras.com.br",
       "impressions": 1,
       "clicks": 0,
       "viewable": 1,
@@ -4104,7 +4149,7 @@
       "viewabilityRate": 100
     },
     {
-      "name": "passandoaregua.com.br",
+      "name": "novanews.com.br",
       "impressions": 1,
       "clicks": 0,
       "viewable": 1,
@@ -4113,13 +4158,13 @@
       "viewabilityRate": 100
     },
     {
-      "name": "pciconcursos.com.br",
+      "name": "ocorreio.com.br",
       "impressions": 1,
       "clicks": 0,
-      "viewable": 1,
+      "viewable": 0,
       "eligible": 1,
       "ctr": 0,
-      "viewabilityRate": 100
+      "viewabilityRate": 0
     },
     {
       "name": "pordentrodetudo.com.br",
@@ -4140,15 +4185,6 @@
       "viewabilityRate": 100
     },
     {
-      "name": "r7.com",
-      "impressions": 1,
-      "clicks": 0,
-      "viewable": 0,
-      "eligible": 1,
-      "ctr": 0,
-      "viewabilityRate": 0
-    },
-    {
       "name": "remessaonline.com.br",
       "impressions": 1,
       "clicks": 0,
@@ -4159,24 +4195,6 @@
     },
     {
       "name": "sbt.com.br",
-      "impressions": 1,
-      "clicks": 0,
-      "viewable": 1,
-      "eligible": 1,
-      "ctr": 0,
-      "viewabilityRate": 100
-    },
-    {
-      "name": "segundoasegundo.com.br",
-      "impressions": 1,
-      "clicks": 0,
-      "viewable": 1,
-      "eligible": 1,
-      "ctr": 0,
-      "viewabilityRate": 100
-    },
-    {
-      "name": "themosvagas.com.br",
       "impressions": 1,
       "clicks": 0,
       "viewable": 1,
