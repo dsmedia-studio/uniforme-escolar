@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-13T12:38:42.570Z",
-  "nextUpdate": "2026-02-13T18:38:42.570Z",
+  "lastUpdated": "2026-02-13T18:36:04.205Z",
+  "nextUpdate": "2026-02-14T00:36:04.205Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -9,12 +9,12 @@
     "endDate": "2026-02-12"
   },
   "summary": {
-    "impressions": 2395578,
+    "impressions": 2395576,
     "clicks": 1039,
-    "ctr": 0.04337157880060678,
-    "viewableImpressions": 1995711,
-    "eligibleImpressions": 2395535,
-    "viewabilityRate": 83.3096155973509
+    "ctr": 0.04337161501033572,
+    "viewableImpressions": 1995710,
+    "eligibleImpressions": 2395533,
+    "viewabilityRate": 83.30964340712484
   },
   "daily": [
     {
@@ -136,22 +136,22 @@
     },
     {
       "date": "2026-02-12",
-      "impressions": 291060,
+      "impressions": 291058,
       "clicks": 109,
-      "viewable": 237304,
-      "eligible": 291052,
-      "ctr": 0.037449323163608876,
-      "viewabilityRate": 81.53319681706361
+      "viewable": 237303,
+      "eligible": 291050,
+      "ctr": 0.03744958049598362,
+      "viewabilityRate": 81.53341350283456
     }
   ],
   "byFormat": {
     "300x250": {
-      "impressions": 1036290,
+      "impressions": 1036288,
       "clicks": 305,
-      "viewable": 812493,
-      "eligible": 1036281,
-      "ctr": 0.029431915776471838,
-      "viewabilityRate": 78.40469911153441
+      "viewable": 812492,
+      "eligible": 1036279,
+      "ctr": 0.02943197257905138,
+      "viewabilityRate": 78.40475393209744
     },
     "468x60": {
       "impressions": 75028,
@@ -180,12 +180,12 @@
   },
   "byPersonagem": {
     "menina": {
-      "impressions": 843068,
+      "impressions": 843066,
       "clicks": 323,
-      "viewable": 699588,
-      "eligible": 843051,
-      "ctr": 0.03831244929234653,
-      "viewabilityRate": 82.98288003928587
+      "viewable": 699587,
+      "eligible": 843049,
+      "ctr": 0.03831254018072132,
+      "viewabilityRate": 82.98295828593592
     },
     "menino01": {
       "impressions": 830853,
@@ -306,12 +306,12 @@
       "personagem": "menina01",
       "headline": "h02",
       "cta": "c01",
-      "impressions": 247937,
+      "impressions": 247936,
       "clicks": 127,
-      "viewable": 199420,
-      "eligible": 247935,
-      "ctr": 0.05122268963486692,
-      "viewabilityRate": 80.43237138766209
+      "viewable": 199419,
+      "eligible": 247934,
+      "ctr": 0.051222896231285495,
+      "viewabilityRate": 80.43229246493019
     },
     {
       "label": "menino02_H05_C01",
@@ -414,12 +414,12 @@
       "personagem": "menina01",
       "headline": "h08",
       "cta": "c03",
-      "impressions": 83447,
+      "impressions": 83446,
       "clicks": 29,
       "viewable": 68289,
-      "eligible": 83447,
-      "ctr": 0.03475259745706856,
-      "viewabilityRate": 81.83517681881914
+      "eligible": 83446,
+      "ctr": 0.034753013925173167,
+      "viewabilityRate": 81.83615751503966
     },
     {
       "label": "menina01_H01_C01",
@@ -539,12 +539,12 @@
     {
       "name": "DBM Monks-DV360-DS Media-36727-BR 1481230269-AG - Babel",
       "siteId": "10491182",
-      "impressions": 2395578,
+      "impressions": 2395576,
       "clicks": 1039,
-      "viewable": 1995711,
-      "eligible": 2395535,
-      "ctr": 0.04337157880060678,
-      "viewabilityRate": 83.3096155973509
+      "viewable": 1995710,
+      "eligible": 2395533,
+      "ctr": 0.04337161501033572,
+      "viewabilityRate": 83.30964340712484
     }
   ],
   "byPlacement": [
@@ -561,12 +561,12 @@
     {
       "name": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 1036290,
+      "impressions": 1036288,
       "clicks": 305,
-      "viewable": 812493,
-      "eligible": 1036281,
-      "ctr": 0.029431915776471838,
-      "viewabilityRate": 78.40469911153441
+      "viewable": 812492,
+      "eligible": 1036279,
+      "ctr": 0.02943197257905138,
+      "viewabilityRate": 78.40475393209744
     },
     {
       "name": "[P]-[970x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
@@ -605,12 +605,12 @@
       "creative": "menina01_H02_C01",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 147283,
+      "impressions": 147282,
       "clicks": 39,
-      "viewable": 113584,
-      "eligible": 147282,
-      "ctr": 0.026479634445251657,
-      "viewabilityRate": 77.12008256270283
+      "viewable": 113583,
+      "eligible": 147281,
+      "ctr": 0.026479814233918608,
+      "viewabilityRate": 77.11992721396514
     },
     {
       "creative": "menina01_H01_C01",
@@ -726,12 +726,12 @@
       "creative": "menina01_H08_C03",
       "placement": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
       "placementId": "439015540",
-      "impressions": 50273,
+      "impressions": 50272,
       "clicks": 13,
       "viewable": 39473,
-      "eligible": 50273,
-      "ctr": 0.025858810892526802,
-      "viewabilityRate": 78.5172955662085
+      "eligible": 50272,
+      "ctr": 0.025859325270528324,
+      "viewabilityRate": 78.51885741565881
     },
     {
       "creative": "menino02_H01_C01",
@@ -1738,12 +1738,12 @@
   "byDomain": [
     {
       "name": "uol.com.br",
-      "impressions": 269481,
+      "impressions": 269480,
       "clicks": 59,
       "viewable": 231554,
-      "eligible": 269479,
-      "ctr": 0.021893936863823422,
-      "viewabilityRate": 85.9265471520972
+      "eligible": 269478,
+      "ctr": 0.021894018108950572,
+      "viewabilityRate": 85.92686601503647
     },
     {
       "name": "metropoles.com",
@@ -1909,12 +1909,12 @@
     },
     {
       "name": "otempo.com.br",
-      "impressions": 8021,
+      "impressions": 8020,
       "clicks": 5,
-      "viewable": 6208,
-      "eligible": 8021,
-      "ctr": 0.06233636703652911,
-      "viewabilityRate": 77.39683331255455
+      "viewable": 6207,
+      "eligible": 8020,
+      "ctr": 0.062344139650872814,
+      "viewabilityRate": 77.39401496259352
     },
     {
       "name": "vagas.com.br",
