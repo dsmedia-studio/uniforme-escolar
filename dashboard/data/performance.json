@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-02-16T01:19:21.078Z",
-  "nextUpdate": "2026-02-16T07:19:21.078Z",
+  "lastUpdated": "2026-02-16T06:55:03.806Z",
+  "nextUpdate": "2026-02-16T12:55:03.806Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -12,9 +12,9 @@
     "impressions": 2395537,
     "clicks": 1039,
     "ctr": 0.04337232111213477,
-    "viewableImpressions": 1995685,
+    "viewableImpressions": 1995684,
     "eligibleImpressions": 2395494,
-    "viewabilityRate": 83.3099561092618
+    "viewabilityRate": 83.30991436421881
   },
   "daily": [
     {
@@ -138,10 +138,10 @@
       "date": "2026-02-12",
       "impressions": 291022,
       "clicks": 109,
-      "viewable": 237298,
+      "viewable": 237297,
       "eligible": 291014,
       "ctr": 0.03745421308354695,
-      "viewabilityRate": 81.54178149504835
+      "viewabilityRate": 81.5414378689685
     }
   ],
   "byFormat": {
@@ -164,10 +164,10 @@
     "728x90": {
       "impressions": 1045805,
       "clicks": 191,
-      "viewable": 917388,
+      "viewable": 917387,
       "eligible": 1045776,
       "ctr": 0.01826344299367473,
-      "viewabilityRate": 87.72318354982329
+      "viewabilityRate": 87.7230879270513
     },
     "970x250": {
       "impressions": 238445,
@@ -182,10 +182,10 @@
     "menina": {
       "impressions": 843047,
       "clicks": 323,
-      "viewable": 699577,
+      "viewable": 699576,
       "eligible": 843030,
       "ctr": 0.03831340364178984,
-      "viewabilityRate": 82.98364233775784
+      "viewabilityRate": 82.98352371801715
     },
     "menino01": {
       "impressions": 830841,
@@ -452,10 +452,10 @@
       "cta": "c01",
       "impressions": 132907,
       "clicks": 37,
-      "viewable": 112744,
+      "viewable": 112743,
       "eligible": 132893,
       "ctr": 0.027839015251265923,
-      "viewabilityRate": 84.8381780831195
+      "viewabilityRate": 84.83742559803751
     },
     {
       "label": "menino02_H01_C01",
@@ -541,10 +541,10 @@
       "siteId": "10491182",
       "impressions": 2395537,
       "clicks": 1039,
-      "viewable": 1995685,
+      "viewable": 1995684,
       "eligible": 2395494,
       "ctr": 0.04337232111213477,
-      "viewabilityRate": 83.3099561092618
+      "viewabilityRate": 83.30991436421881
     }
   ],
   "byPlacement": [
@@ -553,10 +553,10 @@
       "placementId": "439186229",
       "impressions": 1045805,
       "clicks": 191,
-      "viewable": 917388,
+      "viewable": 917387,
       "eligible": 1045776,
       "ctr": 0.01826344299367473,
-      "viewabilityRate": 87.72318354982329
+      "viewabilityRate": 87.7230879270513
     },
     {
       "name": "[P]-[300x250] - Babel- GDF - Cartao Uniforme Escolar 2026",
@@ -629,10 +629,10 @@
       "placementId": "439186229",
       "impressions": 91139,
       "clicks": 15,
-      "viewable": 78931,
+      "viewable": 78930,
       "eligible": 91125,
       "ctr": 0.016458376765160907,
-      "viewabilityRate": 86.61838134430727
+      "viewabilityRate": 86.61728395061729
     },
     {
       "creative": "menino01_H01_C01",
@@ -1740,10 +1740,10 @@
       "name": "uol.com.br",
       "impressions": 239902,
       "clicks": 55,
-      "viewable": 204912,
+      "viewable": 204911,
       "eligible": 239900,
       "ctr": 0.02292602812815233,
-      "viewabilityRate": 85.41558982909547
+      "viewabilityRate": 85.41517298874531
     },
     {
       "name": "metropoles.com",
