@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-17T12:50:15.668Z",
-  "nextUpdate": "2026-03-17T18:50:15.668Z",
+  "lastUpdated": "2026-03-17T18:52:00.799Z",
+  "nextUpdate": "2026-03-18T00:52:00.799Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -31,21 +31,21 @@
   "byDomain": [
     {
       "name": "todamateria.com.br",
-      "impressions": 104803,
+      "impressions": 104780,
       "clicks": 0,
       "viewable": 85475,
-      "eligible": 104802,
+      "eligible": 104779,
       "ctr": 0,
-      "viewabilityRate": 81.55855804278545
+      "viewabilityRate": 81.57646093205699
     },
     {
       "name": "cnnbrasil.com.br",
-      "impressions": 58537,
+      "impressions": 58536,
       "clicks": 2,
       "viewable": 48216,
-      "eligible": 58535,
-      "ctr": 0.0034166424654492027,
-      "viewabilityRate": 82.3712308875032
+      "eligible": 58534,
+      "ctr": 0.003416700833675003,
+      "viewabilityRate": 82.37263812485051
     },
     {
       "name": "globo.com",
@@ -121,12 +121,12 @@
     },
     {
       "name": "uol.com.br",
-      "impressions": 17152,
+      "impressions": 17146,
       "clicks": 3,
       "viewable": 14304,
-      "eligible": 17152,
-      "ctr": 0.017490671641791043,
-      "viewabilityRate": 83.3955223880597
+      "eligible": 17146,
+      "ctr": 0.017496792254753295,
+      "viewabilityRate": 83.42470547066371
     },
     {
       "name": "infojobs.com.br",
@@ -157,12 +157,12 @@
     },
     {
       "name": "terra.com.br",
-      "impressions": 13645,
+      "impressions": 13638,
       "clicks": 1,
       "viewable": 8846,
-      "eligible": 13645,
-      "ctr": 0.007328691828508612,
-      "viewabilityRate": 64.82960791498718
+      "eligible": 13638,
+      "ctr": 0.007332453438920662,
+      "viewabilityRate": 64.86288312069219
     },
     {
       "name": "olhardigital.com.br",
@@ -202,30 +202,30 @@
     },
     {
       "name": "geniol.com.br",
-      "impressions": 9470,
+      "impressions": 9461,
       "clicks": 0,
       "viewable": 7989,
-      "eligible": 9470,
+      "eligible": 9461,
       "ctr": 0,
-      "viewabilityRate": 84.36114044350582
+      "viewabilityRate": 84.44139097347004
     },
     {
       "name": "webmotors.com.br",
       "impressions": 9254,
       "clicks": 0,
-      "viewable": 6434,
+      "viewable": 6433,
       "eligible": 9254,
       "ctr": 0,
-      "viewabilityRate": 69.52669116057922
+      "viewabilityRate": 69.51588502269288
     },
     {
       "name": "dicio.com.br",
-      "impressions": 8412,
+      "impressions": 8411,
       "clicks": 0,
       "viewable": 6945,
-      "eligible": 8412,
+      "eligible": 8411,
       "ctr": 0,
-      "viewabilityRate": 82.56062767475035
+      "viewabilityRate": 82.5704434668886
     },
     {
       "name": "noataque.com.br",
@@ -382,12 +382,12 @@
     },
     {
       "name": "rachacuca.com.br",
-      "impressions": 2980,
+      "impressions": 2979,
       "clicks": 0,
       "viewable": 2602,
-      "eligible": 2980,
+      "eligible": 2979,
       "ctr": 0,
-      "viewabilityRate": 87.31543624161074
+      "viewabilityRate": 87.34474655924807
     },
     {
       "name": "noticiasaominuto.com.br",
@@ -643,12 +643,12 @@
     },
     {
       "name": "contigo.com.br",
-      "impressions": 906,
+      "impressions": 905,
       "clicks": 0,
       "viewable": 600,
-      "eligible": 906,
+      "eligible": 905,
       "ctr": 0,
-      "viewabilityRate": 66.22516556291392
+      "viewabilityRate": 66.29834254143645
     },
     {
       "name": "chavesnamao.com.br",
@@ -778,12 +778,12 @@
     },
     {
       "name": "correio24horas.com.br",
-      "impressions": 619,
+      "impressions": 618,
       "clicks": 0,
       "viewable": 459,
-      "eligible": 619,
+      "eligible": 618,
       "ctr": 0,
-      "viewabilityRate": 74.1518578352181
+      "viewabilityRate": 74.27184466019418
     },
     {
       "name": "criticalhits.com.br",
