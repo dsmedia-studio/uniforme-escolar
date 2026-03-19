@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-18T12:50:08.558Z",
-  "nextUpdate": "2026-03-18T18:50:08.558Z",
+  "lastUpdated": "2026-03-19T01:22:07.812Z",
+  "nextUpdate": "2026-03-19T07:22:07.812Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -69,10 +69,10 @@
       "name": "metropoles.com",
       "impressions": 89883,
       "clicks": 0,
-      "viewable": 64175,
+      "viewable": 64176,
       "eligible": 89883,
       "ctr": 0,
-      "viewabilityRate": 71.3983734410289
+      "viewabilityRate": 71.39948599846467
     },
     {
       "name": "cifraclub.com.br",
@@ -87,19 +87,19 @@
       "name": "uol.com.br",
       "impressions": 52615,
       "clicks": 19,
-      "viewable": 43275,
+      "viewable": 43269,
       "eligible": 52615,
       "ctr": 0.03611137508315119,
-      "viewabilityRate": 82.24840824859831
+      "viewabilityRate": 82.23700465646678
     },
     {
       "name": "terra.com.br",
       "impressions": 47541,
       "clicks": 6,
-      "viewable": 33837,
+      "viewable": 33834,
       "eligible": 47541,
       "ctr": 0.012620685303211965,
-      "viewabilityRate": 71.17435476746388
+      "viewabilityRate": 71.16804442481227
     },
     {
       "name": "ndmais.com.br",
@@ -112,12 +112,12 @@
     },
     {
       "name": "comprasparaguai.com.br",
-      "impressions": 43783,
+      "impressions": 43782,
       "clicks": 0,
-      "viewable": 33651,
-      "eligible": 43783,
+      "viewable": 33650,
+      "eligible": 43782,
       "ctr": 0,
-      "viewabilityRate": 76.85859808601512
+      "viewabilityRate": 76.85806952628934
     },
     {
       "name": "conjur.com.br",
@@ -148,12 +148,12 @@
     },
     {
       "name": "caras.com.br",
-      "impressions": 29660,
+      "impressions": 29659,
       "clicks": 10,
-      "viewable": 19949,
-      "eligible": 29660,
-      "ctr": 0.033715441672285906,
-      "viewabilityRate": 67.25893459204315
+      "viewable": 19948,
+      "eligible": 29659,
+      "ctr": 0.033716578441619745,
+      "viewabilityRate": 67.25783067534307
     },
     {
       "name": "geniol.com.br",
@@ -202,12 +202,12 @@
     },
     {
       "name": "webmotors.com.br",
-      "impressions": 21209,
+      "impressions": 21207,
       "clicks": 0,
-      "viewable": 15019,
-      "eligible": 21209,
+      "viewable": 15018,
+      "eligible": 21207,
       "ctr": 0,
-      "viewabilityRate": 70.81427695789523
+      "viewabilityRate": 70.81623992078087
     },
     {
       "name": "otempo.com.br",
