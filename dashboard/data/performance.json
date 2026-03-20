@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-20T12:39:36.351Z",
-  "nextUpdate": "2026-03-20T18:39:36.351Z",
+  "lastUpdated": "2026-03-20T18:36:18.492Z",
+  "nextUpdate": "2026-03-21T00:36:18.492Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -103,12 +103,12 @@
     },
     {
       "name": "comprasparaguai.com.br",
-      "impressions": 87161,
+      "impressions": 87160,
       "clicks": 0,
-      "viewable": 68691,
-      "eligible": 87161,
+      "viewable": 68690,
+      "eligible": 87160,
       "ctr": 0,
-      "viewabilityRate": 78.80932986083225
+      "viewabilityRate": 78.80908673703534
     },
     {
       "name": "netvasco.com.br",
