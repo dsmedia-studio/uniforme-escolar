@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-19T12:41:54.804Z",
-  "nextUpdate": "2026-03-19T18:41:54.804Z",
+  "lastUpdated": "2026-03-20T01:18:31.846Z",
+  "nextUpdate": "2026-03-20T07:18:31.846Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -148,12 +148,12 @@
     },
     {
       "name": "geniol.com.br",
-      "impressions": 42638,
+      "impressions": 42637,
       "clicks": 0,
       "viewable": 37150,
-      "eligible": 42638,
+      "eligible": 42637,
       "ctr": 0,
-      "viewabilityRate": 87.12885219757024
+      "viewabilityRate": 87.13089570091704
     },
     {
       "name": "infojobs.com.br",
