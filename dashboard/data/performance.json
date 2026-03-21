@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-21T12:30:26.442Z",
-  "nextUpdate": "2026-03-21T18:30:26.442Z",
+  "lastUpdated": "2026-03-21T18:25:09.048Z",
+  "nextUpdate": "2026-03-22T00:25:09.048Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -31,39 +31,39 @@
   "byDomain": [
     {
       "name": "todamateria.com.br",
-      "impressions": 1023277,
+      "impressions": 1023276,
       "clicks": 3,
       "viewable": 862682,
-      "eligible": 1023270,
-      "ctr": 0.00029317574811121524,
-      "viewabilityRate": 84.30639029777088
+      "eligible": 1023269,
+      "ctr": 0.00029317603461822617,
+      "viewabilityRate": 84.30647268704514
     },
     {
       "name": "letras.mus.br",
-      "impressions": 281959,
+      "impressions": 281957,
       "clicks": 1,
-      "viewable": 210325,
-      "eligible": 281952,
-      "ctr": 0.00035466149333768384,
-      "viewabilityRate": 74.59603053001929
+      "viewable": 210324,
+      "eligible": 281950,
+      "ctr": 0.00035466400905102553,
+      "viewabilityRate": 74.59620500088668
     },
     {
       "name": "cifraclub.com.br",
-      "impressions": 262187,
+      "impressions": 262184,
       "clicks": 1,
-      "viewable": 207187,
-      "eligible": 262187,
-      "ctr": 0.00038140716358934655,
-      "viewabilityRate": 79.02260600258593
+      "viewable": 207185,
+      "eligible": 262184,
+      "ctr": 0.0003814115277820157,
+      "viewabilityRate": 79.02274738351693
     },
     {
       "name": "uol.com.br",
-      "impressions": 258993,
+      "impressions": 258992,
       "clicks": 43,
-      "viewable": 212376,
-      "eligible": 258993,
-      "ctr": 0.016602765325703782,
-      "viewabilityRate": 82.00067183282947
+      "viewable": 212375,
+      "eligible": 258992,
+      "ctr": 0.016602829431024896,
+      "viewabilityRate": 82.00060233520726
     },
     {
       "name": "metropoles.com",
@@ -337,12 +337,12 @@
     },
     {
       "name": "significados.com.br",
-      "impressions": 15004,
+      "impressions": 15003,
       "clicks": 0,
       "viewable": 12742,
-      "eligible": 15004,
+      "eligible": 15003,
       "ctr": 0,
-      "viewabilityRate": 84.92402026126366
+      "viewabilityRate": 84.92968073052056
     },
     {
       "name": "vagas.com.br",
@@ -562,12 +562,12 @@
     },
     {
       "name": "mundopositivo.com.br",
-      "impressions": 5385,
+      "impressions": 5384,
       "clicks": 0,
-      "viewable": 4460,
-      "eligible": 5385,
+      "viewable": 4459,
+      "eligible": 5384,
       "ctr": 0,
-      "viewabilityRate": 82.82265552460538
+      "viewabilityRate": 82.81946508172364
     },
     {
       "name": "aventurasnahistoria.com.br",
@@ -796,12 +796,12 @@
     },
     {
       "name": "motoo.com.br",
-      "impressions": 3094,
+      "impressions": 3093,
       "clicks": 0,
       "viewable": 2382,
-      "eligible": 3094,
+      "eligible": 3093,
       "ctr": 0,
-      "viewabilityRate": 76.98771816418876
+      "viewabilityRate": 77.01260911736179
     },
     {
       "name": "tecmundo.com.br",
