@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-22T12:31:57.821Z",
-  "nextUpdate": "2026-03-22T18:31:57.821Z",
+  "lastUpdated": "2026-03-22T18:25:50.284Z",
+  "nextUpdate": "2026-03-23T00:25:50.284Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -33,10 +33,10 @@
       "name": "todamateria.com.br",
       "impressions": 1118498,
       "clicks": 3,
-      "viewable": 944971,
+      "viewable": 944969,
       "eligible": 1118491,
       "ctr": 0.0002682168407990001,
-      "viewabilityRate": 84.48624083698483
+      "viewabilityRate": 84.48606202463856
     },
     {
       "name": "cifraclub.com.br",
@@ -60,10 +60,10 @@
       "name": "uol.com.br",
       "impressions": 333251,
       "clicks": 44,
-      "viewable": 274861,
+      "viewable": 274839,
       "eligible": 333251,
       "ctr": 0.013203261205517762,
-      "viewabilityRate": 82.47867223204132
+      "viewabilityRate": 82.47207060143855
     },
     {
       "name": "metropoles.com",
@@ -85,12 +85,12 @@
     },
     {
       "name": "terra.com.br",
-      "impressions": 192906,
+      "impressions": 192905,
       "clicks": 22,
-      "viewable": 142380,
-      "eligible": 192906,
-      "ctr": 0.011404518262780836,
-      "viewabilityRate": 73.80796864794252
+      "viewable": 142376,
+      "eligible": 192905,
+      "ctr": 0.011404577382649491,
+      "viewabilityRate": 73.80627770145927
     },
     {
       "name": "cnnbrasil.com.br",
@@ -141,10 +141,10 @@
       "name": "geniol.com.br",
       "impressions": 120858,
       "clicks": 0,
-      "viewable": 107051,
+      "viewable": 107046,
       "eligible": 120858,
       "ctr": 0,
-      "viewabilityRate": 88.57584934385808
+      "viewabilityRate": 88.57171225735988
     },
     {
       "name": "infojobs.com.br",
@@ -177,10 +177,10 @@
       "name": "caras.com.br",
       "impressions": 76073,
       "clicks": 21,
-      "viewable": 49736,
+      "viewable": 49735,
       "eligible": 76071,
       "ctr": 0.027605063557372522,
-      "viewabilityRate": 65.38102562080162
+      "viewabilityRate": 65.37971105940503
     },
     {
       "name": "olhardigital.com.br",
