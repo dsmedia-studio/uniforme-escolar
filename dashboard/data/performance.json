@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-21T18:25:09.048Z",
-  "nextUpdate": "2026-03-22T00:25:09.048Z",
+  "lastUpdated": "2026-03-22T06:40:31.227Z",
+  "nextUpdate": "2026-03-22T12:40:31.227Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -33,19 +33,19 @@
       "name": "todamateria.com.br",
       "impressions": 1023276,
       "clicks": 3,
-      "viewable": 862682,
+      "viewable": 862681,
       "eligible": 1023269,
       "ctr": 0.00029317603461822617,
-      "viewabilityRate": 84.30647268704514
+      "viewabilityRate": 84.30637496103175
     },
     {
       "name": "letras.mus.br",
-      "impressions": 281957,
+      "impressions": 281946,
       "clicks": 1,
-      "viewable": 210324,
-      "eligible": 281950,
-      "ctr": 0.00035466400905102553,
-      "viewabilityRate": 74.59620500088668
+      "viewable": 210315,
+      "eligible": 281939,
+      "ctr": 0.00035467784611237615,
+      "viewabilityRate": 74.59592323162101
     },
     {
       "name": "cifraclub.com.br",
@@ -58,12 +58,12 @@
     },
     {
       "name": "uol.com.br",
-      "impressions": 258992,
+      "impressions": 258953,
       "clicks": 43,
-      "viewable": 212375,
-      "eligible": 258992,
-      "ctr": 0.016602829431024896,
-      "viewabilityRate": 82.00060233520726
+      "viewable": 212338,
+      "eligible": 258953,
+      "ctr": 0.016605329924735377,
+      "viewabilityRate": 81.99866385019675
     },
     {
       "name": "metropoles.com",
