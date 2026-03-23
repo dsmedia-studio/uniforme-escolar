@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-23T07:00:10.694Z",
-  "nextUpdate": "2026-03-23T13:00:10.694Z",
+  "lastUpdated": "2026-03-23T12:45:27.593Z",
+  "nextUpdate": "2026-03-23T18:45:27.593Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -31,12 +31,12 @@
   "byDomain": [
     {
       "name": "todamateria.com.br",
-      "impressions": 1371429,
+      "impressions": 1371418,
       "clicks": 7,
-      "viewable": 1158446,
-      "eligible": 1371422,
-      "ctr": 0.0005104165071615082,
-      "viewabilityRate": 84.47042558745595
+      "viewable": 1158443,
+      "eligible": 1371411,
+      "ctr": 0.0005104206011588006,
+      "viewabilityRate": 84.47088436653928
     },
     {
       "name": "cifraclub.com.br",
@@ -49,21 +49,21 @@
     },
     {
       "name": "uol.com.br",
-      "impressions": 441262,
+      "impressions": 441238,
       "clicks": 50,
-      "viewable": 364416,
-      "eligible": 441262,
-      "ctr": 0.011331136603650439,
-      "viewabilityRate": 82.58494953111757
+      "viewable": 364404,
+      "eligible": 441238,
+      "ctr": 0.011331752931524483,
+      "viewabilityRate": 82.58672190518496
     },
     {
       "name": "letras.mus.br",
-      "impressions": 366381,
+      "impressions": 366378,
       "clicks": 2,
-      "viewable": 273790,
-      "eligible": 366374,
-      "ctr": 0.0005458798354718176,
-      "viewabilityRate": 74.72964784618996
+      "viewable": 273789,
+      "eligible": 366371,
+      "ctr": 0.0005458843052803388,
+      "viewabilityRate": 74.72998681664215
     },
     {
       "name": "metropoles.com",
@@ -94,12 +94,12 @@
     },
     {
       "name": "terra.com.br",
-      "impressions": 202730,
+      "impressions": 202727,
       "clicks": 23,
       "viewable": 149961,
-      "eligible": 202730,
-      "ctr": 0.011345138854634241,
-      "viewabilityRate": 73.97079859912199
+      "eligible": 202727,
+      "ctr": 0.011345306742565125,
+      "viewabilityRate": 73.97189323573082
     },
     {
       "name": "cnnbrasil.com.br",
@@ -121,21 +121,21 @@
     },
     {
       "name": "geniol.com.br",
-      "impressions": 141235,
+      "impressions": 141218,
       "clicks": 0,
-      "viewable": 124989,
-      "eligible": 141235,
+      "viewable": 124987,
+      "eligible": 141218,
       "ctr": 0,
-      "viewabilityRate": 88.49718554182745
+      "viewabilityRate": 88.50642269399086
     },
     {
       "name": "netvasco.com.br",
-      "impressions": 136954,
+      "impressions": 136948,
       "clicks": 20,
       "viewable": 112341,
-      "eligible": 136954,
-      "ctr": 0.014603443491975407,
-      "viewabilityRate": 82.02827226660047
+      "eligible": 136948,
+      "ctr": 0.014604083301691153,
+      "viewabilityRate": 82.0318661097643
     },
     {
       "name": "comprasparaguai.com.br",
@@ -157,21 +157,21 @@
     },
     {
       "name": "sinonimos.com.br",
-      "impressions": 88304,
+      "impressions": 88302,
       "clicks": 0,
       "viewable": 72623,
-      "eligible": 88304,
+      "eligible": 88302,
       "ctr": 0,
-      "viewabilityRate": 82.24202754122125
+      "viewabilityRate": 82.24389028561075
     },
     {
       "name": "caras.com.br",
-      "impressions": 84834,
+      "impressions": 84831,
       "clicks": 21,
       "viewable": 55424,
-      "eligible": 84830,
-      "ctr": 0.024754225899992925,
-      "viewabilityRate": 65.33537663562419
+      "eligible": 84827,
+      "ctr": 0.024755101319093253,
+      "viewabilityRate": 65.33768729296096
     },
     {
       "name": "ndmais.com.br",
@@ -184,12 +184,12 @@
     },
     {
       "name": "dicio.com.br",
-      "impressions": 62869,
+      "impressions": 62868,
       "clicks": 0,
-      "viewable": 53244,
-      "eligible": 62869,
+      "viewable": 53243,
+      "eligible": 62868,
       "ctr": 0,
-      "viewabilityRate": 84.69038794954588
+      "viewabilityRate": 84.69014442959852
     },
     {
       "name": "correiobraziliense.com.br",
@@ -274,12 +274,12 @@
     },
     {
       "name": "otempo.com.br",
-      "impressions": 30233,
+      "impressions": 30228,
       "clicks": 62,
-      "viewable": 21522,
-      "eligible": 30233,
-      "ctr": 0.2050739258426223,
-      "viewabilityRate": 71.18711341911157
+      "viewable": 21517,
+      "eligible": 30228,
+      "ctr": 0.2051078470292444,
+      "viewabilityRate": 71.18234749239116
     },
     {
       "name": "purepeople.com.br",
@@ -418,12 +418,12 @@
     },
     {
       "name": "contigo.com.br",
-      "impressions": 12577,
+      "impressions": 12576,
       "clicks": 0,
       "viewable": 8153,
-      "eligible": 12577,
+      "eligible": 12576,
       "ctr": 0,
-      "viewabilityRate": 64.82467997137633
+      "viewabilityRate": 64.82983460559797
     },
     {
       "name": "catracalivre.com.br",
@@ -598,12 +598,12 @@
     },
     {
       "name": "aventurasnahistoria.com.br",
-      "impressions": 6968,
+      "impressions": 6967,
       "clicks": 0,
       "viewable": 4626,
-      "eligible": 6968,
+      "eligible": 6967,
       "ctr": 0,
-      "viewabilityRate": 66.38920780711825
+      "viewabilityRate": 66.39873690254055
     },
     {
       "name": "horabrasil.com.br",
@@ -1120,12 +1120,12 @@
     },
     {
       "name": "mantosdofutebol.com.br",
-      "impressions": 1806,
+      "impressions": 1805,
       "clicks": 1,
       "viewable": 1287,
-      "eligible": 1805,
-      "ctr": 0.05537098560354374,
-      "viewabilityRate": 71.30193905817175
+      "eligible": 1804,
+      "ctr": 0.0554016620498615,
+      "viewabilityRate": 71.34146341463415
     },
     {
       "name": "saocarlosagora.com.br",
