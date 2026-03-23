@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-22T18:25:50.284Z",
-  "nextUpdate": "2026-03-23T00:25:50.284Z",
+  "lastUpdated": "2026-03-23T01:22:16.877Z",
+  "nextUpdate": "2026-03-23T07:22:16.877Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -31,12 +31,12 @@
   "byDomain": [
     {
       "name": "todamateria.com.br",
-      "impressions": 1118498,
+      "impressions": 1118497,
       "clicks": 3,
       "viewable": 944969,
-      "eligible": 1118491,
-      "ctr": 0.0002682168407990001,
-      "viewabilityRate": 84.48606202463856
+      "eligible": 1118490,
+      "ctr": 0.0002682170806001268,
+      "viewabilityRate": 84.48613756046099
     },
     {
       "name": "cifraclub.com.br",
@@ -139,12 +139,12 @@
     },
     {
       "name": "geniol.com.br",
-      "impressions": 120858,
+      "impressions": 120857,
       "clicks": 0,
-      "viewable": 107046,
-      "eligible": 120858,
+      "viewable": 107045,
+      "eligible": 120857,
       "ctr": 0,
-      "viewabilityRate": 88.57171225735988
+      "viewabilityRate": 88.57161769694764
     },
     {
       "name": "infojobs.com.br",
