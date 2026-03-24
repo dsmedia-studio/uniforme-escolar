@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-24T06:55:31.157Z",
-  "nextUpdate": "2026-03-24T12:55:31.157Z",
+  "lastUpdated": "2026-03-24T12:51:08.242Z",
+  "nextUpdate": "2026-03-24T18:51:08.242Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -31,2343 +31,2280 @@
   "byDomain": [
     {
       "name": "todamateria.com.br",
-      "impressions": 1371418,
-      "clicks": 7,
-      "viewable": 1158443,
-      "eligible": 1371411,
-      "ctr": 0.0005104206011588006,
-      "viewabilityRate": 84.47088436653928
+      "impressions": 1496433,
+      "clicks": 13,
+      "viewable": 1265433,
+      "eligible": 1496427,
+      "ctr": 0.0008687325125815858,
+      "viewabilityRate": 84.56363056801301
     },
     {
       "name": "cifraclub.com.br",
-      "impressions": 526070,
-      "clicks": 1,
-      "viewable": 419946,
-      "eligible": 526070,
-      "ctr": 0.00019008877145627008,
-      "viewabilityRate": 79.8270192179748
+      "impressions": 591670,
+      "clicks": 0,
+      "viewable": 474239,
+      "eligible": 591670,
+      "ctr": 0,
+      "viewabilityRate": 80.1526188584853
     },
     {
       "name": "uol.com.br",
-      "impressions": 441235,
-      "clicks": 50,
-      "viewable": 364404,
-      "eligible": 441235,
-      "ctr": 0.011331829977223023,
-      "viewabilityRate": 82.58728342039956
+      "impressions": 528069,
+      "clicks": 52,
+      "viewable": 438466,
+      "eligible": 528069,
+      "ctr": 0.009847197998746376,
+      "viewabilityRate": 83.03195226381402
     },
     {
       "name": "letras.mus.br",
-      "impressions": 366378,
+      "impressions": 393211,
       "clicks": 2,
-      "viewable": 273789,
-      "eligible": 366371,
-      "ctr": 0.0005458843052803388,
-      "viewabilityRate": 74.72998681664215
+      "viewable": 294315,
+      "eligible": 393204,
+      "ctr": 0.0005086327696834524,
+      "viewabilityRate": 74.85045930356762
     },
     {
       "name": "metropoles.com",
-      "impressions": 313720,
+      "impressions": 376935,
       "clicks": 0,
-      "viewable": 215454,
-      "eligible": 313720,
+      "viewable": 247282,
+      "eligible": 376935,
       "ctr": 0,
-      "viewabilityRate": 68.67716435037613
+      "viewabilityRate": 65.60335336331198
     },
     {
       "name": "tudogostoso.com.br",
-      "impressions": 278054,
+      "impressions": 296241,
       "clicks": 278,
-      "viewable": 237482,
-      "eligible": 278054,
-      "ctr": 0.0999805793119322,
-      "viewabilityRate": 85.4085896984039
-    },
-    {
-      "name": "globo.com",
-      "impressions": 218787,
-      "clicks": 135,
-      "viewable": 172484,
-      "eligible": 218785,
-      "ctr": 0.06170384894897777,
-      "viewabilityRate": 78.83721461708984
+      "viewable": 252663,
+      "eligible": 296241,
+      "ctr": 0.09384251335905563,
+      "viewabilityRate": 85.28967968647149
     },
     {
       "name": "terra.com.br",
-      "impressions": 202727,
-      "clicks": 23,
-      "viewable": 149961,
-      "eligible": 202727,
-      "ctr": 0.011345306742565125,
-      "viewabilityRate": 73.97189323573082
+      "impressions": 210040,
+      "clicks": 22,
+      "viewable": 157720,
+      "eligible": 210040,
+      "ctr": 0.010474195391354028,
+      "viewabilityRate": 75.09045896019806
     },
     {
-      "name": "cnnbrasil.com.br",
-      "impressions": 182661,
-      "clicks": 25,
-      "viewable": 150344,
-      "eligible": 182659,
-      "ctr": 0.013686555969801981,
-      "viewabilityRate": 82.30856404557126
-    },
-    {
-      "name": "conjur.com.br",
-      "impressions": 157538,
-      "clicks": 0,
-      "viewable": 120120,
-      "eligible": 157538,
-      "ctr": 0,
-      "viewabilityRate": 76.24827025860428
+      "name": "globo.com",
+      "impressions": 204233,
+      "clicks": 82,
+      "viewable": 159223,
+      "eligible": 204230,
+      "ctr": 0.04015022058139478,
+      "viewabilityRate": 77.96259119620036
     },
     {
       "name": "geniol.com.br",
-      "impressions": 141218,
+      "impressions": 180655,
       "clicks": 0,
-      "viewable": 124987,
-      "eligible": 141218,
+      "viewable": 160120,
+      "eligible": 180655,
       "ctr": 0,
-      "viewabilityRate": 88.50642269399086
+      "viewabilityRate": 88.63302980819795
+    },
+    {
+      "name": "conjur.com.br",
+      "impressions": 146538,
+      "clicks": 0,
+      "viewable": 111956,
+      "eligible": 146538,
+      "ctr": 0,
+      "viewabilityRate": 76.40066057950838
     },
     {
       "name": "netvasco.com.br",
-      "impressions": 136948,
-      "clicks": 20,
-      "viewable": 112341,
-      "eligible": 136948,
-      "ctr": 0.014604083301691153,
-      "viewabilityRate": 82.0318661097643
+      "impressions": 140219,
+      "clicks": 18,
+      "viewable": 116601,
+      "eligible": 140219,
+      "ctr": 0.012837062024404681,
+      "viewabilityRate": 83.15634828375612
     },
     {
-      "name": "comprasparaguai.com.br",
-      "impressions": 129662,
-      "clicks": 0,
-      "viewable": 103129,
-      "eligible": 129662,
-      "ctr": 0,
-      "viewabilityRate": 79.53679566873872
+      "name": "cnnbrasil.com.br",
+      "impressions": 137473,
+      "clicks": 23,
+      "viewable": 112965,
+      "eligible": 137472,
+      "ctr": 0.016730558000480095,
+      "viewabilityRate": 82.17309706703911
     },
     {
       "name": "infojobs.com.br",
-      "impressions": 106476,
+      "impressions": 120412,
       "clicks": 0,
-      "viewable": 77698,
-      "eligible": 106438,
+      "viewable": 89451,
+      "eligible": 120374,
       "ctr": 0,
-      "viewabilityRate": 72.99836524549504
+      "viewabilityRate": 74.3108977021616
+    },
+    {
+      "name": "comprasparaguai.com.br",
+      "impressions": 119847,
+      "clicks": 0,
+      "viewable": 96861,
+      "eligible": 119847,
+      "ctr": 0,
+      "viewabilityRate": 80.82054619640041
     },
     {
       "name": "sinonimos.com.br",
-      "impressions": 88302,
+      "impressions": 92191,
       "clicks": 0,
-      "viewable": 72623,
-      "eligible": 88302,
+      "viewable": 76287,
+      "eligible": 92191,
       "ctr": 0,
-      "viewabilityRate": 82.24389028561075
+      "viewabilityRate": 82.74885834842881
     },
     {
       "name": "caras.com.br",
-      "impressions": 84831,
-      "clicks": 21,
-      "viewable": 55424,
-      "eligible": 84827,
-      "ctr": 0.024755101319093253,
-      "viewabilityRate": 65.33768729296096
+      "impressions": 80578,
+      "clicks": 16,
+      "viewable": 52216,
+      "eligible": 80574,
+      "ctr": 0.019856536523616866,
+      "viewabilityRate": 64.80502395313624
     },
     {
       "name": "ndmais.com.br",
-      "impressions": 83539,
-      "clicks": 45,
-      "viewable": 52382,
-      "eligible": 83539,
-      "ctr": 0.053867056105531545,
-      "viewabilityRate": 62.703647398221186
+      "impressions": 60866,
+      "clicks": 38,
+      "viewable": 39747,
+      "eligible": 60866,
+      "ctr": 0.06243222817336444,
+      "viewabilityRate": 65.30246771596622
     },
     {
       "name": "dicio.com.br",
-      "impressions": 62868,
+      "impressions": 60036,
       "clicks": 0,
-      "viewable": 53243,
-      "eligible": 62868,
+      "viewable": 51111,
+      "eligible": 60036,
       "ctr": 0,
-      "viewabilityRate": 84.69014442959852
+      "viewabilityRate": 85.13391964821108
     },
     {
       "name": "correiobraziliense.com.br",
-      "impressions": 62353,
-      "clicks": 111,
-      "viewable": 48194,
-      "eligible": 62353,
-      "ctr": 0.1780186999823585,
-      "viewabilityRate": 77.29219123378186
+      "impressions": 55360,
+      "clicks": 72,
+      "viewable": 41989,
+      "eligible": 55360,
+      "ctr": 0.13005780346820808,
+      "viewabilityRate": 75.84718208092485
     },
     {
       "name": "webmotors.com.br",
-      "impressions": 60217,
+      "impressions": 54517,
       "clicks": 0,
-      "viewable": 43460,
-      "eligible": 60217,
+      "viewable": 39471,
+      "eligible": 54517,
       "ctr": 0,
-      "viewabilityRate": 72.17231014497567
+      "viewabilityRate": 72.40126932883321
     },
     {
       "name": "olhardigital.com.br",
-      "impressions": 59033,
+      "impressions": 50545,
       "clicks": 0,
-      "viewable": 51409,
-      "eligible": 59033,
+      "viewable": 44258,
+      "eligible": 50545,
       "ctr": 0,
-      "viewabilityRate": 87.08518963969306
+      "viewabilityRate": 87.56157879117617
     },
     {
       "name": "calculoexato.com.br",
-      "impressions": 43331,
+      "impressions": 45954,
       "clicks": 0,
-      "viewable": 28821,
-      "eligible": 43331,
+      "viewable": 31275,
+      "eligible": 45954,
       "ctr": 0,
-      "viewabilityRate": 66.51358150054234
-    },
-    {
-      "name": "itatiaia.com.br",
-      "impressions": 40871,
-      "clicks": 20,
-      "viewable": 27399,
-      "eligible": 40871,
-      "ctr": 0.04893445230114262,
-      "viewabilityRate": 67.03775292995033
-    },
-    {
-      "name": "climatempo.com.br",
-      "impressions": 40026,
-      "clicks": 0,
-      "viewable": 29292,
-      "eligible": 40024,
-      "ctr": 0,
-      "viewabilityRate": 73.18608834699181
-    },
-    {
-      "name": "uai.com.br",
-      "impressions": 35904,
-      "clicks": 0,
-      "viewable": 29262,
-      "eligible": 35904,
-      "ctr": 0,
-      "viewabilityRate": 81.50066844919786
-    },
-    {
-      "name": "reciboonline.com.br",
-      "impressions": 31121,
-      "clicks": 0,
-      "viewable": 21655,
-      "eligible": 31121,
-      "ctr": 0,
-      "viewabilityRate": 69.58323961312297
-    },
-    {
-      "name": "mensagemaniversario.com.br",
-      "impressions": 30795,
-      "clicks": 0,
-      "viewable": 25796,
-      "eligible": 30795,
-      "ctr": 0,
-      "viewabilityRate": 83.76684526708883
-    },
-    {
-      "name": "otempo.com.br",
-      "impressions": 30228,
-      "clicks": 62,
-      "viewable": 21517,
-      "eligible": 30228,
-      "ctr": 0.2051078470292444,
-      "viewabilityRate": 71.18234749239116
-    },
-    {
-      "name": "purepeople.com.br",
-      "impressions": 29067,
-      "clicks": 45,
-      "viewable": 25303,
-      "eligible": 29067,
-      "ctr": 0.15481473836309217,
-      "viewabilityRate": 87.05060721780713
+      "viewabilityRate": 68.05718762240501
     },
     {
       "name": "rachacuca.com.br",
-      "impressions": 29051,
+      "impressions": 40216,
       "clicks": 0,
-      "viewable": 25602,
-      "eligible": 29051,
+      "viewable": 35362,
+      "eligible": 40216,
       "ctr": 0,
-      "viewabilityRate": 88.12777529172834
+      "viewabilityRate": 87.9301770439626
     },
     {
-      "name": "sonhos.com.br",
-      "impressions": 24902,
+      "name": "climatempo.com.br",
+      "impressions": 37714,
       "clicks": 0,
-      "viewable": 21597,
-      "eligible": 24901,
+      "viewable": 27684,
+      "eligible": 37712,
       "ctr": 0,
-      "viewabilityRate": 86.7314565680093
+      "viewabilityRate": 73.40899448451421
     },
     {
-      "name": "noataque.com.br",
-      "impressions": 23561,
-      "clicks": 1,
-      "viewable": 19258,
-      "eligible": 23561,
-      "ctr": 0.004244302024532066,
-      "viewabilityRate": 81.73676838843852
+      "name": "uai.com.br",
+      "impressions": 36622,
+      "clicks": 0,
+      "viewable": 29888,
+      "eligible": 36622,
+      "ctr": 0,
+      "viewabilityRate": 81.61214570476763
     },
     {
-      "name": "significados.com.br",
-      "impressions": 21955,
+      "name": "reciboonline.com.br",
+      "impressions": 30297,
       "clicks": 0,
-      "viewable": 18814,
-      "eligible": 21955,
+      "viewable": 21063,
+      "eligible": 30297,
       "ctr": 0,
-      "viewabilityRate": 85.69346390343885
+      "viewabilityRate": 69.52173482523023
     },
     {
-      "name": "tecnoblog.net",
-      "impressions": 21344,
+      "name": "itatiaia.com.br",
+      "impressions": 28213,
+      "clicks": 6,
+      "viewable": 17306,
+      "eligible": 28213,
+      "ctr": 0.021266791904441217,
+      "viewabilityRate": 61.34051678304328
+    },
+    {
+      "name": "purepeople.com.br",
+      "impressions": 27450,
+      "clicks": 39,
+      "viewable": 23924,
+      "eligible": 27450,
+      "ctr": 0.14207650273224043,
+      "viewabilityRate": 87.15482695810564
+    },
+    {
+      "name": "mensagemaniversario.com.br",
+      "impressions": 26569,
       "clicks": 0,
-      "viewable": 17143,
-      "eligible": 21344,
+      "viewable": 22314,
+      "eligible": 26569,
       "ctr": 0,
-      "viewabilityRate": 80.31765367316342
+      "viewabilityRate": 83.98509541194625
     },
     {
       "name": "canalrural.com.br",
-      "impressions": 21088,
-      "clicks": 32,
-      "viewable": 13550,
-      "eligible": 21088,
-      "ctr": 0.15174506828528073,
-      "viewabilityRate": 64.25455235204855
-    },
-    {
-      "name": "campograndenews.com.br",
-      "impressions": 20915,
-      "clicks": 0,
-      "viewable": 15672,
-      "eligible": 20915,
-      "ctr": 0,
-      "viewabilityRate": 74.93186708104231
-    },
-    {
-      "name": "ofuxico.com.br",
-      "impressions": 20355,
-      "clicks": 47,
-      "viewable": 15547,
-      "eligible": 20353,
-      "ctr": 0.2309014984033407,
-      "viewabilityRate": 76.38677344863166
+      "impressions": 25253,
+      "clicks": 40,
+      "viewable": 16293,
+      "eligible": 25253,
+      "ctr": 0.15839702213598386,
+      "viewabilityRate": 64.51906704153963
     },
     {
       "name": "lance.com.br",
-      "impressions": 19556,
-      "clicks": 5,
-      "viewable": 15441,
-      "eligible": 19556,
-      "ctr": 0.025567600736346903,
-      "viewabilityRate": 78.9578645939865
+      "impressions": 23947,
+      "clicks": 6,
+      "viewable": 19239,
+      "eligible": 23947,
+      "ctr": 0.025055330521568463,
+      "viewabilityRate": 80.33991731740929
+    },
+    {
+      "name": "significados.com.br",
+      "impressions": 23528,
+      "clicks": 0,
+      "viewable": 20313,
+      "eligible": 23528,
+      "ctr": 0,
+      "viewabilityRate": 86.33543012580755
+    },
+    {
+      "name": "otempo.com.br",
+      "impressions": 21165,
+      "clicks": 14,
+      "viewable": 15267,
+      "eligible": 21165,
+      "ctr": 0.06614694070399244,
+      "viewabilityRate": 72.13323883770376
+    },
+    {
+      "name": "sonhos.com.br",
+      "impressions": 20394,
+      "clicks": 0,
+      "viewable": 17774,
+      "eligible": 20393,
+      "ctr": 0,
+      "viewabilityRate": 87.15735791693227
+    },
+    {
+      "name": "ofuxico.com.br",
+      "impressions": 19232,
+      "clicks": 45,
+      "viewable": 15149,
+      "eligible": 19230,
+      "ctr": 0.23398502495840268,
+      "viewabilityRate": 78.77795111804473
+    },
+    {
+      "name": "tecnoblog.net",
+      "impressions": 17936,
+      "clicks": 0,
+      "viewable": 14669,
+      "eligible": 17936,
+      "ctr": 0,
+      "viewabilityRate": 81.78523639607494
+    },
+    {
+      "name": "noataque.com.br",
+      "impressions": 17818,
+      "clicks": 1,
+      "viewable": 14242,
+      "eligible": 17818,
+      "ctr": 0.005612302166348637,
+      "viewabilityRate": 79.93040745313728
+    },
+    {
+      "name": "campograndenews.com.br",
+      "impressions": 17471,
+      "clicks": 0,
+      "viewable": 13532,
+      "eligible": 17471,
+      "ctr": 0,
+      "viewabilityRate": 77.45406673916776
     },
     {
       "name": "dicionariodenomesproprios.com.br",
-      "impressions": 17916,
+      "impressions": 16468,
       "clicks": 0,
-      "viewable": 15110,
-      "eligible": 17916,
+      "viewable": 13929,
+      "eligible": 16468,
       "ctr": 0,
-      "viewabilityRate": 84.33802187988391
-    },
-    {
-      "name": "vagas.com.br",
-      "impressions": 15659,
-      "clicks": 0,
-      "viewable": 13402,
-      "eligible": 15659,
-      "ctr": 0,
-      "viewabilityRate": 85.58656363752475
-    },
-    {
-      "name": "portal6.com.br",
-      "impressions": 13533,
-      "clicks": 21,
-      "viewable": 11378,
-      "eligible": 13533,
-      "ctr": 0.15517623586787851,
-      "viewabilityRate": 84.07596246212961
+      "viewabilityRate": 84.58222006315277
     },
     {
       "name": "empregacampinas.com.br",
-      "impressions": 13040,
+      "impressions": 16141,
       "clicks": 0,
-      "viewable": 9540,
-      "eligible": 13040,
+      "viewable": 11941,
+      "eligible": 16141,
       "ctr": 0,
-      "viewabilityRate": 73.15950920245399
+      "viewabilityRate": 73.97930735394337
     },
     {
-      "name": "adrenaline.com.br",
-      "impressions": 12796,
-      "clicks": 1,
-      "viewable": 9498,
-      "eligible": 12796,
-      "ctr": 0.007814942169427946,
-      "viewabilityRate": 74.22632072522663
+      "name": "vagas.com.br",
+      "impressions": 16109,
+      "clicks": 0,
+      "viewable": 13787,
+      "eligible": 16109,
+      "ctr": 0,
+      "viewabilityRate": 85.58569743621578
+    },
+    {
+      "name": "portal6.com.br",
+      "impressions": 13742,
+      "clicks": 23,
+      "viewable": 11579,
+      "eligible": 13742,
+      "ctr": 0.16737010624363266,
+      "viewabilityRate": 84.2599330519575
     },
     {
       "name": "contigo.com.br",
-      "impressions": 12576,
+      "impressions": 12488,
       "clicks": 0,
-      "viewable": 8153,
-      "eligible": 12576,
+      "viewable": 8112,
+      "eligible": 12488,
       "ctr": 0,
-      "viewabilityRate": 64.82983460559797
+      "viewabilityRate": 64.9583600256246
     },
     {
-      "name": "catracalivre.com.br",
-      "impressions": 11661,
+      "name": "adrenaline.com.br",
+      "impressions": 11373,
       "clicks": 0,
-      "viewable": 8274,
-      "eligible": 11661,
+      "viewable": 8638,
+      "eligible": 11373,
       "ctr": 0,
-      "viewabilityRate": 70.95446359660407
-    },
-    {
-      "name": "tenisnews.com.br",
-      "impressions": 11527,
-      "clicks": 0,
-      "viewable": 9525,
-      "eligible": 11527,
-      "ctr": 0,
-      "viewabilityRate": 82.63208120065933
-    },
-    {
-      "name": "noticiasaominuto.com.br",
-      "impressions": 10890,
-      "clicks": 0,
-      "viewable": 8160,
-      "eligible": 10890,
-      "ctr": 0,
-      "viewabilityRate": 74.93112947658402
-    },
-    {
-      "name": "estadao.com.br",
-      "impressions": 10457,
-      "clicks": 6,
-      "viewable": 8332,
-      "eligible": 10457,
-      "ctr": 0.057377833030505886,
-      "viewabilityRate": 79.67868413502916
-    },
-    {
-      "name": "conjugacao.com.br",
-      "impressions": 10046,
-      "clicks": 0,
-      "viewable": 9115,
-      "eligible": 10046,
-      "ctr": 0,
-      "viewabilityRate": 90.73262990244874
+      "viewabilityRate": 75.95181570386002
     },
     {
       "name": "contabeis.com.br",
-      "impressions": 9874,
+      "impressions": 10546,
       "clicks": 0,
-      "viewable": 8490,
-      "eligible": 9874,
+      "viewable": 9108,
+      "eligible": 10546,
       "ctr": 0,
-      "viewabilityRate": 85.9833907231112
-    },
-    {
-      "name": "correiodopovo.com.br",
-      "impressions": 9692,
-      "clicks": 1,
-      "viewable": 7068,
-      "eligible": 9692,
-      "ctr": 0.01031778786628147,
-      "viewabilityRate": 72.92612463887743
-    },
-    {
-      "name": "canaltech.com.br",
-      "impressions": 9518,
-      "clicks": 0,
-      "viewable": 7567,
-      "eligible": 9518,
-      "ctr": 0,
-      "viewabilityRate": 79.50199621769279
+      "viewabilityRate": 86.36449838801441
     },
     {
       "name": "jovempan.com.br",
-      "impressions": 9483,
+      "impressions": 10367,
       "clicks": 0,
-      "viewable": 8192,
-      "eligible": 9483,
+      "viewable": 9014,
+      "eligible": 10367,
       "ctr": 0,
-      "viewabilityRate": 86.38616471580724
+      "viewabilityRate": 86.9489727018424
     },
     {
-      "name": "idinheiro.com.br",
-      "impressions": 9296,
+      "name": "conjugacao.com.br",
+      "impressions": 9922,
       "clicks": 0,
-      "viewable": 8461,
-      "eligible": 9296,
+      "viewable": 9011,
+      "eligible": 9922,
       "ctr": 0,
-      "viewabilityRate": 91.01764199655766
-    },
-    {
-      "name": "diariodocentrodomundo.com.br",
-      "impressions": 8951,
-      "clicks": 16,
-      "viewable": 7001,
-      "eligible": 8951,
-      "ctr": 0.17875097754440844,
-      "viewabilityRate": 78.21472461177522
+      "viewabilityRate": 90.81838339044548
     },
     {
       "name": "massa.com.br",
-      "impressions": 8919,
+      "impressions": 9404,
       "clicks": 0,
-      "viewable": 7886,
-      "eligible": 8919,
+      "viewable": 8357,
+      "eligible": 9404,
       "ctr": 0,
-      "viewabilityRate": 88.41798407893262
+      "viewabilityRate": 88.8664398128456
     },
     {
-      "name": "chavesnamao.com.br",
-      "impressions": 8343,
+      "name": "idinheiro.com.br",
+      "impressions": 9173,
       "clicks": 0,
-      "viewable": 5252,
-      "eligible": 8343,
+      "viewable": 8362,
+      "eligible": 9173,
       "ctr": 0,
-      "viewabilityRate": 62.95097686683447
-    },
-    {
-      "name": "clickpetroleoegas.com.br",
-      "impressions": 8221,
-      "clicks": 23,
-      "viewable": 4361,
-      "eligible": 8221,
-      "ctr": 0.27977131735798566,
-      "viewabilityRate": 53.04707456513806
-    },
-    {
-      "name": "joaobidu.com.br",
-      "impressions": 7881,
-      "clicks": 0,
-      "viewable": 5728,
-      "eligible": 7881,
-      "ctr": 0,
-      "viewabilityRate": 72.68113183606143
-    },
-    {
-      "name": "guiadasemana.com.br",
-      "impressions": 7621,
-      "clicks": 2,
-      "viewable": 5157,
-      "eligible": 7621,
-      "ctr": 0.02624327516074006,
-      "viewabilityRate": 67.66828500196824
-    },
-    {
-      "name": "cartacapital.com.br",
-      "impressions": 7504,
-      "clicks": 0,
-      "viewable": 6189,
-      "eligible": 7504,
-      "ctr": 0,
-      "viewabilityRate": 82.47601279317696
-    },
-    {
-      "name": "netflu.com.br",
-      "impressions": 7325,
-      "clicks": 1,
-      "viewable": 5277,
-      "eligible": 7325,
-      "ctr": 0.013651877133105802,
-      "viewabilityRate": 72.04095563139931
-    },
-    {
-      "name": "palcomp3.com.br",
-      "impressions": 7213,
-      "clicks": 0,
-      "viewable": 5778,
-      "eligible": 7213,
-      "ctr": 0,
-      "viewabilityRate": 80.10536531262997
-    },
-    {
-      "name": "aventurasnahistoria.com.br",
-      "impressions": 6967,
-      "clicks": 0,
-      "viewable": 4626,
-      "eligible": 6967,
-      "ctr": 0,
-      "viewabilityRate": 66.39873690254055
-    },
-    {
-      "name": "horabrasil.com.br",
-      "impressions": 6452,
-      "clicks": 0,
-      "viewable": 4451,
-      "eligible": 6452,
-      "ctr": 0,
-      "viewabilityRate": 68.9863608183509
-    },
-    {
-      "name": "statusinvest.com.br",
-      "impressions": 6451,
-      "clicks": 0,
-      "viewable": 5655,
-      "eligible": 6451,
-      "ctr": 0,
-      "viewabilityRate": 87.66082777863897
-    },
-    {
-      "name": "fazendoanossafesta.com.br",
-      "impressions": 6443,
-      "clicks": 0,
-      "viewable": 5364,
-      "eligible": 6443,
-      "ctr": 0,
-      "viewabilityRate": 83.25314294583269
-    },
-    {
-      "name": "metrocptm.com.br",
-      "impressions": 6289,
-      "clicks": 1,
-      "viewable": 5190,
-      "eligible": 6289,
-      "ctr": 0.01590077913817777,
-      "viewabilityRate": 82.52504372714263
+      "viewabilityRate": 91.15883571350703
     },
     {
       "name": "curapelanatureza.com.br",
-      "impressions": 6052,
+      "impressions": 8639,
       "clicks": 0,
-      "viewable": 5404,
-      "eligible": 6049,
+      "viewable": 7824,
+      "eligible": 8634,
       "ctr": 0,
-      "viewabilityRate": 89.33708050917507
+      "viewabilityRate": 90.6184850590688
+    },
+    {
+      "name": "metrocptm.com.br",
+      "impressions": 8355,
+      "clicks": 1,
+      "viewable": 7022,
+      "eligible": 8355,
+      "ctr": 0.011968880909634948,
+      "viewabilityRate": 84.0454817474566
+    },
+    {
+      "name": "noticiasaominuto.com.br",
+      "impressions": 8246,
+      "clicks": 0,
+      "viewable": 6178,
+      "eligible": 8246,
+      "ctr": 0,
+      "viewabilityRate": 74.92117390249818
+    },
+    {
+      "name": "correiodopovo.com.br",
+      "impressions": 8123,
+      "clicks": 1,
+      "viewable": 5946,
+      "eligible": 8123,
+      "ctr": 0.012310722639418936,
+      "viewabilityRate": 73.19955681398498
+    },
+    {
+      "name": "diariodocentrodomundo.com.br",
+      "impressions": 7981,
+      "clicks": 15,
+      "viewable": 6219,
+      "eligible": 7981,
+      "ctr": 0.18794637263500816,
+      "viewabilityRate": 77.92256609447438
+    },
+    {
+      "name": "chavesnamao.com.br",
+      "impressions": 7868,
+      "clicks": 0,
+      "viewable": 4946,
+      "eligible": 7868,
+      "ctr": 0,
+      "viewabilityRate": 62.8622267412303
+    },
+    {
+      "name": "joaobidu.com.br",
+      "impressions": 7534,
+      "clicks": 0,
+      "viewable": 5377,
+      "eligible": 7534,
+      "ctr": 0,
+      "viewabilityRate": 71.36979028404566
+    },
+    {
+      "name": "guiadasemana.com.br",
+      "impressions": 7516,
+      "clicks": 1,
+      "viewable": 5186,
+      "eligible": 7516,
+      "ctr": 0.013304949441192123,
+      "viewabilityRate": 68.99946780202235
+    },
+    {
+      "name": "palcomp3.com.br",
+      "impressions": 7436,
+      "clicks": 0,
+      "viewable": 5944,
+      "eligible": 7436,
+      "ctr": 0,
+      "viewabilityRate": 79.9354491662184
+    },
+    {
+      "name": "aventurasnahistoria.com.br",
+      "impressions": 7310,
+      "clicks": 0,
+      "viewable": 4926,
+      "eligible": 7310,
+      "ctr": 0,
+      "viewabilityRate": 67.38714090287277
+    },
+    {
+      "name": "netflu.com.br",
+      "impressions": 7230,
+      "clicks": 1,
+      "viewable": 5201,
+      "eligible": 7230,
+      "ctr": 0.013831258644536652,
+      "viewabilityRate": 71.93637621023512
+    },
+    {
+      "name": "statusinvest.com.br",
+      "impressions": 7036,
+      "clicks": 0,
+      "viewable": 6196,
+      "eligible": 7036,
+      "ctr": 0,
+      "viewabilityRate": 88.06139852188744
+    },
+    {
+      "name": "estadao.com.br",
+      "impressions": 6983,
+      "clicks": 3,
+      "viewable": 5708,
+      "eligible": 6983,
+      "ctr": 0.042961477874838894,
+      "viewabilityRate": 81.74137190319347
+    },
+    {
+      "name": "catracalivre.com.br",
+      "impressions": 6306,
+      "clicks": 0,
+      "viewable": 4458,
+      "eligible": 6306,
+      "ctr": 0,
+      "viewabilityRate": 70.69457659372027
+    },
+    {
+      "name": "cartacapital.com.br",
+      "impressions": 6286,
+      "clicks": 0,
+      "viewable": 5246,
+      "eligible": 6286,
+      "ctr": 0,
+      "viewabilityRate": 83.45529748647789
+    },
+    {
+      "name": "canaltech.com.br",
+      "impressions": 6061,
+      "clicks": 0,
+      "viewable": 5047,
+      "eligible": 6061,
+      "ctr": 0,
+      "viewabilityRate": 83.27008744431612
+    },
+    {
+      "name": "fazendoanossafesta.com.br",
+      "impressions": 5909,
+      "clicks": 0,
+      "viewable": 4734,
+      "eligible": 5909,
+      "ctr": 0,
+      "viewabilityRate": 80.11507869351836
     },
     {
       "name": "autoracing.com.br",
-      "impressions": 5915,
-      "clicks": 5,
-      "viewable": 5026,
-      "eligible": 5915,
-      "ctr": 0.08453085376162299,
-      "viewabilityRate": 84.97041420118343
+      "impressions": 5815,
+      "clicks": 6,
+      "viewable": 4954,
+      "eligible": 5815,
+      "ctr": 0.10318142734307824,
+      "viewabilityRate": 85.19346517626826
     },
     {
-      "name": "em.com.br",
-      "impressions": 5841,
+      "name": "tenisnews.com.br",
+      "impressions": 5735,
       "clicks": 0,
-      "viewable": 4518,
-      "eligible": 5841,
+      "viewable": 4677,
+      "eligible": 5735,
       "ctr": 0,
-      "viewabilityRate": 77.34976887519261
-    },
-    {
-      "name": "portaltemponovo.com.br",
-      "impressions": 5603,
-      "clicks": 2,
-      "viewable": 3272,
-      "eligible": 5603,
-      "ctr": 0.03569516330537212,
-      "viewabilityRate": 58.39728716758879
-    },
-    {
-      "name": "mundopositivo.com.br",
-      "impressions": 5418,
-      "clicks": 0,
-      "viewable": 4471,
-      "eligible": 5418,
-      "ctr": 0,
-      "viewabilityRate": 82.52122554448135
-    },
-    {
-      "name": "jornaldebrasilia.com.br",
-      "impressions": 5318,
-      "clicks": 0,
-      "viewable": 3883,
-      "eligible": 5318,
-      "ctr": 0,
-      "viewabilityRate": 73.01617149304249
+      "viewabilityRate": 81.55187445510026
     },
     {
       "name": "naointendo.com.br",
-      "impressions": 5247,
+      "impressions": 5543,
       "clicks": 0,
-      "viewable": 4025,
-      "eligible": 5247,
+      "viewable": 4155,
+      "eligible": 5543,
       "ctr": 0,
-      "viewabilityRate": 76.71050123880313
-    },
-    {
-      "name": "tecmundo.com.br",
-      "impressions": 5016,
-      "clicks": 0,
-      "viewable": 3719,
-      "eligible": 5016,
-      "ctr": 0,
-      "viewabilityRate": 74.1427432216906
-    },
-    {
-      "name": "noticiasautomotivas.com.br",
-      "impressions": 4861,
-      "clicks": 0,
-      "viewable": 3453,
-      "eligible": 4861,
-      "ctr": 0,
-      "viewabilityRate": 71.03476650894878
-    },
-    {
-      "name": "reclameaqui.com.br",
-      "impressions": 4842,
-      "clicks": 0,
-      "viewable": 3565,
-      "eligible": 4842,
-      "ctr": 0,
-      "viewabilityRate": 73.62660057827344
-    },
-    {
-      "name": "motoo.com.br",
-      "impressions": 4799,
-      "clicks": 0,
-      "viewable": 3814,
-      "eligible": 4799,
-      "ctr": 0,
-      "viewabilityRate": 79.47489060220879
+      "viewabilityRate": 74.95940826267365
     },
     {
       "name": "jovemnerd.com.br",
-      "impressions": 4797,
+      "impressions": 5370,
       "clicks": 0,
-      "viewable": 3794,
-      "eligible": 4797,
+      "viewable": 4532,
+      "eligible": 5370,
       "ctr": 0,
-      "viewabilityRate": 79.09109860329373
+      "viewabilityRate": 84.39478584729981
     },
     {
-      "name": "jumperbrasil.com.br",
-      "impressions": 4733,
+      "name": "tecmundo.com.br",
+      "impressions": 5324,
       "clicks": 0,
-      "viewable": 3678,
-      "eligible": 4733,
+      "viewable": 4133,
+      "eligible": 5324,
       "ctr": 0,
-      "viewabilityRate": 77.7096978660469
+      "viewabilityRate": 77.62960180315552
     },
     {
-      "name": "normaculta.com.br",
-      "impressions": 4604,
+      "name": "mundopositivo.com.br",
+      "impressions": 5315,
       "clicks": 0,
-      "viewable": 4031,
-      "eligible": 4604,
+      "viewable": 4312,
+      "eligible": 5315,
       "ctr": 0,
-      "viewabilityRate": 87.55430060816681
-    },
-    {
-      "name": "aficionados.com.br",
-      "impressions": 4408,
-      "clicks": 2,
-      "viewable": 3596,
-      "eligible": 4408,
-      "ctr": 0.045372050816696916,
-      "viewabilityRate": 81.57894736842105
-    },
-    {
-      "name": "mobills.com.br",
-      "impressions": 4228,
-      "clicks": 0,
-      "viewable": 3017,
-      "eligible": 4228,
-      "ctr": 0,
-      "viewabilityRate": 71.35761589403974
-    },
-    {
-      "name": "verdesmares.com.br",
-      "impressions": 4210,
-      "clicks": 0,
-      "viewable": 3078,
-      "eligible": 4210,
-      "ctr": 0,
-      "viewabilityRate": 73.11163895486936
-    },
-    {
-      "name": "disneyplusbrasil.com.br",
-      "impressions": 4097,
-      "clicks": 0,
-      "viewable": 2720,
-      "eligible": 4097,
-      "ctr": 0,
-      "viewabilityRate": 66.39004149377593
-    },
-    {
-      "name": "omelete.com.br",
-      "impressions": 4097,
-      "clicks": 8,
-      "viewable": 2861,
-      "eligible": 4097,
-      "ctr": 0.1952648279228704,
-      "viewabilityRate": 69.83158408591652
-    },
-    {
-      "name": "oantagonista.com.br",
-      "impressions": 3902,
-      "clicks": 28,
-      "viewable": 2702,
-      "eligible": 3902,
-      "ctr": 0.7175807278318811,
-      "viewabilityRate": 69.24654023577652
+      "viewabilityRate": 81.1288805268109
     },
     {
       "name": "nsctotal.com.br",
-      "impressions": 3726,
+      "impressions": 5290,
       "clicks": 0,
-      "viewable": 2408,
-      "eligible": 3726,
+      "viewable": 2743,
+      "eligible": 5290,
       "ctr": 0,
-      "viewabilityRate": 64.62694578636608
+      "viewabilityRate": 51.852551984877124
     },
     {
-      "name": "giroemipiau1.com.br",
-      "impressions": 3684,
+      "name": "noticiasautomotivas.com.br",
+      "impressions": 5042,
       "clicks": 0,
-      "viewable": 3164,
-      "eligible": 3684,
+      "viewable": 3659,
+      "eligible": 5042,
       "ctr": 0,
-      "viewabilityRate": 85.88490770901196
+      "viewabilityRate": 72.57040856802855
     },
     {
       "name": "noticiasagricolas.com.br",
-      "impressions": 3447,
+      "impressions": 4851,
       "clicks": 0,
-      "viewable": 2781,
-      "eligible": 3447,
+      "viewable": 4028,
+      "eligible": 4851,
       "ctr": 0,
-      "viewabilityRate": 80.67885117493474
+      "viewabilityRate": 83.03442589156876
     },
     {
-      "name": "tripadvisor.com.br",
-      "impressions": 3349,
-      "clicks": 0,
-      "viewable": 2225,
-      "eligible": 3349,
-      "ctr": 0,
-      "viewabilityRate": 66.43774260973426
+      "name": "clickpetroleoegas.com.br",
+      "impressions": 4830,
+      "clicks": 8,
+      "viewable": 2760,
+      "eligible": 4830,
+      "ctr": 0.16563146997929606,
+      "viewabilityRate": 57.14285714285714
     },
     {
-      "name": "clicrbs.com.br",
-      "impressions": 3306,
+      "name": "motoo.com.br",
+      "impressions": 4738,
       "clicks": 0,
-      "viewable": 2932,
-      "eligible": 3306,
+      "viewable": 3793,
+      "eligible": 4738,
       "ctr": 0,
-      "viewabilityRate": 88.68723532970357
+      "viewabilityRate": 80.05487547488391
+    },
+    {
+      "name": "em.com.br",
+      "impressions": 4719,
+      "clicks": 0,
+      "viewable": 3657,
+      "eligible": 4719,
+      "ctr": 0,
+      "viewabilityRate": 77.49523204068659
+    },
+    {
+      "name": "normaculta.com.br",
+      "impressions": 4710,
+      "clicks": 0,
+      "viewable": 4139,
+      "eligible": 4710,
+      "ctr": 0,
+      "viewabilityRate": 87.87685774946922
+    },
+    {
+      "name": "reclameaqui.com.br",
+      "impressions": 4587,
+      "clicks": 0,
+      "viewable": 3302,
+      "eligible": 4587,
+      "ctr": 0,
+      "viewabilityRate": 71.98604752561587
+    },
+    {
+      "name": "jornaldebrasilia.com.br",
+      "impressions": 4482,
+      "clicks": 0,
+      "viewable": 3333,
+      "eligible": 4482,
+      "ctr": 0,
+      "viewabilityRate": 74.36412315930389
+    },
+    {
+      "name": "horabrasil.com.br",
+      "impressions": 4459,
+      "clicks": 0,
+      "viewable": 2982,
+      "eligible": 4459,
+      "ctr": 0,
+      "viewabilityRate": 66.87598116169545
+    },
+    {
+      "name": "jumperbrasil.com.br",
+      "impressions": 4340,
+      "clicks": 0,
+      "viewable": 3425,
+      "eligible": 4340,
+      "ctr": 0,
+      "viewabilityRate": 78.91705069124424
+    },
+    {
+      "name": "portaltemponovo.com.br",
+      "impressions": 4152,
+      "clicks": 2,
+      "viewable": 2386,
+      "eligible": 4152,
+      "ctr": 0.04816955684007707,
+      "viewabilityRate": 57.46628131021194
+    },
+    {
+      "name": "aficionados.com.br",
+      "impressions": 4111,
+      "clicks": 2,
+      "viewable": 3387,
+      "eligible": 4111,
+      "ctr": 0.048649963512527365,
+      "viewabilityRate": 82.38871320846509
+    },
+    {
+      "name": "verdesmares.com.br",
+      "impressions": 3982,
+      "clicks": 0,
+      "viewable": 2981,
+      "eligible": 3982,
+      "ctr": 0,
+      "viewabilityRate": 74.86187845303867
+    },
+    {
+      "name": "disneyplusbrasil.com.br",
+      "impressions": 3981,
+      "clicks": 0,
+      "viewable": 2691,
+      "eligible": 3981,
+      "ctr": 0,
+      "viewabilityRate": 67.59608138658628
     },
     {
       "name": "correio24horas.com.br",
-      "impressions": 3212,
+      "impressions": 3635,
       "clicks": 0,
-      "viewable": 2442,
-      "eligible": 3212,
+      "viewable": 2586,
+      "eligible": 3635,
       "ctr": 0,
-      "viewabilityRate": 76.02739726027397
+      "viewabilityRate": 71.1416781292985
     },
     {
       "name": "exame.com",
-      "impressions": 3178,
+      "impressions": 3360,
       "clicks": 0,
-      "viewable": 2738,
-      "eligible": 3178,
+      "viewable": 2882,
+      "eligible": 3360,
       "ctr": 0,
-      "viewabilityRate": 86.15481434864695
+      "viewabilityRate": 85.77380952380952
     },
     {
-      "name": "portaln10.com.br",
-      "impressions": 2911,
+      "name": "clicrbs.com.br",
+      "impressions": 3322,
       "clicks": 0,
-      "viewable": 2297,
-      "eligible": 2911,
+      "viewable": 2971,
+      "eligible": 3322,
       "ctr": 0,
-      "viewabilityRate": 78.90759189282034
-    },
-    {
-      "name": "sociedademilitar.com.br",
-      "impressions": 2889,
-      "clicks": 9,
-      "viewable": 1779,
-      "eligible": 2889,
-      "ctr": 0.3115264797507788,
-      "viewabilityRate": 61.57840083073728
-    },
-    {
-      "name": "casadosdados.com.br",
-      "impressions": 2884,
-      "clicks": 0,
-      "viewable": 2237,
-      "eligible": 2884,
-      "ctr": 0,
-      "viewabilityRate": 77.56588072122052
-    },
-    {
-      "name": "leismunicipais.com.br",
-      "impressions": 2845,
-      "clicks": 0,
-      "viewable": 2509,
-      "eligible": 2845,
-      "ctr": 0,
-      "viewabilityRate": 88.18980667838314
-    },
-    {
-      "name": "mrnews.com.br",
-      "impressions": 2828,
-      "clicks": 0,
-      "viewable": 2322,
-      "eligible": 2828,
-      "ctr": 0,
-      "viewabilityRate": 82.10749646393211
-    },
-    {
-      "name": "bandab.com.br",
-      "impressions": 2776,
-      "clicks": 0,
-      "viewable": 2129,
-      "eligible": 2776,
-      "ctr": 0,
-      "viewabilityRate": 76.69308357348703
-    },
-    {
-      "name": "fragrantica.com.br",
-      "impressions": 2678,
-      "clicks": 0,
-      "viewable": 2121,
-      "eligible": 2678,
-      "ctr": 0,
-      "viewabilityRate": 79.20089619118745
+      "viewabilityRate": 89.43407585791692
     },
     {
       "name": "pianoeletronico.com.br",
-      "impressions": 2670,
+      "impressions": 3234,
       "clicks": 0,
-      "viewable": 2320,
-      "eligible": 2670,
+      "viewable": 2813,
+      "eligible": 3234,
       "ctr": 0,
-      "viewabilityRate": 86.89138576779027
+      "viewabilityRate": 86.98206555349412
     },
     {
-      "name": "folhape.com.br",
-      "impressions": 2654,
+      "name": "casadosdados.com.br",
+      "impressions": 2931,
       "clicks": 0,
-      "viewable": 1692,
-      "eligible": 2654,
+      "viewable": 2290,
+      "eligible": 2931,
       "ctr": 0,
-      "viewabilityRate": 63.75282592313489
+      "viewabilityRate": 78.13033094506994
     },
     {
-      "name": "folhabv.com.br",
-      "impressions": 2606,
-      "clicks": 4,
-      "viewable": 1276,
-      "eligible": 2606,
-      "ctr": 0.15349194167306215,
-      "viewabilityRate": 48.96392939370683
+      "name": "tripadvisor.com.br",
+      "impressions": 2844,
+      "clicks": 0,
+      "viewable": 1877,
+      "eligible": 2844,
+      "ctr": 0,
+      "viewabilityRate": 65.9985935302391
+    },
+    {
+      "name": "bandab.com.br",
+      "impressions": 2833,
+      "clicks": 0,
+      "viewable": 2166,
+      "eligible": 2833,
+      "ctr": 0,
+      "viewabilityRate": 76.45605365337099
+    },
+    {
+      "name": "mobills.com.br",
+      "impressions": 2807,
+      "clicks": 0,
+      "viewable": 2091,
+      "eligible": 2807,
+      "ctr": 0,
+      "viewabilityRate": 74.4923405771286
+    },
+    {
+      "name": "leismunicipais.com.br",
+      "impressions": 2752,
+      "clicks": 0,
+      "viewable": 2475,
+      "eligible": 2752,
+      "ctr": 0,
+      "viewabilityRate": 89.93459302325581
+    },
+    {
+      "name": "fragrantica.com.br",
+      "impressions": 2547,
+      "clicks": 0,
+      "viewable": 2012,
+      "eligible": 2547,
+      "ctr": 0,
+      "viewabilityRate": 78.9948959560267
     },
     {
       "name": "sistemampa.com.br",
-      "impressions": 2589,
+      "impressions": 2537,
       "clicks": 0,
-      "viewable": 1660,
-      "eligible": 2589,
+      "viewable": 1621,
+      "eligible": 2537,
       "ctr": 0,
-      "viewabilityRate": 64.11741985322519
-    },
-    {
-      "name": "opovo.com.br",
-      "impressions": 2452,
-      "clicks": 0,
-      "viewable": 1720,
-      "eligible": 2452,
-      "ctr": 0,
-      "viewabilityRate": 70.14681892332788
-    },
-    {
-      "name": "tribunadonorte.com.br",
-      "impressions": 2426,
-      "clicks": 0,
-      "viewable": 2126,
-      "eligible": 2426,
-      "ctr": 0,
-      "viewabilityRate": 87.63396537510305
-    },
-    {
-      "name": "somostodosum.com.br",
-      "impressions": 2373,
-      "clicks": 2,
-      "viewable": 1902,
-      "eligible": 2373,
-      "ctr": 0.08428150021070376,
-      "viewabilityRate": 80.15170670037926
-    },
-    {
-      "name": "espn.com.br",
-      "impressions": 2339,
-      "clicks": 0,
-      "viewable": 1661,
-      "eligible": 2339,
-      "ctr": 0,
-      "viewabilityRate": 71.01325352714835
+      "viewabilityRate": 63.89436342136382
     },
     {
       "name": "imprimirepintar.com.br",
-      "impressions": 2336,
+      "impressions": 2517,
       "clicks": 1,
-      "viewable": 1873,
-      "eligible": 2336,
-      "ctr": 0.04280821917808219,
-      "viewabilityRate": 80.17979452054794
+      "viewable": 2036,
+      "eligible": 2517,
+      "ctr": 0.03972983710766786,
+      "viewabilityRate": 80.88994835121176
     },
     {
-      "name": "riovagas.com.br",
-      "impressions": 2316,
+      "name": "opovo.com.br",
+      "impressions": 2463,
       "clicks": 0,
-      "viewable": 1519,
-      "eligible": 2316,
+      "viewable": 1722,
+      "eligible": 2463,
       "ctr": 0,
-      "viewabilityRate": 65.58721934369602
+      "viewabilityRate": 69.91473812423872
+    },
+    {
+      "name": "mrnews.com.br",
+      "impressions": 2418,
+      "clicks": 0,
+      "viewable": 1970,
+      "eligible": 2418,
+      "ctr": 0,
+      "viewabilityRate": 81.47229114971051
     },
     {
       "name": "kboing.com.br",
-      "impressions": 2315,
+      "impressions": 2364,
       "clicks": 0,
-      "viewable": 1998,
-      "eligible": 2315,
+      "viewable": 2074,
+      "eligible": 2364,
       "ctr": 0,
-      "viewabilityRate": 86.30669546436285
+      "viewabilityRate": 87.7326565143824
+    },
+    {
+      "name": "riovagas.com.br",
+      "impressions": 2304,
+      "clicks": 0,
+      "viewable": 1488,
+      "eligible": 2304,
+      "ctr": 0,
+      "viewabilityRate": 64.58333333333334
+    },
+    {
+      "name": "somostodosum.com.br",
+      "impressions": 2286,
+      "clicks": 2,
+      "viewable": 1833,
+      "eligible": 2286,
+      "ctr": 0.08748906386701663,
+      "viewabilityRate": 80.18372703412074
+    },
+    {
+      "name": "tribunadonorte.com.br",
+      "impressions": 2281,
+      "clicks": 0,
+      "viewable": 1994,
+      "eligible": 2281,
+      "ctr": 0,
+      "viewabilityRate": 87.41779921087243
+    },
+    {
+      "name": "giroemipiau1.com.br",
+      "impressions": 2239,
+      "clicks": 0,
+      "viewable": 1875,
+      "eligible": 2239,
+      "ctr": 0,
+      "viewabilityRate": 83.74274229566771
     },
     {
       "name": "ratatype.com.br",
-      "impressions": 2234,
+      "impressions": 2202,
       "clicks": 0,
-      "viewable": 1626,
-      "eligible": 2234,
+      "viewable": 1616,
+      "eligible": 2202,
       "ctr": 0,
-      "viewabilityRate": 72.78424350940018
+      "viewabilityRate": 73.38782924613987
     },
     {
-      "name": "gmconline.com.br",
-      "impressions": 2190,
-      "clicks": 0,
-      "viewable": 1651,
-      "eligible": 2190,
-      "ctr": 0,
-      "viewabilityRate": 75.38812785388129
-    },
-    {
-      "name": "futebolinterior.com.br",
-      "impressions": 2133,
-      "clicks": 0,
-      "viewable": 1784,
-      "eligible": 2133,
-      "ctr": 0,
-      "viewabilityRate": 83.63806844819504
+      "name": "omelete.com.br",
+      "impressions": 2146,
+      "clicks": 6,
+      "viewable": 1528,
+      "eligible": 2146,
+      "ctr": 0.27958993476234856,
+      "viewabilityRate": 71.2022367194781
     },
     {
       "name": "dol.com.br",
-      "impressions": 2120,
-      "clicks": 2,
-      "viewable": 1668,
-      "eligible": 2120,
-      "ctr": 0.09433962264150944,
-      "viewabilityRate": 78.67924528301887
+      "impressions": 2138,
+      "clicks": 1,
+      "viewable": 1682,
+      "eligible": 2138,
+      "ctr": 0.04677268475210477,
+      "viewabilityRate": 78.67165575304023
     },
     {
-      "name": "automaistv.com.br",
-      "impressions": 1971,
-      "clicks": 2,
-      "viewable": 1318,
-      "eligible": 1971,
-      "ctr": 0.10147133434804667,
-      "viewabilityRate": 66.86960933536275
+      "name": "gmconline.com.br",
+      "impressions": 2125,
+      "clicks": 0,
+      "viewable": 1602,
+      "eligible": 2125,
+      "ctr": 0,
+      "viewabilityRate": 75.38823529411765
     },
     {
       "name": "bahianoticias.com.br",
-      "impressions": 1955,
+      "impressions": 1959,
       "clicks": 0,
-      "viewable": 1469,
-      "eligible": 1955,
+      "viewable": 1470,
+      "eligible": 1959,
       "ctr": 0,
-      "viewabilityRate": 75.14066496163683
+      "viewabilityRate": 75.03828483920367
     },
     {
-      "name": "cruzadasclube.com.br",
-      "impressions": 1927,
+      "name": "futebolinterior.com.br",
+      "impressions": 1948,
       "clicks": 0,
-      "viewable": 1729,
-      "eligible": 1927,
+      "viewable": 1653,
+      "eligible": 1948,
       "ctr": 0,
-      "viewabilityRate": 89.72496107939803
+      "viewabilityRate": 84.85626283367557
     },
     {
-      "name": "criticalhits.com.br",
-      "impressions": 1838,
-      "clicks": 4,
-      "viewable": 1366,
-      "eligible": 1838,
-      "ctr": 0.2176278563656148,
-      "viewabilityRate": 74.31991294885746
+      "name": "oantagonista.com.br",
+      "impressions": 1898,
+      "clicks": 9,
+      "viewable": 1346,
+      "eligible": 1898,
+      "ctr": 0.4741833508956797,
+      "viewabilityRate": 70.91675447839832
     },
     {
-      "name": "mantosdofutebol.com.br",
-      "impressions": 1805,
-      "clicks": 1,
-      "viewable": 1287,
-      "eligible": 1804,
-      "ctr": 0.0554016620498615,
-      "viewabilityRate": 71.34146341463415
-    },
-    {
-      "name": "saocarlosagora.com.br",
-      "impressions": 1640,
-      "clicks": 0,
-      "viewable": 1211,
-      "eligible": 1640,
-      "ctr": 0,
-      "viewabilityRate": 73.84146341463415
-    },
-    {
-      "name": "rollingstone.com.br",
-      "impressions": 1565,
-      "clicks": 0,
-      "viewable": 968,
-      "eligible": 1565,
-      "ctr": 0,
-      "viewabilityRate": 61.853035143769965
-    },
-    {
-      "name": "diariodobrasilnoticias.com.br",
-      "impressions": 1552,
-      "clicks": 0,
-      "viewable": 1066,
-      "eligible": 1552,
-      "ctr": 0,
-      "viewabilityRate": 68.68556701030928
-    },
-    {
-      "name": "clubedohardware.com.br",
-      "impressions": 1516,
-      "clicks": 0,
-      "viewable": 1043,
-      "eligible": 1516,
-      "ctr": 0,
-      "viewabilityRate": 68.7994722955145
-    },
-    {
-      "name": "horoscoposideral.com.br",
-      "impressions": 1507,
-      "clicks": 0,
-      "viewable": 1259,
-      "eligible": 1507,
-      "ctr": 0,
-      "viewabilityRate": 83.54346383543464
-    },
-    {
-      "name": "4oito.com.br",
-      "impressions": 1471,
-      "clicks": 0,
-      "viewable": 1217,
-      "eligible": 1471,
-      "ctr": 0,
-      "viewabilityRate": 82.73283480625425
-    },
-    {
-      "name": "diariosm.com.br",
-      "impressions": 1465,
-      "clicks": 0,
-      "viewable": 1020,
-      "eligible": 1465,
-      "ctr": 0,
-      "viewabilityRate": 69.6245733788396
-    },
-    {
-      "name": "serasa.com.br",
-      "impressions": 1459,
-      "clicks": 1,
-      "viewable": 1303,
-      "eligible": 1459,
-      "ctr": 0.06854009595613435,
-      "viewabilityRate": 89.30774503084305
+      "name": "sociedademilitar.com.br",
+      "impressions": 1896,
+      "clicks": 5,
+      "viewable": 1237,
+      "eligible": 1896,
+      "ctr": 0.26371308016877637,
+      "viewabilityRate": 65.24261603375527
     },
     {
       "name": "meuip.com.br",
-      "impressions": 1427,
+      "impressions": 1879,
       "clicks": 0,
-      "viewable": 1131,
-      "eligible": 1427,
+      "viewable": 1458,
+      "eligible": 1879,
       "ctr": 0,
-      "viewabilityRate": 79.25718290119131
+      "viewabilityRate": 77.59446514103246
     },
     {
-      "name": "fiis.com.br",
-      "impressions": 1404,
+      "name": "cruzadasclube.com.br",
+      "impressions": 1720,
       "clicks": 0,
-      "viewable": 788,
-      "eligible": 1404,
+      "viewable": 1552,
+      "eligible": 1720,
       "ctr": 0,
-      "viewabilityRate": 56.12535612535613
+      "viewabilityRate": 90.23255813953487
+    },
+    {
+      "name": "folhape.com.br",
+      "impressions": 1624,
+      "clicks": 0,
+      "viewable": 1052,
+      "eligible": 1624,
+      "ctr": 0,
+      "viewabilityRate": 64.77832512315271
+    },
+    {
+      "name": "mantosdofutebol.com.br",
+      "impressions": 1621,
+      "clicks": 1,
+      "viewable": 1169,
+      "eligible": 1620,
+      "ctr": 0.061690314620604564,
+      "viewabilityRate": 72.1604938271605
+    },
+    {
+      "name": "saocarlosagora.com.br",
+      "impressions": 1598,
+      "clicks": 0,
+      "viewable": 1166,
+      "eligible": 1598,
+      "ctr": 0,
+      "viewabilityRate": 72.96620775969961
+    },
+    {
+      "name": "portaln10.com.br",
+      "impressions": 1576,
+      "clicks": 0,
+      "viewable": 1253,
+      "eligible": 1576,
+      "ctr": 0,
+      "viewabilityRate": 79.50507614213198
+    },
+    {
+      "name": "radiocidadesa.com.br",
+      "impressions": 1549,
+      "clicks": 1,
+      "viewable": 1216,
+      "eligible": 1549,
+      "ctr": 0.06455777921239508,
+      "viewabilityRate": 78.50225952227244
+    },
+    {
+      "name": "4oito.com.br",
+      "impressions": 1462,
+      "clicks": 0,
+      "viewable": 1212,
+      "eligible": 1462,
+      "ctr": 0,
+      "viewabilityRate": 82.9001367989056
+    },
+    {
+      "name": "espn.com.br",
+      "impressions": 1459,
+      "clicks": 0,
+      "viewable": 1071,
+      "eligible": 1459,
+      "ctr": 0,
+      "viewabilityRate": 73.40644276901988
     },
     {
       "name": "bemparana.com.br",
-      "impressions": 1395,
+      "impressions": 1448,
+      "clicks": 0,
+      "viewable": 1143,
+      "eligible": 1448,
+      "ctr": 0,
+      "viewabilityRate": 78.9364640883978
+    },
+    {
+      "name": "diariodobrasilnoticias.com.br",
+      "impressions": 1440,
+      "clicks": 0,
+      "viewable": 992,
+      "eligible": 1440,
+      "ctr": 0,
+      "viewabilityRate": 68.88888888888889
+    },
+    {
+      "name": "bnews.com.br",
+      "impressions": 1435,
+      "clicks": 0,
+      "viewable": 1101,
+      "eligible": 1435,
+      "ctr": 0,
+      "viewabilityRate": 76.72473867595819
+    },
+    {
+      "name": "criticalhits.com.br",
+      "impressions": 1377,
+      "clicks": 1,
+      "viewable": 1089,
+      "eligible": 1377,
+      "ctr": 0.07262164124909223,
+      "viewabilityRate": 79.08496732026144
+    },
+    {
+      "name": "acheconcursos.com.br",
+      "impressions": 1370,
+      "clicks": 0,
+      "viewable": 1180,
+      "eligible": 1370,
+      "ctr": 0,
+      "viewabilityRate": 86.13138686131386
+    },
+    {
+      "name": "horoscoposideral.com.br",
+      "impressions": 1365,
+      "clicks": 0,
+      "viewable": 1110,
+      "eligible": 1365,
+      "ctr": 0,
+      "viewabilityRate": 81.31868131868131
+    },
+    {
+      "name": "minhaconexao.com.br",
+      "impressions": 1323,
+      "clicks": 0,
+      "viewable": 1229,
+      "eligible": 1323,
+      "ctr": 0,
+      "viewabilityRate": 92.89493575207861
+    },
+    {
+      "name": "dicionariodesimbolos.com.br",
+      "impressions": 1317,
+      "clicks": 0,
+      "viewable": 1225,
+      "eligible": 1317,
+      "ctr": 0,
+      "viewabilityRate": 93.01442672741078
+    },
+    {
+      "name": "fiis.com.br",
+      "impressions": 1278,
+      "clicks": 0,
+      "viewable": 691,
+      "eligible": 1278,
+      "ctr": 0,
+      "viewabilityRate": 54.068857589984354
+    },
+    {
+      "name": "diariosm.com.br",
+      "impressions": 1276,
+      "clicks": 0,
+      "viewable": 934,
+      "eligible": 1276,
+      "ctr": 0,
+      "viewabilityRate": 73.1974921630094
+    },
+    {
+      "name": "horoscopovirtual.com.br",
+      "impressions": 1236,
+      "clicks": 0,
+      "viewable": 1024,
+      "eligible": 1236,
+      "ctr": 0,
+      "viewabilityRate": 82.84789644012946
+    },
+    {
+      "name": "radiorock.com.br",
+      "impressions": 1208,
       "clicks": 0,
       "viewable": 1116,
-      "eligible": 1395,
+      "eligible": 1208,
+      "ctr": 0,
+      "viewabilityRate": 92.3841059602649
+    },
+    {
+      "name": "automaistv.com.br",
+      "impressions": 1159,
+      "clicks": 1,
+      "viewable": 794,
+      "eligible": 1159,
+      "ctr": 0.08628127696289906,
+      "viewabilityRate": 68.50733390854185
+    },
+    {
+      "name": "historiadomundo.com.br",
+      "impressions": 1155,
+      "clicks": 0,
+      "viewable": 1044,
+      "eligible": 1155,
+      "ctr": 0,
+      "viewabilityRate": 90.38961038961038
+    },
+    {
+      "name": "rollingstone.com.br",
+      "impressions": 1145,
+      "clicks": 0,
+      "viewable": 669,
+      "eligible": 1145,
+      "ctr": 0,
+      "viewabilityRate": 58.42794759825327
+    },
+    {
+      "name": "guiadacozinha.com.br",
+      "impressions": 1077,
+      "clicks": 0,
+      "viewable": 869,
+      "eligible": 1077,
+      "ctr": 0,
+      "viewabilityRate": 80.68709377901578
+    },
+    {
+      "name": "gaz.com.br",
+      "impressions": 1076,
+      "clicks": 0,
+      "viewable": 827,
+      "eligible": 1076,
+      "ctr": 0,
+      "viewabilityRate": 76.85873605947955
+    },
+    {
+      "name": "aereo.jor.br",
+      "impressions": 1053,
+      "clicks": 0,
+      "viewable": 666,
+      "eligible": 1053,
+      "ctr": 0,
+      "viewabilityRate": 63.24786324786324
+    },
+    {
+      "name": "clubedohardware.com.br",
+      "impressions": 1046,
+      "clicks": 0,
+      "viewable": 804,
+      "eligible": 1046,
+      "ctr": 0,
+      "viewabilityRate": 76.8642447418738
+    },
+    {
+      "name": "tribunademinas.com.br",
+      "impressions": 1039,
+      "clicks": 0,
+      "viewable": 784,
+      "eligible": 1039,
+      "ctr": 0,
+      "viewabilityRate": 75.45717035611165
+    },
+    {
+      "name": "olimpiadatododia.com.br",
+      "impressions": 1033,
+      "clicks": 0,
+      "viewable": 584,
+      "eligible": 1033,
+      "ctr": 0,
+      "viewabilityRate": 56.534365924491766
+    },
+    {
+      "name": "serasa.com.br",
+      "impressions": 999,
+      "clicks": 0,
+      "viewable": 910,
+      "eligible": 999,
+      "ctr": 0,
+      "viewabilityRate": 91.09109109109109
+    },
+    {
+      "name": "novaescola.org.br",
+      "impressions": 977,
+      "clicks": 0,
+      "viewable": 810,
+      "eligible": 977,
+      "ctr": 0,
+      "viewabilityRate": 82.90685772773797
+    },
+    {
+      "name": "agazeta.com.br",
+      "impressions": 974,
+      "clicks": 0,
+      "viewable": 739,
+      "eligible": 974,
+      "ctr": 0,
+      "viewabilityRate": 75.87268993839835
+    },
+    {
+      "name": "bonde.com.br",
+      "impressions": 968,
+      "clicks": 4,
+      "viewable": 796,
+      "eligible": 968,
+      "ctr": 0.4132231404958678,
+      "viewabilityRate": 82.23140495867769
+    },
+    {
+      "name": "portugues.com.br",
+      "impressions": 943,
+      "clicks": 0,
+      "viewable": 849,
+      "eligible": 943,
+      "ctr": 0,
+      "viewabilityRate": 90.03181336161188
+    },
+    {
+      "name": "simuladododetran.net.br",
+      "impressions": 925,
+      "clicks": 0,
+      "viewable": 830,
+      "eligible": 925,
+      "ctr": 0,
+      "viewabilityRate": 89.72972972972974
+    },
+    {
+      "name": "seminovos.com.br",
+      "impressions": 918,
+      "clicks": 0,
+      "viewable": 789,
+      "eligible": 918,
+      "ctr": 0,
+      "viewabilityRate": 85.94771241830065
+    },
+    {
+      "name": "xataka.com.br",
+      "impressions": 891,
+      "clicks": 0,
+      "viewable": 756,
+      "eligible": 891,
+      "ctr": 0,
+      "viewabilityRate": 84.84848484848484
+    },
+    {
+      "name": "educador.com.br",
+      "impressions": 868,
+      "clicks": 0,
+      "viewable": 570,
+      "eligible": 868,
+      "ctr": 0,
+      "viewabilityRate": 65.66820276497695
+    },
+    {
+      "name": "downdetector.com.br",
+      "impressions": 862,
+      "clicks": 0,
+      "viewable": 666,
+      "eligible": 862,
+      "ctr": 0,
+      "viewabilityRate": 77.26218097447796
+    },
+    {
+      "name": "omunicipio.com.br",
+      "impressions": 835,
+      "clicks": 0,
+      "viewable": 684,
+      "eligible": 835,
+      "ctr": 0,
+      "viewabilityRate": 81.91616766467065
+    },
+    {
+      "name": "legenda.com.br",
+      "impressions": 823,
+      "clicks": 0,
+      "viewable": 683,
+      "eligible": 823,
+      "ctr": 0,
+      "viewabilityRate": 82.98906439854193
+    },
+    {
+      "name": "vvale.com.br",
+      "impressions": 770,
+      "clicks": 0,
+      "viewable": 645,
+      "eligible": 770,
+      "ctr": 0,
+      "viewabilityRate": 83.76623376623377
+    },
+    {
+      "name": "techtudo.com.br",
+      "impressions": 730,
+      "clicks": 0,
+      "viewable": 439,
+      "eligible": 730,
+      "ctr": 0,
+      "viewabilityRate": 60.136986301369866
+    },
+    {
+      "name": "folhabv.com.br",
+      "impressions": 724,
+      "clicks": 2,
+      "viewable": 509,
+      "eligible": 724,
+      "ctr": 0.2762430939226519,
+      "viewabilityRate": 70.30386740331491
+    },
+    {
+      "name": "tribunaonline.com.br",
+      "impressions": 721,
+      "clicks": 0,
+      "viewable": 578,
+      "eligible": 721,
+      "ctr": 0,
+      "viewabilityRate": 80.16643550624133
+    },
+    {
+      "name": "leouve.com.br",
+      "impressions": 648,
+      "clicks": 3,
+      "viewable": 472,
+      "eligible": 648,
+      "ctr": 0.4629629629629629,
+      "viewabilityRate": 72.8395061728395
+    },
+    {
+      "name": "jmais.com.br",
+      "impressions": 642,
+      "clicks": 0,
+      "viewable": 477,
+      "eligible": 642,
+      "ctr": 0,
+      "viewabilityRate": 74.29906542056075
+    },
+    {
+      "name": "devtools.com.br",
+      "impressions": 627,
+      "clicks": 0,
+      "viewable": 497,
+      "eligible": 627,
+      "ctr": 0,
+      "viewabilityRate": 79.26634768740031
+    },
+    {
+      "name": "maisnovela.com.br",
+      "impressions": 624,
+      "clicks": 0,
+      "viewable": 386,
+      "eligible": 624,
+      "ctr": 0,
+      "viewabilityRate": 61.858974358974365
+    },
+    {
+      "name": "agazetaempregosul.com.br",
+      "impressions": 582,
+      "clicks": 0,
+      "viewable": 382,
+      "eligible": 582,
+      "ctr": 0,
+      "viewabilityRate": 65.63573883161511
+    },
+    {
+      "name": "vgnoticias.com.br",
+      "impressions": 580,
+      "clicks": 0,
+      "viewable": 458,
+      "eligible": 580,
+      "ctr": 0,
+      "viewabilityRate": 78.96551724137932
+    },
+    {
+      "name": "autoo.com.br",
+      "impressions": 579,
+      "clicks": 0,
+      "viewable": 506,
+      "eligible": 579,
+      "ctr": 0,
+      "viewabilityRate": 87.39205526770294
+    },
+    {
+      "name": "acordacidade.com.br",
+      "impressions": 574,
+      "clicks": 0,
+      "viewable": 451,
+      "eligible": 574,
+      "ctr": 0,
+      "viewabilityRate": 78.57142857142857
+    },
+    {
+      "name": "ogol.com.br",
+      "impressions": 567,
+      "clicks": 0,
+      "viewable": 449,
+      "eligible": 567,
+      "ctr": 0,
+      "viewabilityRate": 79.18871252204586
+    },
+    {
+      "name": "airway.com.br",
+      "impressions": 549,
+      "clicks": 0,
+      "viewable": 464,
+      "eligible": 549,
+      "ctr": 0,
+      "viewabilityRate": 84.51730418943534
+    },
+    {
+      "name": "panelinha.com.br",
+      "impressions": 548,
+      "clicks": 0,
+      "viewable": 343,
+      "eligible": 548,
+      "ctr": 0,
+      "viewabilityRate": 62.59124087591241
+    },
+    {
+      "name": "diariodopara.com.br",
+      "impressions": 547,
+      "clicks": 0,
+      "viewable": 446,
+      "eligible": 547,
+      "ctr": 0,
+      "viewabilityRate": 81.53564899451554
+    },
+    {
+      "name": "midianews.com.br",
+      "impressions": 540,
+      "clicks": 0,
+      "viewable": 484,
+      "eligible": 540,
+      "ctr": 0,
+      "viewabilityRate": 89.62962962962962
+    },
+    {
+      "name": "oficinadanet.com.br",
+      "impressions": 535,
+      "clicks": 0,
+      "viewable": 489,
+      "eligible": 535,
+      "ctr": 0,
+      "viewabilityRate": 91.4018691588785
+    },
+    {
+      "name": "revistaforum.com.br",
+      "impressions": 533,
+      "clicks": 0,
+      "viewable": 390,
+      "eligible": 533,
+      "ctr": 0,
+      "viewabilityRate": 73.17073170731707
+    },
+    {
+      "name": "baccinoticias.com.br",
+      "impressions": 525,
+      "clicks": 0,
+      "viewable": 448,
+      "eligible": 525,
+      "ctr": 0,
+      "viewabilityRate": 85.33333333333334
+    },
+    {
+      "name": "infonet.com.br",
+      "impressions": 494,
+      "clicks": 0,
+      "viewable": 439,
+      "eligible": 494,
+      "ctr": 0,
+      "viewabilityRate": 88.8663967611336
+    },
+    {
+      "name": "antenadosnofutebol.com.br",
+      "impressions": 484,
+      "clicks": 0,
+      "viewable": 381,
+      "eligible": 484,
+      "ctr": 0,
+      "viewabilityRate": 78.71900826446281
+    },
+    {
+      "name": "diariodoaco.com.br",
+      "impressions": 468,
+      "clicks": 0,
+      "viewable": 374,
+      "eligible": 468,
+      "ctr": 0,
+      "viewabilityRate": 79.91452991452992
+    },
+    {
+      "name": "novabrasilfm.com.br",
+      "impressions": 462,
+      "clicks": 1,
+      "viewable": 376,
+      "eligible": 462,
+      "ctr": 0.21645021645021645,
+      "viewabilityRate": 81.38528138528139
+    },
+    {
+      "name": "mundoboaforma.com.br",
+      "impressions": 449,
+      "clicks": 0,
+      "viewable": 381,
+      "eligible": 449,
+      "ctr": 0,
+      "viewabilityRate": 84.85523385300668
+    },
+    {
+      "name": "ouvirmusica.com.br",
+      "impressions": 449,
+      "clicks": 0,
+      "viewable": 386,
+      "eligible": 449,
+      "ctr": 0,
+      "viewabilityRate": 85.96881959910914
+    },
+    {
+      "name": "trespassosnews.com.br",
+      "impressions": 446,
+      "clicks": 0,
+      "viewable": 331,
+      "eligible": 446,
+      "ctr": 0,
+      "viewabilityRate": 74.2152466367713
+    },
+    {
+      "name": "diariodopeixe.com.br",
+      "impressions": 445,
+      "clicks": 0,
+      "viewable": 213,
+      "eligible": 445,
+      "ctr": 0,
+      "viewabilityRate": 47.86516853932584
+    },
+    {
+      "name": "netlusa.com.br",
+      "impressions": 443,
+      "clicks": 0,
+      "viewable": 352,
+      "eligible": 443,
+      "ctr": 0,
+      "viewabilityRate": 79.45823927765237
+    },
+    {
+      "name": "oimparcial.com.br",
+      "impressions": 429,
+      "clicks": 0,
+      "viewable": 280,
+      "eligible": 429,
+      "ctr": 0,
+      "viewabilityRate": 65.26806526806527
+    },
+    {
+      "name": "minhavida.com.br",
+      "impressions": 396,
+      "clicks": 0,
+      "viewable": 289,
+      "eligible": 396,
+      "ctr": 0,
+      "viewabilityRate": 72.97979797979798
+    },
+    {
+      "name": "giromarilia.com.br",
+      "impressions": 386,
+      "clicks": 0,
+      "viewable": 280,
+      "eligible": 386,
+      "ctr": 0,
+      "viewabilityRate": 72.53886010362694
+    },
+    {
+      "name": "cadaminuto.com.br",
+      "impressions": 372,
+      "clicks": 0,
+      "viewable": 309,
+      "eligible": 372,
+      "ctr": 0,
+      "viewabilityRate": 83.06451612903226
+    },
+    {
+      "name": "atarde.com.br",
+      "impressions": 369,
+      "clicks": 0,
+      "viewable": 271,
+      "eligible": 369,
+      "ctr": 0,
+      "viewabilityRate": 73.44173441734418
+    },
+    {
+      "name": "pipocamoderna.com.br",
+      "impressions": 365,
+      "clicks": 0,
+      "viewable": 290,
+      "eligible": 365,
+      "ctr": 0,
+      "viewabilityRate": 79.45205479452055
+    },
+    {
+      "name": "tribunadepetropolis.com.br",
+      "impressions": 340,
+      "clicks": 0,
+      "viewable": 262,
+      "eligible": 340,
+      "ctr": 0,
+      "viewabilityRate": 77.05882352941177
+    },
+    {
+      "name": "igormiranda.com.br",
+      "impressions": 335,
+      "clicks": 0,
+      "viewable": 214,
+      "eligible": 335,
+      "ctr": 0,
+      "viewabilityRate": 63.88059701492538
+    },
+    {
+      "name": "liberal.com.br",
+      "impressions": 335,
+      "clicks": 0,
+      "viewable": 158,
+      "eligible": 335,
+      "ctr": 0,
+      "viewabilityRate": 47.16417910447761
+    },
+    {
+      "name": "novanews.com.br",
+      "impressions": 321,
+      "clicks": 0,
+      "viewable": 236,
+      "eligible": 321,
+      "ctr": 0,
+      "viewabilityRate": 73.5202492211838
+    },
+    {
+      "name": "tribunadejundiai.com.br",
+      "impressions": 321,
+      "clicks": 0,
+      "viewable": 242,
+      "eligible": 321,
+      "ctr": 0,
+      "viewabilityRate": 75.38940809968847
+    },
+    {
+      "name": "wikiaves.com.br",
+      "impressions": 319,
+      "clicks": 1,
+      "viewable": 260,
+      "eligible": 319,
+      "ctr": 0.3134796238244514,
+      "viewabilityRate": 81.50470219435736
+    },
+    {
+      "name": "tnh1.com.br",
+      "impressions": 312,
+      "clicks": 0,
+      "viewable": 221,
+      "eligible": 312,
+      "ctr": 0,
+      "viewabilityRate": 70.83333333333334
+    },
+    {
+      "name": "webvolei.com.br",
+      "impressions": 293,
+      "clicks": 0,
+      "viewable": 206,
+      "eligible": 293,
+      "ctr": 0,
+      "viewabilityRate": 70.30716723549489
+    },
+    {
+      "name": "gcmais.com.br",
+      "impressions": 285,
+      "clicks": 0,
+      "viewable": 218,
+      "eligible": 285,
+      "ctr": 0,
+      "viewabilityRate": 76.49122807017544
+    },
+    {
+      "name": "hojeemdia.com.br",
+      "impressions": 281,
+      "clicks": 0,
+      "viewable": 229,
+      "eligible": 281,
+      "ctr": 0,
+      "viewabilityRate": 81.49466192170819
+    },
+    {
+      "name": "tvgazeta.com.br",
+      "impressions": 279,
+      "clicks": 0,
+      "viewable": 246,
+      "eligible": 279,
+      "ctr": 0,
+      "viewabilityRate": 88.17204301075269
+    },
+    {
+      "name": "ppnewsfb.com.br",
+      "impressions": 271,
+      "clicks": 0,
+      "viewable": 197,
+      "eligible": 271,
+      "ctr": 0,
+      "viewabilityRate": 72.69372693726937
+    },
+    {
+      "name": "itajaionline.com.br",
+      "impressions": 251,
+      "clicks": 0,
+      "viewable": 199,
+      "eligible": 251,
+      "ctr": 0,
+      "viewabilityRate": 79.2828685258964
+    },
+    {
+      "name": "carnavalesco.com.br",
+      "impressions": 245,
+      "clicks": 1,
+      "viewable": 184,
+      "eligible": 245,
+      "ctr": 0.40816326530612246,
+      "viewabilityRate": 75.10204081632654
+    },
+    {
+      "name": "gartic.com.br",
+      "impressions": 223,
+      "clicks": 0,
+      "viewable": 157,
+      "eligible": 223,
+      "ctr": 0,
+      "viewabilityRate": 70.4035874439462
+    },
+    {
+      "name": "atitudeevisao.com.br",
+      "impressions": 221,
+      "clicks": 0,
+      "viewable": 105,
+      "eligible": 221,
+      "ctr": 0,
+      "viewabilityRate": 47.511312217194565
+    },
+    {
+      "name": "netfla.com.br",
+      "impressions": 211,
+      "clicks": 0,
+      "viewable": 114,
+      "eligible": 211,
+      "ctr": 0,
+      "viewabilityRate": 54.02843601895735
+    },
+    {
+      "name": "istoe.com.br",
+      "impressions": 206,
+      "clicks": 0,
+      "viewable": 119,
+      "eligible": 206,
+      "ctr": 0,
+      "viewabilityRate": 57.76699029126213
+    },
+    {
+      "name": "diariodoamapa.com.br",
+      "impressions": 197,
+      "clicks": 0,
+      "viewable": 136,
+      "eligible": 197,
+      "ctr": 0,
+      "viewabilityRate": 69.03553299492386
+    },
+    {
+      "name": "calendario2018brasil.com.br",
+      "impressions": 188,
+      "clicks": 0,
+      "viewable": 153,
+      "eligible": 188,
+      "ctr": 0,
+      "viewabilityRate": 81.38297872340425
+    },
+    {
+      "name": "poa24horas.com.br",
+      "impressions": 183,
+      "clicks": 0,
+      "viewable": 118,
+      "eligible": 183,
+      "ctr": 0,
+      "viewabilityRate": 64.48087431693989
+    },
+    {
+      "name": "segundoasegundo.com.br",
+      "impressions": 182,
+      "clicks": 0,
+      "viewable": 124,
+      "eligible": 182,
+      "ctr": 0,
+      "viewabilityRate": 68.13186813186813
+    },
+    {
+      "name": "jornaldelavras.com.br",
+      "impressions": 180,
+      "clicks": 0,
+      "viewable": 149,
+      "eligible": 180,
+      "ctr": 0,
+      "viewabilityRate": 82.77777777777777
+    },
+    {
+      "name": "patoshoje.com.br",
+      "impressions": 176,
+      "clicks": 0,
+      "viewable": 157,
+      "eligible": 176,
+      "ctr": 0,
+      "viewabilityRate": 89.20454545454545
+    },
+    {
+      "name": "vrum.com.br",
+      "impressions": 176,
+      "clicks": 0,
+      "viewable": 135,
+      "eligible": 176,
+      "ctr": 0,
+      "viewabilityRate": 76.70454545454545
+    },
+    {
+      "name": "votunews.com.br",
+      "impressions": 175,
+      "clicks": 0,
+      "viewable": 142,
+      "eligible": 175,
+      "ctr": 0,
+      "viewabilityRate": 81.14285714285714
+    },
+    {
+      "name": "rdnews.com.br",
+      "impressions": 169,
+      "clicks": 0,
+      "viewable": 109,
+      "eligible": 169,
+      "ctr": 0,
+      "viewabilityRate": 64.49704142011834
+    },
+    {
+      "name": "gazetainterior.com.br",
+      "impressions": 158,
+      "clicks": 0,
+      "viewable": 127,
+      "eligible": 158,
+      "ctr": 0,
+      "viewabilityRate": 80.37974683544303
+    },
+    {
+      "name": "exempl.com.br",
+      "impressions": 157,
+      "clicks": 0,
+      "viewable": 136,
+      "eligible": 157,
+      "ctr": 0,
+      "viewabilityRate": 86.62420382165605
+    },
+    {
+      "name": "extraderondonia.com.br",
+      "impressions": 152,
+      "clicks": 0,
+      "viewable": 134,
+      "eligible": 152,
+      "ctr": 0,
+      "viewabilityRate": 88.1578947368421
+    },
+    {
+      "name": "hojemais.com.br",
+      "impressions": 141,
+      "clicks": 0,
+      "viewable": 106,
+      "eligible": 141,
+      "ctr": 0,
+      "viewabilityRate": 75.177304964539
+    },
+    {
+      "name": "ecoserrano.com.br",
+      "impressions": 133,
+      "clicks": 0,
+      "viewable": 100,
+      "eligible": 133,
+      "ctr": 0,
+      "viewabilityRate": 75.18796992481202
+    },
+    {
+      "name": "saopauloparacriancas.com.br",
+      "impressions": 133,
+      "clicks": 0,
+      "viewable": 62,
+      "eligible": 133,
+      "ctr": 0,
+      "viewabilityRate": 46.616541353383454
+    },
+    {
+      "name": "ig.com.br",
+      "impressions": 128,
+      "clicks": 0,
+      "viewable": 73,
+      "eligible": 128,
+      "ctr": 0,
+      "viewabilityRate": 57.03125
+    },
+    {
+      "name": "agazetanews.com.br",
+      "impressions": 127,
+      "clicks": 0,
+      "viewable": 104,
+      "eligible": 127,
+      "ctr": 0,
+      "viewabilityRate": 81.88976377952756
+    },
+    {
+      "name": "tribunapr.com.br",
+      "impressions": 120,
+      "clicks": 0,
+      "viewable": 74,
+      "eligible": 120,
+      "ctr": 0,
+      "viewabilityRate": 61.66666666666667
+    },
+    {
+      "name": "alphafm.com.br",
+      "impressions": 118,
+      "clicks": 0,
+      "viewable": 111,
+      "eligible": 118,
+      "ctr": 0,
+      "viewabilityRate": 94.0677966101695
+    },
+    {
+      "name": "tribunasf.com.br",
+      "impressions": 116,
+      "clicks": 0,
+      "viewable": 78,
+      "eligible": 116,
+      "ctr": 0,
+      "viewabilityRate": 67.24137931034483
+    },
+    {
+      "name": "patrocinioonline.com.br",
+      "impressions": 112,
+      "clicks": 0,
+      "viewable": 100,
+      "eligible": 112,
+      "ctr": 0,
+      "viewabilityRate": 89.28571428571429
+    },
+    {
+      "name": "eusemfronteiras.com.br",
+      "impressions": 106,
+      "clicks": 0,
+      "viewable": 79,
+      "eligible": 106,
+      "ctr": 0,
+      "viewabilityRate": 74.52830188679245
+    },
+    {
+      "name": "passandoaregua.com.br",
+      "impressions": 106,
+      "clicks": 0,
+      "viewable": 90,
+      "eligible": 106,
+      "ctr": 0,
+      "viewabilityRate": 84.90566037735849
+    },
+    {
+      "name": "autossegredos.com.br",
+      "impressions": 103,
+      "clicks": 0,
+      "viewable": 67,
+      "eligible": 103,
+      "ctr": 0,
+      "viewabilityRate": 65.0485436893204
+    },
+    {
+      "name": "afnoticias.com.br",
+      "impressions": 100,
+      "clicks": 0,
+      "viewable": 80,
+      "eligible": 100,
       "ctr": 0,
       "viewabilityRate": 80
     },
     {
-      "name": "dicionariodesimbolos.com.br",
-      "impressions": 1379,
+      "name": "moneytimes.com.br",
+      "impressions": 95,
       "clicks": 0,
-      "viewable": 1269,
-      "eligible": 1379,
-      "ctr": 0,
-      "viewabilityRate": 92.02320522117476
-    },
-    {
-      "name": "bnews.com.br",
-      "impressions": 1342,
-      "clicks": 0,
-      "viewable": 1025,
-      "eligible": 1342,
-      "ctr": 0,
-      "viewabilityRate": 76.3785394932936
-    },
-    {
-      "name": "radiocidadesa.com.br",
-      "impressions": 1325,
-      "clicks": 1,
-      "viewable": 1050,
-      "eligible": 1325,
-      "ctr": 0.07547169811320754,
-      "viewabilityRate": 79.24528301886792
-    },
-    {
-      "name": "aereo.jor.br",
-      "impressions": 1274,
-      "clicks": 0,
-      "viewable": 817,
-      "eligible": 1274,
-      "ctr": 0,
-      "viewabilityRate": 64.1287284144427
-    },
-    {
-      "name": "radiorock.com.br",
-      "impressions": 1130,
-      "clicks": 0,
-      "viewable": 1042,
-      "eligible": 1130,
-      "ctr": 0,
-      "viewabilityRate": 92.21238938053096
-    },
-    {
-      "name": "horoscopovirtual.com.br",
-      "impressions": 1076,
-      "clicks": 0,
-      "viewable": 886,
-      "eligible": 1076,
-      "ctr": 0,
-      "viewabilityRate": 82.34200743494424
-    },
-    {
-      "name": "gaz.com.br",
-      "impressions": 1069,
-      "clicks": 0,
-      "viewable": 829,
-      "eligible": 1069,
-      "ctr": 0,
-      "viewabilityRate": 77.5491113189897
-    },
-    {
-      "name": "agazeta.com.br",
-      "impressions": 1062,
-      "clicks": 0,
-      "viewable": 806,
-      "eligible": 1062,
-      "ctr": 0,
-      "viewabilityRate": 75.89453860640302
-    },
-    {
-      "name": "olimpiadatododia.com.br",
-      "impressions": 1045,
-      "clicks": 0,
-      "viewable": 624,
-      "eligible": 1045,
-      "ctr": 0,
-      "viewabilityRate": 59.71291866028709
-    },
-    {
-      "name": "tribunademinas.com.br",
-      "impressions": 1043,
-      "clicks": 0,
-      "viewable": 793,
-      "eligible": 1043,
-      "ctr": 0,
-      "viewabilityRate": 76.0306807286673
-    },
-    {
-      "name": "omunicipio.com.br",
-      "impressions": 1034,
-      "clicks": 0,
-      "viewable": 808,
-      "eligible": 1034,
-      "ctr": 0,
-      "viewabilityRate": 78.14313346228239
-    },
-    {
-      "name": "legenda.com.br",
-      "impressions": 996,
-      "clicks": 0,
-      "viewable": 820,
-      "eligible": 996,
-      "ctr": 0,
-      "viewabilityRate": 82.32931726907631
-    },
-    {
-      "name": "bonde.com.br",
-      "impressions": 979,
-      "clicks": 4,
-      "viewable": 805,
-      "eligible": 979,
-      "ctr": 0.40858018386108275,
-      "viewabilityRate": 82.2267620020429
-    },
-    {
-      "name": "historiadomundo.com.br",
-      "impressions": 976,
-      "clicks": 0,
-      "viewable": 880,
-      "eligible": 976,
-      "ctr": 0,
-      "viewabilityRate": 90.1639344262295
-    },
-    {
-      "name": "novaescola.org.br",
-      "impressions": 974,
-      "clicks": 0,
-      "viewable": 803,
-      "eligible": 974,
-      "ctr": 0,
-      "viewabilityRate": 82.4435318275154
-    },
-    {
-      "name": "xataka.com.br",
-      "impressions": 966,
-      "clicks": 0,
-      "viewable": 810,
-      "eligible": 966,
-      "ctr": 0,
-      "viewabilityRate": 83.85093167701864
-    },
-    {
-      "name": "minhaconexao.com.br",
-      "impressions": 914,
-      "clicks": 0,
-      "viewable": 821,
-      "eligible": 914,
-      "ctr": 0,
-      "viewabilityRate": 89.82494529540482
-    },
-    {
-      "name": "jmais.com.br",
-      "impressions": 875,
-      "clicks": 0,
-      "viewable": 659,
-      "eligible": 875,
-      "ctr": 0,
-      "viewabilityRate": 75.31428571428572
-    },
-    {
-      "name": "guiadacozinha.com.br",
-      "impressions": 850,
-      "clicks": 0,
-      "viewable": 618,
-      "eligible": 850,
-      "ctr": 0,
-      "viewabilityRate": 72.70588235294117
-    },
-    {
-      "name": "baccinoticias.com.br",
-      "impressions": 847,
-      "clicks": 0,
-      "viewable": 745,
-      "eligible": 847,
-      "ctr": 0,
-      "viewabilityRate": 87.95749704840614
-    },
-    {
-      "name": "leouve.com.br",
-      "impressions": 799,
-      "clicks": 3,
-      "viewable": 564,
-      "eligible": 799,
-      "ctr": 0.37546933667083854,
-      "viewabilityRate": 70.58823529411765
-    },
-    {
-      "name": "educador.com.br",
-      "impressions": 792,
-      "clicks": 0,
-      "viewable": 512,
-      "eligible": 792,
-      "ctr": 0,
-      "viewabilityRate": 64.64646464646465
-    },
-    {
-      "name": "downdetector.com.br",
-      "impressions": 781,
-      "clicks": 0,
-      "viewable": 582,
-      "eligible": 781,
-      "ctr": 0,
-      "viewabilityRate": 74.51984635083227
-    },
-    {
-      "name": "simuladododetran.net.br",
-      "impressions": 779,
-      "clicks": 0,
-      "viewable": 696,
-      "eligible": 779,
-      "ctr": 0,
-      "viewabilityRate": 89.34531450577664
-    },
-    {
-      "name": "vvale.com.br",
-      "impressions": 779,
-      "clicks": 0,
-      "viewable": 639,
-      "eligible": 779,
-      "ctr": 0,
-      "viewabilityRate": 82.02824133504492
-    },
-    {
-      "name": "portugues.com.br",
-      "impressions": 769,
-      "clicks": 0,
-      "viewable": 705,
-      "eligible": 769,
-      "ctr": 0,
-      "viewabilityRate": 91.67750325097529
-    },
-    {
-      "name": "liberal.com.br",
-      "impressions": 767,
-      "clicks": 2,
-      "viewable": 503,
-      "eligible": 767,
-      "ctr": 0.2607561929595828,
-      "viewabilityRate": 65.58018252933508
-    },
-    {
-      "name": "seminovos.com.br",
-      "impressions": 767,
-      "clicks": 0,
-      "viewable": 639,
-      "eligible": 767,
-      "ctr": 0,
-      "viewabilityRate": 83.31160365058669
-    },
-    {
-      "name": "acordacidade.com.br",
-      "impressions": 746,
-      "clicks": 1,
-      "viewable": 564,
-      "eligible": 746,
-      "ctr": 0.13404825737265416,
-      "viewabilityRate": 75.60321715817693
-    },
-    {
-      "name": "techtudo.com.br",
-      "impressions": 734,
-      "clicks": 0,
-      "viewable": 432,
-      "eligible": 734,
-      "ctr": 0,
-      "viewabilityRate": 58.855585831062676
-    },
-    {
-      "name": "vgnoticias.com.br",
-      "impressions": 669,
-      "clicks": 0,
-      "viewable": 528,
-      "eligible": 669,
-      "ctr": 0,
-      "viewabilityRate": 78.9237668161435
-    },
-    {
-      "name": "autoo.com.br",
-      "impressions": 643,
-      "clicks": 0,
-      "viewable": 565,
-      "eligible": 643,
-      "ctr": 0,
-      "viewabilityRate": 87.86936236391914
-    },
-    {
-      "name": "maisnovela.com.br",
-      "impressions": 636,
-      "clicks": 0,
-      "viewable": 392,
-      "eligible": 636,
-      "ctr": 0,
-      "viewabilityRate": 61.63522012578616
-    },
-    {
-      "name": "tnh1.com.br",
-      "impressions": 624,
-      "clicks": 0,
-      "viewable": 420,
-      "eligible": 624,
-      "ctr": 0,
-      "viewabilityRate": 67.3076923076923
-    },
-    {
-      "name": "agazetaempregosul.com.br",
-      "impressions": 607,
-      "clicks": 0,
-      "viewable": 396,
-      "eligible": 607,
-      "ctr": 0,
-      "viewabilityRate": 65.23887973640856
-    },
-    {
-      "name": "acheconcursos.com.br",
-      "impressions": 604,
-      "clicks": 0,
-      "viewable": 509,
-      "eligible": 604,
-      "ctr": 0,
-      "viewabilityRate": 84.27152317880795
-    },
-    {
-      "name": "tribunaonline.com.br",
-      "impressions": 602,
-      "clicks": 0,
-      "viewable": 495,
-      "eligible": 602,
-      "ctr": 0,
-      "viewabilityRate": 82.22591362126246
-    },
-    {
-      "name": "diariodoaco.com.br",
-      "impressions": 600,
-      "clicks": 0,
-      "viewable": 488,
-      "eligible": 600,
-      "ctr": 0,
-      "viewabilityRate": 81.33333333333333
-    },
-    {
-      "name": "oimparcial.com.br",
-      "impressions": 589,
-      "clicks": 0,
-      "viewable": 342,
-      "eligible": 589,
-      "ctr": 0,
-      "viewabilityRate": 58.06451612903226
-    },
-    {
-      "name": "panelinha.com.br",
-      "impressions": 572,
-      "clicks": 0,
-      "viewable": 357,
-      "eligible": 572,
-      "ctr": 0,
-      "viewabilityRate": 62.41258741258741
-    },
-    {
-      "name": "tvpop.com.br",
-      "impressions": 572,
-      "clicks": 0,
-      "viewable": 482,
-      "eligible": 572,
-      "ctr": 0,
-      "viewabilityRate": 84.26573426573427
-    },
-    {
-      "name": "devtools.com.br",
-      "impressions": 564,
-      "clicks": 0,
-      "viewable": 442,
-      "eligible": 564,
-      "ctr": 0,
-      "viewabilityRate": 78.36879432624113
-    },
-    {
-      "name": "netlusa.com.br",
-      "impressions": 550,
-      "clicks": 0,
-      "viewable": 441,
-      "eligible": 550,
-      "ctr": 0,
-      "viewabilityRate": 80.18181818181817
-    },
-    {
-      "name": "diariodopara.com.br",
-      "impressions": 541,
-      "clicks": 0,
-      "viewable": 435,
-      "eligible": 541,
-      "ctr": 0,
-      "viewabilityRate": 80.40665434380776
-    },
-    {
-      "name": "revistaforum.com.br",
-      "impressions": 515,
-      "clicks": 0,
-      "viewable": 383,
-      "eligible": 515,
-      "ctr": 0,
-      "viewabilityRate": 74.36893203883496
-    },
-    {
-      "name": "infonet.com.br",
-      "impressions": 512,
-      "clicks": 0,
-      "viewable": 454,
-      "eligible": 512,
-      "ctr": 0,
-      "viewabilityRate": 88.671875
-    },
-    {
-      "name": "novabrasilfm.com.br",
-      "impressions": 493,
-      "clicks": 2,
-      "viewable": 384,
-      "eligible": 493,
-      "ctr": 0.4056795131845842,
-      "viewabilityRate": 77.89046653144015
-    },
-    {
-      "name": "airway.com.br",
-      "impressions": 492,
-      "clicks": 0,
-      "viewable": 397,
-      "eligible": 492,
-      "ctr": 0,
-      "viewabilityRate": 80.6910569105691
-    },
-    {
-      "name": "diariodopeixe.com.br",
-      "impressions": 487,
-      "clicks": 0,
-      "viewable": 234,
-      "eligible": 487,
-      "ctr": 0,
-      "viewabilityRate": 48.04928131416838
-    },
-    {
-      "name": "mundoboaforma.com.br",
-      "impressions": 475,
-      "clicks": 0,
-      "viewable": 398,
-      "eligible": 475,
-      "ctr": 0,
-      "viewabilityRate": 83.78947368421052
-    },
-    {
-      "name": "antenadosnofutebol.com.br",
-      "impressions": 465,
-      "clicks": 0,
-      "viewable": 369,
-      "eligible": 465,
-      "ctr": 0,
-      "viewabilityRate": 79.35483870967742
-    },
-    {
-      "name": "minhavida.com.br",
-      "impressions": 464,
-      "clicks": 0,
-      "viewable": 349,
-      "eligible": 464,
-      "ctr": 0,
-      "viewabilityRate": 75.21551724137932
-    },
-    {
-      "name": "cadaminuto.com.br",
-      "impressions": 461,
-      "clicks": 0,
-      "viewable": 380,
-      "eligible": 461,
-      "ctr": 0,
-      "viewabilityRate": 82.4295010845987
-    },
-    {
-      "name": "ouvirmusica.com.br",
-      "impressions": 442,
-      "clicks": 0,
-      "viewable": 360,
-      "eligible": 442,
-      "ctr": 0,
-      "viewabilityRate": 81.44796380090497
-    },
-    {
-      "name": "midianews.com.br",
-      "impressions": 439,
-      "clicks": 0,
-      "viewable": 393,
-      "eligible": 439,
-      "ctr": 0,
-      "viewabilityRate": 89.52164009111617
-    },
-    {
-      "name": "hojeemdia.com.br",
-      "impressions": 433,
-      "clicks": 0,
-      "viewable": 331,
-      "eligible": 433,
-      "ctr": 0,
-      "viewabilityRate": 76.44341801385681
-    },
-    {
-      "name": "ppnewsfb.com.br",
-      "impressions": 433,
-      "clicks": 0,
-      "viewable": 266,
-      "eligible": 433,
-      "ctr": 0,
-      "viewabilityRate": 61.43187066974596
-    },
-    {
-      "name": "trespassosnews.com.br",
-      "impressions": 429,
-      "clicks": 0,
-      "viewable": 320,
-      "eligible": 429,
-      "ctr": 0,
-      "viewabilityRate": 74.5920745920746
-    },
-    {
-      "name": "ogol.com.br",
-      "impressions": 408,
-      "clicks": 0,
-      "viewable": 308,
-      "eligible": 408,
-      "ctr": 0,
-      "viewabilityRate": 75.49019607843137
-    },
-    {
-      "name": "igormiranda.com.br",
-      "impressions": 393,
-      "clicks": 0,
-      "viewable": 259,
-      "eligible": 393,
-      "ctr": 0,
-      "viewabilityRate": 65.9033078880407
-    },
-    {
-      "name": "oficinadanet.com.br",
-      "impressions": 384,
-      "clicks": 0,
-      "viewable": 350,
-      "eligible": 384,
-      "ctr": 0,
-      "viewabilityRate": 91.14583333333334
-    },
-    {
-      "name": "giromarilia.com.br",
-      "impressions": 380,
-      "clicks": 0,
-      "viewable": 284,
-      "eligible": 380,
+      "viewable": 71,
+      "eligible": 95,
       "ctr": 0,
       "viewabilityRate": 74.73684210526315
     },
     {
-      "name": "wikiaves.com.br",
-      "impressions": 376,
-      "clicks": 1,
-      "viewable": 313,
-      "eligible": 376,
-      "ctr": 0.26595744680851063,
-      "viewabilityRate": 83.24468085106383
-    },
-    {
-      "name": "pipocamoderna.com.br",
-      "impressions": 349,
+      "name": "informacidade.com.br",
+      "impressions": 91,
       "clicks": 0,
-      "viewable": 276,
-      "eligible": 349,
+      "viewable": 66,
+      "eligible": 91,
       "ctr": 0,
-      "viewabilityRate": 79.08309455587393
-    },
-    {
-      "name": "gcmais.com.br",
-      "impressions": 344,
-      "clicks": 0,
-      "viewable": 263,
-      "eligible": 344,
-      "ctr": 0,
-      "viewabilityRate": 76.45348837209302
-    },
-    {
-      "name": "gartic.com.br",
-      "impressions": 339,
-      "clicks": 0,
-      "viewable": 241,
-      "eligible": 339,
-      "ctr": 0,
-      "viewabilityRate": 71.09144542772862
-    },
-    {
-      "name": "tribunadepetropolis.com.br",
-      "impressions": 331,
-      "clicks": 0,
-      "viewable": 255,
-      "eligible": 331,
-      "ctr": 0,
-      "viewabilityRate": 77.0392749244713
-    },
-    {
-      "name": "tribunadejundiai.com.br",
-      "impressions": 330,
-      "clicks": 0,
-      "viewable": 245,
-      "eligible": 330,
-      "ctr": 0,
-      "viewabilityRate": 74.24242424242425
-    },
-    {
-      "name": "itajaionline.com.br",
-      "impressions": 320,
-      "clicks": 0,
-      "viewable": 256,
-      "eligible": 320,
-      "ctr": 0,
-      "viewabilityRate": 80
-    },
-    {
-      "name": "webvolei.com.br",
-      "impressions": 298,
-      "clicks": 0,
-      "viewable": 216,
-      "eligible": 298,
-      "ctr": 0,
-      "viewabilityRate": 72.48322147651007
-    },
-    {
-      "name": "novanews.com.br",
-      "impressions": 275,
-      "clicks": 0,
-      "viewable": 201,
-      "eligible": 275,
-      "ctr": 0,
-      "viewabilityRate": 73.0909090909091
-    },
-    {
-      "name": "jornaldelavras.com.br",
-      "impressions": 271,
-      "clicks": 0,
-      "viewable": 230,
-      "eligible": 271,
-      "ctr": 0,
-      "viewabilityRate": 84.87084870848709
-    },
-    {
-      "name": "tvgazeta.com.br",
-      "impressions": 262,
-      "clicks": 0,
-      "viewable": 237,
-      "eligible": 262,
-      "ctr": 0,
-      "viewabilityRate": 90.45801526717557
-    },
-    {
-      "name": "poa24horas.com.br",
-      "impressions": 247,
-      "clicks": 0,
-      "viewable": 168,
-      "eligible": 247,
-      "ctr": 0,
-      "viewabilityRate": 68.0161943319838
-    },
-    {
-      "name": "atitudeevisao.com.br",
-      "impressions": 245,
-      "clicks": 0,
-      "viewable": 112,
-      "eligible": 245,
-      "ctr": 0,
-      "viewabilityRate": 45.714285714285715
-    },
-    {
-      "name": "carnavalesco.com.br",
-      "impressions": 230,
-      "clicks": 1,
-      "viewable": 164,
-      "eligible": 230,
-      "ctr": 0.43478260869565216,
-      "viewabilityRate": 71.30434782608695
-    },
-    {
-      "name": "extraderondonia.com.br",
-      "impressions": 226,
-      "clicks": 0,
-      "viewable": 197,
-      "eligible": 226,
-      "ctr": 0,
-      "viewabilityRate": 87.16814159292035
-    },
-    {
-      "name": "zappeando.com.br",
-      "impressions": 226,
-      "clicks": 1,
-      "viewable": 92,
-      "eligible": 226,
-      "ctr": 0.4424778761061947,
-      "viewabilityRate": 40.707964601769916
-    },
-    {
-      "name": "segundoasegundo.com.br",
-      "impressions": 215,
-      "clicks": 0,
-      "viewable": 141,
-      "eligible": 215,
-      "ctr": 0,
-      "viewabilityRate": 65.58139534883722
-    },
-    {
-      "name": "atarde.com.br",
-      "impressions": 211,
-      "clicks": 0,
-      "viewable": 139,
-      "eligible": 211,
-      "ctr": 0,
-      "viewabilityRate": 65.87677725118483
-    },
-    {
-      "name": "diariodoamapa.com.br",
-      "impressions": 207,
-      "clicks": 0,
-      "viewable": 141,
-      "eligible": 207,
-      "ctr": 0,
-      "viewabilityRate": 68.11594202898551
-    },
-    {
-      "name": "netfla.com.br",
-      "impressions": 205,
-      "clicks": 0,
-      "viewable": 112,
-      "eligible": 205,
-      "ctr": 0,
-      "viewabilityRate": 54.63414634146342
-    },
-    {
-      "name": "rdnews.com.br",
-      "impressions": 202,
-      "clicks": 0,
-      "viewable": 132,
-      "eligible": 202,
-      "ctr": 0,
-      "viewabilityRate": 65.34653465346535
-    },
-    {
-      "name": "patoshoje.com.br",
-      "impressions": 199,
-      "clicks": 0,
-      "viewable": 177,
-      "eligible": 199,
-      "ctr": 0,
-      "viewabilityRate": 88.94472361809045
-    },
-    {
-      "name": "istoe.com.br",
-      "impressions": 190,
-      "clicks": 0,
-      "viewable": 111,
-      "eligible": 190,
-      "ctr": 0,
-      "viewabilityRate": 58.42105263157895
-    },
-    {
-      "name": "vrum.com.br",
-      "impressions": 182,
-      "clicks": 0,
-      "viewable": 139,
-      "eligible": 182,
-      "ctr": 0,
-      "viewabilityRate": 76.37362637362637
-    },
-    {
-      "name": "ecoserrano.com.br",
-      "impressions": 176,
-      "clicks": 0,
-      "viewable": 116,
-      "eligible": 176,
-      "ctr": 0,
-      "viewabilityRate": 65.9090909090909
-    },
-    {
-      "name": "agazetanews.com.br",
-      "impressions": 170,
-      "clicks": 0,
-      "viewable": 130,
-      "eligible": 170,
-      "ctr": 0,
-      "viewabilityRate": 76.47058823529412
-    },
-    {
-      "name": "moneytimes.com.br",
-      "impressions": 156,
-      "clicks": 0,
-      "viewable": 111,
-      "eligible": 156,
-      "ctr": 0,
-      "viewabilityRate": 71.15384615384616
-    },
-    {
-      "name": "gazetainterior.com.br",
-      "impressions": 152,
-      "clicks": 0,
-      "viewable": 123,
-      "eligible": 152,
-      "ctr": 0,
-      "viewabilityRate": 80.92105263157895
-    },
-    {
-      "name": "ig.com.br",
-      "impressions": 151,
-      "clicks": 0,
-      "viewable": 82,
-      "eligible": 151,
-      "ctr": 0,
-      "viewabilityRate": 54.3046357615894
-    },
-    {
-      "name": "autossegredos.com.br",
-      "impressions": 146,
-      "clicks": 0,
-      "viewable": 93,
-      "eligible": 146,
-      "ctr": 0,
-      "viewabilityRate": 63.6986301369863
-    },
-    {
-      "name": "exempl.com.br",
-      "impressions": 146,
-      "clicks": 0,
-      "viewable": 128,
-      "eligible": 146,
-      "ctr": 0,
-      "viewabilityRate": 87.67123287671232
-    },
-    {
-      "name": "patrocinioonline.com.br",
-      "impressions": 145,
-      "clicks": 0,
-      "viewable": 128,
-      "eligible": 145,
-      "ctr": 0,
-      "viewabilityRate": 88.27586206896552
-    },
-    {
-      "name": "hojemais.com.br",
-      "impressions": 142,
-      "clicks": 0,
-      "viewable": 108,
-      "eligible": 142,
-      "ctr": 0,
-      "viewabilityRate": 76.05633802816901
-    },
-    {
-      "name": "jmonline.com.br",
-      "impressions": 140,
-      "clicks": 0,
-      "viewable": 120,
-      "eligible": 140,
-      "ctr": 0,
-      "viewabilityRate": 85.71428571428571
-    },
-    {
-      "name": "calendario2018brasil.com.br",
-      "impressions": 136,
-      "clicks": 0,
-      "viewable": 114,
-      "eligible": 136,
-      "ctr": 0,
-      "viewabilityRate": 83.82352941176471
-    },
-    {
-      "name": "tribunapr.com.br",
-      "impressions": 128,
-      "clicks": 0,
-      "viewable": 79,
-      "eligible": 128,
-      "ctr": 0,
-      "viewabilityRate": 61.71875
-    },
-    {
-      "name": "saopauloparacriancas.com.br",
-      "impressions": 123,
-      "clicks": 0,
-      "viewable": 58,
-      "eligible": 123,
-      "ctr": 0,
-      "viewabilityRate": 47.15447154471545
-    },
-    {
-      "name": "tribunasf.com.br",
-      "impressions": 121,
-      "clicks": 0,
-      "viewable": 80,
-      "eligible": 121,
-      "ctr": 0,
-      "viewabilityRate": 66.11570247933885
+      "viewabilityRate": 72.52747252747253
     },
     {
       "name": "olhardireto.com.br",
-      "impressions": 120,
+      "impressions": 90,
       "clicks": 0,
-      "viewable": 76,
-      "eligible": 120,
+      "viewable": 57,
+      "eligible": 90,
       "ctr": 0,
       "viewabilityRate": 63.33333333333333
     },
     {
-      "name": "alphafm.com.br",
-      "impressions": 119,
-      "clicks": 0,
-      "viewable": 112,
-      "eligible": 119,
-      "ctr": 0,
-      "viewabilityRate": 94.11764705882352
-    },
-    {
-      "name": "votunews.com.br",
-      "impressions": 117,
-      "clicks": 0,
-      "viewable": 96,
-      "eligible": 117,
-      "ctr": 0,
-      "viewabilityRate": 82.05128205128204
-    },
-    {
-      "name": "receitasdepesos.com.br",
-      "impressions": 115,
-      "clicks": 0,
-      "viewable": 81,
-      "eligible": 115,
-      "ctr": 0,
-      "viewabilityRate": 70.43478260869566
-    },
-    {
-      "name": "passandoaregua.com.br",
-      "impressions": 108,
-      "clicks": 0,
-      "viewable": 90,
-      "eligible": 108,
-      "ctr": 0,
-      "viewabilityRate": 83.33333333333334
-    },
-    {
-      "name": "eusemfronteiras.com.br",
-      "impressions": 102,
-      "clicks": 0,
-      "viewable": 73,
-      "eligible": 102,
-      "ctr": 0,
-      "viewabilityRate": 71.56862745098039
-    },
-    {
-      "name": "campos24horas.com.br",
-      "impressions": 100,
-      "clicks": 0,
-      "viewable": 81,
-      "eligible": 100,
-      "ctr": 0,
-      "viewabilityRate": 81
-    },
-    {
       "name": "pordentrodetudo.com.br",
-      "impressions": 100,
+      "impressions": 77,
       "clicks": 0,
-      "viewable": 64,
-      "eligible": 100,
+      "viewable": 55,
+      "eligible": 77,
       "ctr": 0,
-      "viewabilityRate": 64
-    },
-    {
-      "name": "belosf7.com.br",
-      "impressions": 92,
-      "clicks": 0,
-      "viewable": 70,
-      "eligible": 92,
-      "ctr": 0,
-      "viewabilityRate": 76.08695652173914
-    },
-    {
-      "name": "saocarlosemrede.com.br",
-      "impressions": 90,
-      "clicks": 0,
-      "viewable": 65,
-      "eligible": 90,
-      "ctr": 0,
-      "viewabilityRate": 72.22222222222221
-    },
-    {
-      "name": "informacidade.com.br",
-      "impressions": 88,
-      "clicks": 0,
-      "viewable": 61,
-      "eligible": 88,
-      "ctr": 0,
-      "viewabilityRate": 69.31818181818183
-    },
-    {
-      "name": "afnoticias.com.br",
-      "impressions": 83,
-      "clicks": 0,
-      "viewable": 70,
-      "eligible": 83,
-      "ctr": 0,
-      "viewabilityRate": 84.33734939759037
+      "viewabilityRate": 71.42857142857143
     },
     {
       "name": "folhadecampolargo.com.br",
-      "impressions": 75,
+      "impressions": 76,
       "clicks": 0,
-      "viewable": 57,
-      "eligible": 75,
+      "viewable": 60,
+      "eligible": 76,
       "ctr": 0,
-      "viewabilityRate": 76
+      "viewabilityRate": 78.94736842105263
     },
     {
       "name": "polemicaparaiba.com.br",
-      "impressions": 66,
+      "impressions": 67,
       "clicks": 0,
-      "viewable": 50,
-      "eligible": 66,
+      "viewable": 51,
+      "eligible": 67,
       "ctr": 0,
-      "viewabilityRate": 75.75757575757575
+      "viewabilityRate": 76.11940298507463
     },
     {
-      "name": "radioviva.com.br",
-      "impressions": 66,
-      "clicks": 0,
-      "viewable": 47,
-      "eligible": 66,
-      "ctr": 0,
-      "viewabilityRate": 71.21212121212122
-    },
-    {
-      "name": "litoralnarede.com.br",
-      "impressions": 63,
-      "clicks": 1,
-      "viewable": 43,
-      "eligible": 63,
-      "ctr": 1.5873015873015872,
-      "viewabilityRate": 68.25396825396825
-    },
-    {
-      "name": "varginhaonline.com.br",
-      "impressions": 62,
-      "clicks": 0,
-      "viewable": 41,
-      "eligible": 62,
-      "ctr": 0,
-      "viewabilityRate": 66.12903225806451
-    },
-    {
-      "name": "proteste.org.br",
+      "name": "saocarlosemrede.com.br",
       "impressions": 61,
       "clicks": 0,
-      "viewable": 49,
+      "viewable": 51,
       "eligible": 61,
       "ctr": 0,
-      "viewabilityRate": 80.32786885245902
+      "viewabilityRate": 83.60655737704919
+    },
+    {
+      "name": "belosf7.com.br",
+      "impressions": 60,
+      "clicks": 0,
+      "viewable": 52,
+      "eligible": 60,
+      "ctr": 0,
+      "viewabilityRate": 86.66666666666667
+    },
+    {
+      "name": "campos24horas.com.br",
+      "impressions": 60,
+      "clicks": 0,
+      "viewable": 49,
+      "eligible": 60,
+      "ctr": 0,
+      "viewabilityRate": 81.66666666666667
+    },
+    {
+      "name": "receitasdepesos.com.br",
+      "impressions": 59,
+      "clicks": 0,
+      "viewable": 36,
+      "eligible": 59,
+      "ctr": 0,
+      "viewabilityRate": 61.016949152542374
     },
     {
       "name": "opopular.com.br",
-      "impressions": 60,
-      "clicks": 0,
-      "viewable": 36,
-      "eligible": 60,
-      "ctr": 0,
-      "viewabilityRate": 60
-    },
-    {
-      "name": "autopapo.com.br",
-      "impressions": 57,
+      "impressions": 58,
       "clicks": 0,
       "viewable": 34,
-      "eligible": 57,
+      "eligible": 58,
       "ctr": 0,
-      "viewabilityRate": 59.64912280701754
-    },
-    {
-      "name": "jandaiaonline.com.br",
-      "impressions": 55,
-      "clicks": 0,
-      "viewable": 48,
-      "eligible": 55,
-      "ctr": 0,
-      "viewabilityRate": 87.27272727272727
-    },
-    {
-      "name": "saudeemdia.com.br",
-      "impressions": 54,
-      "clicks": 0,
-      "viewable": 32,
-      "eligible": 54,
-      "ctr": 0,
-      "viewabilityRate": 59.25925925925925
-    },
-    {
-      "name": "olharjuridico.com.br",
-      "impressions": 51,
-      "clicks": 0,
-      "viewable": 40,
-      "eligible": 51,
-      "ctr": 0,
-      "viewabilityRate": 78.43137254901961
-    },
-    {
-      "name": "serasaexperian.com.br",
-      "impressions": 49,
-      "clicks": 0,
-      "viewable": 41,
-      "eligible": 49,
-      "ctr": 0,
-      "viewabilityRate": 83.6734693877551
+      "viewabilityRate": 58.620689655172406
     },
     {
       "name": "ocorreio.com.br",
+      "impressions": 53,
+      "clicks": 0,
+      "viewable": 42,
+      "eligible": 53,
+      "ctr": 0,
+      "viewabilityRate": 79.24528301886792
+    },
+    {
+      "name": "autopapo.com.br",
+      "impressions": 51,
+      "clicks": 0,
+      "viewable": 29,
+      "eligible": 51,
+      "ctr": 0,
+      "viewabilityRate": 56.86274509803921
+    },
+    {
+      "name": "proteste.org.br",
+      "impressions": 51,
+      "clicks": 0,
+      "viewable": 42,
+      "eligible": 51,
+      "ctr": 0,
+      "viewabilityRate": 82.35294117647058
+    },
+    {
+      "name": "zappeando.com.br",
+      "impressions": 50,
+      "clicks": 0,
+      "viewable": 26,
+      "eligible": 50,
+      "ctr": 0,
+      "viewabilityRate": 52
+    },
+    {
+      "name": "olharjuridico.com.br",
+      "impressions": 49,
+      "clicks": 0,
+      "viewable": 40,
+      "eligible": 49,
+      "ctr": 0,
+      "viewabilityRate": 81.63265306122449
+    },
+    {
+      "name": "jandaiaonline.com.br",
       "impressions": 47,
       "clicks": 0,
-      "viewable": 31,
+      "viewable": 43,
       "eligible": 47,
       "ctr": 0,
-      "viewabilityRate": 65.95744680851064
+      "viewabilityRate": 91.48936170212765
     },
     {
       "name": "gazetadocerrado.com.br",
-      "impressions": 44,
+      "impressions": 45,
       "clicks": 0,
-      "viewable": 37,
-      "eligible": 44,
+      "viewable": 38,
+      "eligible": 45,
       "ctr": 0,
-      "viewabilityRate": 84.0909090909091
+      "viewabilityRate": 84.44444444444444
     },
     {
-      "name": "remessaonline.com.br",
-      "impressions": 43,
+      "name": "receiteria.com.br",
+      "impressions": 44,
       "clicks": 0,
-      "viewable": 32,
-      "eligible": 43,
+      "viewable": 35,
+      "eligible": 44,
       "ctr": 0,
-      "viewabilityRate": 74.4186046511628
+      "viewabilityRate": 79.54545454545455
     },
     {
       "name": "abcdoabc.com.br",
@@ -2379,103 +2316,130 @@
       "viewabilityRate": 92.85714285714286
     },
     {
-      "name": "receiteria.com.br",
-      "impressions": 41,
+      "name": "jmonline.com.br",
+      "impressions": 42,
       "clicks": 0,
-      "viewable": 31,
-      "eligible": 41,
+      "viewable": 37,
+      "eligible": 42,
       "ctr": 0,
-      "viewabilityRate": 75.60975609756098
+      "viewabilityRate": 88.09523809523809
+    },
+    {
+      "name": "litoralnarede.com.br",
+      "impressions": 40,
+      "clicks": 1,
+      "viewable": 32,
+      "eligible": 40,
+      "ctr": 2.5,
+      "viewabilityRate": 80
+    },
+    {
+      "name": "varginhaonline.com.br",
+      "impressions": 40,
+      "clicks": 0,
+      "viewable": 29,
+      "eligible": 40,
+      "ctr": 0,
+      "viewabilityRate": 72.5
     },
     {
       "name": "gazetasp.com.br",
-      "impressions": 38,
+      "impressions": 37,
       "clicks": 0,
       "viewable": 8,
-      "eligible": 38,
+      "eligible": 37,
       "ctr": 0,
-      "viewabilityRate": 21.052631578947366
+      "viewabilityRate": 21.62162162162162
+    },
+    {
+      "name": "remessaonline.com.br",
+      "impressions": 37,
+      "clicks": 0,
+      "viewable": 28,
+      "eligible": 37,
+      "ctr": 0,
+      "viewabilityRate": 75.67567567567568
+    },
+    {
+      "name": "saudeemdia.com.br",
+      "impressions": 37,
+      "clicks": 0,
+      "viewable": 20,
+      "eligible": 37,
+      "ctr": 0,
+      "viewabilityRate": 54.054054054054056
     },
     {
       "name": "ecycle.com.br",
       "impressions": 36,
       "clicks": 0,
-      "viewable": 27,
+      "viewable": 30,
       "eligible": 36,
       "ctr": 0,
-      "viewabilityRate": 75
+      "viewabilityRate": 83.33333333333334
     },
     {
       "name": "istoedinheiro.com.br",
-      "impressions": 36,
+      "impressions": 35,
       "clicks": 0,
       "viewable": 21,
-      "eligible": 36,
+      "eligible": 35,
       "ctr": 0,
-      "viewabilityRate": 58.333333333333336
+      "viewabilityRate": 60
     },
     {
-      "name": "bei.net.br",
+      "name": "radioviva.com.br",
       "impressions": 34,
       "clicks": 0,
-      "viewable": 20,
+      "viewable": 34,
       "eligible": 34,
       "ctr": 0,
-      "viewabilityRate": 58.82352941176471
-    },
-    {
-      "name": "trionoticias.com.br",
-      "impressions": 30,
-      "clicks": 0,
-      "viewable": 19,
-      "eligible": 30,
-      "ctr": 0,
-      "viewabilityRate": 63.33333333333333
+      "viewabilityRate": 100
     },
     {
       "name": "ipmetradar.com.br",
-      "impressions": 29,
+      "impressions": 28,
       "clicks": 0,
       "viewable": 16,
-      "eligible": 29,
+      "eligible": 28,
       "ctr": 0,
-      "viewabilityRate": 55.172413793103445
+      "viewabilityRate": 57.14285714285714
     },
     {
-      "name": "focoregional.com.br",
-      "impressions": 25,
+      "name": "trionoticias.com.br",
+      "impressions": 28,
       "clicks": 0,
-      "viewable": 18,
-      "eligible": 25,
+      "viewable": 17,
+      "eligible": 28,
       "ctr": 0,
-      "viewabilityRate": 72
-    },
-    {
-      "name": "elimeira.com.br",
-      "impressions": 22,
-      "clicks": 0,
-      "viewable": 18,
-      "eligible": 22,
-      "ctr": 0,
-      "viewabilityRate": 81.81818181818183
+      "viewabilityRate": 60.71428571428571
     },
     {
       "name": "abril.com.br",
-      "impressions": 21,
+      "impressions": 27,
       "clicks": 0,
-      "viewable": 19,
-      "eligible": 21,
+      "viewable": 23,
+      "eligible": 27,
       "ctr": 0,
-      "viewabilityRate": 90.47619047619048
+      "viewabilityRate": 85.18518518518519
+    },
+    {
+      "name": "focoregional.com.br",
+      "impressions": 24,
+      "clicks": 0,
+      "viewable": 17,
+      "eligible": 24,
+      "ctr": 0,
+      "viewabilityRate": 70.83333333333334
     },
     {
       "name": "aratuon.com.br",
-      "impressions": 21,
+      "impressions": 22,
       "clicks": 0,
       "viewable": 13,
-      "eligible": 21,
+      "eligible": 22,
       "ctr": 0,
-      "viewabilityRate": 61.904761904761905
+      "viewabilityRate": 59.09090909090909
     },
     {
       "name": "bncamazonas.com.br",
@@ -2487,70 +2451,52 @@
       "viewabilityRate": 80
     },
     {
-      "name": "nossopalmeiras.com.br",
-      "impressions": 19,
-      "clicks": 0,
-      "viewable": 12,
-      "eligible": 19,
-      "ctr": 0,
-      "viewabilityRate": 63.1578947368421
-    },
-    {
-      "name": "oparana.com.br",
-      "impressions": 19,
+      "name": "elimeira.com.br",
+      "impressions": 20,
       "clicks": 0,
       "viewable": 16,
-      "eligible": 19,
+      "eligible": 20,
       "ctr": 0,
-      "viewabilityRate": 84.21052631578947
-    },
-    {
-      "name": "soutimao.com.br",
-      "impressions": 19,
-      "clicks": 0,
-      "viewable": 12,
-      "eligible": 19,
-      "ctr": 0,
-      "viewabilityRate": 63.1578947368421
+      "viewabilityRate": 80
     },
     {
       "name": "gp1.com.br",
-      "impressions": 18,
+      "impressions": 20,
       "clicks": 0,
-      "viewable": 16,
-      "eligible": 18,
+      "viewable": 18,
+      "eligible": 20,
       "ctr": 0,
-      "viewabilityRate": 88.88888888888889
+      "viewabilityRate": 90
     },
     {
-      "name": "portaldarmc.com.br",
-      "impressions": 18,
+      "name": "bei.net.br",
+      "impressions": 19,
       "clicks": 0,
-      "viewable": 7,
-      "eligible": 18,
+      "viewable": 15,
+      "eligible": 19,
       "ctr": 0,
-      "viewabilityRate": 38.88888888888889
-    },
-    {
-      "name": "avozdesantaquiteria.com.br",
-      "impressions": 17,
-      "clicks": 0,
-      "viewable": 12,
-      "eligible": 17,
-      "ctr": 0,
-      "viewabilityRate": 70.58823529411765
+      "viewabilityRate": 78.94736842105263
     },
     {
       "name": "r7.com",
-      "impressions": 16,
+      "impressions": 18,
       "clicks": 0,
-      "viewable": 12,
-      "eligible": 16,
+      "viewable": 14,
+      "eligible": 18,
       "ctr": 0,
-      "viewabilityRate": 75
+      "viewabilityRate": 77.77777777777779
     },
     {
-      "name": "serasaempreendedor.com.br",
+      "name": "surfguru.com.br",
+      "impressions": 18,
+      "clicks": 0,
+      "viewable": 10,
+      "eligible": 18,
+      "ctr": 0,
+      "viewabilityRate": 55.55555555555556
+    },
+    {
+      "name": "oparana.com.br",
       "impressions": 16,
       "clicks": 0,
       "viewable": 14,
@@ -2559,7 +2505,7 @@
       "viewabilityRate": 87.5
     },
     {
-      "name": "surfguru.com.br",
+      "name": "soutimao.com.br",
       "impressions": 16,
       "clicks": 0,
       "viewable": 10,
@@ -2568,31 +2514,22 @@
       "viewabilityRate": 62.5
     },
     {
-      "name": "revistacolorada.com.br",
+      "name": "nossopalmeiras.com.br",
       "impressions": 14,
       "clicks": 0,
-      "viewable": 9,
+      "viewable": 10,
       "eligible": 14,
       "ctr": 0,
-      "viewabilityRate": 64.28571428571429
+      "viewabilityRate": 71.42857142857143
     },
     {
       "name": "alojuca.com.br",
-      "impressions": 13,
-      "clicks": 0,
-      "viewable": 9,
-      "eligible": 13,
-      "ctr": 0,
-      "viewabilityRate": 69.23076923076923
-    },
-    {
-      "name": "gazetasbs.com.br",
       "impressions": 12,
       "clicks": 0,
-      "viewable": 6,
+      "viewable": 8,
       "eligible": 12,
       "ctr": 0,
-      "viewabilityRate": 50
+      "viewabilityRate": 66.66666666666666
     },
     {
       "name": "bhaz.com.br",
@@ -2607,19 +2544,55 @@
       "name": "365ofertas.com.br",
       "impressions": 10,
       "clicks": 0,
-      "viewable": 4,
+      "viewable": 5,
       "eligible": 10,
       "ctr": 0,
-      "viewabilityRate": 40
+      "viewabilityRate": 50
+    },
+    {
+      "name": "avozdesantaquiteria.com.br",
+      "impressions": 10,
+      "clicks": 0,
+      "viewable": 8,
+      "eligible": 10,
+      "ctr": 0,
+      "viewabilityRate": 80
+    },
+    {
+      "name": "portaldarmc.com.br",
+      "impressions": 10,
+      "clicks": 0,
+      "viewable": 7,
+      "eligible": 10,
+      "ctr": 0,
+      "viewabilityRate": 70
+    },
+    {
+      "name": "revistacolorada.com.br",
+      "impressions": 9,
+      "clicks": 0,
+      "viewable": 6,
+      "eligible": 9,
+      "ctr": 0,
+      "viewabilityRate": 66.66666666666666
+    },
+    {
+      "name": "gazetasbs.com.br",
+      "impressions": 8,
+      "clicks": 0,
+      "viewable": 4,
+      "eligible": 8,
+      "ctr": 0,
+      "viewabilityRate": 50
     },
     {
       "name": "revistaanamaria.com.br",
-      "impressions": 9,
+      "impressions": 8,
       "clicks": 0,
       "viewable": 2,
-      "eligible": 9,
+      "eligible": 8,
       "ctr": 0,
-      "viewabilityRate": 22.22222222222222
+      "viewabilityRate": 25
     },
     {
       "name": "desenhosecolorir.com.br",
@@ -2631,15 +2604,6 @@
       "viewabilityRate": 66.66666666666666
     },
     {
-      "name": "elle.com.br",
-      "impressions": 6,
-      "clicks": 0,
-      "viewable": 2,
-      "eligible": 6,
-      "ctr": 0,
-      "viewabilityRate": 33.33333333333333
-    },
-    {
       "name": "lineup.tv.br",
       "impressions": 6,
       "clicks": 0,
@@ -2647,15 +2611,6 @@
       "eligible": 6,
       "ctr": 0,
       "viewabilityRate": 83.33333333333334
-    },
-    {
-      "name": "blogdosena.com.br",
-      "impressions": 5,
-      "clicks": 0,
-      "viewable": 5,
-      "eligible": 5,
-      "ctr": 0,
-      "viewabilityRate": 100
     },
     {
       "name": "clickpb.com.br",
@@ -2685,31 +2640,13 @@
       "viewabilityRate": 50
     },
     {
-      "name": "diariodepernambuco.com.br",
-      "impressions": 4,
-      "clicks": 0,
-      "viewable": 3,
-      "eligible": 4,
-      "ctr": 0,
-      "viewabilityRate": 75
-    },
-    {
-      "name": "sbt.com.br",
-      "impressions": 4,
-      "clicks": 0,
-      "viewable": 4,
-      "eligible": 4,
-      "ctr": 0,
-      "viewabilityRate": 100
-    },
-    {
-      "name": "diariodaregiao.com.br",
+      "name": "blogdosena.com.br",
       "impressions": 3,
       "clicks": 0,
-      "viewable": 1,
+      "viewable": 3,
       "eligible": 3,
       "ctr": 0,
-      "viewabilityRate": 33.33333333333333
+      "viewabilityRate": 100
     },
     {
       "name": "diariodocomercio.com.br",
@@ -2717,6 +2654,33 @@
       "clicks": 0,
       "viewable": 3,
       "eligible": 3,
+      "ctr": 0,
+      "viewabilityRate": 100
+    },
+    {
+      "name": "sbt.com.br",
+      "impressions": 3,
+      "clicks": 0,
+      "viewable": 3,
+      "eligible": 3,
+      "ctr": 0,
+      "viewabilityRate": 100
+    },
+    {
+      "name": "diariodaregiao.com.br",
+      "impressions": 2,
+      "clicks": 0,
+      "viewable": 1,
+      "eligible": 2,
+      "ctr": 0,
+      "viewabilityRate": 50
+    },
+    {
+      "name": "diariodepernambuco.com.br",
+      "impressions": 2,
+      "clicks": 0,
+      "viewable": 2,
+      "eligible": 2,
       "ctr": 0,
       "viewabilityRate": 100
     },
@@ -2739,15 +2703,6 @@
       "viewabilityRate": 0
     },
     {
-      "name": "gazetabrasil.com.br",
-      "impressions": 1,
-      "clicks": 0,
-      "viewable": 1,
-      "eligible": 1,
-      "ctr": 0,
-      "viewabilityRate": 100
-    },
-    {
       "name": "ojornalextra.com.br",
       "impressions": 1,
       "clicks": 0,
@@ -2757,7 +2712,7 @@
       "viewabilityRate": 0
     },
     {
-      "name": "portalcriatividade.com.br",
+      "name": "placardefutebol.com.br",
       "impressions": 1,
       "clicks": 0,
       "viewable": 1,
@@ -2766,7 +2721,7 @@
       "viewabilityRate": 100
     },
     {
-      "name": "portalcruzeirense.com.br",
+      "name": "portalcriatividade.com.br",
       "impressions": 1,
       "clicks": 0,
       "viewable": 1,
@@ -2804,7 +2759,7 @@
     {
       "name": "amazon-adsystem.com",
       "impressions": 0,
-      "clicks": 50,
+      "clicks": 51,
       "viewable": 0,
       "eligible": 0,
       "ctr": 0,
@@ -2820,43 +2775,7 @@
       "viewabilityRate": 0
     },
     {
-      "name": "em-lyon.com",
-      "impressions": 0,
-      "clicks": 1,
-      "viewable": 0,
-      "eligible": 0,
-      "ctr": 0,
-      "viewabilityRate": 0
-    },
-    {
-      "name": "eni.com",
-      "impressions": 0,
-      "clicks": 1,
-      "viewable": 0,
-      "eligible": 0,
-      "ctr": 0,
-      "viewabilityRate": 0
-    },
-    {
       "name": "flashb.id",
-      "impressions": 0,
-      "clicks": 1,
-      "viewable": 0,
-      "eligible": 0,
-      "ctr": 0,
-      "viewabilityRate": 0
-    },
-    {
-      "name": "frontgate.com",
-      "impressions": 0,
-      "clicks": 1,
-      "viewable": 0,
-      "eligible": 0,
-      "ctr": 0,
-      "viewabilityRate": 0
-    },
-    {
-      "name": "google.com",
       "impressions": 0,
       "clicks": 1,
       "viewable": 0,
@@ -2867,16 +2786,7 @@
     {
       "name": "googlesyndication.com",
       "impressions": 0,
-      "clicks": 556,
-      "viewable": 0,
-      "eligible": 0,
-      "ctr": 0,
-      "viewabilityRate": 0
-    },
-    {
-      "name": "irantalent.com",
-      "impressions": 0,
-      "clicks": 1,
+      "clicks": 537,
       "viewable": 0,
       "eligible": 0,
       "ctr": 0,
@@ -2910,34 +2820,7 @@
       "viewabilityRate": 0
     },
     {
-      "name": "probiller.com",
-      "impressions": 0,
-      "clicks": 1,
-      "viewable": 0,
-      "eligible": 0,
-      "ctr": 0,
-      "viewabilityRate": 0
-    },
-    {
-      "name": "telugustop.com",
-      "impressions": 0,
-      "clicks": 1,
-      "viewable": 0,
-      "eligible": 0,
-      "ctr": 0,
-      "viewabilityRate": 0
-    },
-    {
       "name": "wisdmlabs.com",
-      "impressions": 0,
-      "clicks": 1,
-      "viewable": 0,
-      "eligible": 0,
-      "ctr": 0,
-      "viewabilityRate": 0
-    },
-    {
-      "name": "yesware.com",
       "impressions": 0,
       "clicks": 1,
       "viewable": 0,
