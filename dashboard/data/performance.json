@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-03-23T18:41:36.180Z",
-  "nextUpdate": "2026-03-24T00:41:36.180Z",
+  "lastUpdated": "2026-03-24T06:55:31.157Z",
+  "nextUpdate": "2026-03-24T12:55:31.157Z",
   "campaign": {
     "name": "GDF Uniforme Escolar 2025",
     "siteId": "10491182",
@@ -49,12 +49,12 @@
     },
     {
       "name": "uol.com.br",
-      "impressions": 441238,
+      "impressions": 441235,
       "clicks": 50,
       "viewable": 364404,
-      "eligible": 441238,
-      "ctr": 0.011331752931524483,
-      "viewabilityRate": 82.58672190518496
+      "eligible": 441235,
+      "ctr": 0.011331829977223023,
+      "viewabilityRate": 82.58728342039956
     },
     {
       "name": "letras.mus.br",
